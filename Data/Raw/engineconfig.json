@@ -1,0 +1,13 @@
+{
+    "asyncPackageLoad" : true,
+    "useTMEngine" : true,
+    "useNewHitText" : true,
+    "useAsyncLoadAnim" : false,
+    "usePrewarmFrame" : false,
+    "usePackageAsyncLoad" : true,
+    "logLevel":5,
+	"enableAvatarPartFallback":true,
+	"lowLevelAgentCount":8,
+	"mediumLevelAgentCount":32,
+	"highLevelAgentCount":32
+}

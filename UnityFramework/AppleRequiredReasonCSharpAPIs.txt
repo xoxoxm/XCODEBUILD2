@@ -1,0 +1,7 @@
+File timestamp APIs usage:
+	"System.IO.File::GetLastAccessTime" used in assemblies:
+		Ionic.Zip.Unity
+	"System.IO.File::GetLastWriteTime" used in assemblies:
+		Ionic.Zip.Unity
+	"System.IO.File::GetCreationTime" used in assemblies:
+		Ionic.Zip.Unity

@@ -1,0 +1,11 @@
+{
+    "appPackageFetchEnable" : true,
+    "appMinAndroidLevel" : 28,
+    "appMaxAndroidLevel" : 28,
+    "appPackageFetchServer" : "download.aldzn.com:59000",
+    "appPackageMessageLoginFailed" : "当前游戏版本号过低 点击【重新登录】进行游戏更新，如果仍不能正常游戏， 请点击【<color=#ff0000ff>下载客户端</color>】下载游戏最新版本。",
+    "appPackageMessageAppVersionLow" : "当前游戏版本号过低 点击【尝试更新】尝试游戏更新，如果仍不能正常游戏， 请点击【<color=#ff0000ff>下载客户端</color>】下载游戏最新版本。",
+    "appPackageButTextRetryUpdate" : "尝试更新",
+    "appPackageButTextRetryLogin" : "重新登录",
+    "appPackageButTextOpenURL" : "下载客户端"
+}
