@@ -13854,8 +13854,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS__ResetBadge_m8C4E085B895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS__SetBrightness_mA3E893D5777D61A19D979D8465DA8BA8FB936120 (float ___0_value, const RuntimeMethod* method) ;
 // System.Single SDKInterfaceIOS::_GetBrightness()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SDKInterfaceIOS__GetBrightness_m8B6788FB91C373CAA76017A05892CD6B263D8944 (const RuntimeMethod* method) ;
-// System.Void SDKInterfaceIOS::ExitIOS()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS_ExitIOS_mBEC7919D960EFDC6ABF7ABCE6C5ADAD69598208D (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 // System.Single SDKInterfaceIOS::_GetBatteryLevel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SDKInterfaceIOS__GetBatteryLevel_m5D4F1FD05C92572024AB57A39A9C15DB75412E06 (const RuntimeMethod* method) ;
 // System.String SDKInterface::GetSystemTimeHHMM()
@@ -14257,7 +14257,6 @@ IL2CPP_EXTERN_C void DEFAULT_CALL _RemoveAllNotification();
 IL2CPP_EXTERN_C void DEFAULT_CALL _CommonInit();
 IL2CPP_EXTERN_C void DEFAULT_CALL _SetBrightness(float);
 IL2CPP_EXTERN_C float DEFAULT_CALL _GetBrightness();
-IL2CPP_EXTERN_C void DEFAULT_CALL ExitIOS();
 IL2CPP_EXTERN_C void DEFAULT_CALL _ResetBadge();
 IL2CPP_EXTERN_C float DEFAULT_CALL _GetBatteryLevel();
 IL2CPP_EXTERN_C int32_t DEFAULT_CALL _RequestAudioAuthorization();
@@ -38558,8 +38557,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SDKInterfaceIOS_GetScreenBrightness_mE6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS_Exit_m18CE6B5631C13A78C74A5D78E6B6177510BD5536 (SDKInterfaceIOS_t29BED8777C7C07A8040DC835B6832F28B2E7ECEB* __this, const RuntimeMethod* method) 
 {
 	{
-		// ExitIOS(); // ??
-		SDKInterfaceIOS_ExitIOS_mBEC7919D960EFDC6ABF7ABCE6C5ADAD69598208D(NULL);
+		// Application.Quit();
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 		// }
 		return;
 	}
@@ -38880,15 +38879,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SDKInterfaceIOS__GetBrightness_m8B6788F
 	float returnValue = reinterpret_cast<PInvokeFunc>(_GetBrightness)();
 
 	return returnValue;
-}
-// System.Void SDKInterfaceIOS::ExitIOS()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS_ExitIOS_mBEC7919D960EFDC6ABF7ABCE6C5ADAD69598208D (const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-
-	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(ExitIOS)();
-
 }
 // System.Void SDKInterfaceIOS::_ResetBadge()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SDKInterfaceIOS__ResetBadge_m8C4E085B895503057A026C6F252431035FCE376D (const RuntimeMethod* method) 

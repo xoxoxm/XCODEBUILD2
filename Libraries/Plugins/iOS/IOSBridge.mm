@@ -3,6 +3,7 @@
 //
 //  Created by Yu Lekai on 03/11/2016.
 //  Modernized for Unity 2021.3+ and iOS 12+
+//  Removed: ExitIOS, GetNotificationRequest, HasNotification.
 
 #import "IOSBridge.h"
 #import <Foundation/Foundation.h>
@@ -37,29 +38,6 @@ void _ResetBadge() {
 // Notifications (modernized with UNUserNotificationCenter)
 // ------------------------------------------------------------------------
 
-// Get a pending notification with our custom identifier
-static UNNotificationRequest* GetNotificationRequest(int nid) {
-    dispatch_semaphore_t sem = dispatch_semaphore_create(0);
-    __block UNNotificationRequest *foundRequest = nil;
-
-    UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
-    [center getPendingNotificationRequestsWithCompletionHandler:^(NSArray<UNNotificationRequest *> *requests) {
-        for (UNNotificationRequest *req in requests) {
-            if ([req.identifier isEqualToString:[NSString stringWithFormat:@"%d", nid]]) {
-                foundRequest = req;
-                break;
-            }
-        }
-        dispatch_semaphore_signal(sem);
-    }];
-    dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
-    return foundRequest;
-}
-
-bool HasNotification(int nid) {
-    return GetNotificationRequest(nid) != nil;
-}
-
 void _RemoveNotification(int nid) {
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
     [center removePendingNotificationRequestsWithIdentifiers:@[[NSString stringWithFormat:@"%d", nid]]];
@@ -71,14 +49,11 @@ void _RemoveAllNotification() {
 }
 
 // Common implementation for setting a notification
+// Always adds; iOS will replace existing notification with the same identifier.
 static void AddNotification(int nid, const char *content, const char *title,
                             NSDateComponents *dateComponents, BOOL repeats)
 {
-    if (HasNotification(nid))
-        return;
-
-    // Ensure authorization is requested (will only prompt the first time)
-    RequestNotificationIfNeeded();
+    RequestNotificationAuthIfNeeded();
 
     UNMutableNotificationContent *notifContent = [[UNMutableNotificationContent alloc] init];
     notifContent.body = [NSString stringWithUTF8String:content];
@@ -130,17 +105,6 @@ float _GetBrightness() {
 }
 
 // ------------------------------------------------------------------------
-// Exit app (safe version, no exit(0))
-// ------------------------------------------------------------------------
-void ExitIOS() {
-    // Gracefully hide the app without calling exit(0) - avoids App Store rejection
-    UIControl *control = [[UIControl alloc] init];
-    [control sendAction:@selector(suspend) to:[UIApplication sharedApplication] forEvent:nil];
-    // If you really need to terminate, uncomment the next line (but note it may still be rejected):
-    // exit(0);
-}
-
-// ------------------------------------------------------------------------
 // Battery
 // ------------------------------------------------------------------------
 float _GetBatteryLevel() {
@@ -151,6 +115,9 @@ float _GetBatteryLevel() {
 
 // ------------------------------------------------------------------------
 // Audio authorization & session
+// WARNING: These functions may cause main-thread deadlock if called from
+// Unity's main thread due to semaphore waits. Consider calling them from a
+// background thread or refactoring to async if you encounter hangs.
 // ------------------------------------------------------------------------
 bool _RequestAudioAuthorization() {
     __block bool granted = false;
