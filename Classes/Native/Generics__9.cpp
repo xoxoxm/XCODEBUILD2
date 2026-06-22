@@ -264,12 +264,8 @@ struct ChangeEvent_1_t59730190AEEC760B97F416AC38A51AB64D67D371;
 struct ChangeEvent_1_tC8920B8153267870361787158B3897821AA4522F;
 // UnityEngine.UIElements.ClampedDragger`1<System.Single>
 struct ClampedDragger_1_t18A937D027747303C3811CCC9FAD288366DF8DC3;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo>
 struct Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo>
 struct Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -282,8 +278,6 @@ struct Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E;
 struct Dictionary_2_t4055F6540F36F21F9FEDAFB92D8E0089B38EBBC8;
 // System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IInstantiatedVariable>
 struct Dictionary_2_tE40B4A364D91422BB48B6E57E9B700A3861CB937;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // System.Collections.Generic.Dictionary`2<System.UInt64,System.Object>
 struct Dictionary_2_t01A465CD199FB14D59FEC2DC7DDE76D2CD0A09F4;
 // BeStateManager`1/Do<System.Int32Enum>
@@ -668,8 +662,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345;
 // UnityEngine.Yoga.YogaNode
 struct YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 // UnityEngine.UIElements.VisualElement/CustomStyleAccess
 struct CustomStyleAccess_t170C852102B4D09FB478B620A75B14D096F9F2B1;
 // UnityEngine.UIElements.VisualElement/TypeData
@@ -1033,6 +1025,35 @@ struct TValue_1_t3A56570D5C7C4725E7DB0BC175E6B1BB7434270C  : public RuntimeObjec
 {
 	// T behaviac.TValue`1::value
 	RuntimeObject* ___value_0;
+};
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
 };
 
 // XLuaTest.BaseTestHelper
@@ -2538,23 +2559,6 @@ struct MouseButton_tEF578B8F208D798E053BC320C29FCBB655E24454
 	int32_t ___value___2;
 };
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
-{
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-
 // UnityEngine.UIElements.OverflowInternal
 struct OverflowInternal_t6A74561363466CCB7905A65D3E5E24887AE0F11F 
 {
@@ -2941,11 +2945,6 @@ struct BehaviorTask_t958C681786E80E2DF4496AC1ED26B7336DF78AED  : public RuntimeO
 	bool ___m_bHasManagingParent_10;
 };
 
-// UnityEngine.Component
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-
 // UnityEngine.UIElements.EventBase
 struct EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C  : public RuntimeObject
 {
@@ -3298,11 +3297,6 @@ struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12  : public Multicast
 
 // System.Action
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
-{
-};
-
-// UnityEngine.Behaviour
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
 };
 
@@ -3678,11 +3672,6 @@ struct GeometryChangedEvent_tB4A621001850F337A676F8CC27F172B8ADB22A9A  : public 
 	int32_t ___U3ClayoutPassU3Ek__BackingField_20;
 };
 
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-};
-
 // UnityEngine.UIElements.PointerManipulator
 struct PointerManipulator_t54685840D83869016F04FD137BCC1B07016B2E72  : public MouseManipulator_tE6C609D476BDF311E2934791E620CF833BB4097D
 {
@@ -3794,43 +3783,6 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115  : public Focusab
 	List_1_tEA16F82F7871418E28EB6F551D77A8AD9F2E337F* ___styleSheetList_60;
 	// UnityEngine.UIElements.VisualElement/TypeData UnityEngine.UIElements.VisualElement::m_TypeData
 	TypeData_t01D670B4E71B5571B38C7412B1E652A47D6AF66A* ___m_TypeData_64;
-};
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
 };
 
 // behaviac.BehaviorTreeTask
@@ -4164,6 +4116,21 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
 // behaviac.TValue`1<System.Object>
 
 // behaviac.TValue`1<System.Object>
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // XLuaTest.BaseTestHelper
 
@@ -4891,25 +4858,6 @@ struct VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_StaticFields
 };
 
 // UnityEngine.UIElements.VisualElement
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent> behaviac.Agent::ms_agents
-	Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D* ___ms_agents_4;
-	// System.UInt32 behaviac.Agent::ms_idMask
-	uint32_t ___ms_idMask_14;
-	// System.Int32 behaviac.Agent::ms_agent_index
-	int32_t ___ms_agent_index_17;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_18;
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
-	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_19;
-	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor> behaviac.Agent::ms_metas
-	Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2* ___ms_metas_21;
-};
-
-// behaviac.Agent
 
 // behaviac.BehaviorTreeTask
 

@@ -110,8 +110,6 @@ struct DictionaryView_2_t23413E389FD25B570AADC5BD7CE16BC6F293CB63;
 struct DictionaryView_2_tD74D45AE758059827B91BE03189C5E423C5D60D7;
 // DictionaryView`2<System.String,GameClient.ClientSystemManager/ClientFrameGroup>
 struct DictionaryView_2_t454B6C725D087ED7F75BB8330AF059E5C4DF3DC8;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>>
 struct Dictionary_2_t69862BA946B467D511B6C4186F9D1A18DC2C556A;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.IList`1<System.Int32>>
@@ -148,8 +146,6 @@ struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
 struct Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.String>
 struct Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 // System.Collections.Generic.Dictionary`2<System.String,System.Single>
@@ -162,8 +158,6 @@ struct Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E;
 struct Dictionary_2_t0FC81C3305E03C958A68DAB99E1EA530EB8EC672;
 // System.Collections.Generic.Dictionary`2<System.Type,ObjectLeakDitector/ObjRefDesc>
 struct Dictionary_2_tECA4ECFA5CA15C53772BF65A4224EF9738DAF291;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // ProtoTable.FlatBufferArray`1<System.Int32>
 struct FlatBufferArray_1_t660CAECDC89B24D8F257F39B4111640AB26BFA65;
 // ProtoTable.FlatBufferArray`1<System.Object>
@@ -432,6 +426,8 @@ struct StringU5BU2CU5D_tF2843FC5B60496ACCA54AD6538897DBA3E19A7EF;
 struct AIInputData_tAD1F4E7A3BD8634CBEBBF4EFEF81F66FB53B364B;
 // PathFinder.AStar
 struct AStar_t67B88ECFD4C5F95B2E7EE94E14276C6C7F35B1FD;
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B;
 // AssetInst
 struct AssetInst_tC5C7E0FA04EAF2EC2A9F3D7FAB1ABB8274BFD63E;
 // TMEngine.Runtime.AssetLoadCallbacks
@@ -780,8 +776,6 @@ struct VoiceChatModule_t09469AC304809D3C6955E90179B7C50F789412DB;
 struct VoiceInputBtn_t399CF041B0893D2402F9791BD505682A8F2C9285;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 // BeAIManager/<>c
 struct U3CU3Ec_tB203AD76E4027BE0D4816787609CE682A5E00CB8;
 // BeAIManager/AttackInfo
@@ -891,7 +885,6 @@ IL2CPP_EXTERN_C RuntimeClass* Logger_t19EB2991B2797127D411A958B24298AE41917827_i
 IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MoveDirU5BU5D_t2CBEA10B74FB0FF48676A34D202DA1DE5E4E9F12_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PathHelper_tC1F9BAB7C7718C2995AB7AE3C3597FC9B90665A1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t89C8EF724B57C26D3F2285A9914DFA4DAACEF0EF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Queue_1_t15E898047244CFB9227EEE8440E3B8B9920D6386_il2cpp_TypeInfo_var;
@@ -1444,6 +1437,35 @@ struct AStar_t67B88ECFD4C5F95B2E7EE94E14276C6C7F35B1FD  : public RuntimeObject
 	Func_3_t928A4800A9D5889908DA5B0813D2FF7EAA2DDF31* ____g_9;
 	// System.Func`3<PathFinder.AStarPoint,PathFinder.AStarPoint,System.Int32> PathFinder.AStar::_f
 	Func_3_t928A4800A9D5889908DA5B0813D2FF7EAA2DDF31* ____f_10;
+};
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
 };
 
 // BeAICommandPoolImp
@@ -2002,6 +2024,61 @@ struct AccompanyData_tE064735A1BDF40D422EF96E86B499DADCD69B88C
 	int32_t ___level_1;
 	// System.Int32 AccompanyData::skillID
 	int32_t ___skillID_2;
+};
+
+// BTAgent
+struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
+{
+	// System.Int32 BTAgent::bianshen
+	int32_t ___bianshen_16;
+	// System.Boolean BTAgent::buffRemoved
+	bool ___buffRemoved_17;
+	// System.Int32 BTAgent::compare
+	int32_t ___compare_18;
+	// System.Int32 BTAgent::lastResult
+	int32_t ___lastResult_19;
+	// System.Int32 BTAgent::mojiankuilei
+	int32_t ___mojiankuilei_20;
+	// System.Int32 BTAgent::monsterID
+	int32_t ___monsterID_21;
+	// System.Int32 BTAgent::radius
+	int32_t ___radius_22;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_23;
+	// System.Int32 BTAgent::shifacishu
+	int32_t ___shifacishu_24;
+	// System.Int32 BTAgent::shifangjineng
+	int32_t ___shifangjineng_25;
+	// System.Int32 BTAgent::shifangjineng2
+	int32_t ___shifangjineng2_26;
+	// System.Int32 BTAgent::shifangjineng3
+	int32_t ___shifangjineng3_27;
+	// System.Int32 BTAgent::shouhufanshang
+	int32_t ___shouhufanshang_28;
+	// System.Int32 BTAgent::zhaohuan
+	int32_t ___zhaohuan_29;
+	// System.Int32 BTAgent::zhaohuancishu
+	int32_t ___zhaohuancishu_30;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_31;
+	// BeEntity BTAgent::entity
+	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_32;
+	// BeBuff BTAgent::buff
+	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_33;
+	// BeEventHandle BTAgent::handle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_34;
+	// BeEventHandle BTAgent::otherHandle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_35;
+	// System.Boolean BTAgent::receivedEvent
+	bool ___receivedEvent_36;
+	// BeMonsterIDFilter BTAgent::monsterIDFilter
+	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_37;
+	// BeEventHandle[] BTAgent::handleArrNew
+	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_38;
+	// System.Boolean[] BTAgent::receiveEventNew
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_39;
+	// System.Int32 BTAgent::warAlike
+	int32_t ___warAlike_40;
 };
 
 // BeAnimationFrame
@@ -5092,11 +5169,6 @@ struct ClientSystem_tA412257F0CE2BC4DE425C1723BADA8392023F14B  : public GameBind
 	ComCommonBind_tB2DF1973B313B4EB6397BC57DCE3CECBDD177BE7* ___mBind_14;
 };
 
-// UnityEngine.Component
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-
 // DAssetObject
 struct DAssetObject_t5F9A03F698D5A53D4E00E5D6B3D67DD50B71B61B 
 {
@@ -5951,11 +6023,6 @@ struct BeScene_t4BB8A7FAA5F9B83EDDA22D006321F120A7C1B066  : public BeStateManage
 	int32_t ___mPrePauseState_57;
 };
 
-// UnityEngine.Behaviour
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-
 // GameClient.ClientSystemBattle
 struct ClientSystemBattle_tB39549AC73447C80559CEDCE184BBC72BD95ED40  : public ClientSystem_tA412257F0CE2BC4DE425C1723BADA8392023F14B
 {
@@ -6750,103 +6817,6 @@ struct Function_t2740FE543D1A992837F81F2EF4B21728439D65A5  : public MulticastDel
 {
 };
 
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-};
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
-};
-
-// BTAgent
-struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
-{
-	// System.Int32 BTAgent::bianshen
-	int32_t ___bianshen_26;
-	// System.Boolean BTAgent::buffRemoved
-	bool ___buffRemoved_27;
-	// System.Int32 BTAgent::compare
-	int32_t ___compare_28;
-	// System.Int32 BTAgent::lastResult
-	int32_t ___lastResult_29;
-	// System.Int32 BTAgent::mojiankuilei
-	int32_t ___mojiankuilei_30;
-	// System.Int32 BTAgent::monsterID
-	int32_t ___monsterID_31;
-	// System.Int32 BTAgent::radius
-	int32_t ___radius_32;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_33;
-	// System.Int32 BTAgent::shifacishu
-	int32_t ___shifacishu_34;
-	// System.Int32 BTAgent::shifangjineng
-	int32_t ___shifangjineng_35;
-	// System.Int32 BTAgent::shifangjineng2
-	int32_t ___shifangjineng2_36;
-	// System.Int32 BTAgent::shifangjineng3
-	int32_t ___shifangjineng3_37;
-	// System.Int32 BTAgent::shouhufanshang
-	int32_t ___shouhufanshang_38;
-	// System.Int32 BTAgent::zhaohuan
-	int32_t ___zhaohuan_39;
-	// System.Int32 BTAgent::zhaohuancishu
-	int32_t ___zhaohuancishu_40;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_41;
-	// BeEntity BTAgent::entity
-	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_42;
-	// BeBuff BTAgent::buff
-	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_43;
-	// BeEventHandle BTAgent::handle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_44;
-	// BeEventHandle BTAgent::otherHandle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_45;
-	// System.Boolean BTAgent::receivedEvent
-	bool ___receivedEvent_46;
-	// BeMonsterIDFilter BTAgent::monsterIDFilter
-	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_47;
-	// BeEventHandle[] BTAgent::handleArrNew
-	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_48;
-	// System.Boolean[] BTAgent::receiveEventNew
-	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_49;
-	// System.Int32 BTAgent::warAlike
-	int32_t ___warAlike_50;
-};
-
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<BeAICommand>>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<BeAICommand>>
@@ -7008,6 +6978,21 @@ struct List_1_t0D42EF6D4A2490DB26D6E6DA95EB67244DB24440_StaticFields
 // PathFinder.AStar
 
 // PathFinder.AStar
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // BeAICommandPoolImp
 
@@ -7174,6 +7159,10 @@ struct U3CU3Ec_t3E88DE0927509B7D912D708927374841DD756E55_StaticFields
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
+
+// BTAgent
+
+// BTAgent
 
 // BeAnimationFrame
 
@@ -7540,15 +7529,6 @@ struct Exception_t_StaticFields
 // MechanismSourceType
 
 // MechanismSourceType
-
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-
-// UnityEngine.Object
 
 // System.RuntimeFieldHandle
 
@@ -7926,10 +7906,6 @@ struct GeActorEx_t040974EEEA0ED086E300E15E829CA7A26D186D9A_StaticFields
 // GameClient.BeEvent/BeEventHandleNew/Function
 
 // GameClient.BeEvent/BeEventHandleNew/Function
-
-// BTAgent
-
-// BTAgent
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -9059,8 +9035,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnitTable_get_AIDestinationSelectPa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnitTable_get_AIEventPath_m1D509AFD8CFE7C37AD79CE91FAB97091542F2DDF (UnitTable_t2438D9F2B8B5FB619C412E9DCA8607FD4A250E50* __this, const RuntimeMethod* method) ;
 // System.Void BeAIManager::InitAgents(System.String,System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeAIManager_InitAgents_m2C83AD1566556C40AC30BF2E121785554D3FF624 (BeAIManager_t9C2F94A55B1958F64822E282768D520FDBB4EDFC* __this, String_t* ___0_action, String_t* ___1_destination, String_t* ___2_strEvent, String_t* ___3_action2, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void BTAgent::SetWarAlike(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BTAgent_SetWarAlike_mE9C33CD1C57E15C1EF178EF6DE56B845643E4539_inline (BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* __this, int32_t ___0_val, const RuntimeMethod* method) ;
 // BTAgent BeAIManager::InitAgent(System.String)
@@ -9071,6 +9045,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BTAgent__ctor_m14BEE6D4BF2388F73E42F6B39
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool BTAgent_Init_m47FC562E2972802E7A7296E4F88FFB4F3FC10C11 (BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* __this, String_t* ___0_treeName, const RuntimeMethod* method) ;
 // System.Void BTAgent::SetEntity(BeEntity)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BTAgent_SetEntity_mA0141FE53A212B01ABCC70532CB031EBBBEC8D7E_inline (BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* __this, BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___0_e, const RuntimeMethod* method) ;
+// System.Void behaviac.Agent::UnLoad()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Agent_UnLoad_mD3A2B9C923CF7D657278B0FCA72EB5BAD3D080AC (Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* __this, const RuntimeMethod* method) ;
 // System.Void BTAgent::Tick()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BTAgent_Tick_m11EB308D49902B1CE99BCC816BDD40BFD7EB16C7 (BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* __this, const RuntimeMethod* method) ;
 // System.Void BeAIManager/AttackInfo::.ctor(System.String)
@@ -15226,7 +15202,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeAIManager_SetAIInfo_m9CF5EB5DC5F534878
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FlatBufferArray_1_get_Item_mCD32A85F687A7BB07C3A4E4518105A3F8B0807EA_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GlobalLogic_tD9836098D78183EE1C95DC34E2E8A29CB21170A8_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Utility_t229A905233923073FC38E05AC74BBCB12DF3CA7B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VInt3_t3824D30047932470380009270C0A31D2B3C2570E_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&VInt_t9A0F3EFC26D17A3127C7C70F0D5E15AC06328A36_il2cpp_TypeInfo_var);
@@ -16089,23 +16064,20 @@ IL_035a:
 		BeAIManager_InitAgents_m2C83AD1566556C40AC30BF2E121785554D3FF624(__this, L_160, L_162, L_164, (String_t*)NULL, NULL);
 		// if (actionAgent != null)
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_165 = __this->___actionAgent_12;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_166;
-		L_166 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_165, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_166)
+		if (!L_165)
 		{
-			goto IL_0392;
+			goto IL_038c;
 		}
 	}
 	{
 		// actionAgent.SetWarAlike(this.warlike);
-		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_167 = __this->___actionAgent_12;
-		int32_t L_168 = __this->___warlike_21;
-		NullCheck(L_167);
-		BTAgent_SetWarAlike_mE9C33CD1C57E15C1EF178EF6DE56B845643E4539_inline(L_167, L_168, NULL);
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_166 = __this->___actionAgent_12;
+		int32_t L_167 = __this->___warlike_21;
+		NullCheck(L_166);
+		BTAgent_SetWarAlike_mE9C33CD1C57E15C1EF178EF6DE56B845643E4539_inline(L_166, L_167, NULL);
 	}
 
-IL_0392:
+IL_038c:
 	{
 		// }
 		return;
@@ -16261,37 +16233,33 @@ IL_001f:
 // System.Void BeAIManager::DeinitAgent(BTAgent&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeAIManager_DeinitAgent_mECA4E5ED468B4DA3B897A1B07253DB9C575958CD (BeAIManager_t9C2F94A55B1958F64822E282768D520FDBB4EDFC* __this, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** ___0_agent, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if(agent != null)
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_0 = ___0_agent;
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_1 = *((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA**)L_0);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_0015;
+			goto IL_0016;
 		}
 	}
 	{
 		// agent.SetEntity(null);
-		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_3 = ___0_agent;
-		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_4 = *((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA**)L_3);
-		NullCheck(L_4);
-		BTAgent_SetEntity_mA0141FE53A212B01ABCC70532CB031EBBBEC8D7E_inline(L_4, (BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B*)NULL, NULL);
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_2 = ___0_agent;
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_3 = *((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA**)L_2);
+		NullCheck(L_3);
+		BTAgent_SetEntity_mA0141FE53A212B01ABCC70532CB031EBBBEC8D7E_inline(L_3, (BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B*)NULL, NULL);
+		// agent.UnLoad();
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_4 = ___0_agent;
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_5 = *((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA**)L_4);
+		NullCheck(L_5);
+		Agent_UnLoad_mD3A2B9C923CF7D657278B0FCA72EB5BAD3D080AC(L_5, NULL);
 		// agent = null;
-		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_5 = ___0_agent;
-		*((RuntimeObject**)L_5) = (RuntimeObject*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_5, (void*)(RuntimeObject*)NULL);
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA** L_6 = ___0_agent;
+		*((RuntimeObject**)L_6) = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_6, (void*)(RuntimeObject*)NULL);
 	}
 
-IL_0015:
+IL_0016:
 	{
 		// }
 		return;
@@ -16300,31 +16268,22 @@ IL_0015:
 // System.Void BeAIManager::UpdateAgent(BTAgent)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeAIManager_UpdateAgent_m5B7525C7DDEE9439464C23DE7FA78322AE5F1226 (BeAIManager_t9C2F94A55B1958F64822E282768D520FDBB4EDFC* __this, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* ___0_agent, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if (agent != null)
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_0 = ___0_agent;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_000f;
+			goto IL_0009;
 		}
 	}
 	{
 		// agent.Tick();
-		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_2 = ___0_agent;
-		NullCheck(L_2);
-		BTAgent_Tick_m11EB308D49902B1CE99BCC816BDD40BFD7EB16C7(L_2, NULL);
+		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_1 = ___0_agent;
+		NullCheck(L_1);
+		BTAgent_Tick_m11EB308D49902B1CE99BCC816BDD40BFD7EB16C7(L_1, NULL);
 	}
 
-IL_000f:
+IL_0009:
 	{
 		// }
 		return;
@@ -32591,7 +32550,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BTAgent_SetWarAlike_mE9C33CD
 	{
 		// warAlike = val;
 		int32_t L_0 = ___0_val;
-		__this->___warAlike_50 = L_0;
+		__this->___warAlike_40 = L_0;
 		// }
 		return;
 	}
@@ -32601,8 +32560,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BTAgent_SetEntity_mA0141FE53
 	{
 		// entity = e;
 		BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* L_0 = ___0_e;
-		__this->___entity_42 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___entity_42), (void*)L_0);
+		__this->___entity_32 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___entity_32), (void*)L_0);
 		// }
 		return;
 	}

@@ -7726,36 +7726,32 @@ struct Workspace_tFA23E6F540962A2BC79A86D97E631135084DCB14  : public RuntimeObje
 	double ___m_doubleValueSinceStartup_6;
 	// System.Int64 behaviac.Workspace::m_intValueSinceStartup
 	int64_t ___m_intValueSinceStartup_7;
-	// System.String behaviac.Workspace::m_workspaceExportPathAbs
-	String_t* ___m_workspaceExportPathAbs_8;
 	// behaviac.Workspace/BehaviorNodeLoader behaviac.Workspace::BehaviorNodeLoaded
-	BehaviorNodeLoader_tD7C17DF2F8F659EB270CAB5C3E38E128E4A246A3* ___BehaviorNodeLoaded_9;
+	BehaviorNodeLoader_tD7C17DF2F8F659EB270CAB5C3E38E128E4A246A3* ___BehaviorNodeLoaded_8;
 	// behaviac.Workspace/DRespondToBreakHandler behaviac.Workspace::RespondToBreakHandler
-	DRespondToBreakHandler_t566AEB8DDA432A51DD04B8599F3E1A76F57A2EB2* ___RespondToBreakHandler_10;
+	DRespondToBreakHandler_t566AEB8DDA432A51DD04B8599F3E1A76F57A2EB2* ___RespondToBreakHandler_9;
 	// System.Boolean behaviac.Workspace::m_bRegistered
-	bool ___m_bRegistered_11;
+	bool ___m_bRegistered_10;
 	// System.Boolean behaviac.Workspace::m_bInited
-	bool ___m_bInited_12;
-	// System.String behaviac.Workspace::m_applogFilter
-	String_t* ___m_applogFilter_13;
+	bool ___m_bInited_11;
 	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.Workspace/BreakpointInfo_t> behaviac.Workspace::m_breakpoints
-	Dictionary_2_tC5CF8DFBE748C2147D9E49AA2AE50BCA5BC049E2* ___m_breakpoints_14;
+	Dictionary_2_tC5CF8DFBE748C2147D9E49AA2AE50BCA5BC049E2* ___m_breakpoints_12;
 	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,System.Int32> behaviac.Workspace::m_actions_count
-	Dictionary_2_t8FC38BC957E55FECB33B3102D7C46EA58F66D8F1* ___m_actions_count_15;
+	Dictionary_2_t8FC38BC957E55FECB33B3102D7C46EA58F66D8F1* ___m_actions_count_13;
 	// System.Int32 behaviac.Workspace::m_frame
-	int32_t ___m_frame_16;
+	int32_t ___m_frame_14;
 	// System.Boolean behaviac.Workspace::m_bExecAgents
-	bool ___m_bExecAgents_17;
+	bool ___m_bExecAgents_15;
 	// System.Collections.Generic.Dictionary`2<System.String,behaviac.BehaviorTree> behaviac.Workspace::m_behaviortrees
-	Dictionary_2_tE44F32C00CA7C333D468B34165EC758CE6AE1B51* ___m_behaviortrees_18;
+	Dictionary_2_tE44F32C00CA7C333D468B34165EC758CE6AE1B51* ___m_behaviortrees_16;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Reflection.MethodInfo> behaviac.Workspace::m_btCreators
-	Dictionary_2_tA6171034F19E116CFB6E9839DA229454DA8469E3* ___m_btCreators_19;
+	Dictionary_2_tA6171034F19E116CFB6E9839DA229454DA8469E3* ___m_btCreators_17;
 	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Workspace/BTItem_t> behaviac.Workspace::m_allBehaviorTreeTasks
-	Dictionary_2_t532BF7BF437403679EE1957DC133400BE746E2F2* ___m_allBehaviorTreeTasks_20;
+	Dictionary_2_t532BF7BF437403679EE1957DC133400BE746E2F2* ___m_allBehaviorTreeTasks_18;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Type> behaviac.Workspace::m_behaviorNodeTypes
-	Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* ___m_behaviorNodeTypes_21;
+	Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* ___m_behaviorNodeTypes_19;
 	// System.Reflection.Assembly behaviac.Workspace::m_callingAssembly
-	Assembly_t* ___m_callingAssembly_22;
+	Assembly_t* ___m_callingAssembly_20;
 };
 
 // GameClient.ItemData/QualityInfo

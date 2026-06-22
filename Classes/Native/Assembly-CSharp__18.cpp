@@ -69,8 +69,6 @@ struct InterfaceFuncInvoker1
 struct AsyncRequestHandleAllocator_1_t0F8674CE94E3B6C5A1553A996A02D272D7F2B71C;
 // ClassObjListPool`1<DelayCallUnit>
 struct ClassObjListPool_1_tD87DCDC2078F1CF0E1F7422B90C1D47228A85CF1;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
 // System.Collections.Generic.Dictionary`2<GameClient.EUIEventID,System.Collections.Generic.List`1<GameClient.ClientEventSystem/UIEventHandler>>
 struct Dictionary_2_t10888AB7D9701BDDDE8197E1EB52A145EE2A38A5;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>>
@@ -105,8 +103,6 @@ struct Dictionary_2_t291007AFA4B4075BA87D802F2E42017CB8C857C9;
 struct Dictionary_2_t80C6E47D54DFAF1A6F77055630E6B5DF88C5A8FC;
 // System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.List`1<AssetLoader/AssetInfo>>
 struct Dictionary_2_t388FF2AD7079FFDF5CAF6EE3321794D7AB46B3EC;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Boolean>
 struct Dictionary_2_t17D0D125440AC627FCF80F189C6CBCB02856063C;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -125,8 +121,6 @@ struct Dictionary_2_t88473B38E4F587B7172A9652B2ED194D0CFC8403;
 struct Dictionary_2_t0FC81C3305E03C958A68DAB99E1EA530EB8EC672;
 // System.Collections.Generic.Dictionary`2<System.Type,ObjectLeakDitector/ObjRefDesc>
 struct Dictionary_2_tECA4ECFA5CA15C53772BF65A4224EF9738DAF291;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // System.Collections.Generic.Dictionary`2<System.UInt32,DungeonDataManager/FrameRandomNum>
 struct Dictionary_2_t15FBB1731C53C39CBF247D0D8515C39DA00E2DA3;
 // ProtoTable.FlatBufferArray`1<System.Int32>
@@ -1091,8 +1085,6 @@ struct Vector3_t75E78EB5D453DA25BE06B834D9F871BDF2B3D0FD;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 // GameClient.WordEntryInfo
 struct WordEntryInfo_t368F53C03220DABC3D62614D579C5B42B70C041A;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 // UnityEngine.AudioClip/PCMReaderCallback
 struct PCMReaderCallback_t3396D9613664F0AFF65FB91018FD0F901CC16F1E;
 // UnityEngine.AudioClip/PCMSetPositionCallback
@@ -1773,6 +1765,35 @@ struct Singleton_1_t64D1B25F25F78BC7BC89827D449D514B82B48056  : public RuntimeOb
 // Singleton`1<TableManager>
 struct Singleton_1_t8217CD5149F073E7F2B55F0FC90387C3BE847DA2  : public RuntimeObject
 {
+};
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
 };
 
 // AssetInst
@@ -3055,6 +3076,61 @@ struct BDStateStackOP_tB1531EFF1CC614E3500F13BE7F7A81741E8A72F6  : public BDEven
 	int32_t ____statedata3_5;
 };
 
+// BTAgent
+struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
+{
+	// System.Int32 BTAgent::bianshen
+	int32_t ___bianshen_16;
+	// System.Boolean BTAgent::buffRemoved
+	bool ___buffRemoved_17;
+	// System.Int32 BTAgent::compare
+	int32_t ___compare_18;
+	// System.Int32 BTAgent::lastResult
+	int32_t ___lastResult_19;
+	// System.Int32 BTAgent::mojiankuilei
+	int32_t ___mojiankuilei_20;
+	// System.Int32 BTAgent::monsterID
+	int32_t ___monsterID_21;
+	// System.Int32 BTAgent::radius
+	int32_t ___radius_22;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_23;
+	// System.Int32 BTAgent::shifacishu
+	int32_t ___shifacishu_24;
+	// System.Int32 BTAgent::shifangjineng
+	int32_t ___shifangjineng_25;
+	// System.Int32 BTAgent::shifangjineng2
+	int32_t ___shifangjineng2_26;
+	// System.Int32 BTAgent::shifangjineng3
+	int32_t ___shifangjineng3_27;
+	// System.Int32 BTAgent::shouhufanshang
+	int32_t ___shouhufanshang_28;
+	// System.Int32 BTAgent::zhaohuan
+	int32_t ___zhaohuan_29;
+	// System.Int32 BTAgent::zhaohuancishu
+	int32_t ___zhaohuancishu_30;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_31;
+	// BeEntity BTAgent::entity
+	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_32;
+	// BeBuff BTAgent::buff
+	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_33;
+	// BeEventHandle BTAgent::handle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_34;
+	// BeEventHandle BTAgent::otherHandle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_35;
+	// System.Boolean BTAgent::receivedEvent
+	bool ___receivedEvent_36;
+	// BeMonsterIDFilter BTAgent::monsterIDFilter
+	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_37;
+	// BeEventHandle[] BTAgent::handleArrNew
+	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_38;
+	// System.Boolean[] BTAgent::receiveEventNew
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_39;
+	// System.Int32 BTAgent::warAlike
+	int32_t ___warAlike_40;
+};
+
 // BeAnimationFrame
 struct BeAnimationFrame_tE8847FD40A9E0034C0087DDCBAAC1BEEAB5E649D 
 {
@@ -3545,6 +3621,15 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
+};
+
+// LevelAgent
+struct LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
+{
+	// System.Int32 LevelAgent::CommonIntVar
+	int32_t ___CommonIntVar_16;
+	// LevelManager LevelAgent::mLevelMgr
+	LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* ___mLevelMgr_17;
 };
 
 // OperationConfig
@@ -8588,43 +8673,6 @@ struct MonoSingleton_1_t95BFE9B43DB064E0041CB52374C7DD60F61C9672  : public MonoB
 {
 };
 
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
-};
-
 // GeCameraControllerScroll
 struct GeCameraControllerScroll_t4FA7FD8861B13EC1BC9A2C10F95A85973A258558  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -8725,61 +8773,6 @@ struct AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B  : public MonoSing
 	bool ___m_bPreStateVoicePlaying_16;
 };
 
-// BTAgent
-struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
-{
-	// System.Int32 BTAgent::bianshen
-	int32_t ___bianshen_26;
-	// System.Boolean BTAgent::buffRemoved
-	bool ___buffRemoved_27;
-	// System.Int32 BTAgent::compare
-	int32_t ___compare_28;
-	// System.Int32 BTAgent::lastResult
-	int32_t ___lastResult_29;
-	// System.Int32 BTAgent::mojiankuilei
-	int32_t ___mojiankuilei_30;
-	// System.Int32 BTAgent::monsterID
-	int32_t ___monsterID_31;
-	// System.Int32 BTAgent::radius
-	int32_t ___radius_32;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_33;
-	// System.Int32 BTAgent::shifacishu
-	int32_t ___shifacishu_34;
-	// System.Int32 BTAgent::shifangjineng
-	int32_t ___shifangjineng_35;
-	// System.Int32 BTAgent::shifangjineng2
-	int32_t ___shifangjineng2_36;
-	// System.Int32 BTAgent::shifangjineng3
-	int32_t ___shifangjineng3_37;
-	// System.Int32 BTAgent::shouhufanshang
-	int32_t ___shouhufanshang_38;
-	// System.Int32 BTAgent::zhaohuan
-	int32_t ___zhaohuan_39;
-	// System.Int32 BTAgent::zhaohuancishu
-	int32_t ___zhaohuancishu_40;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_41;
-	// BeEntity BTAgent::entity
-	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_42;
-	// BeBuff BTAgent::buff
-	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_43;
-	// BeEventHandle BTAgent::handle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_44;
-	// BeEventHandle BTAgent::otherHandle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_45;
-	// System.Boolean BTAgent::receivedEvent
-	bool ___receivedEvent_46;
-	// BeMonsterIDFilter BTAgent::monsterIDFilter
-	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_47;
-	// BeEventHandle[] BTAgent::handleArrNew
-	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_48;
-	// System.Boolean[] BTAgent::receiveEventNew
-	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_49;
-	// System.Int32 BTAgent::warAlike
-	int32_t ___warAlike_50;
-};
-
 // CResPreloader
 struct CResPreloader_tA7BDC76E37FE132CFBD1AE234147BA13D913CAC3  : public MonoSingleton_1_t95BFE9B43DB064E0041CB52374C7DD60F61C9672
 {
@@ -8799,15 +8792,6 @@ struct CResPreloader_tA7BDC76E37FE132CFBD1AE234147BA13D913CAC3  : public MonoSin
 	List_1_t9EC8419FBF0DAFB993A4A7A4AA745419677FF1DC* ___priorityKeys_11;
 	// System.Int64 CResPreloader::TIME_SLICE_TICKES
 	int64_t ___TIME_SLICE_TICKES_12;
-};
-
-// LevelAgent
-struct LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
-{
-	// System.Int32 LevelAgent::CommonIntVar
-	int32_t ___CommonIntVar_26;
-	// LevelManager LevelAgent::mLevelMgr
-	LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* ___mLevelMgr_27;
 };
 
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
@@ -9028,6 +9012,21 @@ struct List_1_tF3DC909C3A29D573757711026724FD94A0FC5B84_StaticFields
 };
 
 // System.Collections.Generic.List`1<GameClient.WordEntryInfo>
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // AssetInst
 
@@ -9373,6 +9372,10 @@ struct AssetLoader_t0958A148B0E4EAC92D06F86F3AAFF8100A8D9EE2_StaticFields
 
 // BDStateStackOP
 
+// BTAgent
+
+// BTAgent
+
 // BeAnimationFrame
 
 // BeAnimationFrame
@@ -9553,6 +9556,10 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
+
+// LevelAgent
+
+// LevelAgent
 
 // OperationConfig
 
@@ -10450,25 +10457,6 @@ struct GeActorEx_t040974EEEA0ED086E300E15E829CA7A26D186D9A_StaticFields
 
 // DelayCaller/Del
 
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent> behaviac.Agent::ms_agents
-	Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D* ___ms_agents_4;
-	// System.UInt32 behaviac.Agent::ms_idMask
-	uint32_t ___ms_idMask_14;
-	// System.Int32 behaviac.Agent::ms_agent_index
-	int32_t ___ms_agent_index_17;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_18;
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
-	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_19;
-	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor> behaviac.Agent::ms_metas
-	Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2* ___ms_metas_21;
-};
-
-// behaviac.Agent
-
 // GeCameraControllerScroll
 
 // GeCameraControllerScroll
@@ -10482,17 +10470,9 @@ struct AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields
 
 // AudioManager
 
-// BTAgent
-
-// BTAgent
-
 // CResPreloader
 
 // CResPreloader
-
-// LevelAgent
-
-// LevelAgent
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -13798,7 +13778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CAction_Regi
 		int32_t L_0 = __this->___typeIndex_0;
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_1 = __this->___U3CU3E4__this_1;
 		NullCheck(L_1);
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = L_1->___receiveEventNew_49;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = L_1->___receiveEventNew_39;
 		NullCheck(L_2);
 		if ((((int32_t)L_0) >= ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
 		{
@@ -13808,7 +13788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CAction_Regi
 	{
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_3 = __this->___U3CU3E4__this_1;
 		NullCheck(L_3);
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = L_3->___receiveEventNew_49;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = L_3->___receiveEventNew_39;
 		int32_t L_5 = __this->___typeIndex_0;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
@@ -13830,7 +13810,7 @@ IL_002a:
 		// receiveEventNew[typeIndex] = true;
 		BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA* L_8 = __this->___U3CU3E4__this_1;
 		NullCheck(L_8);
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = L_8->___receiveEventNew_49;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = L_8->___receiveEventNew_39;
 		int32_t L_10 = __this->___typeIndex_0;
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
@@ -13852,7 +13832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent__set_CommonIntVar_mF89673BF8C
 	{
 		// CommonIntVar = value;
 		int32_t L_0 = ___0_value;
-		__this->___CommonIntVar_26 = L_0;
+		__this->___CommonIntVar_16 = L_0;
 		// }
 		return;
 	}
@@ -13862,7 +13842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LevelAgent__get_CommonIntVar_mB07EB89
 {
 	{
 		// return CommonIntVar;
-		int32_t L_0 = __this->___CommonIntVar_26;
+		int32_t L_0 = __this->___CommonIntVar_16;
 		return L_0;
 	}
 }
@@ -13871,7 +13851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_PlayBgm_m3E5797C6F5835
 {
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_0009;
@@ -13885,7 +13865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_PlayBgm_m3E5797C6F5835
 IL_0009:
 	{
 		// if (mLevelMgr.baseBattle == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -13902,7 +13882,7 @@ IL_0009:
 IL_0017:
 	{
 		// mLevelMgr.baseBattle.PushBgm(path);
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		NullCheck(L_3);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_4;
 		L_4 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_3, NULL);
@@ -13945,7 +13925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_SetCountTime_m56438C3E
 	}
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_0009;
@@ -13959,7 +13939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_SetCountTime_m56438C3E
 IL_0009:
 	{
 		// mLevelMgr.CountTime = time * GlobalLogic.VALUE_1000;
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		int32_t L_2 = ___0_time;
 		il2cpp_codegen_runtime_class_init_inline(GlobalLogic_tD9836098D78183EE1C95DC34E2E8A29CB21170A8_il2cpp_TypeInfo_var);
 		int32_t L_3;
@@ -13975,7 +13955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_SetCounter_m85268A1A68
 {
 	{
 		// mLevelMgr.SetCounter((int)typeId, value);
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		int32_t L_1 = ___0_typeId;
 		int32_t L_2 = ___1_value;
 		NullCheck(L_0);
@@ -14009,7 +13989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_AllPlayersAddBuffInfo_
 	int32_t V_4 = 0;
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_0009;
@@ -14023,7 +14003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_AllPlayersAddBuffInfo_
 IL_0009:
 	{
 		// if (mLevelMgr.baseBattle == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -14040,7 +14020,7 @@ IL_0009:
 IL_0017:
 	{
 		// if (mLevelMgr.baseBattle.dungeonPlayerManager == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		NullCheck(L_3);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_4;
 		L_4 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_3, NULL);
@@ -14060,7 +14040,7 @@ IL_0017:
 IL_002a:
 	{
 		// List<BattlePlayer> list = mLevelMgr.baseBattle.dungeonPlayerManager.GetAllPlayers();
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_17;
 		NullCheck(L_6);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_7;
 		L_7 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_6, NULL);
@@ -14137,7 +14117,7 @@ IL_0072:
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_26 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_26 = __this->___mLevelMgr_17;
 		NullCheck(L_26);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_27;
 		L_27 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_26, NULL);
@@ -14147,7 +14127,7 @@ IL_0072:
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_28 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_28 = __this->___mLevelMgr_17;
 		NullCheck(L_28);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_29;
 		L_29 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_28, NULL);
@@ -14160,7 +14140,7 @@ IL_0072:
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_31 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_31 = __this->___mLevelMgr_17;
 		NullCheck(L_31);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_32;
 		L_32 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_31, NULL);
@@ -14187,7 +14167,7 @@ IL_0072:
 		BeMagicGirlSummonMonsterFilter__ctor_m8D177D4E696093CD524BA1096A85115E8D558698(L_36, NULL);
 		V_3 = L_36;
 		// mLevelMgr.baseBattle.dungeonManager.GetBeScene().GetFilterTarget(list2, filter);
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_37 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_37 = __this->___mLevelMgr_17;
 		NullCheck(L_37);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_38;
 		L_38 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_37, NULL);
@@ -14268,7 +14248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_SummonMonster_m0897063
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_0009;
@@ -14282,7 +14262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Action_SummonMonster_m0897063
 IL_0009:
 	{
 		// var scene = mLevelMgr.GetBeScene();
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BeScene_t4BB8A7FAA5F9B83EDDA22D006321F120A7C1B066* L_2;
 		L_2 = LevelManager_GetBeScene_m0F6B27880B673AE324FE472D8B6EF9667EAFF6DE(L_1, NULL);
@@ -14365,7 +14345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_CheckCountTime_mAB6
 	}
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_000a;
@@ -14379,7 +14359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_CheckCountTime_mAB6
 IL_000a:
 	{
 		// if (mLevelMgr.CountTime > time * GlobalLogic.VALUE_1000)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = LevelManager_get_CountTime_mBF4413BCA2B7E815401C5E7ECBDA8B7099E6C01C_inline(L_1, NULL);
@@ -14414,7 +14394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LevelAgent_Condition_RoomRunningTime_
 	}
 	{
 		// if (mLevelMgr == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (L_0)
 		{
 			goto IL_000a;
@@ -14428,7 +14408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LevelAgent_Condition_RoomRunningTime_
 IL_000a:
 	{
 		// return mLevelMgr.RoomRunningTime / GlobalLogic.VALUE_1000;
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		int32_t L_2;
 		L_2 = LevelManager_get_RoomRunningTime_mA7869E6D1FA0A03285E03F66C98441DD7EDD0D8A_inline(L_1, NULL);
@@ -14443,14 +14423,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_CheckCounter_mD58C0
 {
 	{
 		// if (mLevelMgr == null || mLevelMgr.baseBattle == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (!L_0)
 		{
 			goto IL_0015;
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -14469,7 +14449,7 @@ IL_0015:
 IL_0017:
 	{
 		// if (mLevelMgr.GetCounter((int)counterType) == value)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		int32_t L_4 = ___0_counterType;
 		NullCheck(L_3);
 		int32_t L_5;
@@ -14496,14 +14476,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_Random_m3C193AA12B6
 {
 	{
 		// if (mLevelMgr == null || mLevelMgr.baseBattle == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (!L_0)
 		{
 			goto IL_0015;
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -14522,7 +14502,7 @@ IL_0015:
 IL_0017:
 	{
 		// if (mLevelMgr.baseBattle.FrameRandom.InRange(0, 1000) <= rate)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		NullCheck(L_3);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_4;
 		L_4 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_3, NULL);
@@ -14563,14 +14543,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_IsInRoom_mB6483C277
 		//     mLevelMgr.baseBattle == null ||
 		//     mLevelMgr.baseBattle.dungeonManager == null ||
 		//     mLevelMgr.baseBattle.dungeonManager.GetDungeonDataManager() == null) return false;
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (!L_0)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -14580,7 +14560,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_IsInRoom_mB6483C277
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		NullCheck(L_3);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_4;
 		L_4 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_3, NULL);
@@ -14593,7 +14573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_IsInRoom_mB6483C277
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_17;
 		NullCheck(L_6);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_7;
 		L_7 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_6, NULL);
@@ -14618,7 +14598,7 @@ IL_003e:
 IL_0040:
 	{
 		// int index = mLevelMgr.baseBattle.dungeonManager.GetDungeonDataManager().GetIndexByAreaId();
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_10 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_10 = __this->___mLevelMgr_17;
 		NullCheck(L_10);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_11;
 		L_11 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_10, NULL);
@@ -14655,14 +14635,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_HaveMonster_mD3640C
 		//     mLevelMgr.baseBattle == null ||
 		//     mLevelMgr.baseBattle.dungeonManager == null ||
 		//     mLevelMgr.baseBattle.dungeonManager.GetBeScene() == null)
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = __this->___mLevelMgr_17;
 		if (!L_0)
 		{
 			goto IL_003e;
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_1 = __this->___mLevelMgr_17;
 		NullCheck(L_1);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_2;
 		L_2 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_1, NULL);
@@ -14672,7 +14652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_HaveMonster_mD3640C
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_3 = __this->___mLevelMgr_17;
 		NullCheck(L_3);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_4;
 		L_4 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_3, NULL);
@@ -14685,7 +14665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LevelAgent_Condition_HaveMonster_mD3640C
 		}
 	}
 	{
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_6 = __this->___mLevelMgr_17;
 		NullCheck(L_6);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_7;
 		L_7 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_6, NULL);
@@ -14715,7 +14695,7 @@ IL_0040:
 		L_10 = ListPool_1_Get_mB296849FBC05F08B923E789DDB2E2C7139877B1A(ListPool_1_Get_mB296849FBC05F08B923E789DDB2E2C7139877B1A_RuntimeMethod_var);
 		V_0 = L_10;
 		// mLevelMgr.baseBattle.dungeonManager.GetBeScene().FindActorById2(list, monsterId);
-		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_11 = __this->___mLevelMgr_27;
+		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_11 = __this->___mLevelMgr_17;
 		NullCheck(L_11);
 		BaseBattle_t5F9A226F4A513014A5B2DC8287A704BBF9C1E91F* L_12;
 		L_12 = LevelManager_get_baseBattle_m5E16A054186319B138FE2E1F690C59C8E3BE96BC_inline(L_11, NULL);
@@ -14776,8 +14756,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_SetLevelMgr_mCC67032CEEC93F51
 	{
 		// mLevelMgr = levelMgr;
 		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = ___0_levelMgr;
-		__this->___mLevelMgr_27 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mLevelMgr_27), (void*)L_0);
+		__this->___mLevelMgr_17 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mLevelMgr_17), (void*)L_0);
 		// }
 		return;
 	}

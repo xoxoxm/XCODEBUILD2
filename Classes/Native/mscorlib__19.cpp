@@ -7957,8 +7957,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandle_DangerousAddRef_m9FA46208A92D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MonoIO_GetFileType_mFF1BA2D8F5E7AE1CFA951C3A9DC76686431C509B (intptr_t ___0_handle, int32_t* ___1_error, const RuntimeMethod* method) ;
 // System.IntPtr System.IO.MonoIO::Open(System.Char*,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.FileOptions,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MonoIO_Open_m9D9F466876113F6B8A79B4660E6BE3844995F27A (Il2CppChar* ___0_filename, int32_t ___1_mode, int32_t ___2_access, int32_t ___3_share, int32_t ___4_options, int32_t* ___5_error, const RuntimeMethod* method) ;
-// System.Boolean System.IO.MonoIO::Cancel_internal(System.IntPtr,System.IO.MonoIOError&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_Cancel_internal_mC98D41DBEDE0E7C790580B3EBB074605D6FDF323 (intptr_t ___0_handle, int32_t* ___1_error, const RuntimeMethod* method) ;
 // System.Int32 System.IO.MonoIO::Read(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MonoIO_Read_m89DE6104A7705186AB4A9F0667DA68FEDE899E42 (intptr_t ___0_handle, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_dest, int32_t ___2_dest_offset, int32_t ___3_count, int32_t* ___4_error, const RuntimeMethod* method) ;
 // System.Int32 System.IO.MonoIO::Write(System.IntPtr,System.Byte[],System.Int32,System.Int32,System.IO.MonoIOError&)
@@ -24166,80 +24164,6 @@ IL_0010:
 		return L_11;
 	}
 }
-// System.Boolean System.IO.MonoIO::Cancel_internal(System.IntPtr,System.IO.MonoIOError&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_Cancel_internal_mC98D41DBEDE0E7C790580B3EBB074605D6FDF323 (intptr_t ___0_handle, int32_t* ___1_error, const RuntimeMethod* method) 
-{
-	typedef bool (*MonoIO_Cancel_internal_mC98D41DBEDE0E7C790580B3EBB074605D6FDF323_ftn) (intptr_t, int32_t*);
-	using namespace il2cpp::icalls;
-	return ((MonoIO_Cancel_internal_mC98D41DBEDE0E7C790580B3EBB074605D6FDF323_ftn)mscorlib::System::IO::MonoIO::Cancel_internal) (___0_handle, ___1_error);
-}
-// System.Boolean System.IO.MonoIO::Cancel(System.Runtime.InteropServices.SafeHandle,System.IO.MonoIOError&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_Cancel_m9663C0834504D4E9C2BB297620607D7A36392C70 (SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* ___0_safeHandle, int32_t* ___1_error, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MonoIO_t4111700E5C2D38E1B55C916719E4CB725CBE5FC7_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	{
-		V_0 = (bool)0;
-	}
-	{
-		auto __finallyBlock = il2cpp::utils::Finally([&]
-		{
-
-FINALLY_0019:
-			{// begin finally (depth: 1)
-				{
-					bool L_0 = V_0;
-					if (!L_0)
-					{
-						goto IL_0022;
-					}
-				}
-				{
-					SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* L_1 = ___0_safeHandle;
-					NullCheck(L_1);
-					SafeHandle_DangerousRelease_m30A8B4E5BEA935C8925BC2115CD0AD13B937953E(L_1, NULL);
-				}
-
-IL_0022:
-				{
-					return;
-				}
-			}// end finally (depth: 1)
-		});
-		try
-		{// begin try (depth: 1)
-			SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* L_2 = ___0_safeHandle;
-			NullCheck(L_2);
-			SafeHandle_DangerousAddRef_m9FA46208A92D8B33059B8E8712F49AE45BB5E922(L_2, (&V_0), NULL);
-			SafeHandle_tC1A4DA80DA89B867CC011B707A07275230321BF7* L_3 = ___0_safeHandle;
-			NullCheck(L_3);
-			intptr_t L_4;
-			L_4 = SafeHandle_DangerousGetHandle_mE7CB3F36EE7BB2E2623EF316C4B43D1CA44B7F9C_inline(L_3, NULL);
-			int32_t* L_5 = ___1_error;
-			il2cpp_codegen_runtime_class_init_inline(MonoIO_t4111700E5C2D38E1B55C916719E4CB725CBE5FC7_il2cpp_TypeInfo_var);
-			bool L_6;
-			L_6 = MonoIO_Cancel_internal_mC98D41DBEDE0E7C790580B3EBB074605D6FDF323(L_4, L_5, NULL);
-			V_1 = L_6;
-			goto IL_0023;
-		}// end try (depth: 1)
-		catch(Il2CppExceptionWrapper& e)
-		{
-			__finallyBlock.StoreException(e.ex);
-		}
-	}
-
-IL_0023:
-	{
-		bool L_7 = V_1;
-		return L_7;
-	}
-}
 // System.Boolean System.IO.MonoIO::Close(System.IntPtr,System.IO.MonoIOError&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_Close_m0EF5E4613FDD2FAC98D5C41CA660EB0B328CB5F0 (intptr_t ___0_handle, int32_t* ___1_error, const RuntimeMethod* method) 
 {
@@ -24646,13 +24570,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t MonoIO_get_ConsoleError_m00875210C60
 	typedef intptr_t (*MonoIO_get_ConsoleError_m00875210C604E766D76008ABEC62B1134DEEA917_ftn) ();
 	using namespace il2cpp::icalls;
 	return ((MonoIO_get_ConsoleError_m00875210C604E766D76008ABEC62B1134DEEA917_ftn)mscorlib::System::IO::MonoIO::get_ConsoleError) ();
-}
-// System.Boolean System.IO.MonoIO::DuplicateHandle(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32,System.Int32,System.Int32,System.IO.MonoIOError&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MonoIO_DuplicateHandle_m74058A7EF8C184400CE235A021B49BC3CADF9CEE (intptr_t ___0_source_process_handle, intptr_t ___1_source_handle, intptr_t ___2_target_process_handle, intptr_t* ___3_target_handle, int32_t ___4_access, int32_t ___5_inherit, int32_t ___6_options, int32_t* ___7_error, const RuntimeMethod* method) 
-{
-	typedef bool (*MonoIO_DuplicateHandle_m74058A7EF8C184400CE235A021B49BC3CADF9CEE_ftn) (intptr_t, intptr_t, intptr_t, intptr_t*, int32_t, int32_t, int32_t, int32_t*);
-	using namespace il2cpp::icalls;
-	return ((MonoIO_DuplicateHandle_m74058A7EF8C184400CE235A021B49BC3CADF9CEE_ftn)mscorlib::System::IO::MonoIO::DuplicateHandle) (___0_source_process_handle, ___1_source_handle, ___2_target_process_handle, ___3_target_handle, ___4_access, ___5_inherit, ___6_options, ___7_error);
 }
 // System.Char System.IO.MonoIO::get_VolumeSeparatorChar()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar MonoIO_get_VolumeSeparatorChar_m27E122B97AFA48AB5248E8B3717911FA6D70482B (const RuntimeMethod* method) 

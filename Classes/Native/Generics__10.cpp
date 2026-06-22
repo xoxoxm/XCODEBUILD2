@@ -112,18 +112,12 @@ struct CAgentStaticMethod_1_t084B480EC1F14603ACD134659EF6903B785ED97D;
 struct CAgentStaticMethod_10_tE3E1D4E633F69FEBCF4DB3E07F37815E4A8D5D55;
 // behaviac.CAgentStaticMethod`11<System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object>
 struct CAgentStaticMethod_11_t3878D055652E569C8DE293385BA189996FF2D86E;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 // System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t>
 struct Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E;
 // System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IInstantiatedVariable>
 struct Dictionary_2_tE40B4A364D91422BB48B6E57E9B700A3861CB937;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // behaviac.CAgentStaticMethodVoid`1/FunctionPointer<System.Object>
 struct FunctionPointer_t98BFB775A0E7576F8CBC688539207B618F18094F;
 // behaviac.CAgentStaticMethod`1/FunctionPointer<System.Object>
@@ -270,8 +264,6 @@ struct String_t;
 struct Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 
 IL2CPP_EXTERN_C RuntimeClass* AgentMeta_tAB3DFCA0F3DC0EF32AEE46A80827156A71A8262B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var;
@@ -356,6 +348,35 @@ struct TValue_1_t3A56570D5C7C4725E7DB0BC175E6B1BB7434270C  : public RuntimeObjec
 {
 	// T behaviac.TValue`1::value
 	RuntimeObject* ___value_0;
+};
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
 };
 
 // behaviac.CAgentMethodVoidBase
@@ -1360,23 +1381,6 @@ struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C
 	int32_t ___value___2;
 };
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
-{
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-
 // behaviac.TValue`1<System.Int32Enum>
 struct TValue_1_tA51E0FB2DA80244287CAE9DFD2A5E341DC25A73B  : public RuntimeObject
 {
@@ -1397,11 +1401,6 @@ struct BehaviorTask_t958C681786E80E2DF4496AC1ED26B7336DF78AED  : public RuntimeO
 	int32_t ___m_id_9;
 	// System.Boolean behaviac.BehaviorTask::m_bHasManagingParent
 	bool ___m_bHasManagingParent_10;
-};
-
-// UnityEngine.Component
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
 };
 
 // System.MulticastDelegate
@@ -1646,11 +1645,6 @@ struct FunctionPointer_t1F8AD1F09593926E71F45F4889181BB7A578BF40  : public Multi
 {
 };
 
-// UnityEngine.Behaviour
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-
 // behaviac.BranchTask
 struct BranchTask_tC12FC32568CB493A4442C7D11DFD846D084497B2  : public BehaviorTask_t958C681786E80E2DF4496AC1ED26B7336DF78AED
 {
@@ -1658,53 +1652,11 @@ struct BranchTask_tC12FC32568CB493A4442C7D11DFD846D084497B2  : public BehaviorTa
 	BehaviorTask_t958C681786E80E2DF4496AC1ED26B7336DF78AED* ___m_currentTask_11;
 };
 
-// UnityEngine.MonoBehaviour
-struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
-{
-};
-
 // behaviac.SingeChildTask
 struct SingeChildTask_t8AD5506E56BA4782A9219ABDB10FC9BC748CEE79  : public BranchTask_tC12FC32568CB493A4442C7D11DFD846D084497B2
 {
 	// behaviac.BehaviorTask behaviac.SingeChildTask::m_root
 	BehaviorTask_t958C681786E80E2DF4496AC1ED26B7336DF78AED* ___m_root_12;
-};
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
 };
 
 // behaviac.BehaviorTreeTask
@@ -1751,6 +1703,21 @@ struct BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F  : public Sing
 // behaviac.TValue`1<System.Object>
 
 // behaviac.TValue`1<System.Object>
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // behaviac.CAgentMethodVoidBase
 
@@ -2171,25 +2138,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 // behaviac.CAgentMethod`15/FunctionPointer<System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object>
 
 // behaviac.CAgentMethod`15/FunctionPointer<System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object>
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent> behaviac.Agent::ms_agents
-	Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D* ___ms_agents_4;
-	// System.UInt32 behaviac.Agent::ms_idMask
-	uint32_t ___ms_idMask_14;
-	// System.Int32 behaviac.Agent::ms_agent_index
-	int32_t ___ms_agent_index_17;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_18;
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
-	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_19;
-	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor> behaviac.Agent::ms_metas
-	Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2* ___ms_metas_21;
-};
-
-// behaviac.Agent
 
 // behaviac.BehaviorTreeTask
 

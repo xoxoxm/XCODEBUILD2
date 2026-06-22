@@ -176,8 +176,6 @@ struct DictionaryView_2_tD74D45AE758059827B91BE03189C5E423C5D60D7;
 struct DictionaryView_2_t454B6C725D087ED7F75BB8330AF059E5C4DF3DC8;
 // System.Collections.Generic.Dictionary`2<System.Byte,Protocol.PkStatistic>
 struct Dictionary_2_tDE6E72771ABAE6E8C438FCC5CB35A55D411149EE;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
 // System.Collections.Generic.Dictionary`2<GameClient.EEquipWearSlotType,GameClient.ItemData>
 struct Dictionary_2_t142302DE6B13B1EE28822F555047BC4A08D70950;
 // System.Collections.Generic.Dictionary`2<GameClient.EPackageType,System.Collections.Generic.List`1<System.UInt64>>
@@ -210,8 +208,6 @@ struct Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907;
 struct Dictionary_2_t4C8ED9EC429CBFDE0A1BAEC74B1D5A8F1A4D1F9D;
 // System.Collections.Generic.Dictionary`2<GameClient.MallType,System.Collections.Generic.Dictionary`2<ProtoTable.MallTypeTable/eMallType,System.Collections.Generic.Dictionary`2<ProtoTable.MallTypeTable/eMallSubType,System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.List`1<Protocol.MallItemInfo>>>>>
 struct Dictionary_2_t7827BB16F59051B14D640094867FFCEF3308EB66;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 // System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t>
@@ -222,8 +218,6 @@ struct Dictionary_2_t0FC81C3305E03C958A68DAB99E1EA530EB8EC672;
 struct Dictionary_2_t4C9F1E6404AD538C75ACC3490BD9A5C818B2D945;
 // System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.ICustomizedProperty>
 struct Dictionary_2_t742B2963665E5F5B7637A3DFFE6963307DD706EC;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // System.Collections.Generic.Dictionary`2<System.UInt32,System.UInt32>
 struct Dictionary_2_t4184BC33D1053D17BD3CABFE9D63C5B655A8C038;
 // System.Collections.Generic.Dictionary`2<System.UInt32,GameClient.MissionManager/SingleMissionInfo>
@@ -466,6 +460,12 @@ struct Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A
 struct Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB;
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5
 struct Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2;
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3;
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22;
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C;
 // behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6
 struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C;
 // behaviac.Agent
@@ -640,14 +640,36 @@ struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0;
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2
 struct Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE;
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416;
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA;
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1;
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56;
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0;
 // UnityEngine.Coroutine
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 // DTownDoor
@@ -814,8 +836,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WorldChatLinkDataReq_tB98FF05E2A235B919E16C3F6B4C61638D33ED51D;
 // VoiceSDK.YouMiVoiceInterface
 struct YouMiVoiceInterface_tA92A6F64B54BB0B3B3153A6C85B909FF4AB690F6;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 // GameClient.BeTownPlayerMain/AutoMoveFailEvent
 struct AutoMoveFailEvent_t9CFC18BE7B286130F10922C69DA97AD38BC586AB;
 // GameClient.BeTownPlayerMain/AutoMoveSuccessEvent
@@ -939,6 +959,10 @@ IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0F
 IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* BeTownPlayerMain_tE90C46D61933FEEE2415D8192A238B7CDA312871_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_il2cpp_TypeInfo_var;
@@ -1006,6 +1030,21 @@ IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_t
 IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DungenTrace_t23C1296FDBAE230447662898C8EA6E0BD950BD54_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
@@ -1054,7 +1093,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral663488ABE057592166FC68C8A6EF26CBF9C8178E
 IL2CPP_EXTERN_C String_t* _stringLiteral72B1A802C87E19D491A991BEF246D6C6B6492350;
 IL2CPP_EXTERN_C String_t* _stringLiteral77512901E1D4B3450AFDEBC2654973C0BEDEA374;
 IL2CPP_EXTERN_C String_t* _stringLiteral869DD033D78130A7A941CA8BCACA6AF65BE3F8B1;
-IL2CPP_EXTERN_C String_t* _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804;
 IL2CPP_EXTERN_C String_t* _stringLiteral9B736A9739934A4ACD0D222F5EDAB3AB0209F008;
 IL2CPP_EXTERN_C String_t* _stringLiteralA025A82F07CAFF0D3468D141DD4D5AE58DF5530D;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD;
@@ -1071,6 +1109,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD
 IL2CPP_EXTERN_C String_t* _stringLiteralDFE88F80D9B20D8864C5FFDCFC611B01D8806540;
 IL2CPP_EXTERN_C String_t* _stringLiteralE38E7F8AE3A8785ECD0AC572A8D927B764A4C340;
 IL2CPP_EXTERN_C String_t* _stringLiteralEA8E47E5554C1BA2EAADB22FA708AF892ED4A250;
+IL2CPP_EXTERN_C String_t* _stringLiteralEAC7AD8010F2D41E409236AC6A679C789AA8F8C7;
 IL2CPP_EXTERN_C String_t* _stringLiteralF250BC24B814BA8A2D6D5C46FD020BC954CC4A29;
 IL2CPP_EXTERN_C String_t* _stringLiteralF6FC6B89788BF64CD000876747A4EA592514A819;
 IL2CPP_EXTERN_C String_t* _stringLiteralF754D34E793A402C810402E3D650B04A781190F7;
@@ -1158,6 +1197,35 @@ struct Singleton_1_t8217CD5149F073E7F2B55F0FC90387C3BE847DA2  : public RuntimeOb
 {
 };
 
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
+};
+
 // GameClient.BeBaseActor
 struct BeBaseActor_t0B294FEE75EA1F127B24D8ABAE89581CF65C25A6  : public RuntimeObject
 {
@@ -1178,40 +1246,38 @@ struct BeBaseActor_t0B294FEE75EA1F127B24D8ABAE89581CF65C25A6  : public RuntimeOb
 // behaviac.BehaviorNode
 struct BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64  : public RuntimeObject
 {
-	// System.String behaviac.BehaviorNode::m_agentType
-	String_t* ___m_agentType_0;
 	// System.String behaviac.BehaviorNode::m_className
-	String_t* ___m_className_1;
+	String_t* ___m_className_0;
 	// System.Int32 behaviac.BehaviorNode::m_id
-	int32_t ___m_id_2;
+	int32_t ___m_id_1;
 	// System.Collections.Generic.List`1<behaviac.BehaviorNode> behaviac.BehaviorNode::m_events
-	List_1_t93A146C43281D7F3FF3F665F7C9C907301BB06EE* ___m_events_3;
+	List_1_t93A146C43281D7F3FF3F665F7C9C907301BB06EE* ___m_events_2;
 	// System.Collections.Generic.List`1<behaviac.Precondition> behaviac.BehaviorNode::m_preconditions
-	List_1_t1FAD5667609D8A67607E408AADF6B7C98F13E201* ___m_preconditions_4;
+	List_1_t1FAD5667609D8A67607E408AADF6B7C98F13E201* ___m_preconditions_3;
 	// System.Collections.Generic.List`1<behaviac.Effector> behaviac.BehaviorNode::m_effectors
-	List_1_t8EF31153BA907EC688E3F0F26D3DB7B2F5D23739* ___m_effectors_5;
+	List_1_t8EF31153BA907EC688E3F0F26D3DB7B2F5D23739* ___m_effectors_4;
 	// System.Boolean behaviac.BehaviorNode::m_loadAttachment
-	bool ___m_loadAttachment_6;
+	bool ___m_loadAttachment_5;
 	// System.Byte behaviac.BehaviorNode::m_enter_precond
-	uint8_t ___m_enter_precond_7;
+	uint8_t ___m_enter_precond_6;
 	// System.Byte behaviac.BehaviorNode::m_update_precond
-	uint8_t ___m_update_precond_8;
+	uint8_t ___m_update_precond_7;
 	// System.Byte behaviac.BehaviorNode::m_both_precond
-	uint8_t ___m_both_precond_9;
+	uint8_t ___m_both_precond_8;
 	// System.Byte behaviac.BehaviorNode::m_success_effectors
-	uint8_t ___m_success_effectors_10;
+	uint8_t ___m_success_effectors_9;
 	// System.Byte behaviac.BehaviorNode::m_failure_effectors
-	uint8_t ___m_failure_effectors_11;
+	uint8_t ___m_failure_effectors_10;
 	// System.Byte behaviac.BehaviorNode::m_both_effectors
-	uint8_t ___m_both_effectors_12;
+	uint8_t ___m_both_effectors_11;
 	// behaviac.BehaviorNode behaviac.BehaviorNode::m_parent
-	BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* ___m_parent_13;
+	BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* ___m_parent_12;
 	// System.Collections.Generic.List`1<behaviac.BehaviorNode> behaviac.BehaviorNode::m_children
-	List_1_t93A146C43281D7F3FF3F665F7C9C907301BB06EE* ___m_children_14;
+	List_1_t93A146C43281D7F3FF3F665F7C9C907301BB06EE* ___m_children_13;
 	// behaviac.BehaviorNode behaviac.BehaviorNode::m_customCondition
-	BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* ___m_customCondition_15;
+	BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* ___m_customCondition_14;
 	// System.Boolean behaviac.BehaviorNode::m_bHasEvents
-	bool ___m_bHasEvents_16;
+	bool ___m_bHasEvents_15;
 };
 
 // Parser.Common
@@ -1543,6 +1609,11 @@ struct bt_APC_APC_Husong_Aganzuo_DestinationSelect_t5E9EC8CA375C29AF481634CB9F09
 {
 };
 
+// behaviac.bt_APC_APC_jiqingjieshuoyuan_Action
+struct bt_APC_APC_jiqingjieshuoyuan_Action_t73117655F1DCACCE1E655A081BF4B86EAB865ECE  : public RuntimeObject
+{
+};
+
 // Parser.DungeonParser/DungenTrace
 struct DungenTrace_t23C1296FDBAE230447662898C8EA6E0BD950BD54  : public RuntimeObject
 {
@@ -1611,15 +1682,70 @@ struct UnityEvent_2_tDA56C4B82ECF1F4A0F76CF2D8AB44E18BDADDE11  : public UnityEve
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
 };
 
+// BTAgent
+struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
+{
+	// System.Int32 BTAgent::bianshen
+	int32_t ___bianshen_16;
+	// System.Boolean BTAgent::buffRemoved
+	bool ___buffRemoved_17;
+	// System.Int32 BTAgent::compare
+	int32_t ___compare_18;
+	// System.Int32 BTAgent::lastResult
+	int32_t ___lastResult_19;
+	// System.Int32 BTAgent::mojiankuilei
+	int32_t ___mojiankuilei_20;
+	// System.Int32 BTAgent::monsterID
+	int32_t ___monsterID_21;
+	// System.Int32 BTAgent::radius
+	int32_t ___radius_22;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_23;
+	// System.Int32 BTAgent::shifacishu
+	int32_t ___shifacishu_24;
+	// System.Int32 BTAgent::shifangjineng
+	int32_t ___shifangjineng_25;
+	// System.Int32 BTAgent::shifangjineng2
+	int32_t ___shifangjineng2_26;
+	// System.Int32 BTAgent::shifangjineng3
+	int32_t ___shifangjineng3_27;
+	// System.Int32 BTAgent::shouhufanshang
+	int32_t ___shouhufanshang_28;
+	// System.Int32 BTAgent::zhaohuan
+	int32_t ___zhaohuan_29;
+	// System.Int32 BTAgent::zhaohuancishu
+	int32_t ___zhaohuancishu_30;
+	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_31;
+	// BeEntity BTAgent::entity
+	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_32;
+	// BeBuff BTAgent::buff
+	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_33;
+	// BeEventHandle BTAgent::handle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_34;
+	// BeEventHandle BTAgent::otherHandle
+	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_35;
+	// System.Boolean BTAgent::receivedEvent
+	bool ___receivedEvent_36;
+	// BeMonsterIDFilter BTAgent::monsterIDFilter
+	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_37;
+	// BeEventHandle[] BTAgent::handleArrNew
+	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_38;
+	// System.Boolean[] BTAgent::receiveEventNew
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_39;
+	// System.Int32 BTAgent::warAlike
+	int32_t ___warAlike_40;
+};
+
 // behaviac.BehaviorTree
 struct BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5  : public BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64
 {
 	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.ICustomizedProperty> behaviac.BehaviorTree::m_localProps
-	Dictionary_2_t742B2963665E5F5B7637A3DFFE6963307DD706EC* ___m_localProps_18;
+	Dictionary_2_t742B2963665E5F5B7637A3DFFE6963307DD706EC* ___m_localProps_17;
 	// System.String behaviac.BehaviorTree::m_name
-	String_t* ___m_name_19;
+	String_t* ___m_name_18;
 	// System.Boolean behaviac.BehaviorTree::m_bIsFSM
-	bool ___m_bIsFSM_20;
+	bool ___m_bIsFSM_19;
 };
 
 // System.Boolean
@@ -1761,7 +1887,7 @@ struct CrypticUlong_t58EE32D43819502F652F7E8F2863FCBAB42DBCEC_marshaled_com
 struct DecoratorNode_t3C76342E1C397DDF3855EC366C86C6DF37CB30FF  : public BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64
 {
 	// System.Boolean behaviac.DecoratorNode::m_bDecorateWhenChildEnds
-	bool ___m_bDecorateWhenChildEnds_17;
+	bool ___m_bDecorateWhenChildEnds_16;
 };
 
 // DelayCallUnitHandle
@@ -2597,11 +2723,11 @@ struct eUseLimiteType_t1DE59005D3165B80B5144227B21E521BDAACB7D4
 struct Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD  : public BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64
 {
 	// behaviac.IMethod behaviac.Action::m_method
-	RuntimeObject* ___m_method_17;
+	RuntimeObject* ___m_method_16;
 	// behaviac.IMethod behaviac.Action::m_resultFunctor
-	RuntimeObject* ___m_resultFunctor_18;
+	RuntimeObject* ___m_resultFunctor_17;
 	// behaviac.EBTStatus behaviac.Action::m_resultOption
-	int32_t ___m_resultOption_19;
+	int32_t ___m_resultOption_18;
 };
 
 // GameClient.BeTownPlayer
@@ -2710,11 +2836,11 @@ struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12
 struct Condition_t6E01C3862DF73AA98493128AE023231C461E98E0  : public ConditionBase_tF867A3C4A3B7E6C7076A1CE4BA68CC470E839B72
 {
 	// behaviac.IInstanceMember behaviac.Condition::m_opl
-	RuntimeObject* ___m_opl_17;
+	RuntimeObject* ___m_opl_16;
 	// behaviac.IInstanceMember behaviac.Condition::m_opr
-	RuntimeObject* ___m_opr_18;
+	RuntimeObject* ___m_opr_17;
 	// behaviac.EOperatorType behaviac.Condition::m_operator
-	int32_t ___m_operator_19;
+	int32_t ___m_operator_18;
 };
 
 // behaviac.DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3
@@ -3282,261 +3408,288 @@ struct UnityAction_2_t6646CF538F0C57BB688EEA9AB1C809512D754FCB  : public Multica
 struct Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Demian_Action_DestinationSelect_node3::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Demian_Action_DestinationSelect_node6
 struct Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Demian_Action_DestinationSelect_node6::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Demian_Action_DestinationSelect_node7
 struct Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Demian_Action_DestinationSelect_node7::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Demian_Action_node13
 struct Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Demian_Action_node13::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Demian_Action_node13::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Demian_Action_node18
 struct Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Demian_Action_node18::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Demian_Action_node18::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Demian_Action_node7
 struct Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Demian_Action_node7::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Demian_Action_node7::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node10
 struct Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node10::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node10::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node100
 struct Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node100::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node100::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node26
 struct Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node26::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node26::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node5
 struct Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node5::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node5::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node58
 struct Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node58::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node58::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node64
 struct Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node64::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node64::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi2_Action_node75
 struct Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi2_Action_node75::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi2_Action_node75::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi_Action_node15
 struct Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi_Action_node15::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi_Action_node15::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi_Action_node18
 struct Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi_Action_node18::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi_Action_node18::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi_Action_node25
 struct Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi_Action_node25::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi_Action_node25::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Guiqi_Action_node7
 struct Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Guiqi_Action_node7::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Guiqi_Action_node7::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_Action_node10
 struct Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Gunman_test_Action_node10::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Gunman_test_Action_node10::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_Action_node4
 struct Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Int32 behaviac.Action_bt_APC_APC_Gunman_test_Action_node4::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_Action_node5
 struct Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Gunman_test_Action_node5::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Gunman_test_Action_node5::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_Action_node6
 struct Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.BE_Target behaviac.Action_bt_APC_APC_Gunman_test_Action_node6::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 	// System.Int32 behaviac.Action_bt_APC_APC_Gunman_test_Action_node6::method_p1
-	int32_t ___method_p1_21;
+	int32_t ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node3
 struct Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node3::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node5
 struct Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node5::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node7
 struct Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Gunman_test_DestinationSelect_node7::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node10
 struct Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node10::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node10::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node14
 struct Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node14::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node14::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node19
 struct Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node19::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node19::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node5
 struct Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node5::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_Husong_Aganzuo_Action_node5::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3
 struct Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
 };
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5
 struct Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// behaviac.DestinationType behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5::method_p0
-	int32_t ___method_p0_20;
+	int32_t ___method_p0_19;
+};
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
+{
+	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12::method_p0
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
+	// System.Boolean behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12::method_p1
+	bool ___method_p1_20;
+};
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
+{
+	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18::method_p0
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
+	// System.Boolean behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18::method_p1
+	bool ___method_p1_20;
+};
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25
+struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
+{
+	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25::method_p0
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
+	// System.Boolean behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25::method_p1
+	bool ___method_p1_20;
 };
 
 // behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6
 struct Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C  : public Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD
 {
 	// System.Collections.Generic.List`1<behaviac.Input> behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6::method_p0
-	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_20;
+	List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* ___method_p0_19;
 	// System.Boolean behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6::method_p1
-	bool ___method_p1_21;
+	bool ___method_p1_20;
 };
 
 // System.AsyncCallback
@@ -3649,616 +3802,721 @@ struct ClientSystemTown_tC1CF43E7166FBC65ADFE46C6DD383D858CE83A8E  : public Clie
 struct Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5
 struct Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node1
 struct Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node1::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node1::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node1::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node1::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node11
 struct Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Demian_Action_node11::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node12
 struct Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node12::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node15
 struct Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node15::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node15::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node15::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node15::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node16
 struct Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Demian_Action_node16::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Demian_Action_node16::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Demian_Action_node16::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node17
 struct Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node17::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node19
 struct Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Demian_Action_node19::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node5
 struct Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Demian_Action_node5::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Demian_Action_node5::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Demian_Action_node5::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node6
 struct Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node6::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Demian_Action_node9
 struct Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node9::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node9::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node9::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Demian_Action_node9::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node15
 struct Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node15::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node16
 struct Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node16::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node2
 struct Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node2::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node23
 struct Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node23::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node3
 struct Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node3::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node4
 struct Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node4::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node4::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node4::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node4::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node54
 struct Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node54::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node55
 struct Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node55::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node55::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node55::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node55::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node56
 struct Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node56::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node57
 struct Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node57::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node60
 struct Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node60::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node61
 struct Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node61::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node61::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node61::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node61::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node73
 struct Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node73::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node74
 struct Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node74::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node8
 struct Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Guiqi2_Action_node8::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Guiqi2_Action_node8::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Guiqi2_Action_node8::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node9
 struct Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node9::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node90
 struct Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi2_Action_node90::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node91
 struct Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node91::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node91::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node91::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node91::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi2_Action_node99
 struct Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi2_Action_node99::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node1
 struct Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node1::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node1::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node1::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node1::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node10
 struct Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node10::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node10::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node10::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node10::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node12
 struct Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi_Action_node12::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node14
 struct Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi_Action_node14::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node16
 struct Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node16::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node17
 struct Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node17::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node2
 struct Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node2::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node20
 struct Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node20::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node20::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node20::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node20::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node21
 struct Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node21::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node21::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node21::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node21::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node22
 struct Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi_Action_node22::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node24
 struct Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node24::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node3
 struct Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Guiqi_Action_node3::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node6
 struct Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Guiqi_Action_node6::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Guiqi_Action_node8
 struct Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Guiqi_Action_node8::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Guiqi_Action_node8::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Guiqi_Action_node8::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Gunman_test_Action_node2
 struct Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node2::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Gunman_test_Action_node8
 struct Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node8::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node8::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node8::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node8::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Gunman_test_Action_node9
 struct Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Gunman_test_Action_node9::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4
 struct Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6
 struct Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node1
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node1::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node1::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node1::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node1::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node11
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node11::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node11::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node11::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node11::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node12
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node12::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node13
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node13::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node16
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node16::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node16::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node16::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node16::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node17
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node17::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node18
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node18::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node2
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node2::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node4
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node4::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node7
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node7::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node7::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node7::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node7::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node8
 struct Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_Husong_Aganzuo_Action_node8::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2
 struct Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::opl_p0
+	int32_t ___opl_p0_19;
+	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::opl_p1
+	int32_t ___opl_p1_20;
+	// behaviac.BE_State behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::opl_p2
+	int32_t ___opl_p2_21;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11::opl_p0
+	int32_t ___opl_p0_19;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::opl_p0
+	int32_t ___opl_p0_19;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::opl_p1
+	int32_t ___opl_p1_20;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::opl_p2
+	int32_t ___opl_p2_21;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::opl_p3
+	int32_t ___opl_p3_22;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Single behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15::opl_p0
+	float ___opl_p0_19;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16::opl_p0
+	int32_t ___opl_p0_19;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::opl_p0
+	int32_t ___opl_p0_19;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::opl_p1
+	int32_t ___opl_p1_20;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::opl_p2
+	int32_t ___opl_p2_21;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::opl_p3
+	int32_t ___opl_p3_22;
 };
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2::opl_p3
-	int32_t ___opl_p3_23;
+	int32_t ___opl_p3_22;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::opl_p0
+	int32_t ___opl_p0_19;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::opl_p1
+	int32_t ___opl_p1_20;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::opl_p2
+	int32_t ___opl_p2_21;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::opl_p3
+	int32_t ___opl_p3_22;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Single behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23::opl_p0
+	float ___opl_p0_19;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24::opl_p0
+	int32_t ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Single behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3::opl_p0
-	float ___opl_p0_20;
+	float ___opl_p0_19;
 };
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// behaviac.BE_Target behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
 	// behaviac.BE_Equal behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4::opl_p1
-	int32_t ___opl_p1_21;
+	int32_t ___opl_p1_20;
 	// behaviac.BE_State behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4::opl_p2
-	int32_t ___opl_p2_22;
+	int32_t ___opl_p2_21;
 };
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5
 struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
 {
 	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5::opl_p0
-	int32_t ___opl_p0_20;
+	int32_t ___opl_p0_19;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::opl_p0
+	int32_t ___opl_p0_19;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::opl_p1
+	int32_t ___opl_p1_20;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::opl_p2
+	int32_t ___opl_p2_21;
+	// System.Int32 behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::opl_p3
+	int32_t ___opl_p3_22;
+};
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9
+struct Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0  : public Condition_t6E01C3862DF73AA98493128AE023231C461E98E0
+{
+	// System.Single behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9::opl_p0
+	float ___opl_p0_19;
 };
 
 // GameClient.OnLinkOk
@@ -4376,101 +4634,9 @@ struct MonoSingleton_1_t59640FCEEEFDE93A5CFC7D212E1ABF9B1B606EB4  : public MonoB
 {
 };
 
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
-};
-
 // VoiceSDK.SDKVoiceCallback
 struct SDKVoiceCallback_tB72D3EAD999E6E4EB4406FF3D49BBE519D629467  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-};
-
-// BTAgent
-struct BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
-{
-	// System.Int32 BTAgent::bianshen
-	int32_t ___bianshen_26;
-	// System.Boolean BTAgent::buffRemoved
-	bool ___buffRemoved_27;
-	// System.Int32 BTAgent::compare
-	int32_t ___compare_28;
-	// System.Int32 BTAgent::lastResult
-	int32_t ___lastResult_29;
-	// System.Int32 BTAgent::mojiankuilei
-	int32_t ___mojiankuilei_30;
-	// System.Int32 BTAgent::monsterID
-	int32_t ___monsterID_31;
-	// System.Int32 BTAgent::radius
-	int32_t ___radius_32;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_gameTime
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_gameTime_33;
-	// System.Int32 BTAgent::shifacishu
-	int32_t ___shifacishu_34;
-	// System.Int32 BTAgent::shifangjineng
-	int32_t ___shifangjineng_35;
-	// System.Int32 BTAgent::shifangjineng2
-	int32_t ___shifangjineng2_36;
-	// System.Int32 BTAgent::shifangjineng3
-	int32_t ___shifangjineng3_37;
-	// System.Int32 BTAgent::shouhufanshang
-	int32_t ___shouhufanshang_38;
-	// System.Int32 BTAgent::zhaohuan
-	int32_t ___zhaohuan_39;
-	// System.Int32 BTAgent::zhaohuancishu
-	int32_t ___zhaohuancishu_40;
-	// System.Collections.Generic.List`1<System.Int32> BTAgent::regist_TimeUp
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___regist_TimeUp_41;
-	// BeEntity BTAgent::entity
-	BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___entity_42;
-	// BeBuff BTAgent::buff
-	BeBuff_tAAFCDE046F2BBD1F9F1091999B713925A5BF9996* ___buff_43;
-	// BeEventHandle BTAgent::handle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___handle_44;
-	// BeEventHandle BTAgent::otherHandle
-	BeEventHandle_t29720EA1D407C7992FD910CCEF03D18421CC8024* ___otherHandle_45;
-	// System.Boolean BTAgent::receivedEvent
-	bool ___receivedEvent_46;
-	// BeMonsterIDFilter BTAgent::monsterIDFilter
-	BeMonsterIDFilter_tE57DA5623F86E8A48F76467DA381EF601F1FD2D4* ___monsterIDFilter_47;
-	// BeEventHandle[] BTAgent::handleArrNew
-	BeEventHandleU5BU5D_tF907851DA3FA98A515C35C4636C703D729166A6B* ___handleArrNew_48;
-	// System.Boolean[] BTAgent::receiveEventNew
-	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___receiveEventNew_49;
-	// System.Int32 BTAgent::warAlike
-	int32_t ___warAlike_50;
 };
 
 // Network.NetManager
@@ -4539,6 +4705,21 @@ struct List_1_t536E549FE907E845897AA2F8E183248A2B025646_StaticFields
 };
 
 // System.Collections.Generic.List`1<GameClient.TipFuncButon>
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // behaviac.BehaviorNode
 
@@ -4653,6 +4834,10 @@ struct String_t_StaticFields
 
 // behaviac.bt_APC_APC_Husong_Aganzuo_DestinationSelect
 
+// behaviac.bt_APC_APC_jiqingjieshuoyuan_Action
+
+// behaviac.bt_APC_APC_jiqingjieshuoyuan_Action
+
 // Parser.DungeonParser/DungenTrace
 
 // Parser.DungeonParser/DungenTrace
@@ -4664,6 +4849,10 @@ struct String_t_StaticFields
 // UnityEngine.Events.UnityEvent`2<GameClient.BeTownPlayerMain/EMoveState,GameClient.BeTownPlayerMain/EMoveState>
 
 // UnityEngine.Events.UnityEvent`2<GameClient.BeTownPlayerMain/EMoveState,GameClient.BeTownPlayerMain/EMoveState>
+
+// BTAgent
+
+// BTAgent
 
 // behaviac.BehaviorTree
 
@@ -5095,6 +5284,18 @@ struct ItemData_t05FB57BF26DCA94810C52C17B6AB7A0017874484_StaticFields
 
 // behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5
 
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25
+
+// behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25
+
 // behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6
 
 // behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6
@@ -5393,9 +5594,45 @@ struct ClientSystemTown_tC1CF43E7166FBC65ADFE46C6DD383D858CE83A8E_StaticFields
 
 // behaviac.Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2
 
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19
+
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3
 
@@ -5408,6 +5645,14 @@ struct ClientSystemTown_tC1CF43E7166FBC65ADFE46C6DD383D858CE83A8E_StaticFields
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5
 
 // behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9
+
+// behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9
 
 // GameClient.OnLinkOk
 
@@ -5496,25 +5741,6 @@ struct ClientSystemTown_tC1CF43E7166FBC65ADFE46C6DD383D858CE83A8E_StaticFields
 // UnityEngine.MonoBehaviour
 
 // UnityEngine.MonoBehaviour
-
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent> behaviac.Agent::ms_agents
-	Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D* ___ms_agents_4;
-	// System.UInt32 behaviac.Agent::ms_idMask
-	uint32_t ___ms_idMask_14;
-	// System.Int32 behaviac.Agent::ms_agent_index
-	int32_t ___ms_agent_index_17;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_18;
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
-	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_19;
-	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor> behaviac.Agent::ms_metas
-	Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2* ___ms_metas_21;
-};
-
-// behaviac.Agent
 
 // VoiceSDK.SDKVoiceCallback
 struct SDKVoiceCallback_tB72D3EAD999E6E4EB4406FF3D49BBE519D629467_StaticFields
@@ -5524,10 +5750,6 @@ struct SDKVoiceCallback_tB72D3EAD999E6E4EB4406FF3D49BBE519D629467_StaticFields
 };
 
 // VoiceSDK.SDKVoiceCallback
-
-// BTAgent
-
-// BTAgent
 
 // Network.NetManager
 struct NetManager_tB2A4BC684A12558E88C4C9F254135A70C35DE1FC_StaticFields
@@ -5938,8 +6160,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetId_m1714A088
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorTree_SetName_mDFC8DDB0F7247607CB6DC2AE0C8D98B1A9365A05_inline (BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* __this, String_t* ___0_name, const RuntimeMethod* method) ;
 // System.Void behaviac.BehaviorTree::set_IsFSM(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline (BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* __this, bool ___0_value, const RuntimeMethod* method) ;
-// System.Void behaviac.BehaviorNode::SetAgentType(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline (BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* __this, String_t* ___0_agentType, const RuntimeMethod* method) ;
 // System.Void behaviac.Selector::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* __this, const RuntimeMethod* method) ;
 // System.Void behaviac.Sequence::.ctor()
@@ -6138,6 +6358,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Dest
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3__ctor_m2999214E84CB267B08AB39C9C4D79E7CCA5FD918 (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* __this, const RuntimeMethod* method) ;
 // System.Void behaviac.Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5__ctor_m6AE27DA518CD5E0F738F391AE0E6C21F2DBEB4F9 (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2__ctor_mF3969B9ED5224F1026AAB0F2CD8266523EF57029 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3__ctor_m77A7DC579FE359D24D7E3E14B0D237BE83231215 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4__ctor_m9DBB3D3CAD16F37C963E0142F3428A93C3C1DDAA (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5__ctor_mE01D362F5A5D339C88AF7FA7853D3F2E7591B0AD (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6__ctor_m4C9741B348976B492642CBB3B1118FC032B82E9B (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8__ctor_m70043FB1CB7B1DD4544D34562B8A0AEAA5FD7013 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9__ctor_m0837C9C429F0ECDC4D2C78E585FAA4EE2C068E03 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10__ctor_m24EAEAB95DEA9987FFEBB28200A891B60B64E624 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11__ctor_mF652534045E5CF326951610CCF00546A25C4207E (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12__ctor_m7AC688ABED42CD74A89DAEE89BA66F350D87F239 (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14__ctor_m4C82072D9C363F5329ACB1C6C3A4DC2C6F468925 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15__ctor_mAC3999574CF558BBF1F346FE15A819C9120C99D2 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16__ctor_mDB6379630BFD7FDB09E38754F18EC864F249D696 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18__ctor_m100472965D644CD4A55EAE0A3CBECF2885826EAD (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19__ctor_m24DF4D463E8FC64A7C3A3313A589070DEA4988F1 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21__ctor_mCFFCFC7DDD6F5C9009F4B504119407415428DFA3 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23__ctor_mBE28DC47FE4638E0D1D06B8862A95BDDE1D9C133 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24__ctor_m4CF45EE79A92381B24F505443C822F49E20C51A2 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* __this, const RuntimeMethod* method) ;
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25__ctor_m68DF4257C575198711BA400B10EA8647A5BC592B (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* __this, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -13221,13 +13479,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node1()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2000;
-		__this->___opl_p0_20 = ((int32_t)2000);
+		__this->___opl_p0_19 = ((int32_t)2000);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 1000;
-		__this->___opl_p2_22 = ((int32_t)1000);
+		__this->___opl_p2_21 = ((int32_t)1000);
 		// opl_p3 = 1000;
-		__this->___opl_p3_23 = ((int32_t)1000);
+		__this->___opl_p3_22 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -13245,10 +13503,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -13286,7 +13544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecoratorAlwaysSuccess_bt_APC_APC_Demian
 		// public DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3()
 		DecoratorAlwaysSuccess__ctor_mD76F5C7161645EEE1E3922188BD952EBB808CD13(__this, NULL);
 		// m_bDecorateWhenChildEnds = false;
-		((DecoratorNode_t3C76342E1C397DDF3855EC366C86C6DF37CB30FF*)__this)->___m_bDecorateWhenChildEnds_17 = (bool)0;
+		((DecoratorNode_t3C76342E1C397DDF3855EC366C86C6DF37CB30FF*)__this)->___m_bDecorateWhenChildEnds_16 = (bool)0;
 		// }
 		return;
 	}
@@ -13306,11 +13564,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node5
 		// public Condition_bt_APC_APC_Demian_Action_node5()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.NotEqual;
-		__this->___opl_p1_21 = 1;
+		__this->___opl_p1_20 = 1;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -13328,9 +13586,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -13368,7 +13626,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node6
 		// public Condition_bt_APC_APC_Demian_Action_node6()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 8004;
-		__this->___opl_p0_20 = ((int32_t)8004);
+		__this->___opl_p0_19 = ((int32_t)8004);
 		// }
 		return;
 	}
@@ -13386,7 +13644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -13439,15 +13697,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node7__c
 		// public Action_bt_APC_APC_Demian_Action_node7()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 3;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 3, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -13469,7 +13727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node7__c
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -13492,7 +13750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node7__c
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -13515,12 +13773,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node7__c
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -13537,8 +13795,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_node7
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -13560,13 +13818,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node9
 		// public Condition_bt_APC_APC_Demian_Action_node9()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 5000;
-		__this->___opl_p0_20 = ((int32_t)5000);
+		__this->___opl_p0_19 = ((int32_t)5000);
 		// opl_p1 = 2000;
-		__this->___opl_p1_21 = ((int32_t)2000);
+		__this->___opl_p1_20 = ((int32_t)2000);
 		// opl_p2 = 2000;
-		__this->___opl_p2_22 = ((int32_t)2000);
+		__this->___opl_p2_21 = ((int32_t)2000);
 		// opl_p3 = 2000;
-		__this->___opl_p3_23 = ((int32_t)2000);
+		__this->___opl_p3_22 = ((int32_t)2000);
 		// }
 		return;
 	}
@@ -13584,10 +13842,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -13625,7 +13883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node11()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.4f;
-		__this->___opl_p0_20 = (0.400000006f);
+		__this->___opl_p0_19 = (0.400000006f);
 		// }
 		return;
 	}
@@ -13643,7 +13901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -13681,7 +13939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node12()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 8005;
-		__this->___opl_p0_20 = ((int32_t)8005);
+		__this->___opl_p0_19 = ((int32_t)8005);
 		// }
 		return;
 	}
@@ -13699,7 +13957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -13748,15 +14006,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node13__
 		// public Action_bt_APC_APC_Demian_Action_node13()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -13778,12 +14036,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node13__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -13800,8 +14058,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_node1
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -13823,13 +14081,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node15()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 6000;
-		__this->___opl_p0_20 = ((int32_t)6000);
+		__this->___opl_p0_19 = ((int32_t)6000);
 		// opl_p1 = 0;
-		__this->___opl_p1_21 = 0;
+		__this->___opl_p1_20 = 0;
 		// opl_p2 = 3000;
-		__this->___opl_p2_22 = ((int32_t)3000);
+		__this->___opl_p2_21 = ((int32_t)3000);
 		// opl_p3 = 3000;
-		__this->___opl_p3_23 = ((int32_t)3000);
+		__this->___opl_p3_22 = ((int32_t)3000);
 		// }
 		return;
 	}
@@ -13847,10 +14105,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -13888,11 +14146,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node16()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.NotEqual;
-		__this->___opl_p1_21 = 1;
+		__this->___opl_p1_20 = 1;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -13910,9 +14168,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -13950,7 +14208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node17()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 8006;
-		__this->___opl_p0_20 = ((int32_t)8006);
+		__this->___opl_p0_19 = ((int32_t)8006);
 		// }
 		return;
 	}
@@ -13968,7 +14226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -14006,7 +14264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_node1
 		// public Condition_bt_APC_APC_Demian_Action_node19()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.7f;
-		__this->___opl_p0_20 = (0.699999988f);
+		__this->___opl_p0_19 = (0.699999988f);
 		// }
 		return;
 	}
@@ -14024,7 +14282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -14073,15 +14331,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node18__
 		// public Action_bt_APC_APC_Demian_Action_node18()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -14103,12 +14361,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_node18__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -14125,8 +14383,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_node1
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -14164,7 +14422,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Demian_Action_build_behavior_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4AABC0FBA95236FBD285D6F5F3C312465D5C81DA);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA37060C2481D14C98930EB741B41866F2FAACBBE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
@@ -14210,690 +14467,606 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Demian_Action_build_behavior_
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node2 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node2.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node2.SetId(2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 2, NULL);
 		// node0.AddChild(node2);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Demian_Action_node1 node1 = new Condition_bt_APC_APC_Demian_Action_node1();
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_17 = (Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Demian_Action_node1__ctor_mE47C7215535AA8163D88C884C3EC6CCFCE7A9711(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_14 = (Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Demian_Action_node1__ctor_mE47C7215535AA8163D88C884C3EC6CCFCE7A9711(L_14, NULL);
+		V_2 = L_14;
 		// node1.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node1.SetId(1);
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 1, NULL);
 		// node2.AddChild(node1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node2.SetHasEvents(node2.HasEvents() | node1.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Demian_Action_node1_tA1D53574E48B2DE05BE3649E0EF35C259B92BF5C* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3 node3 = new DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3();
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_28 = (DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50*)il2cpp_codegen_object_new(DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3__ctor_m959AF517E15886141FCFAB4972F3C1889F4BA7D3(L_28, NULL);
-		V_3 = L_28;
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_24 = (DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50*)il2cpp_codegen_object_new(DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3__ctor_m959AF517E15886141FCFAB4972F3C1889F4BA7D3(L_24, NULL);
+		V_3 = L_24;
 		// node3.SetClassNameString("DecoratorAlwaysSuccess");
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralA37060C2481D14C98930EB741B41866F2FAACBBE, NULL);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralA37060C2481D14C98930EB741B41866F2FAACBBE, NULL);
 		// node3.SetId(3);
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 3, NULL);
 		// node2.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_33 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
+		// Sequence node4 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_29);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_29, NULL);
+		V_4 = L_29;
+		// node4.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_4;
+		NullCheck(L_30);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_30, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node4.SetId(4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_31 = V_4;
+		NullCheck(L_31);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_31, 4, NULL);
+		// node3.AddChild(node4);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_32 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_33 = V_4;
 		NullCheck(L_32);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
-		// Sequence node4 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_34);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_34, NULL);
-		V_4 = L_34;
-		// node4.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_4;
-		NullCheck(L_35);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node4.SetId(4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_36 = V_4;
-		NullCheck(L_36);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 4, NULL);
-		// node4.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_4;
-		NullCheck(L_37);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_37, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node4);
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_38 = V_3;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_4;
-		NullCheck(L_38);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_38, L_39);
 		// Condition_bt_APC_APC_Demian_Action_node5 node5 = new Condition_bt_APC_APC_Demian_Action_node5();
-		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_40 = (Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7_il2cpp_TypeInfo_var);
-		NullCheck(L_40);
-		Condition_bt_APC_APC_Demian_Action_node5__ctor_m76EB4A1708F128B628667ACA0C3CE572FD75D2AE(L_40, NULL);
-		V_5 = L_40;
+		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_34 = (Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		Condition_bt_APC_APC_Demian_Action_node5__ctor_m76EB4A1708F128B628667ACA0C3CE572FD75D2AE(L_34, NULL);
+		V_5 = L_34;
 		// node5.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_41 = V_5;
-		NullCheck(L_41);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_41, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_35 = V_5;
+		NullCheck(L_35);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node5.SetId(5);
+		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_36 = V_5;
+		NullCheck(L_36);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 5, NULL);
+		// node4.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_4;
+		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_38 = V_5;
+		NullCheck(L_37);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_37, L_38);
+		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_4;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
 		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_42 = V_5;
 		NullCheck(L_42);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_42, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_43 = V_5;
-		NullCheck(L_43);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_43, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_44 = V_4;
-		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_45 = V_5;
-		NullCheck(L_44);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_44, L_45);
-		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
-		NullCheck(L_47);
-		bool L_48;
-		L_48 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_47, NULL);
-		Condition_bt_APC_APC_Demian_Action_node5_t8FE029926651CD0631B460097100D0E12B9FB2B7* L_49 = V_5;
-		NullCheck(L_49);
-		bool L_50;
-		L_50 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_49, NULL);
-		NullCheck(L_46);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_46, (bool)((int32_t)((int32_t)L_48|(int32_t)L_50)), NULL);
+		bool L_43;
+		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
+		NullCheck(L_39);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Condition_bt_APC_APC_Demian_Action_node6 node6 = new Condition_bt_APC_APC_Demian_Action_node6();
-		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_51 = (Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377_il2cpp_TypeInfo_var);
-		NullCheck(L_51);
-		Condition_bt_APC_APC_Demian_Action_node6__ctor_mBF588142A9BA7276645F7F37BA2513A294E42C3E(L_51, NULL);
-		V_6 = L_51;
+		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_44 = (Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_Demian_Action_node6__ctor_mBF588142A9BA7276645F7F37BA2513A294E42C3E(L_44, NULL);
+		V_6 = L_44;
 		// node6.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_45 = V_6;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node6.SetId(6);
+		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_46 = V_6;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 6, NULL);
+		// node4.AddChild(node6);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
+		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_48 = V_6;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node4.SetHasEvents(node4.HasEvents() | node6.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_4;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_52 = V_6;
 		NullCheck(L_52);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_52, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node6.SetId(6);
-		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_53 = V_6;
-		NullCheck(L_53);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_53, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_54 = V_6;
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
+		// Action_bt_APC_APC_Demian_Action_node7 node7 = new Action_bt_APC_APC_Demian_Action_node7();
+		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_54 = (Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73_il2cpp_TypeInfo_var);
 		NullCheck(L_54);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_54, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_55 = V_4;
-		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_56 = V_6;
+		Action_bt_APC_APC_Demian_Action_node7__ctor_m485DBE26D8E2B3FAFD22158D34385C634489DAD6(L_54, NULL);
+		V_7 = L_54;
+		// node7.SetClassNameString("Action");
+		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_55 = V_7;
 		NullCheck(L_55);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_55, L_56);
-		// node4.SetHasEvents(node4.HasEvents() | node6.HasEvents());
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node7.SetId(7);
+		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_56 = V_7;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, 7, NULL);
+		// node4.AddChild(node7);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_58 = V_4;
-		NullCheck(L_58);
-		bool L_59;
-		L_59 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_58, NULL);
-		Condition_bt_APC_APC_Demian_Action_node6_t332D29085151B4B9782678544AC9F4F9A690E377* L_60 = V_6;
+		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_58 = V_7;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node4.SetHasEvents(node4.HasEvents() | node7.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_4;
 		NullCheck(L_60);
 		bool L_61;
 		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
-		NullCheck(L_57);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_57, (bool)((int32_t)((int32_t)L_59|(int32_t)L_61)), NULL);
-		// Action_bt_APC_APC_Demian_Action_node7 node7 = new Action_bt_APC_APC_Demian_Action_node7();
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_62 = (Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73_il2cpp_TypeInfo_var);
+		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_62 = V_7;
 		NullCheck(L_62);
-		Action_bt_APC_APC_Demian_Action_node7__ctor_m485DBE26D8E2B3FAFD22158D34385C634489DAD6(L_62, NULL);
-		V_7 = L_62;
-		// node7.SetClassNameString("Action");
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_63 = V_7;
-		NullCheck(L_63);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_63, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node7.SetId(7);
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_64 = V_7;
-		NullCheck(L_64);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_64, 7, NULL);
-		// node7.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_65 = V_7;
-		NullCheck(L_65);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_65, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node7);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_66 = V_4;
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_67 = V_7;
-		NullCheck(L_66);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_66, L_67);
-		// node4.SetHasEvents(node4.HasEvents() | node7.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = V_4;
-		NullCheck(L_69);
-		bool L_70;
-		L_70 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_69, NULL);
-		Action_bt_APC_APC_Demian_Action_node7_t0D6A2073203FDE27B910E5DEB8EA58B51CD65F73* L_71 = V_7;
-		NullCheck(L_71);
-		bool L_72;
-		L_72 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_71, NULL);
-		NullCheck(L_68);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_68, (bool)((int32_t)((int32_t)L_70|(int32_t)L_72)), NULL);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// node3.SetHasEvents(node3.HasEvents() | node4.HasEvents());
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_73 = V_3;
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_74 = V_3;
-		NullCheck(L_74);
-		bool L_75;
-		L_75 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_74, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_76 = V_4;
-		NullCheck(L_76);
-		bool L_77;
-		L_77 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_76, NULL);
-		NullCheck(L_73);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_73, (bool)((int32_t)((int32_t)L_75|(int32_t)L_77)), NULL);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_64 = V_3;
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_65 = V_3;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_4;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
 		// node2.SetHasEvents(node2.HasEvents() | node3.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_78 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_1;
-		NullCheck(L_79);
-		bool L_80;
-		L_80 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_79, NULL);
-		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_81 = V_3;
-		NullCheck(L_81);
-		bool L_82;
-		L_82 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_81, NULL);
-		NullCheck(L_78);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_78, (bool)((int32_t)((int32_t)L_80|(int32_t)L_82)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_1;
+		NullCheck(L_70);
+		bool L_71;
+		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
+		DecoratorAlwaysSuccess_bt_APC_APC_Demian_Action_node3_t4EF10C3537AB9B8C2D002AB1EEFC3207A90D2C50* L_72 = V_3;
+		NullCheck(L_72);
+		bool L_73;
+		L_73 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_72, NULL);
+		NullCheck(L_69);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_69, (bool)((int32_t)((int32_t)L_71|(int32_t)L_73)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node2.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_83 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_84 = V_0;
-		NullCheck(L_84);
-		bool L_85;
-		L_85 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_84, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_86 = V_1;
-		NullCheck(L_86);
-		bool L_87;
-		L_87 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_86, NULL);
-		NullCheck(L_83);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_83, (bool)((int32_t)((int32_t)L_85|(int32_t)L_87)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_74 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_75 = V_0;
+		NullCheck(L_75);
+		bool L_76;
+		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_1;
+		NullCheck(L_77);
+		bool L_78;
+		L_78 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_77, NULL);
+		NullCheck(L_74);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_74, (bool)((int32_t)((int32_t)L_76|(int32_t)L_78)), NULL);
 		// Sequence node8 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_88 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_88);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_88, NULL);
-		V_8 = L_88;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_79);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_79, NULL);
+		V_8 = L_79;
 		// node8.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_8;
-		NullCheck(L_89);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_89, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_8;
+		NullCheck(L_80);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_80, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node8.SetId(8);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_81 = V_8;
+		NullCheck(L_81);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_81, 8, NULL);
+		// node0.AddChild(node8);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_82 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_83 = V_8;
+		NullCheck(L_82);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_82, L_83);
+		// Condition_bt_APC_APC_Demian_Action_node9 node9 = new Condition_bt_APC_APC_Demian_Action_node9();
+		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_84 = (Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		Condition_bt_APC_APC_Demian_Action_node9__ctor_m773866FD0977DF3AC53B23FEE69F77F991433930(L_84, NULL);
+		V_9 = L_84;
+		// node9.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_85 = V_9;
+		NullCheck(L_85);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node9.SetId(9);
+		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_86 = V_9;
+		NullCheck(L_86);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)9), NULL);
+		// node8.AddChild(node9);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_8;
+		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_88 = V_9;
+		NullCheck(L_87);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
+		// node8.SetHasEvents(node8.HasEvents() | node9.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_8;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_8;
 		NullCheck(L_90);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_90, 8, NULL);
-		// node8.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_91 = V_8;
-		NullCheck(L_91);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_91, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node8);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_92 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_93 = V_8;
+		bool L_91;
+		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
+		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_92 = V_9;
 		NullCheck(L_92);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_92, L_93);
-		// Condition_bt_APC_APC_Demian_Action_node9 node9 = new Condition_bt_APC_APC_Demian_Action_node9();
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_94 = (Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE_il2cpp_TypeInfo_var);
-		NullCheck(L_94);
-		Condition_bt_APC_APC_Demian_Action_node9__ctor_m773866FD0977DF3AC53B23FEE69F77F991433930(L_94, NULL);
-		V_9 = L_94;
-		// node9.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_95 = V_9;
-		NullCheck(L_95);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node9.SetId(9);
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_96 = V_9;
-		NullCheck(L_96);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)9), NULL);
-		// node9.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_97 = V_9;
-		NullCheck(L_97);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_97, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node8.AddChild(node9);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_8;
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_99 = V_9;
-		NullCheck(L_98);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_98, L_99);
-		// node8.SetHasEvents(node8.HasEvents() | node9.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_8;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_8;
-		NullCheck(L_101);
-		bool L_102;
-		L_102 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_101, NULL);
-		Condition_bt_APC_APC_Demian_Action_node9_tD1F77EFA0D6ABE61620DC9101DF42CDA2A7A7AFE* L_103 = V_9;
-		NullCheck(L_103);
-		bool L_104;
-		L_104 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_103, NULL);
-		NullCheck(L_100);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_100, (bool)((int32_t)((int32_t)L_102|(int32_t)L_104)), NULL);
+		bool L_93;
+		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
+		NullCheck(L_89);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
 		// Sequence node10 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_105 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_105);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_105, NULL);
-		V_10 = L_105;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_94 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_94);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_94, NULL);
+		V_10 = L_94;
 		// node10.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_106 = V_10;
-		NullCheck(L_106);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_106, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_95 = V_10;
+		NullCheck(L_95);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node10.SetId(10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_10;
-		NullCheck(L_107);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_107, ((int32_t)10), NULL);
-		// node10.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_108 = V_10;
-		NullCheck(L_108);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_108, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_96 = V_10;
+		NullCheck(L_96);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)10), NULL);
 		// node8.AddChild(node10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_8;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = V_10;
-		NullCheck(L_109);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_109, L_110);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_8;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_10;
+		NullCheck(L_97);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_97, L_98);
 		// Condition_bt_APC_APC_Demian_Action_node11 node11 = new Condition_bt_APC_APC_Demian_Action_node11();
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_111 = (Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66_il2cpp_TypeInfo_var);
-		NullCheck(L_111);
-		Condition_bt_APC_APC_Demian_Action_node11__ctor_m6D00D5416A351B0DB203D33E5788FF61195774EA(L_111, NULL);
-		V_11 = L_111;
+		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_99 = (Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66_il2cpp_TypeInfo_var);
+		NullCheck(L_99);
+		Condition_bt_APC_APC_Demian_Action_node11__ctor_m6D00D5416A351B0DB203D33E5788FF61195774EA(L_99, NULL);
+		V_11 = L_99;
 		// node11.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_112 = V_11;
-		NullCheck(L_112);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_112, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_100 = V_11;
+		NullCheck(L_100);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_100, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node11.SetId(11);
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_113 = V_11;
-		NullCheck(L_113);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_113, ((int32_t)11), NULL);
-		// node11.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_114 = V_11;
-		NullCheck(L_114);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_114, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_101 = V_11;
+		NullCheck(L_101);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_101, ((int32_t)11), NULL);
 		// node10.AddChild(node11);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_115 = V_10;
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_116 = V_11;
-		NullCheck(L_115);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_115, L_116);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_102 = V_10;
+		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_103 = V_11;
+		NullCheck(L_102);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_102, L_103);
 		// node10.SetHasEvents(node10.HasEvents() | node11.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_117 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_118 = V_10;
-		NullCheck(L_118);
-		bool L_119;
-		L_119 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_118, NULL);
-		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_120 = V_11;
-		NullCheck(L_120);
-		bool L_121;
-		L_121 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_120, NULL);
-		NullCheck(L_117);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_117, (bool)((int32_t)((int32_t)L_119|(int32_t)L_121)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_104 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_105 = V_10;
+		NullCheck(L_105);
+		bool L_106;
+		L_106 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_105, NULL);
+		Condition_bt_APC_APC_Demian_Action_node11_t0694A8826A63CB1967EC1DD6CE2D93442DD7FF66* L_107 = V_11;
+		NullCheck(L_107);
+		bool L_108;
+		L_108 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_107, NULL);
+		NullCheck(L_104);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_104, (bool)((int32_t)((int32_t)L_106|(int32_t)L_108)), NULL);
 		// Condition_bt_APC_APC_Demian_Action_node12 node12 = new Condition_bt_APC_APC_Demian_Action_node12();
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_122 = (Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97_il2cpp_TypeInfo_var);
-		NullCheck(L_122);
-		Condition_bt_APC_APC_Demian_Action_node12__ctor_mDFAC66D8999B30886F802F9D9DD218DB83FB6142(L_122, NULL);
-		V_12 = L_122;
+		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_109 = (Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97_il2cpp_TypeInfo_var);
+		NullCheck(L_109);
+		Condition_bt_APC_APC_Demian_Action_node12__ctor_mDFAC66D8999B30886F802F9D9DD218DB83FB6142(L_109, NULL);
+		V_12 = L_109;
 		// node12.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_123 = V_12;
-		NullCheck(L_123);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_123, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_110 = V_12;
+		NullCheck(L_110);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_110, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node12.SetId(12);
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_124 = V_12;
-		NullCheck(L_124);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_124, ((int32_t)12), NULL);
-		// node12.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_125 = V_12;
-		NullCheck(L_125);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_125, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_111 = V_12;
+		NullCheck(L_111);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_111, ((int32_t)12), NULL);
 		// node10.AddChild(node12);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_126 = V_10;
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_127 = V_12;
-		NullCheck(L_126);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_126, L_127);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_112 = V_10;
+		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_113 = V_12;
+		NullCheck(L_112);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_112, L_113);
 		// node10.SetHasEvents(node10.HasEvents() | node12.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_128 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = V_10;
-		NullCheck(L_129);
-		bool L_130;
-		L_130 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_129, NULL);
-		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_131 = V_12;
-		NullCheck(L_131);
-		bool L_132;
-		L_132 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_131, NULL);
-		NullCheck(L_128);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_128, (bool)((int32_t)((int32_t)L_130|(int32_t)L_132)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_114 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_115 = V_10;
+		NullCheck(L_115);
+		bool L_116;
+		L_116 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_115, NULL);
+		Condition_bt_APC_APC_Demian_Action_node12_t9DD7546EA1C867AD4D8AA4F181877165ADC29B97* L_117 = V_12;
+		NullCheck(L_117);
+		bool L_118;
+		L_118 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_117, NULL);
+		NullCheck(L_114);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_114, (bool)((int32_t)((int32_t)L_116|(int32_t)L_118)), NULL);
 		// Action_bt_APC_APC_Demian_Action_node13 node13 = new Action_bt_APC_APC_Demian_Action_node13();
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_133 = (Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47_il2cpp_TypeInfo_var);
-		NullCheck(L_133);
-		Action_bt_APC_APC_Demian_Action_node13__ctor_mC69489359EFA241C719658251C277B522AD7390A(L_133, NULL);
-		V_13 = L_133;
+		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_119 = (Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47_il2cpp_TypeInfo_var);
+		NullCheck(L_119);
+		Action_bt_APC_APC_Demian_Action_node13__ctor_mC69489359EFA241C719658251C277B522AD7390A(L_119, NULL);
+		V_13 = L_119;
 		// node13.SetClassNameString("Action");
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_134 = V_13;
-		NullCheck(L_134);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_134, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_120 = V_13;
+		NullCheck(L_120);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_120, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node13.SetId(13);
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_135 = V_13;
-		NullCheck(L_135);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_135, ((int32_t)13), NULL);
-		// node13.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_136 = V_13;
-		NullCheck(L_136);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_136, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_121 = V_13;
+		NullCheck(L_121);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_121, ((int32_t)13), NULL);
 		// node10.AddChild(node13);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_10;
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_138 = V_13;
-		NullCheck(L_137);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_137, L_138);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_122 = V_10;
+		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_123 = V_13;
+		NullCheck(L_122);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_122, L_123);
 		// node10.SetHasEvents(node10.HasEvents() | node13.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_10;
-		NullCheck(L_140);
-		bool L_141;
-		L_141 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_140, NULL);
-		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_142 = V_13;
-		NullCheck(L_142);
-		bool L_143;
-		L_143 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_142, NULL);
-		NullCheck(L_139);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_139, (bool)((int32_t)((int32_t)L_141|(int32_t)L_143)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_124 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_125 = V_10;
+		NullCheck(L_125);
+		bool L_126;
+		L_126 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_125, NULL);
+		Action_bt_APC_APC_Demian_Action_node13_tF2435DBE4CB7F6D630B67A6946FDA96FBF8FEB47* L_127 = V_13;
+		NullCheck(L_127);
+		bool L_128;
+		L_128 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_127, NULL);
+		NullCheck(L_124);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_124, (bool)((int32_t)((int32_t)L_126|(int32_t)L_128)), NULL);
 		// node8.SetHasEvents(node8.HasEvents() | node10.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_144 = V_8;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_145 = V_8;
-		NullCheck(L_145);
-		bool L_146;
-		L_146 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_145, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_10;
-		NullCheck(L_147);
-		bool L_148;
-		L_148 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_147, NULL);
-		NullCheck(L_144);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_144, (bool)((int32_t)((int32_t)L_146|(int32_t)L_148)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = V_8;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_8;
+		NullCheck(L_130);
+		bool L_131;
+		L_131 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_130, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_132 = V_10;
+		NullCheck(L_132);
+		bool L_133;
+		L_133 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_132, NULL);
+		NullCheck(L_129);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_129, (bool)((int32_t)((int32_t)L_131|(int32_t)L_133)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node8.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_149 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_150 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_134 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_135 = V_0;
+		NullCheck(L_135);
+		bool L_136;
+		L_136 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_135, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_8;
+		NullCheck(L_137);
+		bool L_138;
+		L_138 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_137, NULL);
+		NullCheck(L_134);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_134, (bool)((int32_t)((int32_t)L_136|(int32_t)L_138)), NULL);
+		// Sequence node14 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_139);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_139, NULL);
+		V_14 = L_139;
+		// node14.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_14;
+		NullCheck(L_140);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_140, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node14.SetId(14);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_141 = V_14;
+		NullCheck(L_141);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_141, ((int32_t)14), NULL);
+		// node0.AddChild(node14);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_142 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_143 = V_14;
+		NullCheck(L_142);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_142, L_143);
+		// Condition_bt_APC_APC_Demian_Action_node15 node15 = new Condition_bt_APC_APC_Demian_Action_node15();
+		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_144 = (Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54_il2cpp_TypeInfo_var);
+		NullCheck(L_144);
+		Condition_bt_APC_APC_Demian_Action_node15__ctor_mDC87A267A66151B70DFAA3294290E1F55518D4C7(L_144, NULL);
+		V_15 = L_144;
+		// node15.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_145 = V_15;
+		NullCheck(L_145);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_145, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node15.SetId(15);
+		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_146 = V_15;
+		NullCheck(L_146);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_146, ((int32_t)15), NULL);
+		// node14.AddChild(node15);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_14;
+		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_148 = V_15;
+		NullCheck(L_147);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_147, L_148);
+		// node14.SetHasEvents(node14.HasEvents() | node15.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_149 = V_14;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_150 = V_14;
 		NullCheck(L_150);
 		bool L_151;
 		L_151 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_150, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_152 = V_8;
+		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_152 = V_15;
 		NullCheck(L_152);
 		bool L_153;
 		L_153 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_152, NULL);
 		NullCheck(L_149);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_149, (bool)((int32_t)((int32_t)L_151|(int32_t)L_153)), NULL);
-		// Sequence node14 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_154 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_154);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_154, NULL);
-		V_14 = L_154;
-		// node14.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_155 = V_14;
-		NullCheck(L_155);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node14.SetId(14);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_156 = V_14;
-		NullCheck(L_156);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)14), NULL);
-		// node14.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_14;
-		NullCheck(L_157);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_157, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node14);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_158 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_14;
-		NullCheck(L_158);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_158, L_159);
-		// Condition_bt_APC_APC_Demian_Action_node15 node15 = new Condition_bt_APC_APC_Demian_Action_node15();
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_160 = (Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54_il2cpp_TypeInfo_var);
-		NullCheck(L_160);
-		Condition_bt_APC_APC_Demian_Action_node15__ctor_mDC87A267A66151B70DFAA3294290E1F55518D4C7(L_160, NULL);
-		V_15 = L_160;
-		// node15.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_161 = V_15;
-		NullCheck(L_161);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_161, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node15.SetId(15);
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_162 = V_15;
-		NullCheck(L_162);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_162, ((int32_t)15), NULL);
-		// node15.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_163 = V_15;
-		NullCheck(L_163);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_163, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node14.AddChild(node15);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_164 = V_14;
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_165 = V_15;
-		NullCheck(L_164);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_164, L_165);
-		// node14.SetHasEvents(node14.HasEvents() | node15.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_166 = V_14;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_14;
-		NullCheck(L_167);
-		bool L_168;
-		L_168 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_167, NULL);
-		Condition_bt_APC_APC_Demian_Action_node15_tD1F5A52BE72FD9CA535725CBB1586150AE4E5A54* L_169 = V_15;
-		NullCheck(L_169);
-		bool L_170;
-		L_170 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_169, NULL);
-		NullCheck(L_166);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_166, (bool)((int32_t)((int32_t)L_168|(int32_t)L_170)), NULL);
 		// Condition_bt_APC_APC_Demian_Action_node16 node16 = new Condition_bt_APC_APC_Demian_Action_node16();
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_171 = (Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D_il2cpp_TypeInfo_var);
-		NullCheck(L_171);
-		Condition_bt_APC_APC_Demian_Action_node16__ctor_m16B0DEE627E6D881A73C95105E150CF7822A9186(L_171, NULL);
-		V_16 = L_171;
+		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_154 = (Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D_il2cpp_TypeInfo_var);
+		NullCheck(L_154);
+		Condition_bt_APC_APC_Demian_Action_node16__ctor_m16B0DEE627E6D881A73C95105E150CF7822A9186(L_154, NULL);
+		V_16 = L_154;
 		// node16.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_172 = V_16;
-		NullCheck(L_172);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_172, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_155 = V_16;
+		NullCheck(L_155);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node16.SetId(16);
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_173 = V_16;
-		NullCheck(L_173);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_173, ((int32_t)16), NULL);
-		// node16.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_174 = V_16;
-		NullCheck(L_174);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_174, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_156 = V_16;
+		NullCheck(L_156);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)16), NULL);
 		// node14.AddChild(node16);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_175 = V_14;
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_176 = V_16;
-		NullCheck(L_175);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_175, L_176);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_14;
+		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_158 = V_16;
+		NullCheck(L_157);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_157, L_158);
 		// node14.SetHasEvents(node14.HasEvents() | node16.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_14;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_160 = V_14;
+		NullCheck(L_160);
+		bool L_161;
+		L_161 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_160, NULL);
+		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_162 = V_16;
+		NullCheck(L_162);
+		bool L_163;
+		L_163 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_162, NULL);
+		NullCheck(L_159);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_159, (bool)((int32_t)((int32_t)L_161|(int32_t)L_163)), NULL);
+		// Condition_bt_APC_APC_Demian_Action_node17 node17 = new Condition_bt_APC_APC_Demian_Action_node17();
+		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_164 = (Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010_il2cpp_TypeInfo_var);
+		NullCheck(L_164);
+		Condition_bt_APC_APC_Demian_Action_node17__ctor_mB074BD048AA5E83E0E76A499B78FF62B9EFC96C4(L_164, NULL);
+		V_17 = L_164;
+		// node17.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_165 = V_17;
+		NullCheck(L_165);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_165, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node17.SetId(17);
+		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_166 = V_17;
+		NullCheck(L_166);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_166, ((int32_t)17), NULL);
+		// node14.AddChild(node17);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_14;
+		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_168 = V_17;
+		NullCheck(L_167);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_167, L_168);
+		// node14.SetHasEvents(node14.HasEvents() | node17.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_169 = V_14;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_14;
+		NullCheck(L_170);
+		bool L_171;
+		L_171 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_170, NULL);
+		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_172 = V_17;
+		NullCheck(L_172);
+		bool L_173;
+		L_173 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_172, NULL);
+		NullCheck(L_169);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_169, (bool)((int32_t)((int32_t)L_171|(int32_t)L_173)), NULL);
+		// Condition_bt_APC_APC_Demian_Action_node19 node19 = new Condition_bt_APC_APC_Demian_Action_node19();
+		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_174 = (Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3_il2cpp_TypeInfo_var);
+		NullCheck(L_174);
+		Condition_bt_APC_APC_Demian_Action_node19__ctor_m49C5949284CEDDCD3B2847FEAF0B1BBCA587D6C2(L_174, NULL);
+		V_18 = L_174;
+		// node19.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_175 = V_18;
+		NullCheck(L_175);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_175, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node19.SetId(19);
+		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_176 = V_18;
+		NullCheck(L_176);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_176, ((int32_t)19), NULL);
+		// node14.AddChild(node19);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_14;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_178 = V_14;
-		NullCheck(L_178);
-		bool L_179;
-		L_179 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_178, NULL);
-		Condition_bt_APC_APC_Demian_Action_node16_t9907E85A2AC25477E29750FBB71E0721B579840D* L_180 = V_16;
+		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_178 = V_18;
+		NullCheck(L_177);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_177, L_178);
+		// node14.SetHasEvents(node14.HasEvents() | node19.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_179 = V_14;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_180 = V_14;
 		NullCheck(L_180);
 		bool L_181;
 		L_181 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_180, NULL);
-		NullCheck(L_177);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_177, (bool)((int32_t)((int32_t)L_179|(int32_t)L_181)), NULL);
-		// Condition_bt_APC_APC_Demian_Action_node17 node17 = new Condition_bt_APC_APC_Demian_Action_node17();
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_182 = (Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010_il2cpp_TypeInfo_var);
+		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_182 = V_18;
 		NullCheck(L_182);
-		Condition_bt_APC_APC_Demian_Action_node17__ctor_mB074BD048AA5E83E0E76A499B78FF62B9EFC96C4(L_182, NULL);
-		V_17 = L_182;
-		// node17.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_183 = V_17;
-		NullCheck(L_183);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_183, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node17.SetId(17);
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_184 = V_17;
+		bool L_183;
+		L_183 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_182, NULL);
+		NullCheck(L_179);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_179, (bool)((int32_t)((int32_t)L_181|(int32_t)L_183)), NULL);
+		// Action_bt_APC_APC_Demian_Action_node18 node18 = new Action_bt_APC_APC_Demian_Action_node18();
+		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_184 = (Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C_il2cpp_TypeInfo_var);
 		NullCheck(L_184);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_184, ((int32_t)17), NULL);
-		// node17.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_185 = V_17;
+		Action_bt_APC_APC_Demian_Action_node18__ctor_m89287C8AC3DC0FC0AA7E799E6DBE578ED1752230(L_184, NULL);
+		V_19 = L_184;
+		// node18.SetClassNameString("Action");
+		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_185 = V_19;
 		NullCheck(L_185);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_185, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node14.AddChild(node17);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_186 = V_14;
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_187 = V_17;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_185, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node18.SetId(18);
+		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_186 = V_19;
 		NullCheck(L_186);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_186, L_187);
-		// node14.SetHasEvents(node14.HasEvents() | node17.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_188 = V_14;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_186, ((int32_t)18), NULL);
+		// node14.AddChild(node18);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = V_14;
+		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_188 = V_19;
+		NullCheck(L_187);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_187, L_188);
+		// node14.SetHasEvents(node14.HasEvents() | node18.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_14;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_190 = V_14;
+		NullCheck(L_190);
+		bool L_191;
+		L_191 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_190, NULL);
+		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_192 = V_19;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_192, NULL);
 		NullCheck(L_189);
-		bool L_190;
-		L_190 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_189, NULL);
-		Condition_bt_APC_APC_Demian_Action_node17_tD2FFC030DE33C870C3C460BF347ED8B89CDD3010* L_191 = V_17;
-		NullCheck(L_191);
-		bool L_192;
-		L_192 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_191, NULL);
-		NullCheck(L_188);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_188, (bool)((int32_t)((int32_t)L_190|(int32_t)L_192)), NULL);
-		// Condition_bt_APC_APC_Demian_Action_node19 node19 = new Condition_bt_APC_APC_Demian_Action_node19();
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_193 = (Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3_il2cpp_TypeInfo_var);
-		NullCheck(L_193);
-		Condition_bt_APC_APC_Demian_Action_node19__ctor_m49C5949284CEDDCD3B2847FEAF0B1BBCA587D6C2(L_193, NULL);
-		V_18 = L_193;
-		// node19.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_194 = V_18;
-		NullCheck(L_194);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_194, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node19.SetId(19);
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_195 = V_18;
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_189, (bool)((int32_t)((int32_t)L_191|(int32_t)L_193)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node14.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_194 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_195 = V_0;
 		NullCheck(L_195);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_195, ((int32_t)19), NULL);
-		// node19.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_196 = V_18;
-		NullCheck(L_196);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_196, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node14.AddChild(node19);
+		bool L_196;
+		L_196 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_195, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_14;
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_198 = V_18;
 		NullCheck(L_197);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_197, L_198);
-		// node14.SetHasEvents(node14.HasEvents() | node19.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_199 = V_14;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_200 = V_14;
+		bool L_198;
+		L_198 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_197, NULL);
+		NullCheck(L_194);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_194, (bool)((int32_t)((int32_t)L_196|(int32_t)L_198)), NULL);
+		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_199 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_200 = ___0_bt;
 		NullCheck(L_200);
 		bool L_201;
 		L_201 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_200, NULL);
-		Condition_bt_APC_APC_Demian_Action_node19_tD2141DDA3BF647D04C4D5794B62AB3841BA3B1F3* L_202 = V_18;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_202 = V_0;
 		NullCheck(L_202);
 		bool L_203;
 		L_203 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_202, NULL);
 		NullCheck(L_199);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_199, (bool)((int32_t)((int32_t)L_201|(int32_t)L_203)), NULL);
-		// Action_bt_APC_APC_Demian_Action_node18 node18 = new Action_bt_APC_APC_Demian_Action_node18();
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_204 = (Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C_il2cpp_TypeInfo_var);
-		NullCheck(L_204);
-		Action_bt_APC_APC_Demian_Action_node18__ctor_m89287C8AC3DC0FC0AA7E799E6DBE578ED1752230(L_204, NULL);
-		V_19 = L_204;
-		// node18.SetClassNameString("Action");
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_205 = V_19;
-		NullCheck(L_205);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_205, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node18.SetId(18);
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_206 = V_19;
-		NullCheck(L_206);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)18), NULL);
-		// node18.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_207 = V_19;
-		NullCheck(L_207);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_207, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node14.AddChild(node18);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_208 = V_14;
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_209 = V_19;
-		NullCheck(L_208);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_208, L_209);
-		// node14.SetHasEvents(node14.HasEvents() | node18.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_14;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_211 = V_14;
-		NullCheck(L_211);
-		bool L_212;
-		L_212 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_211, NULL);
-		Action_bt_APC_APC_Demian_Action_node18_t219F183DDF09D8A7360F2AE56F9FEEC6538F6C8C* L_213 = V_19;
-		NullCheck(L_213);
-		bool L_214;
-		L_214 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_213, NULL);
-		NullCheck(L_210);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_210, (bool)((int32_t)((int32_t)L_212|(int32_t)L_214)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node14.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_215 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_216 = V_0;
-		NullCheck(L_216);
-		bool L_217;
-		L_217 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_216, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_218 = V_14;
-		NullCheck(L_218);
-		bool L_219;
-		L_219 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_218, NULL);
-		NullCheck(L_215);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_215, (bool)((int32_t)((int32_t)L_217|(int32_t)L_219)), NULL);
-		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_220 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_221 = ___0_bt;
-		NullCheck(L_221);
-		bool L_222;
-		L_222 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_221, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_223 = V_0;
-		NullCheck(L_223);
-		bool L_224;
-		L_224 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_223, NULL);
-		NullCheck(L_220);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_220, (bool)((int32_t)((int32_t)L_222|(int32_t)L_224)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -14913,11 +15086,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_Desti
 		// public Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.Equal;
-		__this->___opl_p1_21 = 0;
+		__this->___opl_p1_20 = 0;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -14935,9 +15108,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_De
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -14975,9 +15148,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_Destinat
 		// public Action_bt_APC_APC_Demian_Action_DestinationSelect_node3()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.WANDER;
-		__this->___method_p0_20 = 6;
+		__this->___method_p0_19 = 6;
 		// }
 		return;
 	}
@@ -14994,7 +15167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_Desti
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -15016,7 +15189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Demian_Action_Desti
 		// public Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.3f;
-		__this->___opl_p0_20 = (0.300000012f);
+		__this->___opl_p0_19 = (0.300000012f);
 		// }
 		return;
 	}
@@ -15034,7 +15207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Demian_Action_De
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -15072,9 +15245,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_Destinat
 		// public Action_bt_APC_APC_Demian_Action_DestinationSelect_node6()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.BYPASS_TRACK;
-		__this->___method_p0_20 = 3;
+		__this->___method_p0_19 = 3;
 		// }
 		return;
 	}
@@ -15091,7 +15264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_Desti
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -15113,9 +15286,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Demian_Action_Destinat
 		// public Action_bt_APC_APC_Demian_Action_DestinationSelect_node7()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.GO_TO_TARGET;
-		__this->___method_p0_20 = 0;
+		__this->___method_p0_19 = 0;
 		// }
 		return;
 	}
@@ -15132,7 +15305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Demian_Action_Desti
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -15160,7 +15333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Demian_Action_DestinationSele
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -15194,282 +15366,246 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Demian_Action_DestinationSele
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node1 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node1.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node1.SetId(1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 1, NULL);
 		// node0.AddChild(node1);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2 node2 = new Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2();
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_17 = (Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2__ctor_m1C223BAC6D8895B3E4471E28DC23F7C2125E315E(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_14 = (Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2__ctor_m1C223BAC6D8895B3E4471E28DC23F7C2125E315E(L_14, NULL);
+		V_2 = L_14;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
 		// node1.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node1.SetHasEvents(node1.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node2_t42E1B6E4124298956B5ECB26317B84EA8CE1C886* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Action_bt_APC_APC_Demian_Action_DestinationSelect_node3 node3 = new Action_bt_APC_APC_Demian_Action_DestinationSelect_node3();
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_28 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3__ctor_m3D7437B467B4FC88B6A6E9422963E6A079C7E22D(L_28, NULL);
-		V_3 = L_28;
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_24 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3__ctor_m3D7437B467B4FC88B6A6E9422963E6A079C7E22D(L_24, NULL);
+		V_3 = L_24;
 		// node3.SetClassNameString("Action");
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node3.SetId(3);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 3, NULL);
 		// node1.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node1.SetHasEvents(node1.HasEvents() | node3.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_34 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_35 = V_0;
 		NullCheck(L_35);
 		bool L_36;
 		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node3_t97ACFF4BE192D8CEAEC755A95341EB23B8BF2E5E* L_37 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
 		NullCheck(L_37);
 		bool L_38;
 		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
 		NullCheck(L_34);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_39 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_40 = V_0;
-		NullCheck(L_40);
-		bool L_41;
-		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_42 = V_1;
-		NullCheck(L_42);
-		bool L_43;
-		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
-		NullCheck(L_39);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Sequence node4 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_44 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_44);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_44, NULL);
-		V_4 = L_44;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_39);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_39, NULL);
+		V_4 = L_39;
 		// node4.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_4;
-		NullCheck(L_45);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_4;
+		NullCheck(L_40);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node4.SetId(4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_4;
-		NullCheck(L_46);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 4, NULL);
-		// node4.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
-		NullCheck(L_47);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_47, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_41 = V_4;
+		NullCheck(L_41);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 4, NULL);
 		// node0.AddChild(node4);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_48 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
-		NullCheck(L_48);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_48, L_49);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_42 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_4;
+		NullCheck(L_42);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_42, L_43);
 		// Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5 node5 = new Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5();
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_50 = (Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5__ctor_m0A275315482415D9DA072E9044FBA3995D86949B(L_50, NULL);
-		V_5 = L_50;
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_44 = (Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5__ctor_m0A275315482415D9DA072E9044FBA3995D86949B(L_44, NULL);
+		V_5 = L_44;
 		// node5.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node5.SetId(5);
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 5, NULL);
+		// node4.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
+		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_4;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_4;
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
-		NullCheck(L_57);
-		bool L_58;
-		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Condition_bt_APC_APC_Demian_Action_DestinationSelect_node5_t41273562CAC9B95221F0F1D7271E09938F9595DA* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
 		// Action_bt_APC_APC_Demian_Action_DestinationSelect_node6 node6 = new Action_bt_APC_APC_Demian_Action_DestinationSelect_node6();
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_61 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F_il2cpp_TypeInfo_var);
-		NullCheck(L_61);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6__ctor_m882381E317CE8C430630F1896EF40C13C1A1C96D(L_61, NULL);
-		V_6 = L_61;
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_54 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6__ctor_m882381E317CE8C430630F1896EF40C13C1A1C96D(L_54, NULL);
+		V_6 = L_54;
 		// node6.SetClassNameString("Action");
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_55 = V_6;
+		NullCheck(L_55);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node6.SetId(6);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_56 = V_6;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, 6, NULL);
+		// node4.AddChild(node6);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_58 = V_6;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node4.SetHasEvents(node4.HasEvents() | node6.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_4;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_62 = V_6;
 		NullCheck(L_62);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_62, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node6.SetId(6);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_63 = V_6;
-		NullCheck(L_63);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_63, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_64 = V_6;
-		NullCheck(L_64);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_64, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_65 = V_4;
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_66 = V_6;
-		NullCheck(L_65);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_65, L_66);
-		// node4.SetHasEvents(node4.HasEvents() | node6.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_4;
-		NullCheck(L_68);
-		bool L_69;
-		L_69 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_68, NULL);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node6_t57FE37C0DB37D243D7457F9EC283DAF3699C647F* L_70 = V_6;
-		NullCheck(L_70);
-		bool L_71;
-		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
-		NullCheck(L_67);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_67, (bool)((int32_t)((int32_t)L_69|(int32_t)L_71)), NULL);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node4.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_4;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
+		// Action_bt_APC_APC_Demian_Action_DestinationSelect_node7 node7 = new Action_bt_APC_APC_Demian_Action_DestinationSelect_node7();
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_69 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7__ctor_mE2C988D39C28E37D4BFD16B26578B044F79351B3(L_69, NULL);
+		V_7 = L_69;
+		// node7.SetClassNameString("Action");
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node7.SetId(7);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, 7, NULL);
+		// node0.AddChild(node7);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_73 = V_0;
-		NullCheck(L_73);
-		bool L_74;
-		L_74 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_73, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_75 = V_4;
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// node0.SetHasEvents(node0.HasEvents() | node7.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_74 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_75 = V_0;
 		NullCheck(L_75);
 		bool L_76;
 		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
-		NullCheck(L_72);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_72, (bool)((int32_t)((int32_t)L_74|(int32_t)L_76)), NULL);
-		// Action_bt_APC_APC_Demian_Action_DestinationSelect_node7 node7 = new Action_bt_APC_APC_Demian_Action_DestinationSelect_node7();
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_77 = (Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6_il2cpp_TypeInfo_var);
+		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_77 = V_7;
 		NullCheck(L_77);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7__ctor_mE2C988D39C28E37D4BFD16B26578B044F79351B3(L_77, NULL);
-		V_7 = L_77;
-		// node7.SetClassNameString("Action");
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_78 = V_7;
-		NullCheck(L_78);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_78, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node7.SetId(7);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_79 = V_7;
-		NullCheck(L_79);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_79, 7, NULL);
-		// node7.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_80 = V_7;
-		NullCheck(L_80);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_80, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node7);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_81 = V_0;
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_82 = V_7;
-		NullCheck(L_81);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_81, L_82);
-		// node0.SetHasEvents(node0.HasEvents() | node7.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_83 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_84 = V_0;
-		NullCheck(L_84);
-		bool L_85;
-		L_85 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_84, NULL);
-		Action_bt_APC_APC_Demian_Action_DestinationSelect_node7_t7BAF42F264B12FA3BA0B9A5A3C23B0A1E92732E6* L_86 = V_7;
-		NullCheck(L_86);
-		bool L_87;
-		L_87 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_86, NULL);
-		NullCheck(L_83);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_83, (bool)((int32_t)((int32_t)L_85|(int32_t)L_87)), NULL);
+		bool L_78;
+		L_78 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_77, NULL);
+		NullCheck(L_74);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_74, (bool)((int32_t)((int32_t)L_76|(int32_t)L_78)), NULL);
 		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_88 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_89 = ___0_bt;
-		NullCheck(L_89);
-		bool L_90;
-		L_90 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_89, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_91 = V_0;
-		NullCheck(L_91);
-		bool L_92;
-		L_92 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_91, NULL);
-		NullCheck(L_88);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_88, (bool)((int32_t)((int32_t)L_90|(int32_t)L_92)), NULL);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_79 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_80 = ___0_bt;
+		NullCheck(L_80);
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_82 = V_0;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -15489,13 +15625,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node2
 		// public Condition_bt_APC_APC_Guiqi2_Action_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 1500;
-		__this->___opl_p0_20 = ((int32_t)1500);
+		__this->___opl_p0_19 = ((int32_t)1500);
 		// opl_p1 = 0;
-		__this->___opl_p1_21 = 0;
+		__this->___opl_p1_20 = 0;
 		// opl_p2 = 2000;
-		__this->___opl_p2_22 = ((int32_t)2000);
+		__this->___opl_p2_21 = ((int32_t)2000);
 		// opl_p3 = 2000;
-		__this->___opl_p3_23 = ((int32_t)2000);
+		__this->___opl_p3_22 = ((int32_t)2000);
 		// }
 		return;
 	}
@@ -15513,10 +15649,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -15554,11 +15690,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node8
 		// public Condition_bt_APC_APC_Guiqi2_Action_node8()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.NotEqual;
-		__this->___opl_p1_21 = 1;
+		__this->___opl_p1_20 = 1;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -15576,9 +15712,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -15616,7 +15752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node3
 		// public Condition_bt_APC_APC_Guiqi2_Action_node3()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -15634,7 +15770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -15672,7 +15808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node1
 		// public Condition_bt_APC_APC_Guiqi2_Action_node16()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9732;
-		__this->___opl_p0_20 = ((int32_t)9732);
+		__this->___opl_p0_19 = ((int32_t)9732);
 		// }
 		return;
 	}
@@ -15690,7 +15826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -15755,15 +15891,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// public Action_bt_APC_APC_Guiqi2_Action_node5()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 9;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, ((int32_t)9), List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -15785,7 +15921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15808,7 +15944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15831,7 +15967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15854,7 +15990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item3.specialChoice = 0;
 		(&V_3)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item3);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_9 = V_3;
 		NullCheck(L_8);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_8, L_9, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15877,7 +16013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item4.specialChoice = 0;
 		(&V_4)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item4);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_11 = V_4;
 		NullCheck(L_10);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_10, L_11, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15900,7 +16036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item5.specialChoice = 0;
 		(&V_5)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item5);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_13 = V_5;
 		NullCheck(L_12);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_12, L_13, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15923,7 +16059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item6.specialChoice = 0;
 		(&V_6)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item6);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_15 = V_6;
 		NullCheck(L_14);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_14, L_15, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15946,7 +16082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item7.specialChoice = 0;
 		(&V_7)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item7);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_17 = V_7;
 		NullCheck(L_16);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_16, L_17, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -15969,12 +16105,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node5__c
 		// method_p0_item8.specialChoice = 0;
 		(&V_8)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item8);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_19 = V_8;
 		NullCheck(L_18);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_18, L_19, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -15991,8 +16127,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node5
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -16014,7 +16150,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node7
 		// public Condition_bt_APC_APC_Guiqi2_Action_node73()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.4f;
-		__this->___opl_p0_20 = (0.400000006f);
+		__this->___opl_p0_19 = (0.400000006f);
 		// }
 		return;
 	}
@@ -16032,7 +16168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16070,7 +16206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node7
 		// public Condition_bt_APC_APC_Guiqi2_Action_node74()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9725;
-		__this->___opl_p0_20 = ((int32_t)9725);
+		__this->___opl_p0_19 = ((int32_t)9725);
 		// }
 		return;
 	}
@@ -16088,7 +16224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16137,15 +16273,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node75__
 		// public Action_bt_APC_APC_Guiqi2_Action_node75()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -16167,12 +16303,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node75__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -16189,8 +16325,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node7
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -16212,7 +16348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node1
 		// public Condition_bt_APC_APC_Guiqi2_Action_node15()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.4f;
-		__this->___opl_p0_20 = (0.400000006f);
+		__this->___opl_p0_19 = (0.400000006f);
 		// }
 		return;
 	}
@@ -16230,7 +16366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16268,7 +16404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node2
 		// public Condition_bt_APC_APC_Guiqi2_Action_node23()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9724;
-		__this->___opl_p0_20 = ((int32_t)9724);
+		__this->___opl_p0_19 = ((int32_t)9724);
 		// }
 		return;
 	}
@@ -16286,7 +16422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16335,15 +16471,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node26__
 		// public Action_bt_APC_APC_Guiqi2_Action_node26()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -16365,12 +16501,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node26__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -16387,8 +16523,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node2
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -16410,7 +16546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node9
 		// public Condition_bt_APC_APC_Guiqi2_Action_node90()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -16428,7 +16564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16466,13 +16602,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node9
 		// public Condition_bt_APC_APC_Guiqi2_Action_node91()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 3000;
-		__this->___opl_p0_20 = ((int32_t)3000);
+		__this->___opl_p0_19 = ((int32_t)3000);
 		// opl_p1 = 3000;
-		__this->___opl_p1_21 = ((int32_t)3000);
+		__this->___opl_p1_20 = ((int32_t)3000);
 		// opl_p2 = 3000;
-		__this->___opl_p2_22 = ((int32_t)3000);
+		__this->___opl_p2_21 = ((int32_t)3000);
 		// opl_p3 = 3000;
-		__this->___opl_p3_23 = ((int32_t)3000);
+		__this->___opl_p3_22 = ((int32_t)3000);
 		// }
 		return;
 	}
@@ -16490,10 +16626,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -16531,7 +16667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node9
 		// public Condition_bt_APC_APC_Guiqi2_Action_node99()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9726;
-		__this->___opl_p0_20 = ((int32_t)9726);
+		__this->___opl_p0_19 = ((int32_t)9726);
 		// }
 		return;
 	}
@@ -16549,7 +16685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16598,15 +16734,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node100_
 		// public Action_bt_APC_APC_Guiqi2_Action_node100()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -16628,12 +16764,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node100_
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -16650,8 +16786,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node1
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -16673,7 +16809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node6
 		// public Condition_bt_APC_APC_Guiqi2_Action_node60()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.8f;
-		__this->___opl_p0_20 = (0.800000012f);
+		__this->___opl_p0_19 = (0.800000012f);
 		// }
 		return;
 	}
@@ -16691,7 +16827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16729,13 +16865,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node6
 		// public Condition_bt_APC_APC_Guiqi2_Action_node61()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2500;
-		__this->___opl_p0_20 = ((int32_t)2500);
+		__this->___opl_p0_19 = ((int32_t)2500);
 		// opl_p1 = 2500;
-		__this->___opl_p1_21 = ((int32_t)2500);
+		__this->___opl_p1_20 = ((int32_t)2500);
 		// opl_p2 = 2500;
-		__this->___opl_p2_22 = ((int32_t)2500);
+		__this->___opl_p2_21 = ((int32_t)2500);
 		// opl_p3 = 2500;
-		__this->___opl_p3_23 = ((int32_t)2500);
+		__this->___opl_p3_22 = ((int32_t)2500);
 		// }
 		return;
 	}
@@ -16753,10 +16889,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -16794,7 +16930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node5
 		// public Condition_bt_APC_APC_Guiqi2_Action_node56()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9734;
-		__this->___opl_p0_20 = ((int32_t)9734);
+		__this->___opl_p0_19 = ((int32_t)9734);
 		// }
 		return;
 	}
@@ -16812,7 +16948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16861,15 +16997,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node64__
 		// public Action_bt_APC_APC_Guiqi2_Action_node64()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -16891,12 +17027,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node64__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -16913,8 +17049,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node6
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -16936,7 +17072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node5
 		// public Condition_bt_APC_APC_Guiqi2_Action_node54()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.8f;
-		__this->___opl_p0_20 = (0.800000012f);
+		__this->___opl_p0_19 = (0.800000012f);
 		// }
 		return;
 	}
@@ -16954,7 +17090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -16992,13 +17128,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node5
 		// public Condition_bt_APC_APC_Guiqi2_Action_node55()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 6000;
-		__this->___opl_p0_20 = ((int32_t)6000);
+		__this->___opl_p0_19 = ((int32_t)6000);
 		// opl_p1 = 3000;
-		__this->___opl_p1_21 = ((int32_t)3000);
+		__this->___opl_p1_20 = ((int32_t)3000);
 		// opl_p2 = 3000;
-		__this->___opl_p2_22 = ((int32_t)3000);
+		__this->___opl_p2_21 = ((int32_t)3000);
 		// opl_p3 = 3000;
-		__this->___opl_p3_23 = ((int32_t)3000);
+		__this->___opl_p3_22 = ((int32_t)3000);
 		// }
 		return;
 	}
@@ -17016,10 +17152,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -17057,7 +17193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node5
 		// public Condition_bt_APC_APC_Guiqi2_Action_node57()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9733;
-		__this->___opl_p0_20 = ((int32_t)9733);
+		__this->___opl_p0_19 = ((int32_t)9733);
 		// }
 		return;
 	}
@@ -17075,7 +17211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -17124,15 +17260,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node58__
 		// public Action_bt_APC_APC_Guiqi2_Action_node58()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -17154,12 +17290,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node58__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -17176,8 +17312,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node5
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -17199,13 +17335,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node4
 		// public Condition_bt_APC_APC_Guiqi2_Action_node4()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2000;
-		__this->___opl_p0_20 = ((int32_t)2000);
+		__this->___opl_p0_19 = ((int32_t)2000);
 		// opl_p1 = 2000;
-		__this->___opl_p1_21 = ((int32_t)2000);
+		__this->___opl_p1_20 = ((int32_t)2000);
 		// opl_p2 = 2000;
-		__this->___opl_p2_22 = ((int32_t)2000);
+		__this->___opl_p2_21 = ((int32_t)2000);
 		// opl_p3 = 2000;
-		__this->___opl_p3_23 = ((int32_t)2000);
+		__this->___opl_p3_22 = ((int32_t)2000);
 		// }
 		return;
 	}
@@ -17223,10 +17359,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -17264,7 +17400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi2_Action_node9
 		// public Condition_bt_APC_APC_Guiqi2_Action_node9()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9728;
-		__this->___opl_p0_20 = ((int32_t)9728);
+		__this->___opl_p0_19 = ((int32_t)9728);
 		// }
 		return;
 	}
@@ -17282,7 +17418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi2_Action_no
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -17335,15 +17471,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node10__
 		// public Action_bt_APC_APC_Guiqi2_Action_node10()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 3;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 3, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -17365,7 +17501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node10__
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -17388,7 +17524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node10__
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -17411,12 +17547,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi2_Action_node10__
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -17433,8 +17569,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi2_Action_node1
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -17484,7 +17620,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Guiqi2_Action_build_behavior_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2928004E3D1280936972DB3F1805891B043DDD06);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -17543,1166 +17678,1026 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Guiqi2_Action_build_behavior_
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node13 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node13.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node13.SetId(13);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, ((int32_t)13), NULL);
-		// node13.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, ((int32_t)13), NULL);
 		// node0.AddChild(node13);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Guiqi2_Action_node2 node2 = new Condition_bt_APC_APC_Guiqi2_Action_node2();
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_17 = (Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Guiqi2_Action_node2__ctor_m97B85FC962DC91273D7CC5474425D396203BBF36(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_14 = (Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Guiqi2_Action_node2__ctor_m97B85FC962DC91273D7CC5474425D396203BBF36(L_14, NULL);
+		V_2 = L_14;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
 		// node13.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node13.SetHasEvents(node13.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node2_tEE42B38E4306B50AC0448D9AF3C73AB8F8FD4E7C* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node8 node8 = new Condition_bt_APC_APC_Guiqi2_Action_node8();
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_28 = (Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Condition_bt_APC_APC_Guiqi2_Action_node8__ctor_m8BA8EB8F6C1F330CEC9D689B2516CC8285CB3B54(L_28, NULL);
-		V_3 = L_28;
+		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_24 = (Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Condition_bt_APC_APC_Guiqi2_Action_node8__ctor_m8BA8EB8F6C1F330CEC9D689B2516CC8285CB3B54(L_24, NULL);
+		V_3 = L_24;
 		// node8.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node8.SetId(8);
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 8, NULL);
-		// node8.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 8, NULL);
 		// node13.AddChild(node8);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node13.SetHasEvents(node13.HasEvents() | node8.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
-		NullCheck(L_35);
-		bool L_36;
-		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_37 = V_3;
-		NullCheck(L_37);
-		bool L_38;
-		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
-		NullCheck(L_34);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node8_tA65F84BAF2F415BBA2966E184889D081A8276846* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node3 node3 = new Condition_bt_APC_APC_Guiqi2_Action_node3();
-		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_39 = (Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F_il2cpp_TypeInfo_var);
-		NullCheck(L_39);
-		Condition_bt_APC_APC_Guiqi2_Action_node3__ctor_m2B2C3F10737B28539EC74D7C95E14470409F0238(L_39, NULL);
-		V_4 = L_39;
+		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_34 = (Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		Condition_bt_APC_APC_Guiqi2_Action_node3__ctor_m2B2C3F10737B28539EC74D7C95E14470409F0238(L_34, NULL);
+		V_4 = L_34;
 		// node3.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_40 = V_4;
-		NullCheck(L_40);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_35 = V_4;
+		NullCheck(L_35);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node3.SetId(3);
-		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_41 = V_4;
-		NullCheck(L_41);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 3, NULL);
-		// node3.SetAgentType("BTAgent");
+		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_36 = V_4;
+		NullCheck(L_36);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 3, NULL);
+		// node13.AddChild(node3);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
+		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_38 = V_4;
+		NullCheck(L_37);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_37, L_38);
+		// node13.SetHasEvents(node13.HasEvents() | node3.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_1;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
 		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_42 = V_4;
 		NullCheck(L_42);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_42, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_1;
-		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_44 = V_4;
-		NullCheck(L_43);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_43, L_44);
-		// node13.SetHasEvents(node13.HasEvents() | node3.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_1;
-		NullCheck(L_46);
-		bool L_47;
-		L_47 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_46, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node3_tB49E668245AAF07B7F1A36B46D96F7D3732AFD7F* L_48 = V_4;
-		NullCheck(L_48);
-		bool L_49;
-		L_49 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_48, NULL);
-		NullCheck(L_45);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_45, (bool)((int32_t)((int32_t)L_47|(int32_t)L_49)), NULL);
+		bool L_43;
+		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
+		NullCheck(L_39);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node16 node16 = new Condition_bt_APC_APC_Guiqi2_Action_node16();
-		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_50 = (Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Condition_bt_APC_APC_Guiqi2_Action_node16__ctor_m45AB6B7612284FB4A8B5C146BA0D93FFB5DE46C6(L_50, NULL);
-		V_5 = L_50;
+		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_44 = (Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_Guiqi2_Action_node16__ctor_m45AB6B7612284FB4A8B5C146BA0D93FFB5DE46C6(L_44, NULL);
+		V_5 = L_44;
 		// node16.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node16.SetId(16);
+		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, ((int32_t)16), NULL);
+		// node13.AddChild(node16);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_1;
+		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node13.SetHasEvents(node13.HasEvents() | node16.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_1;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, ((int32_t)16), NULL);
-		// node16.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node16);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_1;
-		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node13.SetHasEvents(node13.HasEvents() | node16.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
-		NullCheck(L_57);
-		bool L_58;
-		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node16_t4EE6A6D9104D43A2DD29D9AF51E204CFF18505DA* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
 		// Action_bt_APC_APC_Guiqi2_Action_node5 node5 = new Action_bt_APC_APC_Guiqi2_Action_node5();
-		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_61 = (Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB_il2cpp_TypeInfo_var);
-		NullCheck(L_61);
-		Action_bt_APC_APC_Guiqi2_Action_node5__ctor_m90DB091C51EB9E058C40658E007C842BCF98081B(L_61, NULL);
-		V_6 = L_61;
+		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_54 = (Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		Action_bt_APC_APC_Guiqi2_Action_node5__ctor_m90DB091C51EB9E058C40658E007C842BCF98081B(L_54, NULL);
+		V_6 = L_54;
 		// node5.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_55 = V_6;
+		NullCheck(L_55);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node5.SetId(5);
+		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_56 = V_6;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, 5, NULL);
+		// node13.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
+		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_58 = V_6;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node13.SetHasEvents(node13.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_1;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_62 = V_6;
 		NullCheck(L_62);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_62, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node5.SetId(5);
-		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_63 = V_6;
-		NullCheck(L_63);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_63, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_64 = V_6;
-		NullCheck(L_64);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_64, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_65 = V_1;
-		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_66 = V_6;
-		NullCheck(L_65);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_65, L_66);
-		// node13.SetHasEvents(node13.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_1;
-		NullCheck(L_68);
-		bool L_69;
-		L_69 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_68, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node5_t98D1A0978D965893C6E943CA116CEDC1C8FECFCB* L_70 = V_6;
-		NullCheck(L_70);
-		bool L_71;
-		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
-		NullCheck(L_67);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_67, (bool)((int32_t)((int32_t)L_69|(int32_t)L_71)), NULL);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node13.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_73 = V_0;
-		NullCheck(L_73);
-		bool L_74;
-		L_74 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_73, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_75 = V_1;
-		NullCheck(L_75);
-		bool L_76;
-		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
-		NullCheck(L_72);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_72, (bool)((int32_t)((int32_t)L_74|(int32_t)L_76)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
 		// Sequence node72 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_77);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_77, NULL);
-		V_7 = L_77;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_69, NULL);
+		V_7 = L_69;
 		// node72.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_78 = V_7;
-		NullCheck(L_78);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_78, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node72.SetId(72);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, ((int32_t)72), NULL);
+		// node0.AddChild(node72);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// Condition_bt_APC_APC_Guiqi2_Action_node73 node73 = new Condition_bt_APC_APC_Guiqi2_Action_node73();
+		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_74 = (Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
+		Condition_bt_APC_APC_Guiqi2_Action_node73__ctor_m6573C27080E95D027DBBD23325ED9616EE6D488E(L_74, NULL);
+		V_8 = L_74;
+		// node73.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_75 = V_8;
+		NullCheck(L_75);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_75, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node73.SetId(73);
+		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_76 = V_8;
+		NullCheck(L_76);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_76, ((int32_t)73), NULL);
+		// node72.AddChild(node73);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_7;
+		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_78 = V_8;
+		NullCheck(L_77);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_77, L_78);
+		// node72.SetHasEvents(node72.HasEvents() | node73.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_7;
-		NullCheck(L_79);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_79, ((int32_t)72), NULL);
-		// node72.SetAgentType("BTAgent");
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_7;
 		NullCheck(L_80);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_80, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node72);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_81 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_82 = V_7;
-		NullCheck(L_81);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_81, L_82);
-		// Condition_bt_APC_APC_Guiqi2_Action_node73 node73 = new Condition_bt_APC_APC_Guiqi2_Action_node73();
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_83 = (Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D_il2cpp_TypeInfo_var);
-		NullCheck(L_83);
-		Condition_bt_APC_APC_Guiqi2_Action_node73__ctor_m6573C27080E95D027DBBD23325ED9616EE6D488E(L_83, NULL);
-		V_8 = L_83;
-		// node73.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_84 = V_8;
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_82 = V_8;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
+		// Condition_bt_APC_APC_Guiqi2_Action_node74 node74 = new Condition_bt_APC_APC_Guiqi2_Action_node74();
+		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_84 = (Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897_il2cpp_TypeInfo_var);
 		NullCheck(L_84);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_84, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node73.SetId(73);
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_85 = V_8;
+		Condition_bt_APC_APC_Guiqi2_Action_node74__ctor_m64FA55D152288857B592789111BE2C21D6E150AD(L_84, NULL);
+		V_9 = L_84;
+		// node74.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_85 = V_9;
 		NullCheck(L_85);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_85, ((int32_t)73), NULL);
-		// node73.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_86 = V_8;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node74.SetId(74);
+		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_86 = V_9;
 		NullCheck(L_86);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_86, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node72.AddChild(node73);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)74), NULL);
+		// node72.AddChild(node74);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_7;
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_88 = V_8;
+		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_88 = V_9;
 		NullCheck(L_87);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
-		// node72.SetHasEvents(node72.HasEvents() | node73.HasEvents());
+		// node72.SetHasEvents(node72.HasEvents() | node74.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_7;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_7;
 		NullCheck(L_90);
 		bool L_91;
 		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node73_t5C7DEB9395398FE6061A10ABD6D1901E6198173D* L_92 = V_8;
+		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_92 = V_9;
 		NullCheck(L_92);
 		bool L_93;
 		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
 		NullCheck(L_89);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
-		// Condition_bt_APC_APC_Guiqi2_Action_node74 node74 = new Condition_bt_APC_APC_Guiqi2_Action_node74();
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_94 = (Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897_il2cpp_TypeInfo_var);
-		NullCheck(L_94);
-		Condition_bt_APC_APC_Guiqi2_Action_node74__ctor_m64FA55D152288857B592789111BE2C21D6E150AD(L_94, NULL);
-		V_9 = L_94;
-		// node74.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_95 = V_9;
-		NullCheck(L_95);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node74.SetId(74);
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_96 = V_9;
-		NullCheck(L_96);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)74), NULL);
-		// node74.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_97 = V_9;
-		NullCheck(L_97);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_97, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node72.AddChild(node74);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_7;
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_99 = V_9;
-		NullCheck(L_98);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_98, L_99);
-		// node72.SetHasEvents(node72.HasEvents() | node74.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_7;
-		NullCheck(L_101);
-		bool L_102;
-		L_102 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_101, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node74_t73F64C474A688878722BFF4D0A0294F1C4CC6897* L_103 = V_9;
-		NullCheck(L_103);
-		bool L_104;
-		L_104 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_103, NULL);
-		NullCheck(L_100);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_100, (bool)((int32_t)((int32_t)L_102|(int32_t)L_104)), NULL);
 		// Action_bt_APC_APC_Guiqi2_Action_node75 node75 = new Action_bt_APC_APC_Guiqi2_Action_node75();
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_105 = (Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C_il2cpp_TypeInfo_var);
-		NullCheck(L_105);
-		Action_bt_APC_APC_Guiqi2_Action_node75__ctor_mB990286C23DD333E6C3CD5314C8C1C57CEF6E1B4(L_105, NULL);
-		V_10 = L_105;
+		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_94 = (Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C_il2cpp_TypeInfo_var);
+		NullCheck(L_94);
+		Action_bt_APC_APC_Guiqi2_Action_node75__ctor_mB990286C23DD333E6C3CD5314C8C1C57CEF6E1B4(L_94, NULL);
+		V_10 = L_94;
 		// node75.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_106 = V_10;
-		NullCheck(L_106);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_106, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_95 = V_10;
+		NullCheck(L_95);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node75.SetId(75);
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_107 = V_10;
-		NullCheck(L_107);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_107, ((int32_t)75), NULL);
-		// node75.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_108 = V_10;
-		NullCheck(L_108);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_108, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_96 = V_10;
+		NullCheck(L_96);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)75), NULL);
 		// node72.AddChild(node75);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_7;
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_110 = V_10;
-		NullCheck(L_109);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_109, L_110);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_7;
+		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_98 = V_10;
+		NullCheck(L_97);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_97, L_98);
 		// node72.SetHasEvents(node72.HasEvents() | node75.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_111 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_112 = V_7;
-		NullCheck(L_112);
-		bool L_113;
-		L_113 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_112, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_114 = V_10;
-		NullCheck(L_114);
-		bool L_115;
-		L_115 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_114, NULL);
-		NullCheck(L_111);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_111, (bool)((int32_t)((int32_t)L_113|(int32_t)L_115)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_99 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
+		NullCheck(L_100);
+		bool L_101;
+		L_101 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_100, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node75_t299A76E33E9E1AC13EDA2DF233ADB46D476B884C* L_102 = V_10;
+		NullCheck(L_102);
+		bool L_103;
+		L_103 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_102, NULL);
+		NullCheck(L_99);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_99, (bool)((int32_t)((int32_t)L_101|(int32_t)L_103)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node72.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_116 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_117 = V_0;
-		NullCheck(L_117);
-		bool L_118;
-		L_118 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_117, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = V_7;
-		NullCheck(L_119);
-		bool L_120;
-		L_120 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_119, NULL);
-		NullCheck(L_116);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_116, (bool)((int32_t)((int32_t)L_118|(int32_t)L_120)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_104 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_105 = V_0;
+		NullCheck(L_105);
+		bool L_106;
+		L_106 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_105, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_7;
+		NullCheck(L_107);
+		bool L_108;
+		L_108 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_107, NULL);
+		NullCheck(L_104);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_104, (bool)((int32_t)((int32_t)L_106|(int32_t)L_108)), NULL);
 		// Sequence node11 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_121 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_121);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_121, NULL);
-		V_11 = L_121;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_109);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_109, NULL);
+		V_11 = L_109;
 		// node11.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_122 = V_11;
-		NullCheck(L_122);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_122, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = V_11;
+		NullCheck(L_110);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_110, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node11.SetId(11);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_123 = V_11;
-		NullCheck(L_123);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_123, ((int32_t)11), NULL);
-		// node11.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_124 = V_11;
-		NullCheck(L_124);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_124, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_111 = V_11;
+		NullCheck(L_111);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_111, ((int32_t)11), NULL);
 		// node0.AddChild(node11);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_125 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_126 = V_11;
-		NullCheck(L_125);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_125, L_126);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_112 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_113 = V_11;
+		NullCheck(L_112);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_112, L_113);
 		// Condition_bt_APC_APC_Guiqi2_Action_node15 node15 = new Condition_bt_APC_APC_Guiqi2_Action_node15();
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_127 = (Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964_il2cpp_TypeInfo_var);
-		NullCheck(L_127);
-		Condition_bt_APC_APC_Guiqi2_Action_node15__ctor_m9E8984577AC3ECB8AE1D50D1247158BDFE158B00(L_127, NULL);
-		V_12 = L_127;
+		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_114 = (Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964_il2cpp_TypeInfo_var);
+		NullCheck(L_114);
+		Condition_bt_APC_APC_Guiqi2_Action_node15__ctor_m9E8984577AC3ECB8AE1D50D1247158BDFE158B00(L_114, NULL);
+		V_12 = L_114;
 		// node15.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_128 = V_12;
-		NullCheck(L_128);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_128, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_115 = V_12;
+		NullCheck(L_115);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_115, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node15.SetId(15);
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_129 = V_12;
-		NullCheck(L_129);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_129, ((int32_t)15), NULL);
-		// node15.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_130 = V_12;
-		NullCheck(L_130);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_130, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_116 = V_12;
+		NullCheck(L_116);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_116, ((int32_t)15), NULL);
 		// node11.AddChild(node15);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_131 = V_11;
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_132 = V_12;
-		NullCheck(L_131);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_131, L_132);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_117 = V_11;
+		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_118 = V_12;
+		NullCheck(L_117);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_117, L_118);
 		// node11.SetHasEvents(node11.HasEvents() | node15.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_133 = V_11;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_134 = V_11;
-		NullCheck(L_134);
-		bool L_135;
-		L_135 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_134, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_136 = V_12;
-		NullCheck(L_136);
-		bool L_137;
-		L_137 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_136, NULL);
-		NullCheck(L_133);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_133, (bool)((int32_t)((int32_t)L_135|(int32_t)L_137)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = V_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_11;
+		NullCheck(L_120);
+		bool L_121;
+		L_121 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_120, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node15_t0EBFE7EE7D2F62A6DED779E4A47DFE33CC1A4964* L_122 = V_12;
+		NullCheck(L_122);
+		bool L_123;
+		L_123 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_122, NULL);
+		NullCheck(L_119);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_119, (bool)((int32_t)((int32_t)L_121|(int32_t)L_123)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node23 node23 = new Condition_bt_APC_APC_Guiqi2_Action_node23();
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_138 = (Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5_il2cpp_TypeInfo_var);
-		NullCheck(L_138);
-		Condition_bt_APC_APC_Guiqi2_Action_node23__ctor_m886A170B37B93CAB71A8599535F88854E540916D(L_138, NULL);
-		V_13 = L_138;
+		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_124 = (Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5_il2cpp_TypeInfo_var);
+		NullCheck(L_124);
+		Condition_bt_APC_APC_Guiqi2_Action_node23__ctor_m886A170B37B93CAB71A8599535F88854E540916D(L_124, NULL);
+		V_13 = L_124;
 		// node23.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_139 = V_13;
-		NullCheck(L_139);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_139, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_125 = V_13;
+		NullCheck(L_125);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_125, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node23.SetId(23);
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_140 = V_13;
-		NullCheck(L_140);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_140, ((int32_t)23), NULL);
-		// node23.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_141 = V_13;
-		NullCheck(L_141);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_141, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_126 = V_13;
+		NullCheck(L_126);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_126, ((int32_t)23), NULL);
 		// node11.AddChild(node23);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_142 = V_11;
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_143 = V_13;
-		NullCheck(L_142);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_142, L_143);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_127 = V_11;
+		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_128 = V_13;
+		NullCheck(L_127);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_127, L_128);
 		// node11.SetHasEvents(node11.HasEvents() | node23.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_144 = V_11;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_145 = V_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = V_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_11;
+		NullCheck(L_130);
+		bool L_131;
+		L_131 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_130, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_132 = V_13;
+		NullCheck(L_132);
+		bool L_133;
+		L_133 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_132, NULL);
+		NullCheck(L_129);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_129, (bool)((int32_t)((int32_t)L_131|(int32_t)L_133)), NULL);
+		// Action_bt_APC_APC_Guiqi2_Action_node26 node26 = new Action_bt_APC_APC_Guiqi2_Action_node26();
+		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_134 = (Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990_il2cpp_TypeInfo_var);
+		NullCheck(L_134);
+		Action_bt_APC_APC_Guiqi2_Action_node26__ctor_m02DD4F7A4401D91C7A0582CB6AA0607E2250DAF3(L_134, NULL);
+		V_14 = L_134;
+		// node26.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_135 = V_14;
+		NullCheck(L_135);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_135, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node26.SetId(26);
+		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_136 = V_14;
+		NullCheck(L_136);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_136, ((int32_t)26), NULL);
+		// node11.AddChild(node26);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_11;
+		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_138 = V_14;
+		NullCheck(L_137);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_137, L_138);
+		// node11.SetHasEvents(node11.HasEvents() | node26.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = V_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_11;
+		NullCheck(L_140);
+		bool L_141;
+		L_141 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_140, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_142 = V_14;
+		NullCheck(L_142);
+		bool L_143;
+		L_143 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_142, NULL);
+		NullCheck(L_139);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_139, (bool)((int32_t)((int32_t)L_141|(int32_t)L_143)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node11.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_144 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_145 = V_0;
 		NullCheck(L_145);
 		bool L_146;
 		L_146 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_145, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node23_tF8B94B5C2176E34826FF4DBC75EC92561FBFDEB5* L_147 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_11;
 		NullCheck(L_147);
 		bool L_148;
 		L_148 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_147, NULL);
 		NullCheck(L_144);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_144, (bool)((int32_t)((int32_t)L_146|(int32_t)L_148)), NULL);
-		// Action_bt_APC_APC_Guiqi2_Action_node26 node26 = new Action_bt_APC_APC_Guiqi2_Action_node26();
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_149 = (Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990_il2cpp_TypeInfo_var);
-		NullCheck(L_149);
-		Action_bt_APC_APC_Guiqi2_Action_node26__ctor_m02DD4F7A4401D91C7A0582CB6AA0607E2250DAF3(L_149, NULL);
-		V_14 = L_149;
-		// node26.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_150 = V_14;
-		NullCheck(L_150);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_150, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node26.SetId(26);
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_151 = V_14;
-		NullCheck(L_151);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_151, ((int32_t)26), NULL);
-		// node26.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_152 = V_14;
-		NullCheck(L_152);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_152, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node11.AddChild(node26);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_153 = V_11;
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_154 = V_14;
-		NullCheck(L_153);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_153, L_154);
-		// node11.SetHasEvents(node11.HasEvents() | node26.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_155 = V_11;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_156 = V_11;
-		NullCheck(L_156);
-		bool L_157;
-		L_157 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_156, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node26_t3E7D4C8DD1CA9F29775FC14E9E4066FDC1B69990* L_158 = V_14;
-		NullCheck(L_158);
-		bool L_159;
-		L_159 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_158, NULL);
-		NullCheck(L_155);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_155, (bool)((int32_t)((int32_t)L_157|(int32_t)L_159)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node11.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_160 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_161 = V_0;
-		NullCheck(L_161);
-		bool L_162;
-		L_162 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_161, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_163 = V_11;
-		NullCheck(L_163);
-		bool L_164;
-		L_164 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_163, NULL);
-		NullCheck(L_160);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_160, (bool)((int32_t)((int32_t)L_162|(int32_t)L_164)), NULL);
 		// Sequence node71 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_165 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_165);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_165, NULL);
-		V_15 = L_165;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_149 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_149);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_149, NULL);
+		V_15 = L_149;
 		// node71.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_166 = V_15;
-		NullCheck(L_166);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_166, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_150 = V_15;
+		NullCheck(L_150);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_150, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node71.SetId(71);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_15;
-		NullCheck(L_167);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_167, ((int32_t)71), NULL);
-		// node71.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_168 = V_15;
-		NullCheck(L_168);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_168, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_151 = V_15;
+		NullCheck(L_151);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_151, ((int32_t)71), NULL);
 		// node0.AddChild(node71);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_169 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_15;
-		NullCheck(L_169);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_169, L_170);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_152 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_153 = V_15;
+		NullCheck(L_152);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_152, L_153);
 		// Condition_bt_APC_APC_Guiqi2_Action_node90 node90 = new Condition_bt_APC_APC_Guiqi2_Action_node90();
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_171 = (Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64_il2cpp_TypeInfo_var);
-		NullCheck(L_171);
-		Condition_bt_APC_APC_Guiqi2_Action_node90__ctor_m4809DBB63665C389382FEB19756519BE20F52D7F(L_171, NULL);
-		V_16 = L_171;
+		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_154 = (Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64_il2cpp_TypeInfo_var);
+		NullCheck(L_154);
+		Condition_bt_APC_APC_Guiqi2_Action_node90__ctor_m4809DBB63665C389382FEB19756519BE20F52D7F(L_154, NULL);
+		V_16 = L_154;
 		// node90.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_172 = V_16;
-		NullCheck(L_172);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_172, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_155 = V_16;
+		NullCheck(L_155);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node90.SetId(90);
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_173 = V_16;
-		NullCheck(L_173);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_173, ((int32_t)90), NULL);
-		// node90.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_174 = V_16;
-		NullCheck(L_174);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_174, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_156 = V_16;
+		NullCheck(L_156);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)90), NULL);
 		// node71.AddChild(node90);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_175 = V_15;
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_176 = V_16;
-		NullCheck(L_175);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_175, L_176);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_15;
+		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_158 = V_16;
+		NullCheck(L_157);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_157, L_158);
 		// node71.SetHasEvents(node71.HasEvents() | node90.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_160 = V_15;
+		NullCheck(L_160);
+		bool L_161;
+		L_161 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_160, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_162 = V_16;
+		NullCheck(L_162);
+		bool L_163;
+		L_163 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_162, NULL);
+		NullCheck(L_159);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_159, (bool)((int32_t)((int32_t)L_161|(int32_t)L_163)), NULL);
+		// Condition_bt_APC_APC_Guiqi2_Action_node91 node91 = new Condition_bt_APC_APC_Guiqi2_Action_node91();
+		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_164 = (Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F_il2cpp_TypeInfo_var);
+		NullCheck(L_164);
+		Condition_bt_APC_APC_Guiqi2_Action_node91__ctor_mF8C1E200E42BBF289604768F8D803A4061370454(L_164, NULL);
+		V_17 = L_164;
+		// node91.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_165 = V_17;
+		NullCheck(L_165);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_165, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node91.SetId(91);
+		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_166 = V_17;
+		NullCheck(L_166);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_166, ((int32_t)91), NULL);
+		// node71.AddChild(node91);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_15;
+		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_168 = V_17;
+		NullCheck(L_167);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_167, L_168);
+		// node71.SetHasEvents(node71.HasEvents() | node91.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_169 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_15;
+		NullCheck(L_170);
+		bool L_171;
+		L_171 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_170, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_172 = V_17;
+		NullCheck(L_172);
+		bool L_173;
+		L_173 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_172, NULL);
+		NullCheck(L_169);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_169, (bool)((int32_t)((int32_t)L_171|(int32_t)L_173)), NULL);
+		// Condition_bt_APC_APC_Guiqi2_Action_node99 node99 = new Condition_bt_APC_APC_Guiqi2_Action_node99();
+		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_174 = (Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4_il2cpp_TypeInfo_var);
+		NullCheck(L_174);
+		Condition_bt_APC_APC_Guiqi2_Action_node99__ctor_m79A47B87D262C05D57609E8A75C031A79733BDAF(L_174, NULL);
+		V_18 = L_174;
+		// node99.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_175 = V_18;
+		NullCheck(L_175);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_175, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node99.SetId(99);
+		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_176 = V_18;
+		NullCheck(L_176);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_176, ((int32_t)99), NULL);
+		// node71.AddChild(node99);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_178 = V_15;
-		NullCheck(L_178);
-		bool L_179;
-		L_179 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_178, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node90_t6DFCFC9A90A6808282365AE1B5694543F5DB7E64* L_180 = V_16;
+		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_178 = V_18;
+		NullCheck(L_177);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_177, L_178);
+		// node71.SetHasEvents(node71.HasEvents() | node99.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_179 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_180 = V_15;
 		NullCheck(L_180);
 		bool L_181;
 		L_181 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_180, NULL);
-		NullCheck(L_177);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_177, (bool)((int32_t)((int32_t)L_179|(int32_t)L_181)), NULL);
-		// Condition_bt_APC_APC_Guiqi2_Action_node91 node91 = new Condition_bt_APC_APC_Guiqi2_Action_node91();
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_182 = (Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F_il2cpp_TypeInfo_var);
+		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_182 = V_18;
 		NullCheck(L_182);
-		Condition_bt_APC_APC_Guiqi2_Action_node91__ctor_mF8C1E200E42BBF289604768F8D803A4061370454(L_182, NULL);
-		V_17 = L_182;
-		// node91.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_183 = V_17;
-		NullCheck(L_183);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_183, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node91.SetId(91);
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_184 = V_17;
-		NullCheck(L_184);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_184, ((int32_t)91), NULL);
-		// node91.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_185 = V_17;
-		NullCheck(L_185);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_185, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node71.AddChild(node91);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_186 = V_15;
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_187 = V_17;
-		NullCheck(L_186);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_186, L_187);
-		// node71.SetHasEvents(node71.HasEvents() | node91.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_188 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_15;
-		NullCheck(L_189);
-		bool L_190;
-		L_190 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_189, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node91_tD9D5D5671840421F13F27127FE9D26909F2AC73F* L_191 = V_17;
-		NullCheck(L_191);
-		bool L_192;
-		L_192 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_191, NULL);
-		NullCheck(L_188);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_188, (bool)((int32_t)((int32_t)L_190|(int32_t)L_192)), NULL);
-		// Condition_bt_APC_APC_Guiqi2_Action_node99 node99 = new Condition_bt_APC_APC_Guiqi2_Action_node99();
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_193 = (Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4_il2cpp_TypeInfo_var);
-		NullCheck(L_193);
-		Condition_bt_APC_APC_Guiqi2_Action_node99__ctor_m79A47B87D262C05D57609E8A75C031A79733BDAF(L_193, NULL);
-		V_18 = L_193;
-		// node99.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_194 = V_18;
-		NullCheck(L_194);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_194, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node99.SetId(99);
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_195 = V_18;
-		NullCheck(L_195);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_195, ((int32_t)99), NULL);
-		// node99.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_196 = V_18;
-		NullCheck(L_196);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_196, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node71.AddChild(node99);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_15;
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_198 = V_18;
-		NullCheck(L_197);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_197, L_198);
-		// node71.SetHasEvents(node71.HasEvents() | node99.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_199 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_200 = V_15;
-		NullCheck(L_200);
-		bool L_201;
-		L_201 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_200, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node99_t09B986F3077B9090249D2B2F03B50996FAC1D7D4* L_202 = V_18;
-		NullCheck(L_202);
-		bool L_203;
-		L_203 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_202, NULL);
-		NullCheck(L_199);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_199, (bool)((int32_t)((int32_t)L_201|(int32_t)L_203)), NULL);
+		bool L_183;
+		L_183 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_182, NULL);
+		NullCheck(L_179);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_179, (bool)((int32_t)((int32_t)L_181|(int32_t)L_183)), NULL);
 		// Action_bt_APC_APC_Guiqi2_Action_node100 node100 = new Action_bt_APC_APC_Guiqi2_Action_node100();
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_204 = (Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530_il2cpp_TypeInfo_var);
-		NullCheck(L_204);
-		Action_bt_APC_APC_Guiqi2_Action_node100__ctor_m2FCCF61BB02E084A282A2A3810FB5A43C8E3CEAF(L_204, NULL);
-		V_19 = L_204;
+		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_184 = (Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530_il2cpp_TypeInfo_var);
+		NullCheck(L_184);
+		Action_bt_APC_APC_Guiqi2_Action_node100__ctor_m2FCCF61BB02E084A282A2A3810FB5A43C8E3CEAF(L_184, NULL);
+		V_19 = L_184;
 		// node100.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_205 = V_19;
-		NullCheck(L_205);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_205, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_185 = V_19;
+		NullCheck(L_185);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_185, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node100.SetId(100);
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_206 = V_19;
-		NullCheck(L_206);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)100), NULL);
-		// node100.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_207 = V_19;
-		NullCheck(L_207);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_207, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_186 = V_19;
+		NullCheck(L_186);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_186, ((int32_t)100), NULL);
 		// node71.AddChild(node100);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_208 = V_15;
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_209 = V_19;
-		NullCheck(L_208);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_208, L_209);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = V_15;
+		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_188 = V_19;
+		NullCheck(L_187);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_187, L_188);
 		// node71.SetHasEvents(node71.HasEvents() | node100.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_211 = V_15;
-		NullCheck(L_211);
-		bool L_212;
-		L_212 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_211, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_213 = V_19;
-		NullCheck(L_213);
-		bool L_214;
-		L_214 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_213, NULL);
-		NullCheck(L_210);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_210, (bool)((int32_t)((int32_t)L_212|(int32_t)L_214)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_190 = V_15;
+		NullCheck(L_190);
+		bool L_191;
+		L_191 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_190, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node100_t581FD20A071BC5297AA4DF28345B930AADB32530* L_192 = V_19;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_192, NULL);
+		NullCheck(L_189);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_189, (bool)((int32_t)((int32_t)L_191|(int32_t)L_193)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node71.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_215 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_216 = V_0;
-		NullCheck(L_216);
-		bool L_217;
-		L_217 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_216, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_218 = V_15;
-		NullCheck(L_218);
-		bool L_219;
-		L_219 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_218, NULL);
-		NullCheck(L_215);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_215, (bool)((int32_t)((int32_t)L_217|(int32_t)L_219)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_194 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_195 = V_0;
+		NullCheck(L_195);
+		bool L_196;
+		L_196 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_195, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_15;
+		NullCheck(L_197);
+		bool L_198;
+		L_198 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_197, NULL);
+		NullCheck(L_194);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_194, (bool)((int32_t)((int32_t)L_196|(int32_t)L_198)), NULL);
 		// Sequence node59 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_220 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_220);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_220, NULL);
-		V_20 = L_220;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_199 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_199);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_199, NULL);
+		V_20 = L_199;
 		// node59.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_221 = V_20;
-		NullCheck(L_221);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_221, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_200 = V_20;
+		NullCheck(L_200);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_200, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node59.SetId(59);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_222 = V_20;
-		NullCheck(L_222);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_222, ((int32_t)59), NULL);
-		// node59.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_223 = V_20;
-		NullCheck(L_223);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_223, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_201 = V_20;
+		NullCheck(L_201);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_201, ((int32_t)59), NULL);
 		// node0.AddChild(node59);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_224 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_225 = V_20;
-		NullCheck(L_224);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_224, L_225);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_202 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_203 = V_20;
+		NullCheck(L_202);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_202, L_203);
 		// Condition_bt_APC_APC_Guiqi2_Action_node60 node60 = new Condition_bt_APC_APC_Guiqi2_Action_node60();
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_226 = (Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C_il2cpp_TypeInfo_var);
-		NullCheck(L_226);
-		Condition_bt_APC_APC_Guiqi2_Action_node60__ctor_m0658C0E1582E5DF9BA486C71E7FC4E303FB0BFB0(L_226, NULL);
-		V_21 = L_226;
+		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_204 = (Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C_il2cpp_TypeInfo_var);
+		NullCheck(L_204);
+		Condition_bt_APC_APC_Guiqi2_Action_node60__ctor_m0658C0E1582E5DF9BA486C71E7FC4E303FB0BFB0(L_204, NULL);
+		V_21 = L_204;
 		// node60.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_227 = V_21;
-		NullCheck(L_227);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_227, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_205 = V_21;
+		NullCheck(L_205);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_205, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node60.SetId(60);
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_228 = V_21;
-		NullCheck(L_228);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_228, ((int32_t)60), NULL);
-		// node60.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_229 = V_21;
-		NullCheck(L_229);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_229, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_206 = V_21;
+		NullCheck(L_206);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)60), NULL);
 		// node59.AddChild(node60);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_230 = V_20;
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_231 = V_21;
-		NullCheck(L_230);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_230, L_231);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_207 = V_20;
+		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_208 = V_21;
+		NullCheck(L_207);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_207, L_208);
 		// node59.SetHasEvents(node59.HasEvents() | node60.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_232 = V_20;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_233 = V_20;
-		NullCheck(L_233);
-		bool L_234;
-		L_234 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_233, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_235 = V_21;
-		NullCheck(L_235);
-		bool L_236;
-		L_236 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_235, NULL);
-		NullCheck(L_232);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_232, (bool)((int32_t)((int32_t)L_234|(int32_t)L_236)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_209 = V_20;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_20;
+		NullCheck(L_210);
+		bool L_211;
+		L_211 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_210, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node60_t5879409027A8D4EF2F6FB9AAC80DBF1027FF075C* L_212 = V_21;
+		NullCheck(L_212);
+		bool L_213;
+		L_213 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_212, NULL);
+		NullCheck(L_209);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_209, (bool)((int32_t)((int32_t)L_211|(int32_t)L_213)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node61 node61 = new Condition_bt_APC_APC_Guiqi2_Action_node61();
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_237 = (Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C_il2cpp_TypeInfo_var);
-		NullCheck(L_237);
-		Condition_bt_APC_APC_Guiqi2_Action_node61__ctor_m55372F6D43907D89443651DD0E45D6F7761B2F4F(L_237, NULL);
-		V_22 = L_237;
+		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_214 = (Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C_il2cpp_TypeInfo_var);
+		NullCheck(L_214);
+		Condition_bt_APC_APC_Guiqi2_Action_node61__ctor_m55372F6D43907D89443651DD0E45D6F7761B2F4F(L_214, NULL);
+		V_22 = L_214;
 		// node61.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_238 = V_22;
-		NullCheck(L_238);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_238, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_215 = V_22;
+		NullCheck(L_215);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_215, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node61.SetId(61);
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_239 = V_22;
-		NullCheck(L_239);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_239, ((int32_t)61), NULL);
-		// node61.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_240 = V_22;
-		NullCheck(L_240);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_240, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_216 = V_22;
+		NullCheck(L_216);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_216, ((int32_t)61), NULL);
 		// node59.AddChild(node61);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_241 = V_20;
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_242 = V_22;
-		NullCheck(L_241);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_241, L_242);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_217 = V_20;
+		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_218 = V_22;
+		NullCheck(L_217);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_217, L_218);
 		// node59.SetHasEvents(node59.HasEvents() | node61.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_243 = V_20;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_244 = V_20;
-		NullCheck(L_244);
-		bool L_245;
-		L_245 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_244, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_246 = V_22;
-		NullCheck(L_246);
-		bool L_247;
-		L_247 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_246, NULL);
-		NullCheck(L_243);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_243, (bool)((int32_t)((int32_t)L_245|(int32_t)L_247)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_219 = V_20;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_220 = V_20;
+		NullCheck(L_220);
+		bool L_221;
+		L_221 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_220, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node61_t4405F576CC9B5DA829ED580B9D106557EB6F373C* L_222 = V_22;
+		NullCheck(L_222);
+		bool L_223;
+		L_223 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_222, NULL);
+		NullCheck(L_219);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_219, (bool)((int32_t)((int32_t)L_221|(int32_t)L_223)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node56 node56 = new Condition_bt_APC_APC_Guiqi2_Action_node56();
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_248 = (Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A_il2cpp_TypeInfo_var);
-		NullCheck(L_248);
-		Condition_bt_APC_APC_Guiqi2_Action_node56__ctor_m530166B791EC2279A5428AB6F239A7A185837D6E(L_248, NULL);
-		V_23 = L_248;
+		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_224 = (Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A_il2cpp_TypeInfo_var);
+		NullCheck(L_224);
+		Condition_bt_APC_APC_Guiqi2_Action_node56__ctor_m530166B791EC2279A5428AB6F239A7A185837D6E(L_224, NULL);
+		V_23 = L_224;
 		// node56.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_249 = V_23;
-		NullCheck(L_249);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_249, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_225 = V_23;
+		NullCheck(L_225);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_225, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node56.SetId(56);
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_250 = V_23;
-		NullCheck(L_250);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_250, ((int32_t)56), NULL);
-		// node56.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_251 = V_23;
-		NullCheck(L_251);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_251, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_226 = V_23;
+		NullCheck(L_226);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_226, ((int32_t)56), NULL);
 		// node59.AddChild(node56);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_252 = V_20;
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_253 = V_23;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_227 = V_20;
+		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_228 = V_23;
+		NullCheck(L_227);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_227, L_228);
+		// node59.SetHasEvents(node59.HasEvents() | node56.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_229 = V_20;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_230 = V_20;
+		NullCheck(L_230);
+		bool L_231;
+		L_231 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_230, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_232 = V_23;
+		NullCheck(L_232);
+		bool L_233;
+		L_233 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_232, NULL);
+		NullCheck(L_229);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_229, (bool)((int32_t)((int32_t)L_231|(int32_t)L_233)), NULL);
+		// Action_bt_APC_APC_Guiqi2_Action_node64 node64 = new Action_bt_APC_APC_Guiqi2_Action_node64();
+		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_234 = (Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901_il2cpp_TypeInfo_var);
+		NullCheck(L_234);
+		Action_bt_APC_APC_Guiqi2_Action_node64__ctor_m493D7CDEAEA64026D6D281389C6E12A7367448E8(L_234, NULL);
+		V_24 = L_234;
+		// node64.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_235 = V_24;
+		NullCheck(L_235);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_235, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node64.SetId(64);
+		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_236 = V_24;
+		NullCheck(L_236);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_236, ((int32_t)64), NULL);
+		// node59.AddChild(node64);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_237 = V_20;
+		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_238 = V_24;
+		NullCheck(L_237);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_237, L_238);
+		// node59.SetHasEvents(node59.HasEvents() | node64.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_239 = V_20;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_240 = V_20;
+		NullCheck(L_240);
+		bool L_241;
+		L_241 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_240, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_242 = V_24;
+		NullCheck(L_242);
+		bool L_243;
+		L_243 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_242, NULL);
+		NullCheck(L_239);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_239, (bool)((int32_t)((int32_t)L_241|(int32_t)L_243)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node59.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_244 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_245 = V_0;
+		NullCheck(L_245);
+		bool L_246;
+		L_246 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_245, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_247 = V_20;
+		NullCheck(L_247);
+		bool L_248;
+		L_248 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_247, NULL);
+		NullCheck(L_244);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_244, (bool)((int32_t)((int32_t)L_246|(int32_t)L_248)), NULL);
+		// Sequence node53 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_249 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_249);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_249, NULL);
+		V_25 = L_249;
+		// node53.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_250 = V_25;
+		NullCheck(L_250);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_250, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node53.SetId(53);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_251 = V_25;
+		NullCheck(L_251);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_251, ((int32_t)53), NULL);
+		// node0.AddChild(node53);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_252 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_253 = V_25;
 		NullCheck(L_252);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_252, L_253);
-		// node59.SetHasEvents(node59.HasEvents() | node56.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_254 = V_20;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_255 = V_20;
-		NullCheck(L_255);
-		bool L_256;
-		L_256 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_255, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node56_t99393570E14776C0533B5F4F881309E6EC15E50A* L_257 = V_23;
-		NullCheck(L_257);
-		bool L_258;
-		L_258 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_257, NULL);
-		NullCheck(L_254);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_254, (bool)((int32_t)((int32_t)L_256|(int32_t)L_258)), NULL);
-		// Action_bt_APC_APC_Guiqi2_Action_node64 node64 = new Action_bt_APC_APC_Guiqi2_Action_node64();
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_259 = (Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901_il2cpp_TypeInfo_var);
-		NullCheck(L_259);
-		Action_bt_APC_APC_Guiqi2_Action_node64__ctor_m493D7CDEAEA64026D6D281389C6E12A7367448E8(L_259, NULL);
-		V_24 = L_259;
-		// node64.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_260 = V_24;
-		NullCheck(L_260);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_260, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node64.SetId(64);
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_261 = V_24;
-		NullCheck(L_261);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_261, ((int32_t)64), NULL);
-		// node64.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_262 = V_24;
-		NullCheck(L_262);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_262, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node59.AddChild(node64);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_263 = V_20;
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_264 = V_24;
-		NullCheck(L_263);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_263, L_264);
-		// node59.SetHasEvents(node59.HasEvents() | node64.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_265 = V_20;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_266 = V_20;
-		NullCheck(L_266);
-		bool L_267;
-		L_267 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_266, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node64_tA87B0B1B0D1226D882B1D696ADD8B5983A4EF901* L_268 = V_24;
-		NullCheck(L_268);
-		bool L_269;
-		L_269 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_268, NULL);
-		NullCheck(L_265);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_265, (bool)((int32_t)((int32_t)L_267|(int32_t)L_269)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node59.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_270 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_271 = V_0;
-		NullCheck(L_271);
-		bool L_272;
-		L_272 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_271, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_273 = V_20;
-		NullCheck(L_273);
-		bool L_274;
-		L_274 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_273, NULL);
-		NullCheck(L_270);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_270, (bool)((int32_t)((int32_t)L_272|(int32_t)L_274)), NULL);
-		// Sequence node53 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_275 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_275);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_275, NULL);
-		V_25 = L_275;
-		// node53.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_276 = V_25;
-		NullCheck(L_276);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_276, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node53.SetId(53);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_277 = V_25;
-		NullCheck(L_277);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_277, ((int32_t)53), NULL);
-		// node53.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_278 = V_25;
-		NullCheck(L_278);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_278, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node53);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_279 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_280 = V_25;
-		NullCheck(L_279);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_279, L_280);
 		// Condition_bt_APC_APC_Guiqi2_Action_node54 node54 = new Condition_bt_APC_APC_Guiqi2_Action_node54();
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_281 = (Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3_il2cpp_TypeInfo_var);
-		NullCheck(L_281);
-		Condition_bt_APC_APC_Guiqi2_Action_node54__ctor_m26DAD79284FDFEFABB9C15ECFC56E4C52755060B(L_281, NULL);
-		V_26 = L_281;
+		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_254 = (Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3_il2cpp_TypeInfo_var);
+		NullCheck(L_254);
+		Condition_bt_APC_APC_Guiqi2_Action_node54__ctor_m26DAD79284FDFEFABB9C15ECFC56E4C52755060B(L_254, NULL);
+		V_26 = L_254;
 		// node54.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_282 = V_26;
-		NullCheck(L_282);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_282, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_255 = V_26;
+		NullCheck(L_255);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_255, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node54.SetId(54);
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_283 = V_26;
-		NullCheck(L_283);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_283, ((int32_t)54), NULL);
-		// node54.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_284 = V_26;
-		NullCheck(L_284);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_284, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_256 = V_26;
+		NullCheck(L_256);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_256, ((int32_t)54), NULL);
 		// node53.AddChild(node54);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_285 = V_25;
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_286 = V_26;
-		NullCheck(L_285);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_285, L_286);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_257 = V_25;
+		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_258 = V_26;
+		NullCheck(L_257);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_257, L_258);
 		// node53.SetHasEvents(node53.HasEvents() | node54.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_259 = V_25;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_260 = V_25;
+		NullCheck(L_260);
+		bool L_261;
+		L_261 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_260, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_262 = V_26;
+		NullCheck(L_262);
+		bool L_263;
+		L_263 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_262, NULL);
+		NullCheck(L_259);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_259, (bool)((int32_t)((int32_t)L_261|(int32_t)L_263)), NULL);
+		// Condition_bt_APC_APC_Guiqi2_Action_node55 node55 = new Condition_bt_APC_APC_Guiqi2_Action_node55();
+		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_264 = (Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531_il2cpp_TypeInfo_var);
+		NullCheck(L_264);
+		Condition_bt_APC_APC_Guiqi2_Action_node55__ctor_m06092B884126A09DF8A6FB895EDC826B588B79D2(L_264, NULL);
+		V_27 = L_264;
+		// node55.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_265 = V_27;
+		NullCheck(L_265);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_265, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node55.SetId(55);
+		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_266 = V_27;
+		NullCheck(L_266);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_266, ((int32_t)55), NULL);
+		// node53.AddChild(node55);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_267 = V_25;
+		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_268 = V_27;
+		NullCheck(L_267);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_267, L_268);
+		// node53.SetHasEvents(node53.HasEvents() | node55.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_269 = V_25;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_270 = V_25;
+		NullCheck(L_270);
+		bool L_271;
+		L_271 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_270, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_272 = V_27;
+		NullCheck(L_272);
+		bool L_273;
+		L_273 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_272, NULL);
+		NullCheck(L_269);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_269, (bool)((int32_t)((int32_t)L_271|(int32_t)L_273)), NULL);
+		// Condition_bt_APC_APC_Guiqi2_Action_node57 node57 = new Condition_bt_APC_APC_Guiqi2_Action_node57();
+		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_274 = (Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314_il2cpp_TypeInfo_var);
+		NullCheck(L_274);
+		Condition_bt_APC_APC_Guiqi2_Action_node57__ctor_m6D93769FDBBF11276287B6FC19640935ECEA0932(L_274, NULL);
+		V_28 = L_274;
+		// node57.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_275 = V_28;
+		NullCheck(L_275);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_275, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node57.SetId(57);
+		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_276 = V_28;
+		NullCheck(L_276);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_276, ((int32_t)57), NULL);
+		// node53.AddChild(node57);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_277 = V_25;
+		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_278 = V_28;
+		NullCheck(L_277);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_277, L_278);
+		// node53.SetHasEvents(node53.HasEvents() | node57.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_279 = V_25;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_280 = V_25;
+		NullCheck(L_280);
+		bool L_281;
+		L_281 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_280, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_282 = V_28;
+		NullCheck(L_282);
+		bool L_283;
+		L_283 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_282, NULL);
+		NullCheck(L_279);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_279, (bool)((int32_t)((int32_t)L_281|(int32_t)L_283)), NULL);
+		// Action_bt_APC_APC_Guiqi2_Action_node58 node58 = new Action_bt_APC_APC_Guiqi2_Action_node58();
+		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_284 = (Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5_il2cpp_TypeInfo_var);
+		NullCheck(L_284);
+		Action_bt_APC_APC_Guiqi2_Action_node58__ctor_m00270334F81CC63595214DD481C10D3101F803AD(L_284, NULL);
+		V_29 = L_284;
+		// node58.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_285 = V_29;
+		NullCheck(L_285);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_285, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node58.SetId(58);
+		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_286 = V_29;
+		NullCheck(L_286);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_286, ((int32_t)58), NULL);
+		// node53.AddChild(node58);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_287 = V_25;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_288 = V_25;
-		NullCheck(L_288);
-		bool L_289;
-		L_289 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_288, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node54_tE1D2C3883A54EB8B904DBF1DCB885D25378175D3* L_290 = V_26;
+		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_288 = V_29;
+		NullCheck(L_287);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_287, L_288);
+		// node53.SetHasEvents(node53.HasEvents() | node58.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_289 = V_25;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_290 = V_25;
 		NullCheck(L_290);
 		bool L_291;
 		L_291 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_290, NULL);
-		NullCheck(L_287);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_287, (bool)((int32_t)((int32_t)L_289|(int32_t)L_291)), NULL);
-		// Condition_bt_APC_APC_Guiqi2_Action_node55 node55 = new Condition_bt_APC_APC_Guiqi2_Action_node55();
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_292 = (Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531_il2cpp_TypeInfo_var);
+		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_292 = V_29;
 		NullCheck(L_292);
-		Condition_bt_APC_APC_Guiqi2_Action_node55__ctor_m06092B884126A09DF8A6FB895EDC826B588B79D2(L_292, NULL);
-		V_27 = L_292;
-		// node55.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_293 = V_27;
-		NullCheck(L_293);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_293, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node55.SetId(55);
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_294 = V_27;
-		NullCheck(L_294);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_294, ((int32_t)55), NULL);
-		// node55.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_295 = V_27;
+		bool L_293;
+		L_293 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_292, NULL);
+		NullCheck(L_289);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_289, (bool)((int32_t)((int32_t)L_291|(int32_t)L_293)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node53.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_294 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_295 = V_0;
 		NullCheck(L_295);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_295, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node53.AddChild(node55);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_296 = V_25;
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_297 = V_27;
-		NullCheck(L_296);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_296, L_297);
-		// node53.SetHasEvents(node53.HasEvents() | node55.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_298 = V_25;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_299 = V_25;
+		bool L_296;
+		L_296 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_295, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_297 = V_25;
+		NullCheck(L_297);
+		bool L_298;
+		L_298 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_297, NULL);
+		NullCheck(L_294);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_294, (bool)((int32_t)((int32_t)L_296|(int32_t)L_298)), NULL);
+		// Sequence node1 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_299 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		NullCheck(L_299);
-		bool L_300;
-		L_300 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_299, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node55_tE76087FF484921A06576D786C844893831A69531* L_301 = V_27;
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_299, NULL);
+		V_30 = L_299;
+		// node1.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_300 = V_30;
+		NullCheck(L_300);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_300, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node1.SetId(1);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_301 = V_30;
 		NullCheck(L_301);
-		bool L_302;
-		L_302 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_301, NULL);
-		NullCheck(L_298);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_298, (bool)((int32_t)((int32_t)L_300|(int32_t)L_302)), NULL);
-		// Condition_bt_APC_APC_Guiqi2_Action_node57 node57 = new Condition_bt_APC_APC_Guiqi2_Action_node57();
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_303 = (Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314_il2cpp_TypeInfo_var);
-		NullCheck(L_303);
-		Condition_bt_APC_APC_Guiqi2_Action_node57__ctor_m6D93769FDBBF11276287B6FC19640935ECEA0932(L_303, NULL);
-		V_28 = L_303;
-		// node57.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_304 = V_28;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_301, 1, NULL);
+		// node0.AddChild(node1);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_302 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_303 = V_30;
+		NullCheck(L_302);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_302, L_303);
+		// Condition_bt_APC_APC_Guiqi2_Action_node4 node4 = new Condition_bt_APC_APC_Guiqi2_Action_node4();
+		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_304 = (Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F_il2cpp_TypeInfo_var);
 		NullCheck(L_304);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_304, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node57.SetId(57);
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_305 = V_28;
+		Condition_bt_APC_APC_Guiqi2_Action_node4__ctor_m71A9E23E3C68D17BB02BE80116C3B808BBE77D9D(L_304, NULL);
+		V_31 = L_304;
+		// node4.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_305 = V_31;
 		NullCheck(L_305);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_305, ((int32_t)57), NULL);
-		// node57.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_306 = V_28;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_305, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node4.SetId(4);
+		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_306 = V_31;
 		NullCheck(L_306);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_306, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node53.AddChild(node57);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_307 = V_25;
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_308 = V_28;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_306, 4, NULL);
+		// node1.AddChild(node4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_307 = V_30;
+		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_308 = V_31;
 		NullCheck(L_307);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_307, L_308);
-		// node53.SetHasEvents(node53.HasEvents() | node57.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_309 = V_25;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_310 = V_25;
+		// node1.SetHasEvents(node1.HasEvents() | node4.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_309 = V_30;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_310 = V_30;
 		NullCheck(L_310);
 		bool L_311;
 		L_311 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_310, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node57_tFED0B2F1B4D60B92BC7C73B96828A30C1EC3C314* L_312 = V_28;
+		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_312 = V_31;
 		NullCheck(L_312);
 		bool L_313;
 		L_313 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_312, NULL);
 		NullCheck(L_309);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_309, (bool)((int32_t)((int32_t)L_311|(int32_t)L_313)), NULL);
-		// Action_bt_APC_APC_Guiqi2_Action_node58 node58 = new Action_bt_APC_APC_Guiqi2_Action_node58();
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_314 = (Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5_il2cpp_TypeInfo_var);
-		NullCheck(L_314);
-		Action_bt_APC_APC_Guiqi2_Action_node58__ctor_m00270334F81CC63595214DD481C10D3101F803AD(L_314, NULL);
-		V_29 = L_314;
-		// node58.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_315 = V_29;
-		NullCheck(L_315);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_315, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node58.SetId(58);
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_316 = V_29;
-		NullCheck(L_316);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_316, ((int32_t)58), NULL);
-		// node58.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_317 = V_29;
-		NullCheck(L_317);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_317, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node53.AddChild(node58);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_318 = V_25;
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_319 = V_29;
-		NullCheck(L_318);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_318, L_319);
-		// node53.SetHasEvents(node53.HasEvents() | node58.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_320 = V_25;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_321 = V_25;
-		NullCheck(L_321);
-		bool L_322;
-		L_322 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_321, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node58_t41A7780AE8505A92E799521557C14C6187D452C5* L_323 = V_29;
-		NullCheck(L_323);
-		bool L_324;
-		L_324 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_323, NULL);
-		NullCheck(L_320);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_320, (bool)((int32_t)((int32_t)L_322|(int32_t)L_324)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node53.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_325 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_326 = V_0;
-		NullCheck(L_326);
-		bool L_327;
-		L_327 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_326, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_328 = V_25;
-		NullCheck(L_328);
-		bool L_329;
-		L_329 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_328, NULL);
-		NullCheck(L_325);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_325, (bool)((int32_t)((int32_t)L_327|(int32_t)L_329)), NULL);
-		// Sequence node1 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_330 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_330);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_330, NULL);
-		V_30 = L_330;
-		// node1.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_331 = V_30;
-		NullCheck(L_331);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_331, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node1.SetId(1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_332 = V_30;
-		NullCheck(L_332);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_332, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_333 = V_30;
-		NullCheck(L_333);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_333, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node1);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_334 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_335 = V_30;
-		NullCheck(L_334);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_334, L_335);
-		// Condition_bt_APC_APC_Guiqi2_Action_node4 node4 = new Condition_bt_APC_APC_Guiqi2_Action_node4();
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_336 = (Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F_il2cpp_TypeInfo_var);
-		NullCheck(L_336);
-		Condition_bt_APC_APC_Guiqi2_Action_node4__ctor_m71A9E23E3C68D17BB02BE80116C3B808BBE77D9D(L_336, NULL);
-		V_31 = L_336;
-		// node4.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_337 = V_31;
-		NullCheck(L_337);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_337, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node4.SetId(4);
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_338 = V_31;
-		NullCheck(L_338);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_338, 4, NULL);
-		// node4.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_339 = V_31;
-		NullCheck(L_339);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_339, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node1.AddChild(node4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_340 = V_30;
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_341 = V_31;
-		NullCheck(L_340);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_340, L_341);
-		// node1.SetHasEvents(node1.HasEvents() | node4.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_342 = V_30;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_343 = V_30;
-		NullCheck(L_343);
-		bool L_344;
-		L_344 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_343, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node4_t3A14B1DE5626A971F77F7CA16754892947A5D94F* L_345 = V_31;
-		NullCheck(L_345);
-		bool L_346;
-		L_346 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_345, NULL);
-		NullCheck(L_342);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_342, (bool)((int32_t)((int32_t)L_344|(int32_t)L_346)), NULL);
 		// Condition_bt_APC_APC_Guiqi2_Action_node9 node9 = new Condition_bt_APC_APC_Guiqi2_Action_node9();
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_347 = (Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670_il2cpp_TypeInfo_var);
-		NullCheck(L_347);
-		Condition_bt_APC_APC_Guiqi2_Action_node9__ctor_m914CA9AD13D59A2DD9B60DA6176D85B0781CB874(L_347, NULL);
-		V_32 = L_347;
+		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_314 = (Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670_il2cpp_TypeInfo_var);
+		NullCheck(L_314);
+		Condition_bt_APC_APC_Guiqi2_Action_node9__ctor_m914CA9AD13D59A2DD9B60DA6176D85B0781CB874(L_314, NULL);
+		V_32 = L_314;
 		// node9.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_348 = V_32;
-		NullCheck(L_348);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_348, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_315 = V_32;
+		NullCheck(L_315);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_315, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node9.SetId(9);
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_349 = V_32;
-		NullCheck(L_349);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_349, ((int32_t)9), NULL);
-		// node9.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_350 = V_32;
-		NullCheck(L_350);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_350, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_316 = V_32;
+		NullCheck(L_316);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_316, ((int32_t)9), NULL);
 		// node1.AddChild(node9);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_351 = V_30;
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_352 = V_32;
-		NullCheck(L_351);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_351, L_352);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_317 = V_30;
+		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_318 = V_32;
+		NullCheck(L_317);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_317, L_318);
 		// node1.SetHasEvents(node1.HasEvents() | node9.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_353 = V_30;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_354 = V_30;
-		NullCheck(L_354);
-		bool L_355;
-		L_355 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_354, NULL);
-		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_356 = V_32;
-		NullCheck(L_356);
-		bool L_357;
-		L_357 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_356, NULL);
-		NullCheck(L_353);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_353, (bool)((int32_t)((int32_t)L_355|(int32_t)L_357)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_319 = V_30;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_320 = V_30;
+		NullCheck(L_320);
+		bool L_321;
+		L_321 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_320, NULL);
+		Condition_bt_APC_APC_Guiqi2_Action_node9_t36BC2FAC5E7DDD76DA5462D61C21242B75F89670* L_322 = V_32;
+		NullCheck(L_322);
+		bool L_323;
+		L_323 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_322, NULL);
+		NullCheck(L_319);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_319, (bool)((int32_t)((int32_t)L_321|(int32_t)L_323)), NULL);
 		// Action_bt_APC_APC_Guiqi2_Action_node10 node10 = new Action_bt_APC_APC_Guiqi2_Action_node10();
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_358 = (Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F_il2cpp_TypeInfo_var);
-		NullCheck(L_358);
-		Action_bt_APC_APC_Guiqi2_Action_node10__ctor_m6073BC63A3BD77419DEA47D23817C72BC124E188(L_358, NULL);
-		V_33 = L_358;
+		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_324 = (Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F_il2cpp_TypeInfo_var);
+		NullCheck(L_324);
+		Action_bt_APC_APC_Guiqi2_Action_node10__ctor_m6073BC63A3BD77419DEA47D23817C72BC124E188(L_324, NULL);
+		V_33 = L_324;
 		// node10.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_359 = V_33;
-		NullCheck(L_359);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_359, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_325 = V_33;
+		NullCheck(L_325);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_325, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node10.SetId(10);
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_360 = V_33;
-		NullCheck(L_360);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_360, ((int32_t)10), NULL);
-		// node10.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_361 = V_33;
-		NullCheck(L_361);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_361, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_326 = V_33;
+		NullCheck(L_326);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_326, ((int32_t)10), NULL);
 		// node1.AddChild(node10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_362 = V_30;
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_363 = V_33;
-		NullCheck(L_362);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_362, L_363);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_327 = V_30;
+		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_328 = V_33;
+		NullCheck(L_327);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_327, L_328);
 		// node1.SetHasEvents(node1.HasEvents() | node10.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_364 = V_30;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_365 = V_30;
-		NullCheck(L_365);
-		bool L_366;
-		L_366 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_365, NULL);
-		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_367 = V_33;
-		NullCheck(L_367);
-		bool L_368;
-		L_368 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_367, NULL);
-		NullCheck(L_364);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_364, (bool)((int32_t)((int32_t)L_366|(int32_t)L_368)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_329 = V_30;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_330 = V_30;
+		NullCheck(L_330);
+		bool L_331;
+		L_331 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_330, NULL);
+		Action_bt_APC_APC_Guiqi2_Action_node10_t7EDB3D8E46C80A765984E77FC949C7B5A74E6F0F* L_332 = V_33;
+		NullCheck(L_332);
+		bool L_333;
+		L_333 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_332, NULL);
+		NullCheck(L_329);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_329, (bool)((int32_t)((int32_t)L_331|(int32_t)L_333)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_369 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_370 = V_0;
-		NullCheck(L_370);
-		bool L_371;
-		L_371 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_370, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_372 = V_30;
-		NullCheck(L_372);
-		bool L_373;
-		L_373 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_372, NULL);
-		NullCheck(L_369);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_369, (bool)((int32_t)((int32_t)L_371|(int32_t)L_373)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_334 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_335 = V_0;
+		NullCheck(L_335);
+		bool L_336;
+		L_336 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_335, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_337 = V_30;
+		NullCheck(L_337);
+		bool L_338;
+		L_338 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_337, NULL);
+		NullCheck(L_334);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_334, (bool)((int32_t)((int32_t)L_336|(int32_t)L_338)), NULL);
 		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_374 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_375 = ___0_bt;
-		NullCheck(L_375);
-		bool L_376;
-		L_376 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_375, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_377 = V_0;
-		NullCheck(L_377);
-		bool L_378;
-		L_378 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_377, NULL);
-		NullCheck(L_374);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_374, (bool)((int32_t)((int32_t)L_376|(int32_t)L_378)), NULL);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_339 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_340 = ___0_bt;
+		NullCheck(L_340);
+		bool L_341;
+		L_341 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_340, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_342 = V_0;
+		NullCheck(L_342);
+		bool L_343;
+		L_343 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_342, NULL);
+		NullCheck(L_339);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_339, (bool)((int32_t)((int32_t)L_341|(int32_t)L_343)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -18722,13 +18717,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node2_
 		// public Condition_bt_APC_APC_Guiqi_Action_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2500;
-		__this->___opl_p0_20 = ((int32_t)2500);
+		__this->___opl_p0_19 = ((int32_t)2500);
 		// opl_p1 = 2500;
-		__this->___opl_p1_21 = ((int32_t)2500);
+		__this->___opl_p1_20 = ((int32_t)2500);
 		// opl_p2 = 1500;
-		__this->___opl_p2_22 = ((int32_t)1500);
+		__this->___opl_p2_21 = ((int32_t)1500);
 		// opl_p3 = 1500;
-		__this->___opl_p3_23 = ((int32_t)1500);
+		__this->___opl_p3_22 = ((int32_t)1500);
 		// }
 		return;
 	}
@@ -18746,10 +18741,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -18787,11 +18782,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node8_
 		// public Condition_bt_APC_APC_Guiqi_Action_node8()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.NotEqual;
-		__this->___opl_p1_21 = 1;
+		__this->___opl_p1_20 = 1;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -18809,9 +18804,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -18849,7 +18844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node3_
 		// public Condition_bt_APC_APC_Guiqi_Action_node3()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -18867,7 +18862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -18905,7 +18900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node16
 		// public Condition_bt_APC_APC_Guiqi_Action_node16()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 7097;
-		__this->___opl_p0_20 = ((int32_t)7097);
+		__this->___opl_p0_19 = ((int32_t)7097);
 		// }
 		return;
 	}
@@ -18923,7 +18918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -18988,15 +18983,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// public Action_bt_APC_APC_Guiqi_Action_node15()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 9;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, ((int32_t)9), List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -19018,7 +19013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19041,7 +19036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19064,7 +19059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19087,7 +19082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item3.specialChoice = 0;
 		(&V_3)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item3);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_9 = V_3;
 		NullCheck(L_8);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_8, L_9, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19110,7 +19105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item4.specialChoice = 0;
 		(&V_4)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item4);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_11 = V_4;
 		NullCheck(L_10);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_10, L_11, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19133,7 +19128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item5.specialChoice = 0;
 		(&V_5)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item5);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_13 = V_5;
 		NullCheck(L_12);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_12, L_13, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19156,7 +19151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item6.specialChoice = 0;
 		(&V_6)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item6);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_15 = V_6;
 		NullCheck(L_14);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_14, L_15, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19179,7 +19174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item7.specialChoice = 0;
 		(&V_7)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item7);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_17 = V_7;
 		NullCheck(L_16);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_16, L_17, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19202,12 +19197,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node15__c
 		// method_p0_item8.specialChoice = 0;
 		(&V_8)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item8);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_19 = V_8;
 		NullCheck(L_18);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_18, L_19, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -19224,8 +19219,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi_Action_node15
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -19247,13 +19242,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node1_
 		// public Condition_bt_APC_APC_Guiqi_Action_node1()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2500;
-		__this->___opl_p0_20 = ((int32_t)2500);
+		__this->___opl_p0_19 = ((int32_t)2500);
 		// opl_p1 = 2500;
-		__this->___opl_p1_21 = ((int32_t)2500);
+		__this->___opl_p1_20 = ((int32_t)2500);
 		// opl_p2 = 1500;
-		__this->___opl_p2_22 = ((int32_t)1500);
+		__this->___opl_p2_21 = ((int32_t)1500);
 		// opl_p3 = 1500;
-		__this->___opl_p3_23 = ((int32_t)1500);
+		__this->___opl_p3_22 = ((int32_t)1500);
 		// }
 		return;
 	}
@@ -19271,10 +19266,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -19312,7 +19307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node14
 		// public Condition_bt_APC_APC_Guiqi_Action_node14()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -19330,7 +19325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -19368,7 +19363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node6_
 		// public Condition_bt_APC_APC_Guiqi_Action_node6()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 7091;
-		__this->___opl_p0_20 = ((int32_t)7091);
+		__this->___opl_p0_19 = ((int32_t)7091);
 		// }
 		return;
 	}
@@ -19386,7 +19381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -19453,15 +19448,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// public Action_bt_APC_APC_Guiqi_Action_node7()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 10;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, ((int32_t)10), List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -19483,7 +19478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19506,7 +19501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19529,7 +19524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19552,7 +19547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item3.specialChoice = 0;
 		(&V_3)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item3);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_8 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_9 = V_3;
 		NullCheck(L_8);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_8, L_9, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19575,7 +19570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item4.specialChoice = 0;
 		(&V_4)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item4);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_10 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_11 = V_4;
 		NullCheck(L_10);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_10, L_11, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19598,7 +19593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item5.specialChoice = 0;
 		(&V_5)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item5);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_12 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_13 = V_5;
 		NullCheck(L_12);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_12, L_13, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19621,7 +19616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item6.specialChoice = 0;
 		(&V_6)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item6);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_14 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_15 = V_6;
 		NullCheck(L_14);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_14, L_15, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19644,7 +19639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item7.specialChoice = 0;
 		(&V_7)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item7);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_16 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_17 = V_7;
 		NullCheck(L_16);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_16, L_17, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19667,7 +19662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item8.specialChoice = 0;
 		(&V_8)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item8);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_18 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_19 = V_8;
 		NullCheck(L_18);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_18, L_19, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -19690,12 +19685,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node7__ct
 		// method_p0_item9.specialChoice = 0;
 		(&V_9)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item9);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_20 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_20 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_21 = V_9;
 		NullCheck(L_20);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_20, L_21, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -19712,8 +19707,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi_Action_node7_
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -19735,13 +19730,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node10
 		// public Condition_bt_APC_APC_Guiqi_Action_node10()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 7000;
-		__this->___opl_p0_20 = ((int32_t)7000);
+		__this->___opl_p0_19 = ((int32_t)7000);
 		// opl_p1 = 7000;
-		__this->___opl_p1_21 = ((int32_t)7000);
+		__this->___opl_p1_20 = ((int32_t)7000);
 		// opl_p2 = 1000;
-		__this->___opl_p2_22 = ((int32_t)1000);
+		__this->___opl_p2_21 = ((int32_t)1000);
 		// opl_p3 = 1000;
-		__this->___opl_p3_23 = ((int32_t)1000);
+		__this->___opl_p3_22 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -19759,10 +19754,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -19800,7 +19795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node12
 		// public Condition_bt_APC_APC_Guiqi_Action_node12()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.2f;
-		__this->___opl_p0_20 = (0.200000003f);
+		__this->___opl_p0_19 = (0.200000003f);
 		// }
 		return;
 	}
@@ -19818,7 +19813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -19856,7 +19851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node17
 		// public Condition_bt_APC_APC_Guiqi_Action_node17()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 7098;
-		__this->___opl_p0_20 = ((int32_t)7098);
+		__this->___opl_p0_19 = ((int32_t)7098);
 		// }
 		return;
 	}
@@ -19874,7 +19869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -19923,15 +19918,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node18__c
 		// public Action_bt_APC_APC_Guiqi_Action_node18()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -19953,12 +19948,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node18__c
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -19975,8 +19970,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi_Action_node18
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -19998,13 +19993,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node20
 		// public Condition_bt_APC_APC_Guiqi_Action_node20()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 15000;
-		__this->___opl_p0_20 = ((int32_t)15000);
+		__this->___opl_p0_19 = ((int32_t)15000);
 		// opl_p1 = 15000;
-		__this->___opl_p1_21 = ((int32_t)15000);
+		__this->___opl_p1_20 = ((int32_t)15000);
 		// opl_p2 = 15000;
-		__this->___opl_p2_22 = ((int32_t)15000);
+		__this->___opl_p2_21 = ((int32_t)15000);
 		// opl_p3 = 15000;
-		__this->___opl_p3_23 = ((int32_t)15000);
+		__this->___opl_p3_22 = ((int32_t)15000);
 		// }
 		return;
 	}
@@ -20022,10 +20017,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -20063,13 +20058,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node21
 		// public Condition_bt_APC_APC_Guiqi_Action_node21()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 3000;
-		__this->___opl_p0_20 = ((int32_t)3000);
+		__this->___opl_p0_19 = ((int32_t)3000);
 		// opl_p1 = 3000;
-		__this->___opl_p1_21 = ((int32_t)3000);
+		__this->___opl_p1_20 = ((int32_t)3000);
 		// opl_p2 = 3000;
-		__this->___opl_p2_22 = ((int32_t)3000);
+		__this->___opl_p2_21 = ((int32_t)3000);
 		// opl_p3 = 3000;
-		__this->___opl_p3_23 = ((int32_t)3000);
+		__this->___opl_p3_22 = ((int32_t)3000);
 		// }
 		return;
 	}
@@ -20087,10 +20082,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -20128,7 +20123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node22
 		// public Condition_bt_APC_APC_Guiqi_Action_node22()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -20146,7 +20141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -20184,7 +20179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Guiqi_Action_node24
 		// public Condition_bt_APC_APC_Guiqi_Action_node24()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 7090;
-		__this->___opl_p0_20 = ((int32_t)7090);
+		__this->___opl_p0_19 = ((int32_t)7090);
 		// }
 		return;
 	}
@@ -20202,7 +20197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Guiqi_Action_nod
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -20251,15 +20246,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node25__c
 		// public Action_bt_APC_APC_Guiqi_Action_node25()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -20281,12 +20276,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Guiqi_Action_node25__c
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -20303,8 +20298,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Guiqi_Action_node25
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -20345,7 +20340,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Guiqi_Action_build_behavior_t
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA025A82F07CAFF0D3468D141DD4D5AE58DF5530D);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
@@ -20394,792 +20388,696 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Guiqi_Action_build_behavior_t
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node13 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node13.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node13.SetId(13);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, ((int32_t)13), NULL);
-		// node13.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, ((int32_t)13), NULL);
 		// node0.AddChild(node13);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Guiqi_Action_node2 node2 = new Condition_bt_APC_APC_Guiqi_Action_node2();
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_17 = (Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Guiqi_Action_node2__ctor_m3F0E610795320A6C452B3AFB19ED5A05280FA69C(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_14 = (Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Guiqi_Action_node2__ctor_m3F0E610795320A6C452B3AFB19ED5A05280FA69C(L_14, NULL);
+		V_2 = L_14;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
 		// node13.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node13.SetHasEvents(node13.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node2_tAFB6791B46995081FA14A9F41F09C3D57B775B5B* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Condition_bt_APC_APC_Guiqi_Action_node8 node8 = new Condition_bt_APC_APC_Guiqi_Action_node8();
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_28 = (Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Condition_bt_APC_APC_Guiqi_Action_node8__ctor_mD4742A043EF12363683A0AA6B85B7B0DDF050867(L_28, NULL);
-		V_3 = L_28;
+		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_24 = (Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Condition_bt_APC_APC_Guiqi_Action_node8__ctor_mD4742A043EF12363683A0AA6B85B7B0DDF050867(L_24, NULL);
+		V_3 = L_24;
 		// node8.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node8.SetId(8);
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 8, NULL);
-		// node8.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 8, NULL);
 		// node13.AddChild(node8);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node13.SetHasEvents(node13.HasEvents() | node8.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
-		NullCheck(L_35);
-		bool L_36;
-		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_37 = V_3;
-		NullCheck(L_37);
-		bool L_38;
-		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
-		NullCheck(L_34);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node8_tBB8DDE6537D877A70DF03F4A6CC895A2EDBEE7EF* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
 		// Condition_bt_APC_APC_Guiqi_Action_node3 node3 = new Condition_bt_APC_APC_Guiqi_Action_node3();
-		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_39 = (Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE_il2cpp_TypeInfo_var);
-		NullCheck(L_39);
-		Condition_bt_APC_APC_Guiqi_Action_node3__ctor_mAF9DDA88ECBE7B37AD7EB0BBA8BD2C731CEBBFBF(L_39, NULL);
-		V_4 = L_39;
+		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_34 = (Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		Condition_bt_APC_APC_Guiqi_Action_node3__ctor_mAF9DDA88ECBE7B37AD7EB0BBA8BD2C731CEBBFBF(L_34, NULL);
+		V_4 = L_34;
 		// node3.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_40 = V_4;
-		NullCheck(L_40);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_35 = V_4;
+		NullCheck(L_35);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node3.SetId(3);
-		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_41 = V_4;
-		NullCheck(L_41);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 3, NULL);
-		// node3.SetAgentType("BTAgent");
+		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_36 = V_4;
+		NullCheck(L_36);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 3, NULL);
+		// node13.AddChild(node3);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
+		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_38 = V_4;
+		NullCheck(L_37);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_37, L_38);
+		// node13.SetHasEvents(node13.HasEvents() | node3.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_1;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
 		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_42 = V_4;
 		NullCheck(L_42);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_42, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_1;
-		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_44 = V_4;
-		NullCheck(L_43);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_43, L_44);
-		// node13.SetHasEvents(node13.HasEvents() | node3.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_1;
-		NullCheck(L_46);
-		bool L_47;
-		L_47 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_46, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node3_tDFCFEB36BD8D53A9C1755971D5AB6159B8F650CE* L_48 = V_4;
-		NullCheck(L_48);
-		bool L_49;
-		L_49 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_48, NULL);
-		NullCheck(L_45);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_45, (bool)((int32_t)((int32_t)L_47|(int32_t)L_49)), NULL);
+		bool L_43;
+		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
+		NullCheck(L_39);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Condition_bt_APC_APC_Guiqi_Action_node16 node16 = new Condition_bt_APC_APC_Guiqi_Action_node16();
-		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_50 = (Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Condition_bt_APC_APC_Guiqi_Action_node16__ctor_m71FD614BA66CB4A2F233AD64D68296D840C7542E(L_50, NULL);
-		V_5 = L_50;
+		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_44 = (Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_Guiqi_Action_node16__ctor_m71FD614BA66CB4A2F233AD64D68296D840C7542E(L_44, NULL);
+		V_5 = L_44;
 		// node16.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node16.SetId(16);
+		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, ((int32_t)16), NULL);
+		// node13.AddChild(node16);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_1;
+		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node13.SetHasEvents(node13.HasEvents() | node16.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_1;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, ((int32_t)16), NULL);
-		// node16.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node16);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_1;
-		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node13.SetHasEvents(node13.HasEvents() | node16.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
-		NullCheck(L_57);
-		bool L_58;
-		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node16_tD45182D07433BFA5C28F90A9C91D1EA0D0A884FB* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
 		// Action_bt_APC_APC_Guiqi_Action_node15 node15 = new Action_bt_APC_APC_Guiqi_Action_node15();
-		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_61 = (Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290_il2cpp_TypeInfo_var);
-		NullCheck(L_61);
-		Action_bt_APC_APC_Guiqi_Action_node15__ctor_mE11F576FDB2BC6684023302049DCC7374E092BEF(L_61, NULL);
-		V_6 = L_61;
+		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_54 = (Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		Action_bt_APC_APC_Guiqi_Action_node15__ctor_mE11F576FDB2BC6684023302049DCC7374E092BEF(L_54, NULL);
+		V_6 = L_54;
 		// node15.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_55 = V_6;
+		NullCheck(L_55);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node15.SetId(15);
+		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_56 = V_6;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, ((int32_t)15), NULL);
+		// node13.AddChild(node15);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
+		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_58 = V_6;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node13.SetHasEvents(node13.HasEvents() | node15.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_1;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_62 = V_6;
 		NullCheck(L_62);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_62, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node15.SetId(15);
-		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_63 = V_6;
-		NullCheck(L_63);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_63, ((int32_t)15), NULL);
-		// node15.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_64 = V_6;
-		NullCheck(L_64);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_64, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node13.AddChild(node15);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_65 = V_1;
-		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_66 = V_6;
-		NullCheck(L_65);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_65, L_66);
-		// node13.SetHasEvents(node13.HasEvents() | node15.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_1;
-		NullCheck(L_68);
-		bool L_69;
-		L_69 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_68, NULL);
-		Action_bt_APC_APC_Guiqi_Action_node15_t18417DF48FE9062133EF9BFA3C88BB4D65227290* L_70 = V_6;
-		NullCheck(L_70);
-		bool L_71;
-		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
-		NullCheck(L_67);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_67, (bool)((int32_t)((int32_t)L_69|(int32_t)L_71)), NULL);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node13.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_73 = V_0;
-		NullCheck(L_73);
-		bool L_74;
-		L_74 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_73, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_75 = V_1;
-		NullCheck(L_75);
-		bool L_76;
-		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
-		NullCheck(L_72);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_72, (bool)((int32_t)((int32_t)L_74|(int32_t)L_76)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
 		// Sequence node4 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_77);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_77, NULL);
-		V_7 = L_77;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_69, NULL);
+		V_7 = L_69;
 		// node4.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_78 = V_7;
-		NullCheck(L_78);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_78, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node4.SetId(4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, 4, NULL);
+		// node0.AddChild(node4);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// Condition_bt_APC_APC_Guiqi_Action_node1 node1 = new Condition_bt_APC_APC_Guiqi_Action_node1();
+		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_74 = (Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
+		Condition_bt_APC_APC_Guiqi_Action_node1__ctor_mCF91B670905961511ED94E0430EC6FB6BEF6254A(L_74, NULL);
+		V_8 = L_74;
+		// node1.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_75 = V_8;
+		NullCheck(L_75);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_75, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node1.SetId(1);
+		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_76 = V_8;
+		NullCheck(L_76);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_76, 1, NULL);
+		// node4.AddChild(node1);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_7;
+		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_78 = V_8;
+		NullCheck(L_77);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_77, L_78);
+		// node4.SetHasEvents(node4.HasEvents() | node1.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_7;
-		NullCheck(L_79);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_79, 4, NULL);
-		// node4.SetAgentType("BTAgent");
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_7;
 		NullCheck(L_80);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_80, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node4);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_81 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_82 = V_7;
-		NullCheck(L_81);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_81, L_82);
-		// Condition_bt_APC_APC_Guiqi_Action_node1 node1 = new Condition_bt_APC_APC_Guiqi_Action_node1();
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_83 = (Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC_il2cpp_TypeInfo_var);
-		NullCheck(L_83);
-		Condition_bt_APC_APC_Guiqi_Action_node1__ctor_mCF91B670905961511ED94E0430EC6FB6BEF6254A(L_83, NULL);
-		V_8 = L_83;
-		// node1.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_84 = V_8;
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_82 = V_8;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
+		// Condition_bt_APC_APC_Guiqi_Action_node14 node14 = new Condition_bt_APC_APC_Guiqi_Action_node14();
+		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_84 = (Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827_il2cpp_TypeInfo_var);
 		NullCheck(L_84);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_84, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node1.SetId(1);
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_85 = V_8;
+		Condition_bt_APC_APC_Guiqi_Action_node14__ctor_m29AB171072999C8071BFE89E3C477217DA1D89EA(L_84, NULL);
+		V_9 = L_84;
+		// node14.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_85 = V_9;
 		NullCheck(L_85);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_85, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_86 = V_8;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node14.SetId(14);
+		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_86 = V_9;
 		NullCheck(L_86);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_86, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node1);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)14), NULL);
+		// node4.AddChild(node14);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_7;
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_88 = V_8;
+		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_88 = V_9;
 		NullCheck(L_87);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
-		// node4.SetHasEvents(node4.HasEvents() | node1.HasEvents());
+		// node4.SetHasEvents(node4.HasEvents() | node14.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_7;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_7;
 		NullCheck(L_90);
 		bool L_91;
 		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node1_t39535FD945E2527130E6072D5138BFBE0B4EB4BC* L_92 = V_8;
+		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_92 = V_9;
 		NullCheck(L_92);
 		bool L_93;
 		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
 		NullCheck(L_89);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
-		// Condition_bt_APC_APC_Guiqi_Action_node14 node14 = new Condition_bt_APC_APC_Guiqi_Action_node14();
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_94 = (Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827_il2cpp_TypeInfo_var);
+		// Condition_bt_APC_APC_Guiqi_Action_node6 node6 = new Condition_bt_APC_APC_Guiqi_Action_node6();
+		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_94 = (Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413_il2cpp_TypeInfo_var);
 		NullCheck(L_94);
-		Condition_bt_APC_APC_Guiqi_Action_node14__ctor_m29AB171072999C8071BFE89E3C477217DA1D89EA(L_94, NULL);
-		V_9 = L_94;
-		// node14.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_95 = V_9;
+		Condition_bt_APC_APC_Guiqi_Action_node6__ctor_m6EC3C2601A867F7211AD258A644A5EA1308FCCBB(L_94, NULL);
+		V_10 = L_94;
+		// node6.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_95 = V_10;
 		NullCheck(L_95);
 		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node14.SetId(14);
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_96 = V_9;
-		NullCheck(L_96);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)14), NULL);
-		// node14.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_97 = V_9;
-		NullCheck(L_97);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_97, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node14);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_7;
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_99 = V_9;
-		NullCheck(L_98);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_98, L_99);
-		// node4.SetHasEvents(node4.HasEvents() | node14.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_7;
-		NullCheck(L_101);
-		bool L_102;
-		L_102 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_101, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node14_tAC08BE56607430226C906A0555E1EDEC09FDA827* L_103 = V_9;
-		NullCheck(L_103);
-		bool L_104;
-		L_104 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_103, NULL);
-		NullCheck(L_100);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_100, (bool)((int32_t)((int32_t)L_102|(int32_t)L_104)), NULL);
-		// Condition_bt_APC_APC_Guiqi_Action_node6 node6 = new Condition_bt_APC_APC_Guiqi_Action_node6();
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_105 = (Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413_il2cpp_TypeInfo_var);
-		NullCheck(L_105);
-		Condition_bt_APC_APC_Guiqi_Action_node6__ctor_m6EC3C2601A867F7211AD258A644A5EA1308FCCBB(L_105, NULL);
-		V_10 = L_105;
-		// node6.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_106 = V_10;
-		NullCheck(L_106);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_106, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node6.SetId(6);
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_107 = V_10;
-		NullCheck(L_107);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_107, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_108 = V_10;
-		NullCheck(L_108);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_108, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_96 = V_10;
+		NullCheck(L_96);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, 6, NULL);
 		// node4.AddChild(node6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_7;
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_110 = V_10;
-		NullCheck(L_109);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_109, L_110);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_7;
+		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_98 = V_10;
+		NullCheck(L_97);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_97, L_98);
 		// node4.SetHasEvents(node4.HasEvents() | node6.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_111 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_112 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_99 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
+		NullCheck(L_100);
+		bool L_101;
+		L_101 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_100, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_102 = V_10;
+		NullCheck(L_102);
+		bool L_103;
+		L_103 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_102, NULL);
+		NullCheck(L_99);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_99, (bool)((int32_t)((int32_t)L_101|(int32_t)L_103)), NULL);
+		// Action_bt_APC_APC_Guiqi_Action_node7 node7 = new Action_bt_APC_APC_Guiqi_Action_node7();
+		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_104 = (Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799_il2cpp_TypeInfo_var);
+		NullCheck(L_104);
+		Action_bt_APC_APC_Guiqi_Action_node7__ctor_m0E8A0169C06818BE8B7D3B5718D85474D331B4F6(L_104, NULL);
+		V_11 = L_104;
+		// node7.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_105 = V_11;
+		NullCheck(L_105);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_105, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node7.SetId(7);
+		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_106 = V_11;
+		NullCheck(L_106);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_106, 7, NULL);
+		// node4.AddChild(node7);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_7;
+		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_108 = V_11;
+		NullCheck(L_107);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_107, L_108);
+		// node4.SetHasEvents(node4.HasEvents() | node7.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = V_7;
+		NullCheck(L_110);
+		bool L_111;
+		L_111 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_110, NULL);
+		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_112 = V_11;
 		NullCheck(L_112);
 		bool L_113;
 		L_113 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_112, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node6_t7F5DAAD83FCF48DB9EA9ED2D3DBE3A3C1C564413* L_114 = V_10;
-		NullCheck(L_114);
-		bool L_115;
-		L_115 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_114, NULL);
-		NullCheck(L_111);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_111, (bool)((int32_t)((int32_t)L_113|(int32_t)L_115)), NULL);
-		// Action_bt_APC_APC_Guiqi_Action_node7 node7 = new Action_bt_APC_APC_Guiqi_Action_node7();
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_116 = (Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799_il2cpp_TypeInfo_var);
-		NullCheck(L_116);
-		Action_bt_APC_APC_Guiqi_Action_node7__ctor_m0E8A0169C06818BE8B7D3B5718D85474D331B4F6(L_116, NULL);
-		V_11 = L_116;
-		// node7.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_117 = V_11;
-		NullCheck(L_117);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_117, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node7.SetId(7);
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_118 = V_11;
-		NullCheck(L_118);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_118, 7, NULL);
-		// node7.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_119 = V_11;
-		NullCheck(L_119);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_119, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node7);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_7;
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_121 = V_11;
-		NullCheck(L_120);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_120, L_121);
-		// node4.SetHasEvents(node4.HasEvents() | node7.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_122 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_123 = V_7;
-		NullCheck(L_123);
-		bool L_124;
-		L_124 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_123, NULL);
-		Action_bt_APC_APC_Guiqi_Action_node7_t2CBCCF987D7B54D9B38302E2C5AD28B2A82F2799* L_125 = V_11;
-		NullCheck(L_125);
-		bool L_126;
-		L_126 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_125, NULL);
-		NullCheck(L_122);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_122, (bool)((int32_t)((int32_t)L_124|(int32_t)L_126)), NULL);
+		NullCheck(L_109);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_109, (bool)((int32_t)((int32_t)L_111|(int32_t)L_113)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node4.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_127 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_128 = V_0;
-		NullCheck(L_128);
-		bool L_129;
-		L_129 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_128, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_7;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_114 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_115 = V_0;
+		NullCheck(L_115);
+		bool L_116;
+		L_116 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_115, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_117 = V_7;
+		NullCheck(L_117);
+		bool L_118;
+		L_118 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_117, NULL);
+		NullCheck(L_114);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_114, (bool)((int32_t)((int32_t)L_116|(int32_t)L_118)), NULL);
+		// Sequence node9 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_119);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_119, NULL);
+		V_12 = L_119;
+		// node9.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_12;
+		NullCheck(L_120);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_120, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node9.SetId(9);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_121 = V_12;
+		NullCheck(L_121);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_121, ((int32_t)9), NULL);
+		// node0.AddChild(node9);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_122 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_123 = V_12;
+		NullCheck(L_122);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_122, L_123);
+		// Condition_bt_APC_APC_Guiqi_Action_node10 node10 = new Condition_bt_APC_APC_Guiqi_Action_node10();
+		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_124 = (Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE_il2cpp_TypeInfo_var);
+		NullCheck(L_124);
+		Condition_bt_APC_APC_Guiqi_Action_node10__ctor_m8BDAF7C653FED29FCC2F596AA3D33278AF20B8D4(L_124, NULL);
+		V_13 = L_124;
+		// node10.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_125 = V_13;
+		NullCheck(L_125);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_125, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node10.SetId(10);
+		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_126 = V_13;
+		NullCheck(L_126);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_126, ((int32_t)10), NULL);
+		// node9.AddChild(node10);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_127 = V_12;
+		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_128 = V_13;
+		NullCheck(L_127);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_127, L_128);
+		// node9.SetHasEvents(node9.HasEvents() | node10.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = V_12;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_12;
 		NullCheck(L_130);
 		bool L_131;
 		L_131 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_130, NULL);
-		NullCheck(L_127);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_127, (bool)((int32_t)((int32_t)L_129|(int32_t)L_131)), NULL);
-		// Sequence node9 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_132 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_132 = V_13;
 		NullCheck(L_132);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_132, NULL);
-		V_12 = L_132;
-		// node9.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_133 = V_12;
-		NullCheck(L_133);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_133, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node9.SetId(9);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_134 = V_12;
-		NullCheck(L_134);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_134, ((int32_t)9), NULL);
-		// node9.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_135 = V_12;
-		NullCheck(L_135);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_135, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node9);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_136 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_12;
-		NullCheck(L_136);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_136, L_137);
-		// Condition_bt_APC_APC_Guiqi_Action_node10 node10 = new Condition_bt_APC_APC_Guiqi_Action_node10();
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_138 = (Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE_il2cpp_TypeInfo_var);
-		NullCheck(L_138);
-		Condition_bt_APC_APC_Guiqi_Action_node10__ctor_m8BDAF7C653FED29FCC2F596AA3D33278AF20B8D4(L_138, NULL);
-		V_13 = L_138;
-		// node10.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_139 = V_13;
-		NullCheck(L_139);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_139, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node10.SetId(10);
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_140 = V_13;
-		NullCheck(L_140);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_140, ((int32_t)10), NULL);
-		// node10.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_141 = V_13;
-		NullCheck(L_141);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_141, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node9.AddChild(node10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_142 = V_12;
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_143 = V_13;
-		NullCheck(L_142);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_142, L_143);
-		// node9.SetHasEvents(node9.HasEvents() | node10.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_144 = V_12;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_145 = V_12;
-		NullCheck(L_145);
-		bool L_146;
-		L_146 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_145, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node10_tBA8C5D79B3792EF95F385117D008EDAD194194FE* L_147 = V_13;
-		NullCheck(L_147);
-		bool L_148;
-		L_148 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_147, NULL);
-		NullCheck(L_144);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_144, (bool)((int32_t)((int32_t)L_146|(int32_t)L_148)), NULL);
+		bool L_133;
+		L_133 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_132, NULL);
+		NullCheck(L_129);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_129, (bool)((int32_t)((int32_t)L_131|(int32_t)L_133)), NULL);
 		// Condition_bt_APC_APC_Guiqi_Action_node12 node12 = new Condition_bt_APC_APC_Guiqi_Action_node12();
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_149 = (Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169_il2cpp_TypeInfo_var);
-		NullCheck(L_149);
-		Condition_bt_APC_APC_Guiqi_Action_node12__ctor_m4102C518E595D9A9452317275DA6DC70A66D8773(L_149, NULL);
-		V_14 = L_149;
+		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_134 = (Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169_il2cpp_TypeInfo_var);
+		NullCheck(L_134);
+		Condition_bt_APC_APC_Guiqi_Action_node12__ctor_m4102C518E595D9A9452317275DA6DC70A66D8773(L_134, NULL);
+		V_14 = L_134;
 		// node12.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_150 = V_14;
-		NullCheck(L_150);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_150, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_135 = V_14;
+		NullCheck(L_135);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_135, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node12.SetId(12);
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_151 = V_14;
-		NullCheck(L_151);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_151, ((int32_t)12), NULL);
-		// node12.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_152 = V_14;
-		NullCheck(L_152);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_152, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_136 = V_14;
+		NullCheck(L_136);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_136, ((int32_t)12), NULL);
 		// node9.AddChild(node12);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_153 = V_12;
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_154 = V_14;
-		NullCheck(L_153);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_153, L_154);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_12;
+		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_138 = V_14;
+		NullCheck(L_137);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_137, L_138);
 		// node9.SetHasEvents(node9.HasEvents() | node12.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_155 = V_12;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_156 = V_12;
-		NullCheck(L_156);
-		bool L_157;
-		L_157 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_156, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_158 = V_14;
-		NullCheck(L_158);
-		bool L_159;
-		L_159 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_158, NULL);
-		NullCheck(L_155);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_155, (bool)((int32_t)((int32_t)L_157|(int32_t)L_159)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = V_12;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_12;
+		NullCheck(L_140);
+		bool L_141;
+		L_141 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_140, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node12_tE3AAB26E6C138B5DC64B123DBA1B740631D32169* L_142 = V_14;
+		NullCheck(L_142);
+		bool L_143;
+		L_143 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_142, NULL);
+		NullCheck(L_139);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_139, (bool)((int32_t)((int32_t)L_141|(int32_t)L_143)), NULL);
 		// Condition_bt_APC_APC_Guiqi_Action_node17 node17 = new Condition_bt_APC_APC_Guiqi_Action_node17();
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_160 = (Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD_il2cpp_TypeInfo_var);
-		NullCheck(L_160);
-		Condition_bt_APC_APC_Guiqi_Action_node17__ctor_mB599537914F4962BD1687C8B237212844A21A485(L_160, NULL);
-		V_15 = L_160;
+		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_144 = (Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD_il2cpp_TypeInfo_var);
+		NullCheck(L_144);
+		Condition_bt_APC_APC_Guiqi_Action_node17__ctor_mB599537914F4962BD1687C8B237212844A21A485(L_144, NULL);
+		V_15 = L_144;
 		// node17.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_161 = V_15;
-		NullCheck(L_161);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_161, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_145 = V_15;
+		NullCheck(L_145);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_145, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node17.SetId(17);
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_162 = V_15;
-		NullCheck(L_162);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_162, ((int32_t)17), NULL);
-		// node17.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_163 = V_15;
-		NullCheck(L_163);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_163, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_146 = V_15;
+		NullCheck(L_146);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_146, ((int32_t)17), NULL);
 		// node9.AddChild(node17);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_164 = V_12;
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_165 = V_15;
-		NullCheck(L_164);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_164, L_165);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_12;
+		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_148 = V_15;
+		NullCheck(L_147);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_147, L_148);
 		// node9.SetHasEvents(node9.HasEvents() | node17.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_166 = V_12;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_149 = V_12;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_150 = V_12;
+		NullCheck(L_150);
+		bool L_151;
+		L_151 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_150, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_152 = V_15;
+		NullCheck(L_152);
+		bool L_153;
+		L_153 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_152, NULL);
+		NullCheck(L_149);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_149, (bool)((int32_t)((int32_t)L_151|(int32_t)L_153)), NULL);
+		// Action_bt_APC_APC_Guiqi_Action_node18 node18 = new Action_bt_APC_APC_Guiqi_Action_node18();
+		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_154 = (Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3_il2cpp_TypeInfo_var);
+		NullCheck(L_154);
+		Action_bt_APC_APC_Guiqi_Action_node18__ctor_m4619264F247506EBBC87E0711A2BC01E6FF0AEFD(L_154, NULL);
+		V_16 = L_154;
+		// node18.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_155 = V_16;
+		NullCheck(L_155);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node18.SetId(18);
+		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_156 = V_16;
+		NullCheck(L_156);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)18), NULL);
+		// node9.AddChild(node18);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_12;
+		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_158 = V_16;
+		NullCheck(L_157);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_157, L_158);
+		// node9.SetHasEvents(node9.HasEvents() | node18.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_12;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_160 = V_12;
+		NullCheck(L_160);
+		bool L_161;
+		L_161 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_160, NULL);
+		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_162 = V_16;
+		NullCheck(L_162);
+		bool L_163;
+		L_163 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_162, NULL);
+		NullCheck(L_159);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_159, (bool)((int32_t)((int32_t)L_161|(int32_t)L_163)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node9.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_164 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_165 = V_0;
+		NullCheck(L_165);
+		bool L_166;
+		L_166 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_165, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_12;
 		NullCheck(L_167);
 		bool L_168;
 		L_168 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_167, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node17_t3C2D1AF81CFA9DCAD0E23B2E4BC6040DC79937DD* L_169 = V_15;
+		NullCheck(L_164);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_164, (bool)((int32_t)((int32_t)L_166|(int32_t)L_168)), NULL);
+		// Sequence node19 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_169 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		NullCheck(L_169);
-		bool L_170;
-		L_170 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_169, NULL);
-		NullCheck(L_166);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_166, (bool)((int32_t)((int32_t)L_168|(int32_t)L_170)), NULL);
-		// Action_bt_APC_APC_Guiqi_Action_node18 node18 = new Action_bt_APC_APC_Guiqi_Action_node18();
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_171 = (Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3_il2cpp_TypeInfo_var);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_169, NULL);
+		V_17 = L_169;
+		// node19.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_17;
+		NullCheck(L_170);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_170, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node19.SetId(19);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_171 = V_17;
 		NullCheck(L_171);
-		Action_bt_APC_APC_Guiqi_Action_node18__ctor_m4619264F247506EBBC87E0711A2BC01E6FF0AEFD(L_171, NULL);
-		V_16 = L_171;
-		// node18.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_172 = V_16;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_171, ((int32_t)19), NULL);
+		// node0.AddChild(node19);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_172 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_173 = V_17;
 		NullCheck(L_172);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_172, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node18.SetId(18);
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_173 = V_16;
-		NullCheck(L_173);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_173, ((int32_t)18), NULL);
-		// node18.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_174 = V_16;
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_172, L_173);
+		// Condition_bt_APC_APC_Guiqi_Action_node20 node20 = new Condition_bt_APC_APC_Guiqi_Action_node20();
+		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_174 = (Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED_il2cpp_TypeInfo_var);
 		NullCheck(L_174);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_174, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node9.AddChild(node18);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_175 = V_12;
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_176 = V_16;
+		Condition_bt_APC_APC_Guiqi_Action_node20__ctor_mB66AC58B8C0AC732337458FA3B502013BFEE09AB(L_174, NULL);
+		V_18 = L_174;
+		// node20.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_175 = V_18;
 		NullCheck(L_175);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_175, L_176);
-		// node9.SetHasEvents(node9.HasEvents() | node18.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_12;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_178 = V_12;
-		NullCheck(L_178);
-		bool L_179;
-		L_179 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_178, NULL);
-		Action_bt_APC_APC_Guiqi_Action_node18_t7DD70C16A86DD566BF5795880312146039F776D3* L_180 = V_16;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_175, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node20.SetId(20);
+		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_176 = V_18;
+		NullCheck(L_176);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_176, ((int32_t)20), NULL);
+		// node19.AddChild(node20);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_17;
+		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_178 = V_18;
+		NullCheck(L_177);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_177, L_178);
+		// node19.SetHasEvents(node19.HasEvents() | node20.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_179 = V_17;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_180 = V_17;
 		NullCheck(L_180);
 		bool L_181;
 		L_181 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_180, NULL);
-		NullCheck(L_177);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_177, (bool)((int32_t)((int32_t)L_179|(int32_t)L_181)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node9.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_182 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_183 = V_0;
-		NullCheck(L_183);
-		bool L_184;
-		L_184 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_183, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_185 = V_12;
-		NullCheck(L_185);
-		bool L_186;
-		L_186 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_185, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_182 = V_18;
 		NullCheck(L_182);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_182, (bool)((int32_t)((int32_t)L_184|(int32_t)L_186)), NULL);
-		// Sequence node19 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		bool L_183;
+		L_183 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_182, NULL);
+		NullCheck(L_179);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_179, (bool)((int32_t)((int32_t)L_181|(int32_t)L_183)), NULL);
+		// Condition_bt_APC_APC_Guiqi_Action_node21 node21 = new Condition_bt_APC_APC_Guiqi_Action_node21();
+		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_184 = (Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825_il2cpp_TypeInfo_var);
+		NullCheck(L_184);
+		Condition_bt_APC_APC_Guiqi_Action_node21__ctor_m142C79E778C8040672713CCD55E401BDF04C3CC1(L_184, NULL);
+		V_19 = L_184;
+		// node21.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_185 = V_19;
+		NullCheck(L_185);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_185, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node21.SetId(21);
+		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_186 = V_19;
+		NullCheck(L_186);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_186, ((int32_t)21), NULL);
+		// node19.AddChild(node21);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = V_17;
+		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_188 = V_19;
 		NullCheck(L_187);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_187, NULL);
-		V_17 = L_187;
-		// node19.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_188 = V_17;
-		NullCheck(L_188);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_188, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
-		// node19.SetId(19);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_187, L_188);
+		// node19.SetHasEvents(node19.HasEvents() | node21.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_17;
-		NullCheck(L_189);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_189, ((int32_t)19), NULL);
-		// node19.SetAgentType("BTAgent");
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_190 = V_17;
 		NullCheck(L_190);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_190, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node19);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_191 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_192 = V_17;
-		NullCheck(L_191);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_191, L_192);
-		// Condition_bt_APC_APC_Guiqi_Action_node20 node20 = new Condition_bt_APC_APC_Guiqi_Action_node20();
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_193 = (Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED_il2cpp_TypeInfo_var);
-		NullCheck(L_193);
-		Condition_bt_APC_APC_Guiqi_Action_node20__ctor_mB66AC58B8C0AC732337458FA3B502013BFEE09AB(L_193, NULL);
-		V_18 = L_193;
-		// node20.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_194 = V_18;
+		bool L_191;
+		L_191 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_190, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_192 = V_19;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_192, NULL);
+		NullCheck(L_189);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_189, (bool)((int32_t)((int32_t)L_191|(int32_t)L_193)), NULL);
+		// Condition_bt_APC_APC_Guiqi_Action_node22 node22 = new Condition_bt_APC_APC_Guiqi_Action_node22();
+		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_194 = (Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F_il2cpp_TypeInfo_var);
 		NullCheck(L_194);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_194, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node20.SetId(20);
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_195 = V_18;
+		Condition_bt_APC_APC_Guiqi_Action_node22__ctor_m9FB1692DAF1CB81EFCCC9232D3BF89770818CEA9(L_194, NULL);
+		V_20 = L_194;
+		// node22.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_195 = V_20;
 		NullCheck(L_195);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_195, ((int32_t)20), NULL);
-		// node20.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_196 = V_18;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_195, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node22.SetId(22);
+		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_196 = V_20;
 		NullCheck(L_196);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_196, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node19.AddChild(node20);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_196, ((int32_t)22), NULL);
+		// node19.AddChild(node22);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_17;
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_198 = V_18;
+		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_198 = V_20;
 		NullCheck(L_197);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_197, L_198);
-		// node19.SetHasEvents(node19.HasEvents() | node20.HasEvents());
+		// node19.SetHasEvents(node19.HasEvents() | node22.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_199 = V_17;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_200 = V_17;
 		NullCheck(L_200);
 		bool L_201;
 		L_201 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_200, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node20_t5CA94657B97EE55A1E3E5208AC82B8CE18DC70ED* L_202 = V_18;
+		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_202 = V_20;
 		NullCheck(L_202);
 		bool L_203;
 		L_203 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_202, NULL);
 		NullCheck(L_199);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_199, (bool)((int32_t)((int32_t)L_201|(int32_t)L_203)), NULL);
-		// Condition_bt_APC_APC_Guiqi_Action_node21 node21 = new Condition_bt_APC_APC_Guiqi_Action_node21();
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_204 = (Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825_il2cpp_TypeInfo_var);
+		// Condition_bt_APC_APC_Guiqi_Action_node24 node24 = new Condition_bt_APC_APC_Guiqi_Action_node24();
+		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_204 = (Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5_il2cpp_TypeInfo_var);
 		NullCheck(L_204);
-		Condition_bt_APC_APC_Guiqi_Action_node21__ctor_m142C79E778C8040672713CCD55E401BDF04C3CC1(L_204, NULL);
-		V_19 = L_204;
-		// node21.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_205 = V_19;
+		Condition_bt_APC_APC_Guiqi_Action_node24__ctor_m4F7DCB9B9B97802F03D68CD0480B6353C31AEDF7(L_204, NULL);
+		V_21 = L_204;
+		// node24.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_205 = V_21;
 		NullCheck(L_205);
 		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_205, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node21.SetId(21);
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_206 = V_19;
+		// node24.SetId(24);
+		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_206 = V_21;
 		NullCheck(L_206);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)21), NULL);
-		// node21.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_207 = V_19;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)24), NULL);
+		// node19.AddChild(node24);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_207 = V_17;
+		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_208 = V_21;
 		NullCheck(L_207);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_207, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node19.AddChild(node21);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_208 = V_17;
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_209 = V_19;
-		NullCheck(L_208);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_208, L_209);
-		// node19.SetHasEvents(node19.HasEvents() | node21.HasEvents());
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_207, L_208);
+		// node19.SetHasEvents(node19.HasEvents() | node24.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_209 = V_17;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_17;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_211 = V_17;
-		NullCheck(L_211);
-		bool L_212;
-		L_212 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_211, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node21_tAB3018A1239FA71587899076B243E2C4595AF825* L_213 = V_19;
-		NullCheck(L_213);
-		bool L_214;
-		L_214 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_213, NULL);
 		NullCheck(L_210);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_210, (bool)((int32_t)((int32_t)L_212|(int32_t)L_214)), NULL);
-		// Condition_bt_APC_APC_Guiqi_Action_node22 node22 = new Condition_bt_APC_APC_Guiqi_Action_node22();
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_215 = (Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F_il2cpp_TypeInfo_var);
+		bool L_211;
+		L_211 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_210, NULL);
+		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_212 = V_21;
+		NullCheck(L_212);
+		bool L_213;
+		L_213 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_212, NULL);
+		NullCheck(L_209);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_209, (bool)((int32_t)((int32_t)L_211|(int32_t)L_213)), NULL);
+		// Action_bt_APC_APC_Guiqi_Action_node25 node25 = new Action_bt_APC_APC_Guiqi_Action_node25();
+		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_214 = (Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630_il2cpp_TypeInfo_var);
+		NullCheck(L_214);
+		Action_bt_APC_APC_Guiqi_Action_node25__ctor_mD4071C947F3835B804AA31C2F4354980306B82E7(L_214, NULL);
+		V_22 = L_214;
+		// node25.SetClassNameString("Action");
+		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_215 = V_22;
 		NullCheck(L_215);
-		Condition_bt_APC_APC_Guiqi_Action_node22__ctor_m9FB1692DAF1CB81EFCCC9232D3BF89770818CEA9(L_215, NULL);
-		V_20 = L_215;
-		// node22.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_216 = V_20;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_215, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node25.SetId(25);
+		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_216 = V_22;
 		NullCheck(L_216);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_216, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node22.SetId(22);
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_217 = V_20;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_216, ((int32_t)25), NULL);
+		// node19.AddChild(node25);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_217 = V_17;
+		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_218 = V_22;
 		NullCheck(L_217);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_217, ((int32_t)22), NULL);
-		// node22.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_218 = V_20;
-		NullCheck(L_218);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_218, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node19.AddChild(node22);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_217, L_218);
+		// node19.SetHasEvents(node19.HasEvents() | node25.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_219 = V_17;
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_220 = V_20;
-		NullCheck(L_219);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_219, L_220);
-		// node19.SetHasEvents(node19.HasEvents() | node22.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_221 = V_17;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_222 = V_17;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_220 = V_17;
+		NullCheck(L_220);
+		bool L_221;
+		L_221 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_220, NULL);
+		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_222 = V_22;
 		NullCheck(L_222);
 		bool L_223;
 		L_223 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_222, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node22_tB99469AA27B9BDF2978BA05D00311845371A2A1F* L_224 = V_20;
-		NullCheck(L_224);
-		bool L_225;
-		L_225 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_224, NULL);
-		NullCheck(L_221);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_221, (bool)((int32_t)((int32_t)L_223|(int32_t)L_225)), NULL);
-		// Condition_bt_APC_APC_Guiqi_Action_node24 node24 = new Condition_bt_APC_APC_Guiqi_Action_node24();
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_226 = (Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5_il2cpp_TypeInfo_var);
-		NullCheck(L_226);
-		Condition_bt_APC_APC_Guiqi_Action_node24__ctor_m4F7DCB9B9B97802F03D68CD0480B6353C31AEDF7(L_226, NULL);
-		V_21 = L_226;
-		// node24.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_227 = V_21;
-		NullCheck(L_227);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_227, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node24.SetId(24);
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_228 = V_21;
-		NullCheck(L_228);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_228, ((int32_t)24), NULL);
-		// node24.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_229 = V_21;
-		NullCheck(L_229);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_229, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node19.AddChild(node24);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_230 = V_17;
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_231 = V_21;
-		NullCheck(L_230);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_230, L_231);
-		// node19.SetHasEvents(node19.HasEvents() | node24.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_232 = V_17;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_233 = V_17;
-		NullCheck(L_233);
-		bool L_234;
-		L_234 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_233, NULL);
-		Condition_bt_APC_APC_Guiqi_Action_node24_tD2E6528233B2A74FF418D9069B96463E604DE6E5* L_235 = V_21;
-		NullCheck(L_235);
-		bool L_236;
-		L_236 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_235, NULL);
-		NullCheck(L_232);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_232, (bool)((int32_t)((int32_t)L_234|(int32_t)L_236)), NULL);
-		// Action_bt_APC_APC_Guiqi_Action_node25 node25 = new Action_bt_APC_APC_Guiqi_Action_node25();
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_237 = (Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630*)il2cpp_codegen_object_new(Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630_il2cpp_TypeInfo_var);
-		NullCheck(L_237);
-		Action_bt_APC_APC_Guiqi_Action_node25__ctor_mD4071C947F3835B804AA31C2F4354980306B82E7(L_237, NULL);
-		V_22 = L_237;
-		// node25.SetClassNameString("Action");
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_238 = V_22;
-		NullCheck(L_238);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_238, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node25.SetId(25);
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_239 = V_22;
-		NullCheck(L_239);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_239, ((int32_t)25), NULL);
-		// node25.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_240 = V_22;
-		NullCheck(L_240);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_240, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node19.AddChild(node25);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_241 = V_17;
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_242 = V_22;
-		NullCheck(L_241);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_241, L_242);
-		// node19.SetHasEvents(node19.HasEvents() | node25.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_243 = V_17;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_244 = V_17;
-		NullCheck(L_244);
-		bool L_245;
-		L_245 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_244, NULL);
-		Action_bt_APC_APC_Guiqi_Action_node25_t6F0930AC10E2E6AC65C72BEA388A4BA097581630* L_246 = V_22;
-		NullCheck(L_246);
-		bool L_247;
-		L_247 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_246, NULL);
-		NullCheck(L_243);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_243, (bool)((int32_t)((int32_t)L_245|(int32_t)L_247)), NULL);
+		NullCheck(L_219);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_219, (bool)((int32_t)((int32_t)L_221|(int32_t)L_223)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node19.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_248 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_249 = V_0;
-		NullCheck(L_249);
-		bool L_250;
-		L_250 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_249, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_251 = V_17;
-		NullCheck(L_251);
-		bool L_252;
-		L_252 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_251, NULL);
-		NullCheck(L_248);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_248, (bool)((int32_t)((int32_t)L_250|(int32_t)L_252)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_224 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_225 = V_0;
+		NullCheck(L_225);
+		bool L_226;
+		L_226 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_225, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_227 = V_17;
+		NullCheck(L_227);
+		bool L_228;
+		L_228 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_227, NULL);
+		NullCheck(L_224);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_224, (bool)((int32_t)((int32_t)L_226|(int32_t)L_228)), NULL);
 		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_253 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_254 = ___0_bt;
-		NullCheck(L_254);
-		bool L_255;
-		L_255 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_254, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_256 = V_0;
-		NullCheck(L_256);
-		bool L_257;
-		L_257 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_256, NULL);
-		NullCheck(L_253);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_253, (bool)((int32_t)((int32_t)L_255|(int32_t)L_257)), NULL);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_229 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_230 = ___0_bt;
+		NullCheck(L_230);
+		bool L_231;
+		L_231 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_230, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_232 = V_0;
+		NullCheck(L_232);
+		bool L_233;
+		L_233 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_232, NULL);
+		NullCheck(L_229);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_229, (bool)((int32_t)((int32_t)L_231|(int32_t)L_233)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -21199,13 +21097,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Gunman_test_Action_
 		// public Condition_bt_APC_APC_Gunman_test_Action_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 5000;
-		__this->___opl_p0_20 = ((int32_t)5000);
+		__this->___opl_p0_19 = ((int32_t)5000);
 		// opl_p1 = 500;
-		__this->___opl_p1_21 = ((int32_t)500);
+		__this->___opl_p1_20 = ((int32_t)500);
 		// opl_p2 = 500;
-		__this->___opl_p2_22 = ((int32_t)500);
+		__this->___opl_p2_21 = ((int32_t)500);
 		// opl_p3 = 500;
-		__this->___opl_p3_23 = ((int32_t)500);
+		__this->___opl_p3_22 = ((int32_t)500);
 		// }
 		return;
 	}
@@ -21223,10 +21121,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Gunman_test_Acti
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -21264,9 +21162,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// public Action_bt_APC_APC_Gunman_test_Action_node4()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = 1000;
-		__this->___method_p0_20 = ((int32_t)1000);
+		__this->___method_p0_19 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -21283,7 +21181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Action_
 	{
 		// ((BTAgent)pAgent).Condition_CanUseSkill(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -21319,15 +21217,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// public Action_bt_APC_APC_Gunman_test_Action_node5()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 2;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 2, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -21349,7 +21247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -21372,12 +21270,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -21394,8 +21292,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Action_
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -21417,11 +21315,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// public Action_bt_APC_APC_Gunman_test_Action_node6()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.BE_Target.Self;
-		__this->___method_p0_20 = 1;
+		__this->___method_p0_19 = 1;
 		// method_p1 = 1;
-		__this->___method_p1_21 = 1;
+		__this->___method_p1_20 = 1;
 		// }
 		return;
 	}
@@ -21438,8 +21336,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Action_
 	{
 		// ((BTAgent)pAgent).Action_RemoveBuff(method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
-		int32_t L_2 = __this->___method_p1_21;
+		int32_t L_1 = __this->___method_p0_19;
+		int32_t L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_RemoveBuff_m8A0D1FC635335520D9355E52B98049238284F430(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -21461,13 +21359,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Gunman_test_Action_
 		// public Condition_bt_APC_APC_Gunman_test_Action_node8()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 8000;
-		__this->___opl_p0_20 = ((int32_t)8000);
+		__this->___opl_p0_19 = ((int32_t)8000);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 1000;
-		__this->___opl_p2_22 = ((int32_t)1000);
+		__this->___opl_p2_21 = ((int32_t)1000);
 		// opl_p3 = 1000;
-		__this->___opl_p3_23 = ((int32_t)1000);
+		__this->___opl_p3_22 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -21485,10 +21383,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Gunman_test_Acti
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -21526,7 +21424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Gunman_test_Action_
 		// public Condition_bt_APC_APC_Gunman_test_Action_node9()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 1006;
-		__this->___opl_p0_20 = ((int32_t)1006);
+		__this->___opl_p0_19 = ((int32_t)1006);
 		// }
 		return;
 	}
@@ -21544,7 +21442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Gunman_test_Acti
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -21593,15 +21491,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// public Action_bt_APC_APC_Gunman_test_Action_node10()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -21623,12 +21521,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Action_nod
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -21645,8 +21543,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Action_
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -21677,7 +21575,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Gunman_test_Action_build_beha
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4111AB1463AA393267B7D6CF0319D288899177FE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -21713,384 +21610,336 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Gunman_test_Action_build_beha
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node1 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node1.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node1.SetId(1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 1, NULL);
 		// node0.AddChild(node1);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Gunman_test_Action_node2 node2 = new Condition_bt_APC_APC_Gunman_test_Action_node2();
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_17 = (Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Gunman_test_Action_node2__ctor_mE1707D6F2C07C619377E209343D1CB251BF7FFDA(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_14 = (Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Gunman_test_Action_node2__ctor_mE1707D6F2C07C619377E209343D1CB251BF7FFDA(L_14, NULL);
+		V_2 = L_14;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
 		// node1.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node1.SetHasEvents(node1.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Gunman_test_Action_node2_tA35B2EFB2BA3576643BAF510D39C930BC66A34C4* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Sequence node3 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_28 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_28, NULL);
-		V_3 = L_28;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_24, NULL);
+		V_3 = L_24;
 		// node3.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node3.SetId(3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 3, NULL);
 		// node1.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_33 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
+		// Action_bt_APC_APC_Gunman_test_Action_node4 node4 = new Action_bt_APC_APC_Gunman_test_Action_node4();
+		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_29 = (Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB_il2cpp_TypeInfo_var);
+		NullCheck(L_29);
+		Action_bt_APC_APC_Gunman_test_Action_node4__ctor_m6AD1E00E1B44550ADC4BC1A725A4F89C6CBC68AA(L_29, NULL);
+		V_4 = L_29;
+		// node4.SetClassNameString("Action");
+		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_30 = V_4;
+		NullCheck(L_30);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_30, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node4.SetId(4);
+		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_31 = V_4;
+		NullCheck(L_31);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_31, 4, NULL);
+		// node3.AddChild(node4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_3;
+		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_33 = V_4;
 		NullCheck(L_32);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
-		// Action_bt_APC_APC_Gunman_test_Action_node4 node4 = new Action_bt_APC_APC_Gunman_test_Action_node4();
-		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_34 = (Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB_il2cpp_TypeInfo_var);
-		NullCheck(L_34);
-		Action_bt_APC_APC_Gunman_test_Action_node4__ctor_m6AD1E00E1B44550ADC4BC1A725A4F89C6CBC68AA(L_34, NULL);
-		V_4 = L_34;
-		// node4.SetClassNameString("Action");
-		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_35 = V_4;
+		// node3.SetHasEvents(node3.HasEvents() | node4.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_3;
 		NullCheck(L_35);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node4.SetId(4);
-		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_36 = V_4;
-		NullCheck(L_36);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 4, NULL);
-		// node4.SetAgentType("BTAgent");
+		bool L_36;
+		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
 		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_37 = V_4;
 		NullCheck(L_37);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_37, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_38 = V_3;
-		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_39 = V_4;
-		NullCheck(L_38);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_38, L_39);
-		// node3.SetHasEvents(node3.HasEvents() | node4.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_3;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_41 = V_3;
-		NullCheck(L_41);
-		bool L_42;
-		L_42 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_41, NULL);
-		Action_bt_APC_APC_Gunman_test_Action_node4_t21A584B934D6E4C58D852DA7F9DEFC6199C651CB* L_43 = V_4;
-		NullCheck(L_43);
-		bool L_44;
-		L_44 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_43, NULL);
-		NullCheck(L_40);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_40, (bool)((int32_t)((int32_t)L_42|(int32_t)L_44)), NULL);
+		bool L_38;
+		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
+		NullCheck(L_34);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
 		// Action_bt_APC_APC_Gunman_test_Action_node5 node5 = new Action_bt_APC_APC_Gunman_test_Action_node5();
-		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_45 = (Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6_il2cpp_TypeInfo_var);
-		NullCheck(L_45);
-		Action_bt_APC_APC_Gunman_test_Action_node5__ctor_mD608715363DEE5721D730DF9123E7D461029EFF5(L_45, NULL);
-		V_5 = L_45;
+		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_39 = (Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6_il2cpp_TypeInfo_var);
+		NullCheck(L_39);
+		Action_bt_APC_APC_Gunman_test_Action_node5__ctor_mD608715363DEE5721D730DF9123E7D461029EFF5(L_39, NULL);
+		V_5 = L_39;
 		// node5.SetClassNameString("Action");
-		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_46 = V_5;
-		NullCheck(L_46);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_46, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_40 = V_5;
+		NullCheck(L_40);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node5.SetId(5);
+		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_41 = V_5;
+		NullCheck(L_41);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 5, NULL);
+		// node3.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_42 = V_3;
+		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_43 = V_5;
+		NullCheck(L_42);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_42, L_43);
+		// node3.SetHasEvents(node3.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_44 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_3;
+		NullCheck(L_45);
+		bool L_46;
+		L_46 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_45, NULL);
 		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_47 = V_5;
 		NullCheck(L_47);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_47, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_48 = V_5;
-		NullCheck(L_48);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_48, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_3;
-		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_50 = V_5;
-		NullCheck(L_49);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_49, L_50);
-		// node3.SetHasEvents(node3.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_51 = V_3;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_52 = V_3;
-		NullCheck(L_52);
-		bool L_53;
-		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
-		Action_bt_APC_APC_Gunman_test_Action_node5_t2B8C1BFED9FB21E76E44924002AF5120672D01D6* L_54 = V_5;
-		NullCheck(L_54);
-		bool L_55;
-		L_55 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_54, NULL);
-		NullCheck(L_51);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_51, (bool)((int32_t)((int32_t)L_53|(int32_t)L_55)), NULL);
+		bool L_48;
+		L_48 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_47, NULL);
+		NullCheck(L_44);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_44, (bool)((int32_t)((int32_t)L_46|(int32_t)L_48)), NULL);
 		// Action_bt_APC_APC_Gunman_test_Action_node6 node6 = new Action_bt_APC_APC_Gunman_test_Action_node6();
-		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_56 = (Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B_il2cpp_TypeInfo_var);
-		NullCheck(L_56);
-		Action_bt_APC_APC_Gunman_test_Action_node6__ctor_mFA55080596F772DD0829CE6C260A71AC22662288(L_56, NULL);
-		V_6 = L_56;
+		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_49 = (Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B_il2cpp_TypeInfo_var);
+		NullCheck(L_49);
+		Action_bt_APC_APC_Gunman_test_Action_node6__ctor_mFA55080596F772DD0829CE6C260A71AC22662288(L_49, NULL);
+		V_6 = L_49;
 		// node6.SetClassNameString("Action");
+		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_50 = V_6;
+		NullCheck(L_50);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_50, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node6.SetId(6);
+		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_51 = V_6;
+		NullCheck(L_51);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_51, 6, NULL);
+		// node3.AddChild(node6);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_52 = V_3;
+		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_53 = V_6;
+		NullCheck(L_52);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_52, L_53);
+		// node3.SetHasEvents(node3.HasEvents() | node6.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_55 = V_3;
+		NullCheck(L_55);
+		bool L_56;
+		L_56 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_55, NULL);
 		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_57 = V_6;
 		NullCheck(L_57);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_57, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node6.SetId(6);
-		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_58 = V_6;
-		NullCheck(L_58);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_58, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_59 = V_6;
-		NullCheck(L_59);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_59, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_3;
-		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_61 = V_6;
+		bool L_58;
+		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
+		NullCheck(L_54);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_54, (bool)((int32_t)((int32_t)L_56|(int32_t)L_58)), NULL);
+		// node1.SetHasEvents(node1.HasEvents() | node3.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_1;
 		NullCheck(L_60);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_60, L_61);
-		// node3.SetHasEvents(node3.HasEvents() | node6.HasEvents());
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_62 = V_3;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_63 = V_3;
-		NullCheck(L_63);
-		bool L_64;
-		L_64 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_63, NULL);
-		Action_bt_APC_APC_Gunman_test_Action_node6_tDF6EC46CE8A0B68708FE60BE8D9D65E92C82295B* L_65 = V_6;
+		NullCheck(L_62);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
 		NullCheck(L_65);
 		bool L_66;
 		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
-		NullCheck(L_62);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_62, (bool)((int32_t)((int32_t)L_64|(int32_t)L_66)), NULL);
-		// node1.SetHasEvents(node1.HasEvents() | node3.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_1;
-		NullCheck(L_68);
-		bool L_69;
-		L_69 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_68, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_3;
-		NullCheck(L_70);
-		bool L_71;
-		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
 		NullCheck(L_67);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_67, (bool)((int32_t)((int32_t)L_69|(int32_t)L_71)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_73 = V_0;
-		NullCheck(L_73);
-		bool L_74;
-		L_74 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_73, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_75 = V_1;
-		NullCheck(L_75);
-		bool L_76;
-		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
-		NullCheck(L_72);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_72, (bool)((int32_t)((int32_t)L_74|(int32_t)L_76)), NULL);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
 		// Sequence node7 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_77);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_77, NULL);
-		V_7 = L_77;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_69, NULL);
+		V_7 = L_69;
 		// node7.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_78 = V_7;
-		NullCheck(L_78);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_78, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node7.SetId(7);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, 7, NULL);
+		// node0.AddChild(node7);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// Condition_bt_APC_APC_Gunman_test_Action_node8 node8 = new Condition_bt_APC_APC_Gunman_test_Action_node8();
+		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_74 = (Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
+		Condition_bt_APC_APC_Gunman_test_Action_node8__ctor_m2FF75D0870F16B8354FBF8762318B428E4E7E21E(L_74, NULL);
+		V_8 = L_74;
+		// node8.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_75 = V_8;
+		NullCheck(L_75);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_75, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node8.SetId(8);
+		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_76 = V_8;
+		NullCheck(L_76);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_76, 8, NULL);
+		// node7.AddChild(node8);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_7;
+		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_78 = V_8;
+		NullCheck(L_77);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_77, L_78);
+		// node7.SetHasEvents(node7.HasEvents() | node8.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_7;
-		NullCheck(L_79);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_79, 7, NULL);
-		// node7.SetAgentType("BTAgent");
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_7;
 		NullCheck(L_80);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_80, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node7);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_81 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_82 = V_7;
-		NullCheck(L_81);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_81, L_82);
-		// Condition_bt_APC_APC_Gunman_test_Action_node8 node8 = new Condition_bt_APC_APC_Gunman_test_Action_node8();
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_83 = (Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7_il2cpp_TypeInfo_var);
-		NullCheck(L_83);
-		Condition_bt_APC_APC_Gunman_test_Action_node8__ctor_m2FF75D0870F16B8354FBF8762318B428E4E7E21E(L_83, NULL);
-		V_8 = L_83;
-		// node8.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_84 = V_8;
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_82 = V_8;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
+		// Condition_bt_APC_APC_Gunman_test_Action_node9 node9 = new Condition_bt_APC_APC_Gunman_test_Action_node9();
+		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_84 = (Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F_il2cpp_TypeInfo_var);
 		NullCheck(L_84);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_84, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node8.SetId(8);
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_85 = V_8;
+		Condition_bt_APC_APC_Gunman_test_Action_node9__ctor_m0DCCCAA9409FFCB25DBE37291C1407F9310022AE(L_84, NULL);
+		V_9 = L_84;
+		// node9.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_85 = V_9;
 		NullCheck(L_85);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_85, 8, NULL);
-		// node8.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_86 = V_8;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node9.SetId(9);
+		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_86 = V_9;
 		NullCheck(L_86);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_86, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node7.AddChild(node8);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)9), NULL);
+		// node7.AddChild(node9);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_7;
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_88 = V_8;
+		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_88 = V_9;
 		NullCheck(L_87);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
-		// node7.SetHasEvents(node7.HasEvents() | node8.HasEvents());
+		// node7.SetHasEvents(node7.HasEvents() | node9.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_7;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_7;
 		NullCheck(L_90);
 		bool L_91;
 		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
-		Condition_bt_APC_APC_Gunman_test_Action_node8_t0DD793FC4AC0C3A52AB942E12FE9320F90F9E2F7* L_92 = V_8;
+		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_92 = V_9;
 		NullCheck(L_92);
 		bool L_93;
 		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
 		NullCheck(L_89);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
-		// Condition_bt_APC_APC_Gunman_test_Action_node9 node9 = new Condition_bt_APC_APC_Gunman_test_Action_node9();
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_94 = (Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F_il2cpp_TypeInfo_var);
-		NullCheck(L_94);
-		Condition_bt_APC_APC_Gunman_test_Action_node9__ctor_m0DCCCAA9409FFCB25DBE37291C1407F9310022AE(L_94, NULL);
-		V_9 = L_94;
-		// node9.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_95 = V_9;
-		NullCheck(L_95);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node9.SetId(9);
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_96 = V_9;
-		NullCheck(L_96);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)9), NULL);
-		// node9.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_97 = V_9;
-		NullCheck(L_97);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_97, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node7.AddChild(node9);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_7;
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_99 = V_9;
-		NullCheck(L_98);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_98, L_99);
-		// node7.SetHasEvents(node7.HasEvents() | node9.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_7;
-		NullCheck(L_101);
-		bool L_102;
-		L_102 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_101, NULL);
-		Condition_bt_APC_APC_Gunman_test_Action_node9_t1B368711075AFB778A93A13872D7AFC22751035F* L_103 = V_9;
-		NullCheck(L_103);
-		bool L_104;
-		L_104 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_103, NULL);
-		NullCheck(L_100);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_100, (bool)((int32_t)((int32_t)L_102|(int32_t)L_104)), NULL);
 		// Action_bt_APC_APC_Gunman_test_Action_node10 node10 = new Action_bt_APC_APC_Gunman_test_Action_node10();
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_105 = (Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0_il2cpp_TypeInfo_var);
-		NullCheck(L_105);
-		Action_bt_APC_APC_Gunman_test_Action_node10__ctor_mC8DA477F4090D71478381F0CF95833E6ED5C2182(L_105, NULL);
-		V_10 = L_105;
+		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_94 = (Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0_il2cpp_TypeInfo_var);
+		NullCheck(L_94);
+		Action_bt_APC_APC_Gunman_test_Action_node10__ctor_mC8DA477F4090D71478381F0CF95833E6ED5C2182(L_94, NULL);
+		V_10 = L_94;
 		// node10.SetClassNameString("Action");
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_106 = V_10;
-		NullCheck(L_106);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_106, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_95 = V_10;
+		NullCheck(L_95);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node10.SetId(10);
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_107 = V_10;
-		NullCheck(L_107);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_107, ((int32_t)10), NULL);
-		// node10.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_108 = V_10;
-		NullCheck(L_108);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_108, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_96 = V_10;
+		NullCheck(L_96);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)10), NULL);
 		// node7.AddChild(node10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_7;
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_110 = V_10;
-		NullCheck(L_109);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_109, L_110);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_7;
+		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_98 = V_10;
+		NullCheck(L_97);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_97, L_98);
 		// node7.SetHasEvents(node7.HasEvents() | node10.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_111 = V_7;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_112 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_99 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
+		NullCheck(L_100);
+		bool L_101;
+		L_101 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_100, NULL);
+		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_102 = V_10;
+		NullCheck(L_102);
+		bool L_103;
+		L_103 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_102, NULL);
+		NullCheck(L_99);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_99, (bool)((int32_t)((int32_t)L_101|(int32_t)L_103)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node7.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_104 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_105 = V_0;
+		NullCheck(L_105);
+		bool L_106;
+		L_106 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_105, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_7;
+		NullCheck(L_107);
+		bool L_108;
+		L_108 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_107, NULL);
+		NullCheck(L_104);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_104, (bool)((int32_t)((int32_t)L_106|(int32_t)L_108)), NULL);
+		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_109 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_110 = ___0_bt;
+		NullCheck(L_110);
+		bool L_111;
+		L_111 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_110, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_112 = V_0;
 		NullCheck(L_112);
 		bool L_113;
 		L_113 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_112, NULL);
-		Action_bt_APC_APC_Gunman_test_Action_node10_tA2C6444192A259650E746CB29F4BBD2030885CA0* L_114 = V_10;
-		NullCheck(L_114);
-		bool L_115;
-		L_115 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_114, NULL);
-		NullCheck(L_111);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_111, (bool)((int32_t)((int32_t)L_113|(int32_t)L_115)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node7.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_116 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_117 = V_0;
-		NullCheck(L_117);
-		bool L_118;
-		L_118 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_117, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = V_7;
-		NullCheck(L_119);
-		bool L_120;
-		L_120 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_119, NULL);
-		NullCheck(L_116);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_116, (bool)((int32_t)((int32_t)L_118|(int32_t)L_120)), NULL);
-		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_121 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_122 = ___0_bt;
-		NullCheck(L_122);
-		bool L_123;
-		L_123 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_122, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_124 = V_0;
-		NullCheck(L_124);
-		bool L_125;
-		L_125 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_124, NULL);
-		NullCheck(L_121);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_121, (bool)((int32_t)((int32_t)L_123|(int32_t)L_125)), NULL);
+		NullCheck(L_109);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_109, (bool)((int32_t)((int32_t)L_111|(int32_t)L_113)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -22110,11 +21959,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Gunman_test_Destina
 		// public Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.Equal;
-		__this->___opl_p1_21 = 0;
+		__this->___opl_p1_20 = 0;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -22132,9 +21981,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Gunman_test_Dest
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -22172,9 +22021,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Destinatio
 		// public Action_bt_APC_APC_Gunman_test_DestinationSelect_node5()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.ESCAPE;
-		__this->___method_p0_20 = 2;
+		__this->___method_p0_19 = 2;
 		// }
 		return;
 	}
@@ -22191,7 +22040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Destina
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -22213,7 +22062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Gunman_test_Destina
 		// public Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.3f;
-		__this->___opl_p0_20 = (0.300000012f);
+		__this->___opl_p0_19 = (0.300000012f);
 		// }
 		return;
 	}
@@ -22231,7 +22080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Gunman_test_Dest
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -22269,9 +22118,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Destinatio
 		// public Action_bt_APC_APC_Gunman_test_DestinationSelect_node7()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.BYPASS_TRACK;
-		__this->___method_p0_20 = 3;
+		__this->___method_p0_19 = 3;
 		// }
 		return;
 	}
@@ -22288,7 +22137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Destina
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -22310,9 +22159,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Gunman_test_Destinatio
 		// public Action_bt_APC_APC_Gunman_test_DestinationSelect_node3()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.GO_TO_TARGET;
-		__this->___method_p0_20 = 0;
+		__this->___method_p0_19 = 0;
 		// }
 		return;
 	}
@@ -22329,7 +22178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Gunman_test_Destina
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -22358,7 +22207,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Gunman_test_DestinationSelect
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral189E9DA55B331B73D2981B63547848549F467184);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -22391,282 +22239,246 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Gunman_test_DestinationSelect
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node1 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node1.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node1.SetId(1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 1, NULL);
 		// node0.AddChild(node1);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4 node4 = new Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4();
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_17 = (Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4__ctor_m09CD992613D288A4E2F80E9B7D03D385FD489BCB(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_14 = (Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4__ctor_m09CD992613D288A4E2F80E9B7D03D385FD489BCB(L_14, NULL);
+		V_2 = L_14;
 		// node4.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node4.SetId(4);
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 4, NULL);
-		// node4.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 4, NULL);
 		// node1.AddChild(node4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node1.SetHasEvents(node1.HasEvents() | node4.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node4_t00C89893219FAF02D466F2405CF05BAAB056DF10* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Action_bt_APC_APC_Gunman_test_DestinationSelect_node5 node5 = new Action_bt_APC_APC_Gunman_test_DestinationSelect_node5();
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_28 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5__ctor_mCC226B3FC00AA3C7A2623024FFAABB50A2C95DAA(L_28, NULL);
-		V_3 = L_28;
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_24 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5__ctor_mCC226B3FC00AA3C7A2623024FFAABB50A2C95DAA(L_24, NULL);
+		V_3 = L_24;
 		// node5.SetClassNameString("Action");
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node5.SetId(5);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 5, NULL);
 		// node1.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node1.SetHasEvents(node1.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_34 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_35 = V_0;
 		NullCheck(L_35);
 		bool L_36;
 		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node5_t2916CDC5B91059407652A1A845DADA82561030C5* L_37 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
 		NullCheck(L_37);
 		bool L_38;
 		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
 		NullCheck(L_34);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_39 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_40 = V_0;
-		NullCheck(L_40);
-		bool L_41;
-		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_42 = V_1;
-		NullCheck(L_42);
-		bool L_43;
-		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
-		NullCheck(L_39);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Sequence node2 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_44 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_44);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_44, NULL);
-		V_4 = L_44;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_39);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_39, NULL);
+		V_4 = L_39;
 		// node2.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_4;
-		NullCheck(L_45);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_4;
+		NullCheck(L_40);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node2.SetId(2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_4;
-		NullCheck(L_46);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
-		NullCheck(L_47);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_47, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_41 = V_4;
+		NullCheck(L_41);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 2, NULL);
 		// node0.AddChild(node2);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_48 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
-		NullCheck(L_48);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_48, L_49);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_42 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_4;
+		NullCheck(L_42);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_42, L_43);
 		// Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6 node6 = new Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6();
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_50 = (Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6__ctor_m330C9D2552F3DA45484587F1455A0D890A560DFD(L_50, NULL);
-		V_5 = L_50;
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_44 = (Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6__ctor_m330C9D2552F3DA45484587F1455A0D890A560DFD(L_44, NULL);
+		V_5 = L_44;
 		// node6.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node6.SetId(6);
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 6, NULL);
+		// node2.AddChild(node6);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
+		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node2.SetHasEvents(node2.HasEvents() | node6.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_4;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node2.AddChild(node6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_4;
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node2.SetHasEvents(node2.HasEvents() | node6.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
-		NullCheck(L_57);
-		bool L_58;
-		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Condition_bt_APC_APC_Gunman_test_DestinationSelect_node6_t75DBAB1DA3217A27068AF6AE7DEFAB61FAD95ED2* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
 		// Action_bt_APC_APC_Gunman_test_DestinationSelect_node7 node7 = new Action_bt_APC_APC_Gunman_test_DestinationSelect_node7();
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_61 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6_il2cpp_TypeInfo_var);
-		NullCheck(L_61);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7__ctor_m33E13CAD64356AC4B7477C3C75BBA608F17B2900(L_61, NULL);
-		V_6 = L_61;
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_54 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7__ctor_m33E13CAD64356AC4B7477C3C75BBA608F17B2900(L_54, NULL);
+		V_6 = L_54;
 		// node7.SetClassNameString("Action");
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_55 = V_6;
+		NullCheck(L_55);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node7.SetId(7);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_56 = V_6;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, 7, NULL);
+		// node2.AddChild(node7);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_58 = V_6;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node2.SetHasEvents(node2.HasEvents() | node7.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_4;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_62 = V_6;
 		NullCheck(L_62);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_62, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node7.SetId(7);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_63 = V_6;
-		NullCheck(L_63);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_63, 7, NULL);
-		// node7.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_64 = V_6;
-		NullCheck(L_64);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_64, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node2.AddChild(node7);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_65 = V_4;
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_66 = V_6;
-		NullCheck(L_65);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_65, L_66);
-		// node2.SetHasEvents(node2.HasEvents() | node7.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_4;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_4;
-		NullCheck(L_68);
-		bool L_69;
-		L_69 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_68, NULL);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node7_t20815E3C3DCF33579ABC95745C5D5092C33179C6* L_70 = V_6;
-		NullCheck(L_70);
-		bool L_71;
-		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
-		NullCheck(L_67);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_67, (bool)((int32_t)((int32_t)L_69|(int32_t)L_71)), NULL);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node2.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_4;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
+		// Action_bt_APC_APC_Gunman_test_DestinationSelect_node3 node3 = new Action_bt_APC_APC_Gunman_test_DestinationSelect_node3();
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_69 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3__ctor_m0C9EFFA9FF3FD1E36F29004EB070FC203ACEFD50(L_69, NULL);
+		V_7 = L_69;
+		// node3.SetClassNameString("Action");
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node3.SetId(3);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, 3, NULL);
+		// node0.AddChild(node3);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_73 = V_0;
-		NullCheck(L_73);
-		bool L_74;
-		L_74 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_73, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_75 = V_4;
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// node0.SetHasEvents(node0.HasEvents() | node3.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_74 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_75 = V_0;
 		NullCheck(L_75);
 		bool L_76;
 		L_76 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_75, NULL);
-		NullCheck(L_72);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_72, (bool)((int32_t)((int32_t)L_74|(int32_t)L_76)), NULL);
-		// Action_bt_APC_APC_Gunman_test_DestinationSelect_node3 node3 = new Action_bt_APC_APC_Gunman_test_DestinationSelect_node3();
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_77 = (Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52*)il2cpp_codegen_object_new(Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52_il2cpp_TypeInfo_var);
+		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_77 = V_7;
 		NullCheck(L_77);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3__ctor_m0C9EFFA9FF3FD1E36F29004EB070FC203ACEFD50(L_77, NULL);
-		V_7 = L_77;
-		// node3.SetClassNameString("Action");
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_78 = V_7;
-		NullCheck(L_78);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_78, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node3.SetId(3);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_79 = V_7;
-		NullCheck(L_79);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_79, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_80 = V_7;
-		NullCheck(L_80);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_80, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node0.AddChild(node3);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_81 = V_0;
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_82 = V_7;
-		NullCheck(L_81);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_81, L_82);
-		// node0.SetHasEvents(node0.HasEvents() | node3.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_83 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_84 = V_0;
-		NullCheck(L_84);
-		bool L_85;
-		L_85 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_84, NULL);
-		Action_bt_APC_APC_Gunman_test_DestinationSelect_node3_tCD6C58443C6CECBBADBFDEB4386FAE4373A04F52* L_86 = V_7;
-		NullCheck(L_86);
-		bool L_87;
-		L_87 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_86, NULL);
-		NullCheck(L_83);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_83, (bool)((int32_t)((int32_t)L_85|(int32_t)L_87)), NULL);
+		bool L_78;
+		L_78 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_77, NULL);
+		NullCheck(L_74);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_74, (bool)((int32_t)((int32_t)L_76|(int32_t)L_78)), NULL);
 		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_88 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_89 = ___0_bt;
-		NullCheck(L_89);
-		bool L_90;
-		L_90 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_89, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_91 = V_0;
-		NullCheck(L_91);
-		bool L_92;
-		L_92 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_91, NULL);
-		NullCheck(L_88);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_88, (bool)((int32_t)((int32_t)L_90|(int32_t)L_92)), NULL);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_79 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_80 = ___0_bt;
+		NullCheck(L_80);
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_82 = V_0;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -22686,13 +22498,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node1()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 3000;
-		__this->___opl_p0_20 = ((int32_t)3000);
+		__this->___opl_p0_19 = ((int32_t)3000);
 		// opl_p1 = 3000;
-		__this->___opl_p1_21 = ((int32_t)3000);
+		__this->___opl_p1_20 = ((int32_t)3000);
 		// opl_p2 = 1500;
-		__this->___opl_p2_22 = ((int32_t)1500);
+		__this->___opl_p2_21 = ((int32_t)1500);
 		// opl_p3 = 1500;
-		__this->___opl_p3_23 = ((int32_t)1500);
+		__this->___opl_p3_22 = ((int32_t)1500);
 		// }
 		return;
 	}
@@ -22710,10 +22522,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -22751,7 +22563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.8f;
-		__this->___opl_p0_20 = (0.800000012f);
+		__this->___opl_p0_19 = (0.800000012f);
 		// }
 		return;
 	}
@@ -22769,7 +22581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -22807,7 +22619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node4()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 9036;
-		__this->___opl_p0_20 = ((int32_t)9036);
+		__this->___opl_p0_19 = ((int32_t)9036);
 		// }
 		return;
 	}
@@ -22825,7 +22637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -22874,15 +22686,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// public Action_bt_APC_APC_Husong_Aganzuo_Action_node5()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -22904,12 +22716,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -22926,8 +22738,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Acti
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -22949,13 +22761,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node7()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2000;
-		__this->___opl_p0_20 = ((int32_t)2000);
+		__this->___opl_p0_19 = ((int32_t)2000);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 1000;
-		__this->___opl_p2_22 = ((int32_t)1000);
+		__this->___opl_p2_21 = ((int32_t)1000);
 		// opl_p3 = 1000;
-		__this->___opl_p3_23 = ((int32_t)1000);
+		__this->___opl_p3_22 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -22973,10 +22785,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -23014,7 +22826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node8()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.5f;
-		__this->___opl_p0_20 = (0.5f);
+		__this->___opl_p0_19 = (0.5f);
 		// }
 		return;
 	}
@@ -23032,7 +22844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -23085,15 +22897,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// public Action_bt_APC_APC_Husong_Aganzuo_Action_node10()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 3;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 3, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -23115,7 +22927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -23138,7 +22950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item1.specialChoice = 0;
 		(&V_1)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item1);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_4 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_5 = V_1;
 		NullCheck(L_4);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_4, L_5, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
@@ -23161,12 +22973,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item2.specialChoice = 0;
 		(&V_2)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item2);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_6 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_7 = V_2;
 		NullCheck(L_6);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_6, L_7, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -23183,8 +22995,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Acti
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -23206,13 +23018,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node11()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2000;
-		__this->___opl_p0_20 = ((int32_t)2000);
+		__this->___opl_p0_19 = ((int32_t)2000);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 1000;
-		__this->___opl_p2_22 = ((int32_t)1000);
+		__this->___opl_p2_21 = ((int32_t)1000);
 		// opl_p3 = 1000;
-		__this->___opl_p3_23 = ((int32_t)1000);
+		__this->___opl_p3_22 = ((int32_t)1000);
 		// }
 		return;
 	}
@@ -23230,10 +23042,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -23271,7 +23083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node12()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.3f;
-		__this->___opl_p0_20 = (0.300000012f);
+		__this->___opl_p0_19 = (0.300000012f);
 		// }
 		return;
 	}
@@ -23289,7 +23101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -23327,7 +23139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node13()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 1503;
-		__this->___opl_p0_20 = ((int32_t)1503);
+		__this->___opl_p0_19 = ((int32_t)1503);
 		// }
 		return;
 	}
@@ -23345,7 +23157,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -23394,15 +23206,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// public Action_bt_APC_APC_Husong_Aganzuo_Action_node14()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -23424,12 +23236,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -23446,8 +23258,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Acti
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -23469,13 +23281,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node16()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 4000;
-		__this->___opl_p0_20 = ((int32_t)4000);
+		__this->___opl_p0_19 = ((int32_t)4000);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 2500;
-		__this->___opl_p2_22 = ((int32_t)2500);
+		__this->___opl_p2_21 = ((int32_t)2500);
 		// opl_p3 = 2500;
-		__this->___opl_p3_23 = ((int32_t)2500);
+		__this->___opl_p3_22 = ((int32_t)2500);
 		// }
 		return;
 	}
@@ -23493,10 +23305,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -23534,7 +23346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node17()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.6f;
-		__this->___opl_p0_20 = (0.600000024f);
+		__this->___opl_p0_19 = (0.600000024f);
 		// }
 		return;
 	}
@@ -23552,7 +23364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -23590,7 +23402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Acti
 		// public Condition_bt_APC_APC_Husong_Aganzuo_Action_node18()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 1512;
-		__this->___opl_p0_20 = ((int32_t)1512);
+		__this->___opl_p0_19 = ((int32_t)1512);
 		// }
 		return;
 	}
@@ -23608,7 +23420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_A
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -23657,15 +23469,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// public Action_bt_APC_APC_Husong_Aganzuo_Action_node19()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -23687,12 +23499,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Action_
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -23709,8 +23521,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Acti
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -23749,7 +23561,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Husong_Aganzuo_Action_build_b
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral47E3A3D940F64A5732D78EB19271CC361F94707F);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -23794,690 +23605,606 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Husong_Aganzuo_Action_build_b
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node3 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node3.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node3.SetId(3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 3, NULL);
 		// node0.AddChild(node3);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node1 node1 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node1();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_17 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1__ctor_m2E727CE6577479BA0029CE0DBCE8DA5667F55CB7(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_14 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1__ctor_m2E727CE6577479BA0029CE0DBCE8DA5667F55CB7(L_14, NULL);
+		V_2 = L_14;
 		// node1.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node1.SetId(1);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 1, NULL);
 		// node3.AddChild(node1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node3.SetHasEvents(node3.HasEvents() | node1.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node1_t5E425836A3CEC7C50FCD3B3AE200163573AD59C4* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node2 node2 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node2();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_28 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2__ctor_mC1C694C5FB27B06D7A24832AEEDD713E345400E2(L_28, NULL);
-		V_3 = L_28;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_24 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2__ctor_mC1C694C5FB27B06D7A24832AEEDD713E345400E2(L_24, NULL);
+		V_3 = L_24;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 2, NULL);
 		// node3.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node3.SetHasEvents(node3.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
-		NullCheck(L_35);
-		bool L_36;
-		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_37 = V_3;
-		NullCheck(L_37);
-		bool L_38;
-		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
-		NullCheck(L_34);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node2_t909701BA4FDDE1695A3382EA16A4A27F33C32C20* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node4 node4 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node4();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_39 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132_il2cpp_TypeInfo_var);
-		NullCheck(L_39);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4__ctor_m93C20A00F2B0204517FABED52B15DC8F08B9B5FA(L_39, NULL);
-		V_4 = L_39;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_34 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4__ctor_m93C20A00F2B0204517FABED52B15DC8F08B9B5FA(L_34, NULL);
+		V_4 = L_34;
 		// node4.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_40 = V_4;
-		NullCheck(L_40);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_35 = V_4;
+		NullCheck(L_35);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node4.SetId(4);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_41 = V_4;
-		NullCheck(L_41);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 4, NULL);
-		// node4.SetAgentType("BTAgent");
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_36 = V_4;
+		NullCheck(L_36);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 4, NULL);
+		// node3.AddChild(node4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_38 = V_4;
+		NullCheck(L_37);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_37, L_38);
+		// node3.SetHasEvents(node3.HasEvents() | node4.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_1;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
 		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_42 = V_4;
 		NullCheck(L_42);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_42, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_1;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_44 = V_4;
-		NullCheck(L_43);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_43, L_44);
-		// node3.SetHasEvents(node3.HasEvents() | node4.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_1;
-		NullCheck(L_46);
-		bool L_47;
-		L_47 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_46, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node4_tB741D64BA7A577F6FA4AE68522732132804F1132* L_48 = V_4;
-		NullCheck(L_48);
-		bool L_49;
-		L_49 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_48, NULL);
-		NullCheck(L_45);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_45, (bool)((int32_t)((int32_t)L_47|(int32_t)L_49)), NULL);
+		bool L_43;
+		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
+		NullCheck(L_39);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Action_bt_APC_APC_Husong_Aganzuo_Action_node5 node5 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node5();
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_50 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5__ctor_mB6680AA058BD2919F62BCEE0A82D7139E5289A88(L_50, NULL);
-		V_5 = L_50;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_44 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node5__ctor_mB6680AA058BD2919F62BCEE0A82D7139E5289A88(L_44, NULL);
+		V_5 = L_44;
 		// node5.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node5.SetId(5);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 5, NULL);
+		// node3.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_1;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node3.SetHasEvents(node3.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_1;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node3.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_1;
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node3.SetHasEvents(node3.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_1;
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node3.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_54 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_55 = V_0;
+		NullCheck(L_55);
+		bool L_56;
+		L_56 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_55, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
 		NullCheck(L_57);
 		bool L_58;
 		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node5_tF4B2E40F465D4BDE9623051A6A465141C4F5CD8F* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node3.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_61 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_62 = V_0;
-		NullCheck(L_62);
-		bool L_63;
-		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_64 = V_1;
-		NullCheck(L_64);
-		bool L_65;
-		L_65 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_64, NULL);
-		NullCheck(L_61);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_61, (bool)((int32_t)((int32_t)L_63|(int32_t)L_65)), NULL);
+		NullCheck(L_54);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_54, (bool)((int32_t)((int32_t)L_56|(int32_t)L_58)), NULL);
 		// Sequence node6 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_66 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_66);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_66, NULL);
-		V_6 = L_66;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_59);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_59, NULL);
+		V_6 = L_59;
 		// node6.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_6;
-		NullCheck(L_67);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_67, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_6;
+		NullCheck(L_60);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_60, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node6.SetId(6);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_68 = V_6;
-		NullCheck(L_68);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_68, 6, NULL);
-		// node6.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = V_6;
-		NullCheck(L_69);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_69, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_61 = V_6;
+		NullCheck(L_61);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_61, 6, NULL);
 		// node0.AddChild(node6);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_70 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_71 = V_6;
-		NullCheck(L_70);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_70, L_71);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_62 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_63 = V_6;
+		NullCheck(L_62);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_62, L_63);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node7 node7 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node7();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_72 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764_il2cpp_TypeInfo_var);
-		NullCheck(L_72);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7__ctor_mCD41B114E60BFE8E59F1498243D1F2FA29E88DA5(L_72, NULL);
-		V_7 = L_72;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_64 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764_il2cpp_TypeInfo_var);
+		NullCheck(L_64);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7__ctor_mCD41B114E60BFE8E59F1498243D1F2FA29E88DA5(L_64, NULL);
+		V_7 = L_64;
 		// node7.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_73 = V_7;
-		NullCheck(L_73);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_73, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_65 = V_7;
+		NullCheck(L_65);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_65, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node7.SetId(7);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_74 = V_7;
-		NullCheck(L_74);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_74, 7, NULL);
-		// node7.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_75 = V_7;
-		NullCheck(L_75);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_75, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_66 = V_7;
+		NullCheck(L_66);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_66, 7, NULL);
 		// node6.AddChild(node7);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_76 = V_6;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_77 = V_7;
-		NullCheck(L_76);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_76, L_77);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_6;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_68 = V_7;
+		NullCheck(L_67);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_67, L_68);
 		// node6.SetHasEvents(node6.HasEvents() | node7.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_78 = V_6;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_6;
-		NullCheck(L_79);
-		bool L_80;
-		L_80 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_79, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_81 = V_7;
-		NullCheck(L_81);
-		bool L_82;
-		L_82 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_81, NULL);
-		NullCheck(L_78);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_78, (bool)((int32_t)((int32_t)L_80|(int32_t)L_82)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = V_6;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_6;
+		NullCheck(L_70);
+		bool L_71;
+		L_71 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_70, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node7_tC534463F2871F405BAFBA2D91994E96095B6E764* L_72 = V_7;
+		NullCheck(L_72);
+		bool L_73;
+		L_73 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_72, NULL);
+		NullCheck(L_69);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_69, (bool)((int32_t)((int32_t)L_71|(int32_t)L_73)), NULL);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node8 node8 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node8();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_83 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0_il2cpp_TypeInfo_var);
-		NullCheck(L_83);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8__ctor_m383635A22790856B0B38F38AA2D6A64DD0E81184(L_83, NULL);
-		V_8 = L_83;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_74 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8__ctor_m383635A22790856B0B38F38AA2D6A64DD0E81184(L_74, NULL);
+		V_8 = L_74;
 		// node8.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_84 = V_8;
-		NullCheck(L_84);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_84, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_75 = V_8;
+		NullCheck(L_75);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_75, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node8.SetId(8);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_85 = V_8;
-		NullCheck(L_85);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_85, 8, NULL);
-		// node8.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_86 = V_8;
-		NullCheck(L_86);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_86, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_76 = V_8;
+		NullCheck(L_76);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_76, 8, NULL);
 		// node6.AddChild(node8);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_6;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_78 = V_8;
+		NullCheck(L_77);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_77, L_78);
+		// node6.SetHasEvents(node6.HasEvents() | node8.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_6;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_6;
+		NullCheck(L_80);
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_82 = V_8;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
+		// Action_bt_APC_APC_Husong_Aganzuo_Action_node10 node10 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node10();
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_84 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10__ctor_mDA37933112784406586A389F604BD03F07D4EF23(L_84, NULL);
+		V_9 = L_84;
+		// node10.SetClassNameString("Action");
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_85 = V_9;
+		NullCheck(L_85);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node10.SetId(10);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_86 = V_9;
+		NullCheck(L_86);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)10), NULL);
+		// node6.AddChild(node10);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_6;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_88 = V_8;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_88 = V_9;
 		NullCheck(L_87);
 		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
-		// node6.SetHasEvents(node6.HasEvents() | node8.HasEvents());
+		// node6.SetHasEvents(node6.HasEvents() | node10.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_6;
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_6;
 		NullCheck(L_90);
 		bool L_91;
 		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node8_t7AD4C849E4134C2E691BF694B5966646FB7BBEC0* L_92 = V_8;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_92 = V_9;
 		NullCheck(L_92);
 		bool L_93;
 		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
 		NullCheck(L_89);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
-		// Action_bt_APC_APC_Husong_Aganzuo_Action_node10 node10 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node10();
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_94 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C_il2cpp_TypeInfo_var);
-		NullCheck(L_94);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10__ctor_mDA37933112784406586A389F604BD03F07D4EF23(L_94, NULL);
-		V_9 = L_94;
-		// node10.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_95 = V_9;
-		NullCheck(L_95);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node10.SetId(10);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_96 = V_9;
-		NullCheck(L_96);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)10), NULL);
-		// node10.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_97 = V_9;
-		NullCheck(L_97);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_97, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node6.AddChild(node10);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_98 = V_6;
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_99 = V_9;
-		NullCheck(L_98);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_98, L_99);
-		// node6.SetHasEvents(node6.HasEvents() | node10.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_6;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_6;
-		NullCheck(L_101);
-		bool L_102;
-		L_102 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_101, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node10_t3B9B0E34EBA7EF2E65C60CC1B40D8C1B397E203C* L_103 = V_9;
-		NullCheck(L_103);
-		bool L_104;
-		L_104 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_103, NULL);
-		NullCheck(L_100);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_100, (bool)((int32_t)((int32_t)L_102|(int32_t)L_104)), NULL);
 		// node0.SetHasEvents(node0.HasEvents() | node6.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_105 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_106 = V_0;
-		NullCheck(L_106);
-		bool L_107;
-		L_107 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_106, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_108 = V_6;
-		NullCheck(L_108);
-		bool L_109;
-		L_109 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_108, NULL);
-		NullCheck(L_105);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_105, (bool)((int32_t)((int32_t)L_107|(int32_t)L_109)), NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_94 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_95 = V_0;
+		NullCheck(L_95);
+		bool L_96;
+		L_96 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_95, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_6;
+		NullCheck(L_97);
+		bool L_98;
+		L_98 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_97, NULL);
+		NullCheck(L_94);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_94, (bool)((int32_t)((int32_t)L_96|(int32_t)L_98)), NULL);
 		// Sequence node9 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_110);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_110, NULL);
-		V_10 = L_110;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_99 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_99);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_99, NULL);
+		V_10 = L_99;
 		// node9.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_111 = V_10;
-		NullCheck(L_111);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_111, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_10;
+		NullCheck(L_100);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_100, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node9.SetId(9);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_112 = V_10;
-		NullCheck(L_112);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_112, ((int32_t)9), NULL);
-		// node9.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_113 = V_10;
-		NullCheck(L_113);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_113, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_101 = V_10;
+		NullCheck(L_101);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_101, ((int32_t)9), NULL);
 		// node0.AddChild(node9);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_114 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_115 = V_10;
-		NullCheck(L_114);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_114, L_115);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_102 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_103 = V_10;
+		NullCheck(L_102);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_102, L_103);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node11 node11 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node11();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_116 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19_il2cpp_TypeInfo_var);
-		NullCheck(L_116);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11__ctor_m2960AFCC34FF45609E7FD68F58036F5465B40CA7(L_116, NULL);
-		V_11 = L_116;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_104 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19_il2cpp_TypeInfo_var);
+		NullCheck(L_104);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11__ctor_m2960AFCC34FF45609E7FD68F58036F5465B40CA7(L_104, NULL);
+		V_11 = L_104;
 		// node11.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_117 = V_11;
-		NullCheck(L_117);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_117, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_105 = V_11;
+		NullCheck(L_105);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_105, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node11.SetId(11);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_118 = V_11;
-		NullCheck(L_118);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_118, ((int32_t)11), NULL);
-		// node11.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_119 = V_11;
-		NullCheck(L_119);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_119, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_106 = V_11;
+		NullCheck(L_106);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_106, ((int32_t)11), NULL);
 		// node9.AddChild(node11);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_10;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_121 = V_11;
-		NullCheck(L_120);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_120, L_121);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_10;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_108 = V_11;
+		NullCheck(L_107);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_107, L_108);
 		// node9.SetHasEvents(node9.HasEvents() | node11.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_122 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_123 = V_10;
-		NullCheck(L_123);
-		bool L_124;
-		L_124 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_123, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_125 = V_11;
-		NullCheck(L_125);
-		bool L_126;
-		L_126 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_125, NULL);
-		NullCheck(L_122);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_122, (bool)((int32_t)((int32_t)L_124|(int32_t)L_126)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = V_10;
+		NullCheck(L_110);
+		bool L_111;
+		L_111 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_110, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node11_t980CF4EB410F927B3EB4B722CACF2FF4C5231F19* L_112 = V_11;
+		NullCheck(L_112);
+		bool L_113;
+		L_113 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_112, NULL);
+		NullCheck(L_109);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_109, (bool)((int32_t)((int32_t)L_111|(int32_t)L_113)), NULL);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node12 node12 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node12();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_127 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291_il2cpp_TypeInfo_var);
-		NullCheck(L_127);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12__ctor_m5B687ADF00CDAFEE04F7039C368EAF86B5C9F2F9(L_127, NULL);
-		V_12 = L_127;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_114 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291_il2cpp_TypeInfo_var);
+		NullCheck(L_114);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12__ctor_m5B687ADF00CDAFEE04F7039C368EAF86B5C9F2F9(L_114, NULL);
+		V_12 = L_114;
 		// node12.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_128 = V_12;
-		NullCheck(L_128);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_128, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_115 = V_12;
+		NullCheck(L_115);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_115, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node12.SetId(12);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_129 = V_12;
-		NullCheck(L_129);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_129, ((int32_t)12), NULL);
-		// node12.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_130 = V_12;
-		NullCheck(L_130);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_130, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_116 = V_12;
+		NullCheck(L_116);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_116, ((int32_t)12), NULL);
 		// node9.AddChild(node12);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_131 = V_10;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_132 = V_12;
-		NullCheck(L_131);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_131, L_132);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_117 = V_10;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_118 = V_12;
+		NullCheck(L_117);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_117, L_118);
 		// node9.SetHasEvents(node9.HasEvents() | node12.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_133 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_134 = V_10;
-		NullCheck(L_134);
-		bool L_135;
-		L_135 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_134, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_136 = V_12;
-		NullCheck(L_136);
-		bool L_137;
-		L_137 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_136, NULL);
-		NullCheck(L_133);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_133, (bool)((int32_t)((int32_t)L_135|(int32_t)L_137)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_10;
+		NullCheck(L_120);
+		bool L_121;
+		L_121 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_120, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node12_t339A939D481A3B3B564071AD3C3A0E4566CCE291* L_122 = V_12;
+		NullCheck(L_122);
+		bool L_123;
+		L_123 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_122, NULL);
+		NullCheck(L_119);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_119, (bool)((int32_t)((int32_t)L_121|(int32_t)L_123)), NULL);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node13 node13 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node13();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_138 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B_il2cpp_TypeInfo_var);
-		NullCheck(L_138);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13__ctor_m97C6E6C1DC0A914D2B26DF9518E9751DEAED8A6D(L_138, NULL);
-		V_13 = L_138;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_124 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B_il2cpp_TypeInfo_var);
+		NullCheck(L_124);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13__ctor_m97C6E6C1DC0A914D2B26DF9518E9751DEAED8A6D(L_124, NULL);
+		V_13 = L_124;
 		// node13.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_139 = V_13;
-		NullCheck(L_139);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_139, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_125 = V_13;
+		NullCheck(L_125);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_125, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node13.SetId(13);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_140 = V_13;
-		NullCheck(L_140);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_140, ((int32_t)13), NULL);
-		// node13.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_141 = V_13;
-		NullCheck(L_141);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_141, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_126 = V_13;
+		NullCheck(L_126);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_126, ((int32_t)13), NULL);
 		// node9.AddChild(node13);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_142 = V_10;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_143 = V_13;
-		NullCheck(L_142);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_142, L_143);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_127 = V_10;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_128 = V_13;
+		NullCheck(L_127);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_127, L_128);
 		// node9.SetHasEvents(node9.HasEvents() | node13.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_144 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_145 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_10;
+		NullCheck(L_130);
+		bool L_131;
+		L_131 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_130, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_132 = V_13;
+		NullCheck(L_132);
+		bool L_133;
+		L_133 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_132, NULL);
+		NullCheck(L_129);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_129, (bool)((int32_t)((int32_t)L_131|(int32_t)L_133)), NULL);
+		// Action_bt_APC_APC_Husong_Aganzuo_Action_node14 node14 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node14();
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_134 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C_il2cpp_TypeInfo_var);
+		NullCheck(L_134);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14__ctor_mE74D37A607F51BCBC1B1050FEC4F3C408CD73E3E(L_134, NULL);
+		V_14 = L_134;
+		// node14.SetClassNameString("Action");
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_135 = V_14;
+		NullCheck(L_135);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_135, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node14.SetId(14);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_136 = V_14;
+		NullCheck(L_136);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_136, ((int32_t)14), NULL);
+		// node9.AddChild(node14);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_10;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_138 = V_14;
+		NullCheck(L_137);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_137, L_138);
+		// node9.SetHasEvents(node9.HasEvents() | node14.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = V_10;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_10;
+		NullCheck(L_140);
+		bool L_141;
+		L_141 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_140, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_142 = V_14;
+		NullCheck(L_142);
+		bool L_143;
+		L_143 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_142, NULL);
+		NullCheck(L_139);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_139, (bool)((int32_t)((int32_t)L_141|(int32_t)L_143)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node9.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_144 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_145 = V_0;
 		NullCheck(L_145);
 		bool L_146;
 		L_146 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_145, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node13_tC20ABA798EA7950E61710DB4794E2B1CBB6B0F5B* L_147 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_10;
 		NullCheck(L_147);
 		bool L_148;
 		L_148 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_147, NULL);
 		NullCheck(L_144);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_144, (bool)((int32_t)((int32_t)L_146|(int32_t)L_148)), NULL);
-		// Action_bt_APC_APC_Husong_Aganzuo_Action_node14 node14 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node14();
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_149 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C_il2cpp_TypeInfo_var);
-		NullCheck(L_149);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14__ctor_mE74D37A607F51BCBC1B1050FEC4F3C408CD73E3E(L_149, NULL);
-		V_14 = L_149;
-		// node14.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_150 = V_14;
-		NullCheck(L_150);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_150, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node14.SetId(14);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_151 = V_14;
-		NullCheck(L_151);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_151, ((int32_t)14), NULL);
-		// node14.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_152 = V_14;
-		NullCheck(L_152);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_152, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node9.AddChild(node14);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_153 = V_10;
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_154 = V_14;
-		NullCheck(L_153);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_153, L_154);
-		// node9.SetHasEvents(node9.HasEvents() | node14.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_155 = V_10;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_156 = V_10;
-		NullCheck(L_156);
-		bool L_157;
-		L_157 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_156, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node14_t8ABE0BDEFE5134ECBA7BDAFFB80F60430119971C* L_158 = V_14;
-		NullCheck(L_158);
-		bool L_159;
-		L_159 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_158, NULL);
-		NullCheck(L_155);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_155, (bool)((int32_t)((int32_t)L_157|(int32_t)L_159)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node9.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_160 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_161 = V_0;
-		NullCheck(L_161);
-		bool L_162;
-		L_162 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_161, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_163 = V_10;
-		NullCheck(L_163);
-		bool L_164;
-		L_164 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_163, NULL);
-		NullCheck(L_160);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_160, (bool)((int32_t)((int32_t)L_162|(int32_t)L_164)), NULL);
 		// Sequence node15 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_165 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_165);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_165, NULL);
-		V_15 = L_165;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_149 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_149);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_149, NULL);
+		V_15 = L_149;
 		// node15.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_166 = V_15;
-		NullCheck(L_166);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_166, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_150 = V_15;
+		NullCheck(L_150);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_150, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node15.SetId(15);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_15;
-		NullCheck(L_167);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_167, ((int32_t)15), NULL);
-		// node15.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_168 = V_15;
-		NullCheck(L_168);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_168, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_151 = V_15;
+		NullCheck(L_151);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_151, ((int32_t)15), NULL);
 		// node0.AddChild(node15);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_169 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_15;
-		NullCheck(L_169);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_169, L_170);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_152 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_153 = V_15;
+		NullCheck(L_152);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_152, L_153);
 		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node16 node16 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node16();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_171 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4_il2cpp_TypeInfo_var);
-		NullCheck(L_171);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16__ctor_mBB4580E8228DC3AE773133D6C05C6257E3C4561A(L_171, NULL);
-		V_16 = L_171;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_154 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4_il2cpp_TypeInfo_var);
+		NullCheck(L_154);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16__ctor_mBB4580E8228DC3AE773133D6C05C6257E3C4561A(L_154, NULL);
+		V_16 = L_154;
 		// node16.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_172 = V_16;
-		NullCheck(L_172);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_172, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_155 = V_16;
+		NullCheck(L_155);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node16.SetId(16);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_173 = V_16;
-		NullCheck(L_173);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_173, ((int32_t)16), NULL);
-		// node16.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_174 = V_16;
-		NullCheck(L_174);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_174, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_156 = V_16;
+		NullCheck(L_156);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)16), NULL);
 		// node15.AddChild(node16);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_175 = V_15;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_176 = V_16;
-		NullCheck(L_175);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_175, L_176);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_15;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_158 = V_16;
+		NullCheck(L_157);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_157, L_158);
 		// node15.SetHasEvents(node15.HasEvents() | node16.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_160 = V_15;
+		NullCheck(L_160);
+		bool L_161;
+		L_161 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_160, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_162 = V_16;
+		NullCheck(L_162);
+		bool L_163;
+		L_163 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_162, NULL);
+		NullCheck(L_159);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_159, (bool)((int32_t)((int32_t)L_161|(int32_t)L_163)), NULL);
+		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node17 node17 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node17();
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_164 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643_il2cpp_TypeInfo_var);
+		NullCheck(L_164);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17__ctor_m7AED51CCD6F114D8B028403E93E2B19C19548462(L_164, NULL);
+		V_17 = L_164;
+		// node17.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_165 = V_17;
+		NullCheck(L_165);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_165, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node17.SetId(17);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_166 = V_17;
+		NullCheck(L_166);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_166, ((int32_t)17), NULL);
+		// node15.AddChild(node17);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_15;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_168 = V_17;
+		NullCheck(L_167);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_167, L_168);
+		// node15.SetHasEvents(node15.HasEvents() | node17.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_169 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_15;
+		NullCheck(L_170);
+		bool L_171;
+		L_171 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_170, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_172 = V_17;
+		NullCheck(L_172);
+		bool L_173;
+		L_173 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_172, NULL);
+		NullCheck(L_169);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_169, (bool)((int32_t)((int32_t)L_171|(int32_t)L_173)), NULL);
+		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node18 node18 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node18();
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_174 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709_il2cpp_TypeInfo_var);
+		NullCheck(L_174);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18__ctor_m06E5C51FDABD74BE47E2115421F23D9CA91E93DC(L_174, NULL);
+		V_18 = L_174;
+		// node18.SetClassNameString("Condition");
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_175 = V_18;
+		NullCheck(L_175);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_175, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node18.SetId(18);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_176 = V_18;
+		NullCheck(L_176);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_176, ((int32_t)18), NULL);
+		// node15.AddChild(node18);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_178 = V_15;
-		NullCheck(L_178);
-		bool L_179;
-		L_179 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_178, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node16_t79B46E81ACA74906D6010BD174355EEE3AF01EA4* L_180 = V_16;
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_178 = V_18;
+		NullCheck(L_177);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_177, L_178);
+		// node15.SetHasEvents(node15.HasEvents() | node18.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_179 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_180 = V_15;
 		NullCheck(L_180);
 		bool L_181;
 		L_181 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_180, NULL);
-		NullCheck(L_177);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_177, (bool)((int32_t)((int32_t)L_179|(int32_t)L_181)), NULL);
-		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node17 node17 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node17();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_182 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643_il2cpp_TypeInfo_var);
+		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_182 = V_18;
 		NullCheck(L_182);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17__ctor_m7AED51CCD6F114D8B028403E93E2B19C19548462(L_182, NULL);
-		V_17 = L_182;
-		// node17.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_183 = V_17;
-		NullCheck(L_183);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_183, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node17.SetId(17);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_184 = V_17;
+		bool L_183;
+		L_183 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_182, NULL);
+		NullCheck(L_179);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_179, (bool)((int32_t)((int32_t)L_181|(int32_t)L_183)), NULL);
+		// Action_bt_APC_APC_Husong_Aganzuo_Action_node19 node19 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node19();
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_184 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467_il2cpp_TypeInfo_var);
 		NullCheck(L_184);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_184, ((int32_t)17), NULL);
-		// node17.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_185 = V_17;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19__ctor_m7D5316901FDC40AB0FC4022E9D7D85CE66CC2873(L_184, NULL);
+		V_19 = L_184;
+		// node19.SetClassNameString("Action");
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_185 = V_19;
 		NullCheck(L_185);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_185, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node15.AddChild(node17);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_186 = V_15;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_187 = V_17;
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_185, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node19.SetId(19);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_186 = V_19;
 		NullCheck(L_186);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_186, L_187);
-		// node15.SetHasEvents(node15.HasEvents() | node17.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_188 = V_15;
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_186, ((int32_t)19), NULL);
+		// node15.AddChild(node19);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = V_15;
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_188 = V_19;
+		NullCheck(L_187);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_187, L_188);
+		// node15.SetHasEvents(node15.HasEvents() | node19.HasEvents());
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_15;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_190 = V_15;
+		NullCheck(L_190);
+		bool L_191;
+		L_191 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_190, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_192 = V_19;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_192, NULL);
 		NullCheck(L_189);
-		bool L_190;
-		L_190 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_189, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node17_t2547A02957CBD9A78EA990940260FC77C6B0B643* L_191 = V_17;
-		NullCheck(L_191);
-		bool L_192;
-		L_192 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_191, NULL);
-		NullCheck(L_188);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_188, (bool)((int32_t)((int32_t)L_190|(int32_t)L_192)), NULL);
-		// Condition_bt_APC_APC_Husong_Aganzuo_Action_node18 node18 = new Condition_bt_APC_APC_Husong_Aganzuo_Action_node18();
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_193 = (Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709_il2cpp_TypeInfo_var);
-		NullCheck(L_193);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18__ctor_m06E5C51FDABD74BE47E2115421F23D9CA91E93DC(L_193, NULL);
-		V_18 = L_193;
-		// node18.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_194 = V_18;
-		NullCheck(L_194);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_194, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
-		// node18.SetId(18);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_195 = V_18;
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_189, (bool)((int32_t)((int32_t)L_191|(int32_t)L_193)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node15.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_194 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_195 = V_0;
 		NullCheck(L_195);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_195, ((int32_t)18), NULL);
-		// node18.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_196 = V_18;
-		NullCheck(L_196);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_196, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node15.AddChild(node18);
+		bool L_196;
+		L_196 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_195, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_15;
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_198 = V_18;
 		NullCheck(L_197);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_197, L_198);
-		// node15.SetHasEvents(node15.HasEvents() | node18.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_199 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_200 = V_15;
+		bool L_198;
+		L_198 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_197, NULL);
+		NullCheck(L_194);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_194, (bool)((int32_t)((int32_t)L_196|(int32_t)L_198)), NULL);
+		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_199 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_200 = ___0_bt;
 		NullCheck(L_200);
 		bool L_201;
 		L_201 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_200, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_Action_node18_t547C1D92C165118BCBD4FC697AC533487CEC2709* L_202 = V_18;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_202 = V_0;
 		NullCheck(L_202);
 		bool L_203;
 		L_203 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_202, NULL);
 		NullCheck(L_199);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_199, (bool)((int32_t)((int32_t)L_201|(int32_t)L_203)), NULL);
-		// Action_bt_APC_APC_Husong_Aganzuo_Action_node19 node19 = new Action_bt_APC_APC_Husong_Aganzuo_Action_node19();
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_204 = (Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467_il2cpp_TypeInfo_var);
-		NullCheck(L_204);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19__ctor_m7D5316901FDC40AB0FC4022E9D7D85CE66CC2873(L_204, NULL);
-		V_19 = L_204;
-		// node19.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_205 = V_19;
-		NullCheck(L_205);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_205, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
-		// node19.SetId(19);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_206 = V_19;
-		NullCheck(L_206);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_206, ((int32_t)19), NULL);
-		// node19.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_207 = V_19;
-		NullCheck(L_207);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_207, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node15.AddChild(node19);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_208 = V_15;
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_209 = V_19;
-		NullCheck(L_208);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_208, L_209);
-		// node15.SetHasEvents(node15.HasEvents() | node19.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_15;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_211 = V_15;
-		NullCheck(L_211);
-		bool L_212;
-		L_212 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_211, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_Action_node19_t0FFDA45F4C9A10237D7A5D3B5045A383F5FC3467* L_213 = V_19;
-		NullCheck(L_213);
-		bool L_214;
-		L_214 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_213, NULL);
-		NullCheck(L_210);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_210, (bool)((int32_t)((int32_t)L_212|(int32_t)L_214)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node15.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_215 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_216 = V_0;
-		NullCheck(L_216);
-		bool L_217;
-		L_217 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_216, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_218 = V_15;
-		NullCheck(L_218);
-		bool L_219;
-		L_219 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_218, NULL);
-		NullCheck(L_215);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_215, (bool)((int32_t)((int32_t)L_217|(int32_t)L_219)), NULL);
-		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_220 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_221 = ___0_bt;
-		NullCheck(L_221);
-		bool L_222;
-		L_222 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_221, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_223 = V_0;
-		NullCheck(L_223);
-		bool L_224;
-		L_224 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_223, NULL);
-		NullCheck(L_220);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_220, (bool)((int32_t)((int32_t)L_222|(int32_t)L_224)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -24497,13 +24224,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_Husong_Aganzuo_Dest
 		// public Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 10000;
-		__this->___opl_p0_20 = ((int32_t)10000);
+		__this->___opl_p0_19 = ((int32_t)10000);
 		// opl_p1 = 10000;
-		__this->___opl_p1_21 = ((int32_t)10000);
+		__this->___opl_p1_20 = ((int32_t)10000);
 		// opl_p2 = 10000;
-		__this->___opl_p2_22 = ((int32_t)10000);
+		__this->___opl_p2_21 = ((int32_t)10000);
 		// opl_p3 = 10000;
-		__this->___opl_p3_23 = ((int32_t)10000);
+		__this->___opl_p3_22 = ((int32_t)10000);
 		// }
 		return;
 	}
@@ -24521,10 +24248,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_Husong_Aganzuo_D
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -24562,9 +24289,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Destina
 		// public Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.GO_TO_TARGET;
-		__this->___method_p0_20 = 0;
+		__this->___method_p0_19 = 0;
 		// }
 		return;
 	}
@@ -24581,7 +24308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Dest
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -24603,9 +24330,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_Husong_Aganzuo_Destina
 		// public Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = behaviac.DestinationType.FINAL_DOOR;
-		__this->___method_p0_20 = 8;
+		__this->___method_p0_19 = 8;
 		// }
 		return;
 	}
@@ -24622,7 +24349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_Husong_Aganzuo_Dest
 	{
 		// ((BTAgent)pAgent).Action_DoDestinationSelect(method_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___method_p0_20;
+		int32_t L_1 = __this->___method_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoDestinationSelect_m0875495D337EECC1CBC3ACA61AC5B06CC8DCB1FB(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
 		// return EBTStatus.BT_SUCCESS;
@@ -24649,7 +24376,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Husong_Aganzuo_DestinationSel
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral72B1A802C87E19D491A991BEF246D6C6B6492350);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral87F9C59A003E4AEA538316D3D225A23986555804);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
@@ -24680,214 +24406,186 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_Husong_Aganzuo_DestinationSel
 		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
 		NullCheck(L_3);
 		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
-		// bt.SetAgentType("BTAgent");
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_4 = ___0_bt;
-		NullCheck(L_4);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_4, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
 		// Selector node0 = new Selector();
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
-		NullCheck(L_5);
-		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_5, NULL);
-		V_0 = L_5;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
 		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
 		NullCheck(L_6);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_6, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
-		// node0.SetId(0);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_7 = V_0;
-		NullCheck(L_7);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_7, 0, NULL);
-		// node0.SetAgentType("BTAgent");
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
-		NullCheck(L_8);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_8, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
 		// bt.AddChild(node0);
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_9 = ___0_bt;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_10 = V_0;
-		NullCheck(L_9);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_9, L_10);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
 		// Sequence node1 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_11, NULL);
-		V_1 = L_11;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
 		// node1.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_12 = V_1;
-		NullCheck(L_12);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_12, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node1.SetId(1);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
-		NullCheck(L_13);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_13, 1, NULL);
-		// node1.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_14 = V_1;
-		NullCheck(L_14);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_14, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 1, NULL);
 		// node0.AddChild(node1);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_15 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_16 = V_1;
-		NullCheck(L_15);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_15, L_16);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
 		// Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2 node2 = new Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2();
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_17 = (Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C_il2cpp_TypeInfo_var);
-		NullCheck(L_17);
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2__ctor_m70831B6702D0A0037F97215EB557F05B5CF42D6D(L_17, NULL);
-		V_2 = L_17;
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_14 = (Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C*)il2cpp_codegen_object_new(Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2__ctor_m70831B6702D0A0037F97215EB557F05B5CF42D6D(L_14, NULL);
+		V_2 = L_14;
 		// node2.SetClassNameString("Condition");
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_18 = V_2;
-		NullCheck(L_18);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_18, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
 		// node2.SetId(2);
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_19 = V_2;
-		NullCheck(L_19);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_19, 2, NULL);
-		// node2.SetAgentType("BTAgent");
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_20 = V_2;
-		NullCheck(L_20);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_20, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
 		// node1.AddChild(node2);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_21 = V_1;
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_22 = V_2;
-		NullCheck(L_21);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_21, L_22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
 		// node1.SetHasEvents(node1.HasEvents() | node2.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_23 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_24 = V_1;
-		NullCheck(L_24);
-		bool L_25;
-		L_25 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_24, NULL);
-		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_26 = V_2;
-		NullCheck(L_26);
-		bool L_27;
-		L_27 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_26, NULL);
-		NullCheck(L_23);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_23, (bool)((int32_t)((int32_t)L_25|(int32_t)L_27)), NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node2_t0C8C07B8524A780DE7FF9D67A1C72BB3E492807C* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
 		// Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3 node3 = new Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3();
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_28 = (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB_il2cpp_TypeInfo_var);
-		NullCheck(L_28);
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3__ctor_m2999214E84CB267B08AB39C9C4D79E7CCA5FD918(L_28, NULL);
-		V_3 = L_28;
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_24 = (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3__ctor_m2999214E84CB267B08AB39C9C4D79E7CCA5FD918(L_24, NULL);
+		V_3 = L_24;
 		// node3.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_29 = V_3;
-		NullCheck(L_29);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_29, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node3.SetId(3);
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_30 = V_3;
-		NullCheck(L_30);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_30, 3, NULL);
-		// node3.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_31 = V_3;
-		NullCheck(L_31);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_31, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 3, NULL);
 		// node1.AddChild(node3);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_32 = V_1;
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_33 = V_3;
-		NullCheck(L_32);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_32, L_33);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
 		// node1.SetHasEvents(node1.HasEvents() | node3.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_34 = V_1;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_35 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_34 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_35 = V_0;
 		NullCheck(L_35);
 		bool L_36;
 		L_36 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_35, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node3_tCCD7ADEAD2541A4B5BA18CBE2B3E743A290678EB* L_37 = V_3;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
 		NullCheck(L_37);
 		bool L_38;
 		L_38 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_37, NULL);
 		NullCheck(L_34);
 		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_34, (bool)((int32_t)((int32_t)L_36|(int32_t)L_38)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_39 = V_0;
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_40 = V_0;
-		NullCheck(L_40);
-		bool L_41;
-		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_42 = V_1;
-		NullCheck(L_42);
-		bool L_43;
-		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
-		NullCheck(L_39);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
 		// Sequence node4 = new Sequence();
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_44 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
-		NullCheck(L_44);
-		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_44, NULL);
-		V_4 = L_44;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_39);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_39, NULL);
+		V_4 = L_39;
 		// node4.SetClassNameString("Sequence");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_45 = V_4;
-		NullCheck(L_45);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_4;
+		NullCheck(L_40);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_40, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
 		// node4.SetId(4);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_46 = V_4;
-		NullCheck(L_46);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 4, NULL);
-		// node4.SetAgentType("BTAgent");
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
-		NullCheck(L_47);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_47, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_41 = V_4;
+		NullCheck(L_41);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_41, 4, NULL);
 		// node0.AddChild(node4);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_48 = V_0;
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
-		NullCheck(L_48);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_48, L_49);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_42 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_43 = V_4;
+		NullCheck(L_42);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_42, L_43);
 		// Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5 node5 = new Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5();
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_50 = (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2_il2cpp_TypeInfo_var);
-		NullCheck(L_50);
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5__ctor_m6AE27DA518CD5E0F738F391AE0E6C21F2DBEB4F9(L_50, NULL);
-		V_5 = L_50;
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_44 = (Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2*)il2cpp_codegen_object_new(Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5__ctor_m6AE27DA518CD5E0F738F391AE0E6C21F2DBEB4F9(L_44, NULL);
+		V_5 = L_44;
 		// node5.SetClassNameString("Action");
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_51 = V_5;
-		NullCheck(L_51);
-		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_51, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
 		// node5.SetId(5);
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 5, NULL);
+		// node4.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_4;
+		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_4;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_4;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
 		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_52 = V_5;
 		NullCheck(L_52);
-		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_52, 5, NULL);
-		// node5.SetAgentType("BTAgent");
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_53 = V_5;
-		NullCheck(L_53);
-		BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline(L_53, _stringLiteral87F9C59A003E4AEA538316D3D225A23986555804, NULL);
-		// node4.AddChild(node5);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_54 = V_4;
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_55 = V_5;
-		NullCheck(L_54);
-		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_54, L_55);
-		// node4.SetHasEvents(node4.HasEvents() | node5.HasEvents());
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_56 = V_4;
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node4.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_54 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_55 = V_0;
+		NullCheck(L_55);
+		bool L_56;
+		L_56 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_55, NULL);
 		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_4;
 		NullCheck(L_57);
 		bool L_58;
 		L_58 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_57, NULL);
-		Action_bt_APC_APC_Husong_Aganzuo_DestinationSelect_node5_t9E9D0EA666C08976405596D7C16A52BE2CEAD4D2* L_59 = V_5;
-		NullCheck(L_59);
-		bool L_60;
-		L_60 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_59, NULL);
-		NullCheck(L_56);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_56, (bool)((int32_t)((int32_t)L_58|(int32_t)L_60)), NULL);
-		// node0.SetHasEvents(node0.HasEvents() | node4.HasEvents());
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_61 = V_0;
+		NullCheck(L_54);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_54, (bool)((int32_t)((int32_t)L_56|(int32_t)L_58)), NULL);
+		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_59 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_60 = ___0_bt;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
 		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_62 = V_0;
 		NullCheck(L_62);
 		bool L_63;
 		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
-		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_64 = V_4;
-		NullCheck(L_64);
-		bool L_65;
-		L_65 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_64, NULL);
-		NullCheck(L_61);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_61, (bool)((int32_t)((int32_t)L_63|(int32_t)L_65)), NULL);
-		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_66 = ___0_bt;
-		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_67 = ___0_bt;
-		NullCheck(L_67);
-		bool L_68;
-		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
-		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_69 = V_0;
-		NullCheck(L_69);
-		bool L_70;
-		L_70 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_69, NULL);
-		NullCheck(L_66);
-		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_66, (bool)((int32_t)((int32_t)L_68|(int32_t)L_70)), NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
 		// return true;
 		return (bool)1;
 	}
@@ -24907,13 +24605,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_A
 		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 2500;
-		__this->___opl_p0_20 = ((int32_t)2500);
+		__this->___opl_p0_19 = ((int32_t)2500);
 		// opl_p1 = 1000;
-		__this->___opl_p1_21 = ((int32_t)1000);
+		__this->___opl_p1_20 = ((int32_t)1000);
 		// opl_p2 = 1500;
-		__this->___opl_p2_22 = ((int32_t)1500);
+		__this->___opl_p2_21 = ((int32_t)1500);
 		// opl_p3 = 1500;
-		__this->___opl_p3_23 = ((int32_t)1500);
+		__this->___opl_p3_22 = ((int32_t)1500);
 		// }
 		return;
 	}
@@ -24931,10 +24629,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyua
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
-		int32_t L_4 = __this->___opl_p3_23;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_5;
 		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
@@ -24972,7 +24670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_A
 		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 0.3f;
-		__this->___opl_p0_20 = (0.300000012f);
+		__this->___opl_p0_19 = (0.300000012f);
 		// }
 		return;
 	}
@@ -24990,7 +24688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyua
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		float L_1 = __this->___opl_p0_20;
+		float L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -25028,11 +24726,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_A
 		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = behaviac.BE_Target.Enemy;
-		__this->___opl_p0_20 = 0;
+		__this->___opl_p0_19 = 0;
 		// opl_p1 = behaviac.BE_Equal.NotEqual;
-		__this->___opl_p1_21 = 1;
+		__this->___opl_p1_20 = 1;
 		// opl_p2 = behaviac.BE_State.DAODI;
-		__this->___opl_p2_22 = 7;
+		__this->___opl_p2_21 = 7;
 		// }
 		return;
 	}
@@ -25050,9 +24748,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyua
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
-		int32_t L_2 = __this->___opl_p1_21;
-		int32_t L_3 = __this->___opl_p2_22;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_4;
 		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
@@ -25090,7 +24788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_A
 		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5()
 		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
 		// opl_p0 = 8007;
-		__this->___opl_p0_20 = ((int32_t)8007);
+		__this->___opl_p0_19 = ((int32_t)8007);
 		// }
 		return;
 	}
@@ -25108,7 +24806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyua
 	{
 		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		int32_t L_1 = __this->___opl_p0_20;
+		int32_t L_1 = __this->___opl_p0_19;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		bool L_2;
 		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
@@ -25157,15 +24855,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Acti
 		// public Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6()
 		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
 		// this.m_resultOption = EBTStatus.BT_SUCCESS;
-		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_19 = 1;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
 		// method_p0 = new List<behaviac.Input>();
 		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
 		NullCheck(L_0);
 		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
-		__this->___method_p0_20 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_20), (void*)L_0);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
 		// method_p0.Capacity = 1;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
 		NullCheck(L_1);
 		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
 		// method_p0_item0 = new behaviac.Input();
@@ -25187,12 +24885,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Acti
 		// method_p0_item0.specialChoice = 0;
 		(&V_0)->___specialChoice_3 = 0;
 		// method_p0.Add(method_p0_item0);
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_20;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
 		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
 		NullCheck(L_2);
 		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
 		// method_p1 = false;
-		__this->___method_p1_21 = (bool)0;
+		__this->___method_p1_20 = (bool)0;
 		// }
 		return;
 	}
@@ -25209,12 +24907,1798 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_jiqingjieshuoyuan_A
 	{
 		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
 		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
-		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_20);
-		bool L_2 = __this->___method_p1_21;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
 		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
 		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
 		// return EBTStatus.BT_SUCCESS;
 		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8__ctor_m70043FB1CB7B1DD4544D34562B8A0AEAA5FD7013 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 2000;
+		__this->___opl_p0_19 = ((int32_t)2000);
+		// opl_p1 = 1000;
+		__this->___opl_p1_20 = ((int32_t)1000);
+		// opl_p2 = 1500;
+		__this->___opl_p2_21 = ((int32_t)1500);
+		// opl_p3 = 1500;
+		__this->___opl_p3_22 = ((int32_t)1500);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_update_impl_mFD71B1FCF9F54C97410384CB9D24C0C86CA299CD (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_5;
+		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_6 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_5) == ((int32_t)L_6))? 1 : 0))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_002c:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9__ctor_m0837C9C429F0ECDC4D2C78E585FAA4EE2C068E03 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 0.6f;
+		__this->___opl_p0_19 = (0.600000024f);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_update_impl_m26501359043AD0F6AE447E1B6633B82DE2402D7D (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		float L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10__ctor_m24EAEAB95DEA9987FFEBB28200A891B60B64E624 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = behaviac.BE_Target.Enemy;
+		__this->___opl_p0_19 = 0;
+		// opl_p1 = behaviac.BE_Equal.NotEqual;
+		__this->___opl_p1_20 = 1;
+		// opl_p2 = behaviac.BE_State.DAODI;
+		__this->___opl_p2_21 = 7;
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_update_impl_m69415132E09D8D4AB14715F9EE2DB3110899D103 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_CheckState(opl_p0, opl_p1, opl_p2);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_4;
+		L_4 = BTAgent_Condition_CheckState_m25F4EE9B72AF706FBA395FDF118AD0E6EB6112C7(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_5 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_4) == ((int32_t)L_5))? 1 : 0))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_0026:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11__ctor_mF652534045E5CF326951610CCF00546A25C4207E (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 8008;
+		__this->___opl_p0_19 = ((int32_t)8008);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_update_impl_m9AAA54571F058A422608F49B0D8C156CC60C5B59 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12__ctor_m7AC688ABED42CD74A89DAEE89BA66F350D87F239 (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// public Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12()
+		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
+		// this.m_resultOption = EBTStatus.BT_SUCCESS;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
+		// method_p0 = new List<behaviac.Input>();
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
+		// method_p0.Capacity = 1;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
+		NullCheck(L_1);
+		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		// method_p0_item0 = new behaviac.Input();
+		il2cpp_codegen_initobj((&V_0), sizeof(Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC));
+		// method_p0_item0.delay = 0;
+		(&V_0)->___delay_0 = 0;
+		// method_p0_item0.moveInSkillState = false;
+		(&V_0)->___moveInSkillState_6 = (bool)0;
+		// method_p0_item0.moveKeepDistance = 0;
+		(&V_0)->___moveKeepDistance_7 = 0;
+		// method_p0_item0.PKRobotComboCheck = false;
+		(&V_0)->___PKRobotComboCheck_5 = (bool)0;
+		// method_p0_item0.pressTime = 0;
+		(&V_0)->___pressTime_2 = 0;
+		// method_p0_item0.randomChangeDirection = false;
+		(&V_0)->___randomChangeDirection_4 = (bool)0;
+		// method_p0_item0.skillID = 8008;
+		(&V_0)->___skillID_1 = ((int32_t)8008);
+		// method_p0_item0.specialChoice = 0;
+		(&V_0)->___specialChoice_3 = 0;
+		// method_p0.Add(method_p0_item0);
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
+		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
+		NullCheck(L_2);
+		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		// method_p1 = false;
+		__this->___method_p1_20 = (bool)0;
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_update_impl_m79B32FF4B67185614D161D63B8A889CBC0077A3D (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
+		// return EBTStatus.BT_SUCCESS;
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14__ctor_m4C82072D9C363F5329ACB1C6C3A4DC2C6F468925 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 4000;
+		__this->___opl_p0_19 = ((int32_t)4000);
+		// opl_p1 = 1000;
+		__this->___opl_p1_20 = ((int32_t)1000);
+		// opl_p2 = 1500;
+		__this->___opl_p2_21 = ((int32_t)1500);
+		// opl_p3 = 1500;
+		__this->___opl_p3_22 = ((int32_t)1500);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_update_impl_m102D50680F92FB03CE53C376D069CC9F63F3B948 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_5;
+		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_6 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_5) == ((int32_t)L_6))? 1 : 0))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_002c:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15__ctor_mAC3999574CF558BBF1F346FE15A819C9120C99D2 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 0.35f;
+		__this->___opl_p0_19 = (0.349999994f);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_update_impl_mDC7484637AAE9165BD0F903055B89738544ECB94 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		float L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16__ctor_mDB6379630BFD7FDB09E38754F18EC864F249D696 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 8009;
+		__this->___opl_p0_19 = ((int32_t)8009);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_update_impl_m915DC9D629DB990FF9ADC7FEA489B1CC4156F13B (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18__ctor_m100472965D644CD4A55EAE0A3CBECF2885826EAD (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// public Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18()
+		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
+		// this.m_resultOption = EBTStatus.BT_SUCCESS;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
+		// method_p0 = new List<behaviac.Input>();
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
+		// method_p0.Capacity = 1;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
+		NullCheck(L_1);
+		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		// method_p0_item0 = new behaviac.Input();
+		il2cpp_codegen_initobj((&V_0), sizeof(Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC));
+		// method_p0_item0.delay = 0;
+		(&V_0)->___delay_0 = 0;
+		// method_p0_item0.moveInSkillState = false;
+		(&V_0)->___moveInSkillState_6 = (bool)0;
+		// method_p0_item0.moveKeepDistance = 0;
+		(&V_0)->___moveKeepDistance_7 = 0;
+		// method_p0_item0.PKRobotComboCheck = false;
+		(&V_0)->___PKRobotComboCheck_5 = (bool)0;
+		// method_p0_item0.pressTime = 0;
+		(&V_0)->___pressTime_2 = 0;
+		// method_p0_item0.randomChangeDirection = false;
+		(&V_0)->___randomChangeDirection_4 = (bool)0;
+		// method_p0_item0.skillID = 8009;
+		(&V_0)->___skillID_1 = ((int32_t)8009);
+		// method_p0_item0.specialChoice = 0;
+		(&V_0)->___specialChoice_3 = 0;
+		// method_p0.Add(method_p0_item0);
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
+		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
+		NullCheck(L_2);
+		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		// method_p1 = false;
+		__this->___method_p1_20 = (bool)0;
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_update_impl_m3DF9E137318867E11401B08A3CC45E66FAB17007 (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
+		// return EBTStatus.BT_SUCCESS;
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19__ctor_m24DF4D463E8FC64A7C3A3313A589070DEA4988F1 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 8000;
+		__this->___opl_p0_19 = ((int32_t)8000);
+		// opl_p1 = 3000;
+		__this->___opl_p1_20 = ((int32_t)3000);
+		// opl_p2 = 3000;
+		__this->___opl_p2_21 = ((int32_t)3000);
+		// opl_p3 = 3000;
+		__this->___opl_p3_22 = ((int32_t)3000);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_update_impl_m7E2FF430FC21236214CE2EA1C3FDA59C27079E46 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_5;
+		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_6 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_5) == ((int32_t)L_6))? 1 : 0))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_002c:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21__ctor_mCFFCFC7DDD6F5C9009F4B504119407415428DFA3 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 2500;
+		__this->___opl_p0_19 = ((int32_t)2500);
+		// opl_p1 = 0;
+		__this->___opl_p1_20 = 0;
+		// opl_p2 = 1000;
+		__this->___opl_p2_21 = ((int32_t)1000);
+		// opl_p3 = 1000;
+		__this->___opl_p3_22 = ((int32_t)1000);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_update_impl_m5560946855D8DA7BC4E58A43F406C4046005364D (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_IsTargetInAttackArea(opl_p0, opl_p1, opl_p2, opl_p3);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		int32_t L_2 = __this->___opl_p1_20;
+		int32_t L_3 = __this->___opl_p2_21;
+		int32_t L_4 = __this->___opl_p3_22;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_5;
+		L_5 = BTAgent_Condition_IsTargetInAttackArea_m81F616793EE997FF9B13844D8F9980B809552CE9(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_6 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_5) == ((int32_t)L_6))? 1 : 0))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_002c:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23__ctor_mBE28DC47FE4638E0D1D06B8862A95BDDE1D9C133 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 0.4f;
+		__this->___opl_p0_19 = (0.400000006f);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_update_impl_m719453F6F234BF86B83CB21CD7621EE499349881 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_GetRandom(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		float L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_GetRandom_m74CBB13B71B7A152D95C2E7D8147519A427C8245(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24__ctor_m4CF45EE79A92381B24F505443C822F49E20C51A2 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* __this, const RuntimeMethod* method) 
+{
+	{
+		// public Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24()
+		Condition__ctor_m93F139CB32BBD27FFE173E984958C04E2BEB1BE8(__this, NULL);
+		// opl_p0 = 8010;
+		__this->___opl_p0_19 = ((int32_t)8010);
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_update_impl_mB07721EE84C9C9D14964DEA341939A3D30E98C99 (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		// bool opl = ((BTAgent)pAgent).Condition_CanUseSkill(opl_p0);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		int32_t L_1 = __this->___opl_p0_19;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		bool L_2;
+		L_2 = BTAgent_Condition_CanUseSkill_mE191F18658FB7C91F24B00EA53E86610724FEE5B(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, NULL);
+		// bool opr = true;
+		V_0 = (bool)1;
+		// bool op = opl == opr;
+		bool L_3 = V_0;
+		// return op ? EBTStatus.BT_SUCCESS : EBTStatus.BT_FAILURE;
+		if (((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		return (int32_t)(2);
+	}
+
+IL_001a:
+	{
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25__ctor_m68DF4257C575198711BA400B10EA8647A5BC592B (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// public Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25()
+		Action__ctor_m57DC48DC83CAC705DAFAD29272A9A22801C2176C(__this, NULL);
+		// this.m_resultOption = EBTStatus.BT_SUCCESS;
+		((Action_t66A87F35725879D6782DF1516A6F56B0D5C1A9FD*)__this)->___m_resultOption_18 = 1;
+		// method_p0 = new List<behaviac.Input>();
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_0 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47*)il2cpp_codegen_object_new(List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E(L_0, List_1__ctor_m13C614E9AE9BE117A2E8D1B101169DEFD38E241E_RuntimeMethod_var);
+		__this->___method_p0_19 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___method_p0_19), (void*)L_0);
+		// method_p0.Capacity = 1;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_1 = __this->___method_p0_19;
+		NullCheck(L_1);
+		List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8(L_1, 1, List_1_set_Capacity_mE5483070393A0A5E5C4C3A98FF24E197B31D89B8_RuntimeMethod_var);
+		// method_p0_item0 = new behaviac.Input();
+		il2cpp_codegen_initobj((&V_0), sizeof(Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC));
+		// method_p0_item0.delay = 0;
+		(&V_0)->___delay_0 = 0;
+		// method_p0_item0.moveInSkillState = false;
+		(&V_0)->___moveInSkillState_6 = (bool)0;
+		// method_p0_item0.moveKeepDistance = 0;
+		(&V_0)->___moveKeepDistance_7 = 0;
+		// method_p0_item0.PKRobotComboCheck = false;
+		(&V_0)->___PKRobotComboCheck_5 = (bool)0;
+		// method_p0_item0.pressTime = 3000;
+		(&V_0)->___pressTime_2 = ((int32_t)3000);
+		// method_p0_item0.randomChangeDirection = false;
+		(&V_0)->___randomChangeDirection_4 = (bool)0;
+		// method_p0_item0.skillID = 8010;
+		(&V_0)->___skillID_1 = ((int32_t)8010);
+		// method_p0_item0.specialChoice = 0;
+		(&V_0)->___specialChoice_3 = 0;
+		// method_p0.Add(method_p0_item0);
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47* L_2 = __this->___method_p0_19;
+		Input_tE96A53A3FCAABC5E0201DC245B1A092F5CDA74BC L_3 = V_0;
+		NullCheck(L_2);
+		List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_inline(L_2, L_3, List_1_Add_mBB1FDA8EF27F4CAF9E7001AF63CC8EF5FDDF9B28_RuntimeMethod_var);
+		// method_p1 = false;
+		__this->___method_p1_20 = (bool)0;
+		// }
+		return;
+	}
+}
+// behaviac.EBTStatus behaviac.Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25::update_impl(behaviac.Agent,behaviac.EBTStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_update_impl_mDDA6D4FB34AAF6D8A4663B7B345B6AC52472AAA4 (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* __this, Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* ___0_pAgent, int32_t ___1_childStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// ((BTAgent)pAgent).Action_DoAction(ref method_p0, method_p1);
+		Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* L_0 = ___0_pAgent;
+		List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47** L_1 = (List_1_t7ACF46BEF1704F6522C937A9A0B3A707EB74BE47**)(&__this->___method_p0_19);
+		bool L_2 = __this->___method_p1_20;
+		NullCheck(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)));
+		BTAgent_Action_DoAction_m26AA3831B697D23417FC0BD7FC0772672702880F(((BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA*)CastclassClass((RuntimeObject*)L_0, BTAgent_tF4A1569009E2E128BDE640A3A591D6E6ADE9CAAA_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
+		// return EBTStatus.BT_SUCCESS;
+		return (int32_t)(1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean behaviac.bt_APC_APC_jiqingjieshuoyuan_Action::build_behavior_tree(behaviac.BehaviorTree)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool bt_APC_APC_jiqingjieshuoyuan_Action_build_behavior_tree_m99B1DAA62DCE7959BC03DAE246BE77339011FF62 (BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* ___0_bt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBE3B601461F964240B8A3A986A8AB14831295163);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCE0BE56E78739CCA8B1EE2E1468FEFCBC7435154);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEAC7AD8010F2D41E409236AC6A679C789AA8F8C7);
+		s_Il2CppMethodInitialized = true;
+	}
+	Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* V_0 = NULL;
+	Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* V_1 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* V_2 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* V_3 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* V_4 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* V_5 = NULL;
+	Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* V_6 = NULL;
+	Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* V_7 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* V_8 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* V_9 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* V_10 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* V_11 = NULL;
+	Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* V_12 = NULL;
+	Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* V_13 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* V_14 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* V_15 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* V_16 = NULL;
+	Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* V_17 = NULL;
+	Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* V_18 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* V_19 = NULL;
+	Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* V_20 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* V_21 = NULL;
+	Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* V_22 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* V_23 = NULL;
+	Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* V_24 = NULL;
+	Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* V_25 = NULL;
+	{
+		// bt.SetClassNameString("BehaviorTree");
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_0 = ___0_bt;
+		NullCheck(L_0);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_0, _stringLiteralCE0BE56E78739CCA8B1EE2E1468FEFCBC7435154, NULL);
+		// bt.SetId(-1);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_1 = ___0_bt;
+		NullCheck(L_1);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_1, (-1), NULL);
+		// bt.SetName("APC/APC_jiqingjieshuoyuan_Action");
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_2 = ___0_bt;
+		NullCheck(L_2);
+		BehaviorTree_SetName_mDFC8DDB0F7247607CB6DC2AE0C8D98B1A9365A05_inline(L_2, _stringLiteralEAC7AD8010F2D41E409236AC6A679C789AA8F8C7, NULL);
+		// bt.IsFSM = false;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_3 = ___0_bt;
+		NullCheck(L_3);
+		BehaviorTree_set_IsFSM_m86AA9767C620FC853E8AECE7FE2841545429A60F_inline(L_3, (bool)0, NULL);
+		// Selector node0 = new Selector();
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_4 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_4, NULL);
+		V_0 = L_4;
+		// node0.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_5 = V_0;
+		NullCheck(L_5);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_5, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node0.SetId(0);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_6 = V_0;
+		NullCheck(L_6);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_6, 0, NULL);
+		// bt.AddChild(node0);
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_7 = ___0_bt;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_8 = V_0;
+		NullCheck(L_7);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_7, L_8);
+		// Sequence node1 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_9 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_9);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_9, NULL);
+		V_1 = L_9;
+		// node1.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_10 = V_1;
+		NullCheck(L_10);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_10, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node1.SetId(1);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_11 = V_1;
+		NullCheck(L_11);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_11, 1, NULL);
+		// node0.AddChild(node1);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_12 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_13 = V_1;
+		NullCheck(L_12);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_12, L_13);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2 node2 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* L_14 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0_il2cpp_TypeInfo_var);
+		NullCheck(L_14);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2__ctor_mF3969B9ED5224F1026AAB0F2CD8266523EF57029(L_14, NULL);
+		V_2 = L_14;
+		// node2.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* L_15 = V_2;
+		NullCheck(L_15);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_15, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node2.SetId(2);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* L_16 = V_2;
+		NullCheck(L_16);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_16, 2, NULL);
+		// node1.AddChild(node2);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_17 = V_1;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* L_18 = V_2;
+		NullCheck(L_17);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_17, L_18);
+		// node1.SetHasEvents(node1.HasEvents() | node2.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_19 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_20 = V_1;
+		NullCheck(L_20);
+		bool L_21;
+		L_21 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_20, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node2_t9158E11F71470D79C1E6DAEB9BC9A514E398E8E0* L_22 = V_2;
+		NullCheck(L_22);
+		bool L_23;
+		L_23 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_22, NULL);
+		NullCheck(L_19);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_19, (bool)((int32_t)((int32_t)L_21|(int32_t)L_23)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3 node3 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* L_24 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA_il2cpp_TypeInfo_var);
+		NullCheck(L_24);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3__ctor_m77A7DC579FE359D24D7E3E14B0D237BE83231215(L_24, NULL);
+		V_3 = L_24;
+		// node3.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* L_25 = V_3;
+		NullCheck(L_25);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_25, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node3.SetId(3);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* L_26 = V_3;
+		NullCheck(L_26);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_26, 3, NULL);
+		// node1.AddChild(node3);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_27 = V_1;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* L_28 = V_3;
+		NullCheck(L_27);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_27, L_28);
+		// node1.SetHasEvents(node1.HasEvents() | node3.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_29 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_30 = V_1;
+		NullCheck(L_30);
+		bool L_31;
+		L_31 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_30, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node3_tD2BB5D134B193E4E914A4FAB8DCE0FF9922291CA* L_32 = V_3;
+		NullCheck(L_32);
+		bool L_33;
+		L_33 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_32, NULL);
+		NullCheck(L_29);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_29, (bool)((int32_t)((int32_t)L_31|(int32_t)L_33)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4 node4 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* L_34 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1_il2cpp_TypeInfo_var);
+		NullCheck(L_34);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4__ctor_m9DBB3D3CAD16F37C963E0142F3428A93C3C1DDAA(L_34, NULL);
+		V_4 = L_34;
+		// node4.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* L_35 = V_4;
+		NullCheck(L_35);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_35, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node4.SetId(4);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* L_36 = V_4;
+		NullCheck(L_36);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_36, 4, NULL);
+		// node1.AddChild(node4);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_37 = V_1;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* L_38 = V_4;
+		NullCheck(L_37);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_37, L_38);
+		// node1.SetHasEvents(node1.HasEvents() | node4.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_39 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_40 = V_1;
+		NullCheck(L_40);
+		bool L_41;
+		L_41 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_40, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node4_tAC993C61A828A882D70688D42DED65397B42ECC1* L_42 = V_4;
+		NullCheck(L_42);
+		bool L_43;
+		L_43 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_42, NULL);
+		NullCheck(L_39);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_39, (bool)((int32_t)((int32_t)L_41|(int32_t)L_43)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5 node5 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* L_44 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC_il2cpp_TypeInfo_var);
+		NullCheck(L_44);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5__ctor_mE01D362F5A5D339C88AF7FA7853D3F2E7591B0AD(L_44, NULL);
+		V_5 = L_44;
+		// node5.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* L_45 = V_5;
+		NullCheck(L_45);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_45, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node5.SetId(5);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* L_46 = V_5;
+		NullCheck(L_46);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_46, 5, NULL);
+		// node1.AddChild(node5);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_47 = V_1;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* L_48 = V_5;
+		NullCheck(L_47);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_47, L_48);
+		// node1.SetHasEvents(node1.HasEvents() | node5.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_49 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_50 = V_1;
+		NullCheck(L_50);
+		bool L_51;
+		L_51 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_50, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node5_t198EEDFB775A2E10C639585966B41F34ECE65BBC* L_52 = V_5;
+		NullCheck(L_52);
+		bool L_53;
+		L_53 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_52, NULL);
+		NullCheck(L_49);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_49, (bool)((int32_t)((int32_t)L_51|(int32_t)L_53)), NULL);
+		// Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6 node6 = new Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6();
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* L_54 = (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C*)il2cpp_codegen_object_new(Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C_il2cpp_TypeInfo_var);
+		NullCheck(L_54);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6__ctor_m4C9741B348976B492642CBB3B1118FC032B82E9B(L_54, NULL);
+		V_6 = L_54;
+		// node6.SetClassNameString("Action");
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* L_55 = V_6;
+		NullCheck(L_55);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_55, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node6.SetId(6);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* L_56 = V_6;
+		NullCheck(L_56);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_56, 6, NULL);
+		// node1.AddChild(node6);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_57 = V_1;
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* L_58 = V_6;
+		NullCheck(L_57);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_57, L_58);
+		// node1.SetHasEvents(node1.HasEvents() | node6.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_59 = V_1;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_60 = V_1;
+		NullCheck(L_60);
+		bool L_61;
+		L_61 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_60, NULL);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node6_t589799B3DD6E77AFF5CA33A9AD27AB34F8B6C01C* L_62 = V_6;
+		NullCheck(L_62);
+		bool L_63;
+		L_63 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_62, NULL);
+		NullCheck(L_59);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_59, (bool)((int32_t)((int32_t)L_61|(int32_t)L_63)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node1.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_64 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_65 = V_0;
+		NullCheck(L_65);
+		bool L_66;
+		L_66 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_65, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_67 = V_1;
+		NullCheck(L_67);
+		bool L_68;
+		L_68 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_67, NULL);
+		NullCheck(L_64);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_64, (bool)((int32_t)((int32_t)L_66|(int32_t)L_68)), NULL);
+		// Sequence node7 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_69 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_69);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_69, NULL);
+		V_7 = L_69;
+		// node7.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_70 = V_7;
+		NullCheck(L_70);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_70, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node7.SetId(7);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_71 = V_7;
+		NullCheck(L_71);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_71, 7, NULL);
+		// node0.AddChild(node7);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_72 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_73 = V_7;
+		NullCheck(L_72);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_72, L_73);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8 node8 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* L_74 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56_il2cpp_TypeInfo_var);
+		NullCheck(L_74);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8__ctor_m70043FB1CB7B1DD4544D34562B8A0AEAA5FD7013(L_74, NULL);
+		V_8 = L_74;
+		// node8.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* L_75 = V_8;
+		NullCheck(L_75);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_75, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node8.SetId(8);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* L_76 = V_8;
+		NullCheck(L_76);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_76, 8, NULL);
+		// node7.AddChild(node8);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_77 = V_7;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* L_78 = V_8;
+		NullCheck(L_77);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_77, L_78);
+		// node7.SetHasEvents(node7.HasEvents() | node8.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_79 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_80 = V_7;
+		NullCheck(L_80);
+		bool L_81;
+		L_81 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_80, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node8_tB4082040E13A49BAC5ABBD66A8F38FD60A148B56* L_82 = V_8;
+		NullCheck(L_82);
+		bool L_83;
+		L_83 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_82, NULL);
+		NullCheck(L_79);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_79, (bool)((int32_t)((int32_t)L_81|(int32_t)L_83)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9 node9 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* L_84 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0_il2cpp_TypeInfo_var);
+		NullCheck(L_84);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9__ctor_m0837C9C429F0ECDC4D2C78E585FAA4EE2C068E03(L_84, NULL);
+		V_9 = L_84;
+		// node9.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* L_85 = V_9;
+		NullCheck(L_85);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_85, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node9.SetId(9);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* L_86 = V_9;
+		NullCheck(L_86);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_86, ((int32_t)9), NULL);
+		// node7.AddChild(node9);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_87 = V_7;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* L_88 = V_9;
+		NullCheck(L_87);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_87, L_88);
+		// node7.SetHasEvents(node7.HasEvents() | node9.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_89 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_90 = V_7;
+		NullCheck(L_90);
+		bool L_91;
+		L_91 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_90, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node9_tB06037C658EA0F6252C6A35F65A3687D3DE9DDA0* L_92 = V_9;
+		NullCheck(L_92);
+		bool L_93;
+		L_93 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_92, NULL);
+		NullCheck(L_89);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_89, (bool)((int32_t)((int32_t)L_91|(int32_t)L_93)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10 node10 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* L_94 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B_il2cpp_TypeInfo_var);
+		NullCheck(L_94);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10__ctor_m24EAEAB95DEA9987FFEBB28200A891B60B64E624(L_94, NULL);
+		V_10 = L_94;
+		// node10.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* L_95 = V_10;
+		NullCheck(L_95);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_95, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node10.SetId(10);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* L_96 = V_10;
+		NullCheck(L_96);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_96, ((int32_t)10), NULL);
+		// node7.AddChild(node10);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_97 = V_7;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* L_98 = V_10;
+		NullCheck(L_97);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_97, L_98);
+		// node7.SetHasEvents(node7.HasEvents() | node10.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_99 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_100 = V_7;
+		NullCheck(L_100);
+		bool L_101;
+		L_101 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_100, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node10_tC1D90C65DB364320081FB8A771E80D36ACC5F70B* L_102 = V_10;
+		NullCheck(L_102);
+		bool L_103;
+		L_103 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_102, NULL);
+		NullCheck(L_99);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_99, (bool)((int32_t)((int32_t)L_101|(int32_t)L_103)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11 node11 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* L_104 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4_il2cpp_TypeInfo_var);
+		NullCheck(L_104);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11__ctor_mF652534045E5CF326951610CCF00546A25C4207E(L_104, NULL);
+		V_11 = L_104;
+		// node11.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* L_105 = V_11;
+		NullCheck(L_105);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_105, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node11.SetId(11);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* L_106 = V_11;
+		NullCheck(L_106);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_106, ((int32_t)11), NULL);
+		// node7.AddChild(node11);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_107 = V_7;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* L_108 = V_11;
+		NullCheck(L_107);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_107, L_108);
+		// node7.SetHasEvents(node7.HasEvents() | node11.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_109 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_110 = V_7;
+		NullCheck(L_110);
+		bool L_111;
+		L_111 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_110, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node11_t8102CDBEC3D7FD6A36DCA3B868CDBD5CC1B39AA4* L_112 = V_11;
+		NullCheck(L_112);
+		bool L_113;
+		L_113 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_112, NULL);
+		NullCheck(L_109);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_109, (bool)((int32_t)((int32_t)L_111|(int32_t)L_113)), NULL);
+		// Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12 node12 = new Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12();
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* L_114 = (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3*)il2cpp_codegen_object_new(Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3_il2cpp_TypeInfo_var);
+		NullCheck(L_114);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12__ctor_m7AC688ABED42CD74A89DAEE89BA66F350D87F239(L_114, NULL);
+		V_12 = L_114;
+		// node12.SetClassNameString("Action");
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* L_115 = V_12;
+		NullCheck(L_115);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_115, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node12.SetId(12);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* L_116 = V_12;
+		NullCheck(L_116);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_116, ((int32_t)12), NULL);
+		// node7.AddChild(node12);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_117 = V_7;
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* L_118 = V_12;
+		NullCheck(L_117);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_117, L_118);
+		// node7.SetHasEvents(node7.HasEvents() | node12.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_119 = V_7;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_120 = V_7;
+		NullCheck(L_120);
+		bool L_121;
+		L_121 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_120, NULL);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node12_t619F90E9256875A351E3D7A078B93DA619D680B3* L_122 = V_12;
+		NullCheck(L_122);
+		bool L_123;
+		L_123 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_122, NULL);
+		NullCheck(L_119);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_119, (bool)((int32_t)((int32_t)L_121|(int32_t)L_123)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node7.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_124 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_125 = V_0;
+		NullCheck(L_125);
+		bool L_126;
+		L_126 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_125, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_127 = V_7;
+		NullCheck(L_127);
+		bool L_128;
+		L_128 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_127, NULL);
+		NullCheck(L_124);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_124, (bool)((int32_t)((int32_t)L_126|(int32_t)L_128)), NULL);
+		// Sequence node13 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_129 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_129);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_129, NULL);
+		V_13 = L_129;
+		// node13.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_130 = V_13;
+		NullCheck(L_130);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_130, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node13.SetId(13);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_131 = V_13;
+		NullCheck(L_131);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_131, ((int32_t)13), NULL);
+		// node0.AddChild(node13);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_132 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_133 = V_13;
+		NullCheck(L_132);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_132, L_133);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14 node14 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* L_134 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463_il2cpp_TypeInfo_var);
+		NullCheck(L_134);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14__ctor_m4C82072D9C363F5329ACB1C6C3A4DC2C6F468925(L_134, NULL);
+		V_14 = L_134;
+		// node14.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* L_135 = V_14;
+		NullCheck(L_135);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_135, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node14.SetId(14);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* L_136 = V_14;
+		NullCheck(L_136);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_136, ((int32_t)14), NULL);
+		// node13.AddChild(node14);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_137 = V_13;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* L_138 = V_14;
+		NullCheck(L_137);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_137, L_138);
+		// node13.SetHasEvents(node13.HasEvents() | node14.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_139 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_140 = V_13;
+		NullCheck(L_140);
+		bool L_141;
+		L_141 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_140, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node14_tE1189A9724B5CF603D08D3A40F29DF259A4FB463* L_142 = V_14;
+		NullCheck(L_142);
+		bool L_143;
+		L_143 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_142, NULL);
+		NullCheck(L_139);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_139, (bool)((int32_t)((int32_t)L_141|(int32_t)L_143)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15 node15 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* L_144 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96_il2cpp_TypeInfo_var);
+		NullCheck(L_144);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15__ctor_mAC3999574CF558BBF1F346FE15A819C9120C99D2(L_144, NULL);
+		V_15 = L_144;
+		// node15.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* L_145 = V_15;
+		NullCheck(L_145);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_145, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node15.SetId(15);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* L_146 = V_15;
+		NullCheck(L_146);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_146, ((int32_t)15), NULL);
+		// node13.AddChild(node15);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_147 = V_13;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* L_148 = V_15;
+		NullCheck(L_147);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_147, L_148);
+		// node13.SetHasEvents(node13.HasEvents() | node15.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_149 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_150 = V_13;
+		NullCheck(L_150);
+		bool L_151;
+		L_151 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_150, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node15_t310984E4A871AF895E3B9E267D882FE921DCBF96* L_152 = V_15;
+		NullCheck(L_152);
+		bool L_153;
+		L_153 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_152, NULL);
+		NullCheck(L_149);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_149, (bool)((int32_t)((int32_t)L_151|(int32_t)L_153)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16 node16 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* L_154 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221_il2cpp_TypeInfo_var);
+		NullCheck(L_154);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16__ctor_mDB6379630BFD7FDB09E38754F18EC864F249D696(L_154, NULL);
+		V_16 = L_154;
+		// node16.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* L_155 = V_16;
+		NullCheck(L_155);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_155, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node16.SetId(16);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* L_156 = V_16;
+		NullCheck(L_156);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_156, ((int32_t)16), NULL);
+		// node13.AddChild(node16);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_157 = V_13;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* L_158 = V_16;
+		NullCheck(L_157);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_157, L_158);
+		// node13.SetHasEvents(node13.HasEvents() | node16.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_159 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_160 = V_13;
+		NullCheck(L_160);
+		bool L_161;
+		L_161 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_160, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node16_t515996E408CE65EFCE11F8FD3A2A2336F5A9A221* L_162 = V_16;
+		NullCheck(L_162);
+		bool L_163;
+		L_163 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_162, NULL);
+		NullCheck(L_159);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_159, (bool)((int32_t)((int32_t)L_161|(int32_t)L_163)), NULL);
+		// Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18 node18 = new Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18();
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* L_164 = (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22*)il2cpp_codegen_object_new(Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22_il2cpp_TypeInfo_var);
+		NullCheck(L_164);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18__ctor_m100472965D644CD4A55EAE0A3CBECF2885826EAD(L_164, NULL);
+		V_17 = L_164;
+		// node18.SetClassNameString("Action");
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* L_165 = V_17;
+		NullCheck(L_165);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_165, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node18.SetId(18);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* L_166 = V_17;
+		NullCheck(L_166);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_166, ((int32_t)18), NULL);
+		// node13.AddChild(node18);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_167 = V_13;
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* L_168 = V_17;
+		NullCheck(L_167);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_167, L_168);
+		// node13.SetHasEvents(node13.HasEvents() | node18.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_169 = V_13;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_170 = V_13;
+		NullCheck(L_170);
+		bool L_171;
+		L_171 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_170, NULL);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node18_t21C4E0E3D4E8AEDDD590E20EA4BEED2FA3652A22* L_172 = V_17;
+		NullCheck(L_172);
+		bool L_173;
+		L_173 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_172, NULL);
+		NullCheck(L_169);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_169, (bool)((int32_t)((int32_t)L_171|(int32_t)L_173)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node13.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_174 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_175 = V_0;
+		NullCheck(L_175);
+		bool L_176;
+		L_176 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_175, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_177 = V_13;
+		NullCheck(L_177);
+		bool L_178;
+		L_178 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_177, NULL);
+		NullCheck(L_174);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_174, (bool)((int32_t)((int32_t)L_176|(int32_t)L_178)), NULL);
+		// Sequence node17 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_179 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_179);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_179, NULL);
+		V_18 = L_179;
+		// node17.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_180 = V_18;
+		NullCheck(L_180);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_180, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node17.SetId(17);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_181 = V_18;
+		NullCheck(L_181);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_181, ((int32_t)17), NULL);
+		// node0.AddChild(node17);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_182 = V_0;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_183 = V_18;
+		NullCheck(L_182);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_182, L_183);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19 node19 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* L_184 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE_il2cpp_TypeInfo_var);
+		NullCheck(L_184);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19__ctor_m24DF4D463E8FC64A7C3A3313A589070DEA4988F1(L_184, NULL);
+		V_19 = L_184;
+		// node19.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* L_185 = V_19;
+		NullCheck(L_185);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_185, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node19.SetId(19);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* L_186 = V_19;
+		NullCheck(L_186);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_186, ((int32_t)19), NULL);
+		// node17.AddChild(node19);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_187 = V_18;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* L_188 = V_19;
+		NullCheck(L_187);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_187, L_188);
+		// node17.SetHasEvents(node17.HasEvents() | node19.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_189 = V_18;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_190 = V_18;
+		NullCheck(L_190);
+		bool L_191;
+		L_191 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_190, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node19_t6004F088A899375841F466B3B8FCFBBE12F3B4CE* L_192 = V_19;
+		NullCheck(L_192);
+		bool L_193;
+		L_193 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_192, NULL);
+		NullCheck(L_189);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_189, (bool)((int32_t)((int32_t)L_191|(int32_t)L_193)), NULL);
+		// Selector node20 = new Selector();
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_194 = (Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C*)il2cpp_codegen_object_new(Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C_il2cpp_TypeInfo_var);
+		NullCheck(L_194);
+		Selector__ctor_m7317A4DB7E25657AA00EFFDFB6BCEAC70285460C(L_194, NULL);
+		V_20 = L_194;
+		// node20.SetClassNameString("Selector");
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_195 = V_20;
+		NullCheck(L_195);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_195, _stringLiteralBE3B601461F964240B8A3A986A8AB14831295163, NULL);
+		// node20.SetId(20);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_196 = V_20;
+		NullCheck(L_196);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_196, ((int32_t)20), NULL);
+		// node17.AddChild(node20);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_197 = V_18;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_198 = V_20;
+		NullCheck(L_197);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_197, L_198);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21 node21 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* L_199 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD_il2cpp_TypeInfo_var);
+		NullCheck(L_199);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21__ctor_mCFFCFC7DDD6F5C9009F4B504119407415428DFA3(L_199, NULL);
+		V_21 = L_199;
+		// node21.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* L_200 = V_21;
+		NullCheck(L_200);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_200, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node21.SetId(21);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* L_201 = V_21;
+		NullCheck(L_201);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_201, ((int32_t)21), NULL);
+		// node20.AddChild(node21);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_202 = V_20;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* L_203 = V_21;
+		NullCheck(L_202);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_202, L_203);
+		// node20.SetHasEvents(node20.HasEvents() | node21.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_204 = V_20;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_205 = V_20;
+		NullCheck(L_205);
+		bool L_206;
+		L_206 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_205, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node21_tAE7E23AB9A4FF7ECEA421A20353CB82F0F0D17BD* L_207 = V_21;
+		NullCheck(L_207);
+		bool L_208;
+		L_208 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_207, NULL);
+		NullCheck(L_204);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_204, (bool)((int32_t)((int32_t)L_206|(int32_t)L_208)), NULL);
+		// Sequence node22 = new Sequence();
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_209 = (Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505*)il2cpp_codegen_object_new(Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505_il2cpp_TypeInfo_var);
+		NullCheck(L_209);
+		Sequence__ctor_m25EA19BB4A53EED485EFFBD9ED70DB9079E3CFE2(L_209, NULL);
+		V_22 = L_209;
+		// node22.SetClassNameString("Sequence");
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_210 = V_22;
+		NullCheck(L_210);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_210, _stringLiteralA2FFE311115D7FB8BB48AE9D5A3BC6FC0B9162DD, NULL);
+		// node22.SetId(22);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_211 = V_22;
+		NullCheck(L_211);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_211, ((int32_t)22), NULL);
+		// node20.AddChild(node22);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_212 = V_20;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_213 = V_22;
+		NullCheck(L_212);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_212, L_213);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23 node23 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* L_214 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763_il2cpp_TypeInfo_var);
+		NullCheck(L_214);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23__ctor_mBE28DC47FE4638E0D1D06B8862A95BDDE1D9C133(L_214, NULL);
+		V_23 = L_214;
+		// node23.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* L_215 = V_23;
+		NullCheck(L_215);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_215, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node23.SetId(23);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* L_216 = V_23;
+		NullCheck(L_216);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_216, ((int32_t)23), NULL);
+		// node22.AddChild(node23);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_217 = V_22;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* L_218 = V_23;
+		NullCheck(L_217);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_217, L_218);
+		// node22.SetHasEvents(node22.HasEvents() | node23.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_219 = V_22;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_220 = V_22;
+		NullCheck(L_220);
+		bool L_221;
+		L_221 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_220, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node23_t3632AF1E65D39414FF4D4A0E3724EDB7D831D763* L_222 = V_23;
+		NullCheck(L_222);
+		bool L_223;
+		L_223 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_222, NULL);
+		NullCheck(L_219);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_219, (bool)((int32_t)((int32_t)L_221|(int32_t)L_223)), NULL);
+		// Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24 node24 = new Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24();
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* L_224 = (Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416*)il2cpp_codegen_object_new(Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416_il2cpp_TypeInfo_var);
+		NullCheck(L_224);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24__ctor_m4CF45EE79A92381B24F505443C822F49E20C51A2(L_224, NULL);
+		V_24 = L_224;
+		// node24.SetClassNameString("Condition");
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* L_225 = V_24;
+		NullCheck(L_225);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_225, _stringLiteralB5E558D3867CC8E227FA739DDFBF760415E27131, NULL);
+		// node24.SetId(24);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* L_226 = V_24;
+		NullCheck(L_226);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_226, ((int32_t)24), NULL);
+		// node22.AddChild(node24);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_227 = V_22;
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* L_228 = V_24;
+		NullCheck(L_227);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_227, L_228);
+		// node22.SetHasEvents(node22.HasEvents() | node24.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_229 = V_22;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_230 = V_22;
+		NullCheck(L_230);
+		bool L_231;
+		L_231 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_230, NULL);
+		Condition_bt_APC_APC_jiqingjieshuoyuan_Action_node24_t0B244ACB4B295347698AB22CA718447EA698E416* L_232 = V_24;
+		NullCheck(L_232);
+		bool L_233;
+		L_233 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_232, NULL);
+		NullCheck(L_229);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_229, (bool)((int32_t)((int32_t)L_231|(int32_t)L_233)), NULL);
+		// Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25 node25 = new Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25();
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* L_234 = (Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C*)il2cpp_codegen_object_new(Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C_il2cpp_TypeInfo_var);
+		NullCheck(L_234);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25__ctor_m68DF4257C575198711BA400B10EA8647A5BC592B(L_234, NULL);
+		V_25 = L_234;
+		// node25.SetClassNameString("Action");
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* L_235 = V_25;
+		NullCheck(L_235);
+		BehaviorNode_SetClassNameString_mCC432E3E841370E2C965E28A382B280875FC8459_inline(L_235, _stringLiteralDD86881DBA7E6B755DFE2849A5B0579CC3D828CD, NULL);
+		// node25.SetId(25);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* L_236 = V_25;
+		NullCheck(L_236);
+		BehaviorNode_SetId_m1714A088DAE224838EB18046EC0CA905A2594E3E_inline(L_236, ((int32_t)25), NULL);
+		// node22.AddChild(node25);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_237 = V_22;
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* L_238 = V_25;
+		NullCheck(L_237);
+		VirtualActionInvoker1< BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* >::Invoke(10 /* System.Void behaviac.BehaviorNode::AddChild(behaviac.BehaviorNode) */, L_237, L_238);
+		// node22.SetHasEvents(node22.HasEvents() | node25.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_239 = V_22;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_240 = V_22;
+		NullCheck(L_240);
+		bool L_241;
+		L_241 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_240, NULL);
+		Action_bt_APC_APC_jiqingjieshuoyuan_Action_node25_t9C1E7F942696C38341E60AFF0D136115AFCED17C* L_242 = V_25;
+		NullCheck(L_242);
+		bool L_243;
+		L_243 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_242, NULL);
+		NullCheck(L_239);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_239, (bool)((int32_t)((int32_t)L_241|(int32_t)L_243)), NULL);
+		// node20.SetHasEvents(node20.HasEvents() | node22.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_244 = V_20;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_245 = V_20;
+		NullCheck(L_245);
+		bool L_246;
+		L_246 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_245, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_247 = V_22;
+		NullCheck(L_247);
+		bool L_248;
+		L_248 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_247, NULL);
+		NullCheck(L_244);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_244, (bool)((int32_t)((int32_t)L_246|(int32_t)L_248)), NULL);
+		// node17.SetHasEvents(node17.HasEvents() | node20.HasEvents());
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_249 = V_18;
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_250 = V_18;
+		NullCheck(L_250);
+		bool L_251;
+		L_251 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_250, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_252 = V_20;
+		NullCheck(L_252);
+		bool L_253;
+		L_253 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_252, NULL);
+		NullCheck(L_249);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_249, (bool)((int32_t)((int32_t)L_251|(int32_t)L_253)), NULL);
+		// node0.SetHasEvents(node0.HasEvents() | node17.HasEvents());
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_254 = V_0;
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_255 = V_0;
+		NullCheck(L_255);
+		bool L_256;
+		L_256 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_255, NULL);
+		Sequence_t4D75D956B01411CE7EF6E6532E9ADCF86BC3D505* L_257 = V_18;
+		NullCheck(L_257);
+		bool L_258;
+		L_258 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_257, NULL);
+		NullCheck(L_254);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_254, (bool)((int32_t)((int32_t)L_256|(int32_t)L_258)), NULL);
+		// bt.SetHasEvents(bt.HasEvents() | node0.HasEvents());
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_259 = ___0_bt;
+		BehaviorTree_t9736EA57B6769230347C0D44BD91B78D9EBA33E5* L_260 = ___0_bt;
+		NullCheck(L_260);
+		bool L_261;
+		L_261 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_260, NULL);
+		Selector_t0FB7787D21A7FA1B8C8CB5186D579577D90F0A7C* L_262 = V_0;
+		NullCheck(L_262);
+		bool L_263;
+		L_263 = BehaviorNode_HasEvents_mD5CD6C408B455221A0A239C2FA3CADC43DCA23B1_inline(L_262, NULL);
+		NullCheck(L_259);
+		BehaviorNode_SetHasEvents_m76533AF19807435FD94185F4B029921EE3026553_inline(L_259, (bool)((int32_t)((int32_t)L_261|(int32_t)L_263)), NULL);
+		// return true;
+		return (bool)1;
 	}
 }
 #ifdef __clang__
@@ -25369,8 +26853,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetClassNameStr
 	{
 		// this.m_className = className;
 		String_t* L_0 = ___0_className;
-		__this->___m_className_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_className_1), (void*)L_0);
+		__this->___m_className_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_className_0), (void*)L_0);
 		// }
 		return;
 	}
@@ -25380,7 +26864,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetId_m1714A088
 	{
 		// this.m_id = id;
 		int32_t L_0 = ___0_id;
-		__this->___m_id_2 = L_0;
+		__this->___m_id_1 = L_0;
 		// }
 		return;
 	}
@@ -25390,8 +26874,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorTree_SetName_mDFC8DD
 	{
 		// this.m_name = name;
 		String_t* L_0 = ___0_name;
-		__this->___m_name_19 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_name_19), (void*)L_0);
+		__this->___m_name_18 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_name_18), (void*)L_0);
 		// }
 		return;
 	}
@@ -25401,18 +26885,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorTree_set_IsFSM_m86AA
 	{
 		// this.m_bIsFSM = value;
 		bool L_0 = ___0_value;
-		__this->___m_bIsFSM_20 = L_0;
-		// }
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetAgentType_m93F90947182110B122C611D1919A775726BCBFF4_inline (BehaviorNode_tED3AF14E6BEF50B40398E880766EFECFF75D8D64* __this, String_t* ___0_agentType, const RuntimeMethod* method) 
-{
-	{
-		// this.m_agentType = agentType;
-		String_t* L_0 = ___0_agentType;
-		__this->___m_agentType_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_agentType_0), (void*)L_0);
+		__this->___m_bIsFSM_19 = L_0;
 		// }
 		return;
 	}
@@ -25421,7 +26894,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BehaviorNode_HasEvents_mD5CD
 {
 	{
 		// return this.m_bHasEvents;
-		bool L_0 = __this->___m_bHasEvents_16;
+		bool L_0 = __this->___m_bHasEvents_15;
 		return L_0;
 	}
 }
@@ -25430,7 +26903,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void BehaviorNode_SetHasEvents_m7
 	{
 		// this.m_bHasEvents = hasEvents;
 		bool L_0 = ___0_hasEvents;
-		__this->___m_bHasEvents_16 = L_0;
+		__this->___m_bHasEvents_15 = L_0;
 		// }
 		return;
 	}

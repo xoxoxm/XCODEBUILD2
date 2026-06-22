@@ -921,12 +921,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3152E557E1DAD4076D72C85EA320ACFF91283398
 IL2CPP_EXTERN_C String_t* _stringLiteral33842E1301F74C58FE243C4CCFF6C7B6413B28C7;
 IL2CPP_EXTERN_C String_t* _stringLiteral37B9D73BE7368F9E631CD06C5DC3758F48D4E89C;
 IL2CPP_EXTERN_C String_t* _stringLiteral3898E7D2C1147692B865B70C530E4BB2264D9234;
+IL2CPP_EXTERN_C String_t* _stringLiteral3A5C63B8040FB71906BA722AF3513A88F4939C9E;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B5937635F999EDFBF7055B61C5D56C92BA5DC85;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B9A4DA33EB1F3E2359896E044A79CF7F316645E;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FB649A9FAAB5634336E279002E9E84D9AFCA0FC;
 IL2CPP_EXTERN_C String_t* _stringLiteral414347CEE4EA801806F5CDD7E518FA71FDD4F550;
 IL2CPP_EXTERN_C String_t* _stringLiteral437906DA6527EA9BAA9A971EC5171183BEB85B59;
-IL2CPP_EXTERN_C String_t* _stringLiteral43D77105CFC7815A7B275587225E4BE6834BF1DD;
 IL2CPP_EXTERN_C String_t* _stringLiteral444E06A795CA36B2DEFED7F3F2A756BAB62B0C50;
 IL2CPP_EXTERN_C String_t* _stringLiteral447D2D55725EF428A6F4753B53612ECA1764ECE7;
 IL2CPP_EXTERN_C String_t* _stringLiteral456BA6DFA4ECDFAAD0D654A1EC48EE0C8CB90B18;
@@ -991,6 +991,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA9D932AC72F6F23BC5BA35321F4399AE679F0813
 IL2CPP_EXTERN_C String_t* _stringLiteralAA8DDD692CFBA350C83D8203D9CA9ECBC1E2050C;
 IL2CPP_EXTERN_C String_t* _stringLiteralAAA96C88FE2F36E23C9C568BEC578D84000D3ECA;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB6E8D33884A8AB4625102A8EEE80D34FD589540;
+IL2CPP_EXTERN_C String_t* _stringLiteralAC4CCFA2E1037E9EC0CCA517B121475C092986B1;
 IL2CPP_EXTERN_C String_t* _stringLiteralAC752DDD9E7D71113EA72864BE92198866B1D658;
 IL2CPP_EXTERN_C String_t* _stringLiteralB25C6E111877202657B311A682A6585AE1F652B9;
 IL2CPP_EXTERN_C String_t* _stringLiteralB3AF6981667F40A32E02D8E30F7F87E6D80E0C8B;
@@ -7492,15 +7493,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_Init_m085C459CE83A6E56DAB211F98
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral43D77105CFC7815A7B275587225E4BE6834BF1DD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A5C63B8040FB71906BA722AF3513A88F4939C9E);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Debug.Log("IMAPI Init skipped (IM disabled on iOS)");
+		// Debug.Log("IMAPI Init skipped (returning Success)");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral43D77105CFC7815A7B275587225E4BE6834BF1DD, NULL);
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3A5C63B8040FB71906BA722AF3513A88F4939C9E, NULL);
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::SetDownloadAudioMessageSwitch(System.Boolean)
@@ -12932,9 +12933,19 @@ IL_05e2:
 // YIMEngine.ErrorCode YIMEngine.IMAPI::Login(System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_Login_m93716131A4DC03C56E5121E7608B94599ECF98A0 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, String_t* ___0_strYouMeID, String_t* ___1_strPasswd, String_t* ___2_strToken, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAC4CCFA2E1037E9EC0CCA517B121475C092986B1);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Debug.Log("IMAPI Login skipped (returning Success)");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAC4CCFA2E1037E9EC0CCA517B121475C092986B1, NULL);
+		// return ErrorCode.Success;   // ????
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::Logout()
@@ -13060,8 +13071,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_LeaveAllChatRooms_mECB28AB83D28
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_GetRoomMemberCount_m6AB0F33CC3003322F03354150D1D22B4440F6A69 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, String_t* ___0_strChatRoomID, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // System.Void YIMEngine.IMAPI::.ctor()
@@ -13271,32 +13282,32 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_GetHistoryContact_mF4DB8D5B154F337FCAE6BB0CC142C3D0CF36069F (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::GetUserInfo(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_GetUserInfo_mB892D9E0943A59161336CA7A38B0AB6483A451A7 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, String_t* ___0_userID, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;   // ??? Fail
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::SetUserInfo(YIMEngine.IMUserInfo)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_SetUserInfo_m5D781E083A77A42666180DDA1D13350D7D9A2ADF (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, IMUserInfo_tA74D0F4AFA8493302FC9BDF167944178FEF81CD8* ___0_userInfo, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::QueryUserStatus(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_QueryUserStatus_m5B4C47124FBF5B05C1C843BCE9726CDF1F8D4A98 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, String_t* ___0_userID, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // System.Void YIMEngine.IMAPI::SetVolume(System.Single)
@@ -13492,8 +13503,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_SetDownloadDir_m96829F3AC915383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_FindUser_m877DE4D016C5004C378CD8C84368E5F0D7E00483 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, int32_t ___0_findType, String_t* ___1_target, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::RequestAddFriend(System.Collections.Generic.List`1<System.String>,System.String)
@@ -13685,8 +13696,8 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_QueryFriends_m02A90E4790F84042AAD3528BCBF5BBBB70C64B67 (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, int32_t ___0_type, int32_t ___1_startIndex, int32_t ___2_count, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::QueryFriendRequestList(System.Int32,System.Int32)
@@ -13788,8 +13799,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_SetUserProfileInfo_mF74B543E359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IMAPI_GetUserProfileInfo_mC06F35CBB82A13F2C51CA714036AE9ABCDC6A32F (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, String_t* ___0_userID, const RuntimeMethod* method) 
 {
 	{
-		// return ErrorCode.Fail;
-		return (int32_t)(((int32_t)10000));
+		// return ErrorCode.Success;
+		return (int32_t)(0);
 	}
 }
 // YIMEngine.ErrorCode YIMEngine.IMAPI::SetUserProfilePhoto(System.String)

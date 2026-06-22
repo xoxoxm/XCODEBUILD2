@@ -82,8 +82,6 @@ struct DictionaryView_2_t454B6C725D087ED7F75BB8330AF059E5C4DF3DC8;
 struct Dictionary_2_tDE6E72771ABAE6E8C438FCC5CB35A55D411149EE;
 // System.Collections.Generic.Dictionary`2<behaviac.CStringID,System.Int32>
 struct Dictionary_2_t8FC38BC957E55FECB33B3102D7C46EA58F66D8F1;
-// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor>
-struct Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>>
 struct Dictionary_2_t69862BA946B467D511B6C4186F9D1A18DC2C556A;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Collections.Generic.IList`1<System.Int32>>
@@ -126,8 +124,6 @@ struct Dictionary_2_t7827BB16F59051B14D640094867FFCEF3308EB66;
 struct Dictionary_2_tDF0B35B837E9B9D8B47B09D5464B430B7145446F;
 // System.Collections.Generic.Dictionary`2<SkillJoystickMode,HGJoyStick>
 struct Dictionary_2_t3D759F6419E70121ABDF816D98FFE2F58E56C9B6;
-// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent>
-struct Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D;
 // System.Collections.Generic.Dictionary`2<System.String,behaviac.BehaviorTree>
 struct Dictionary_2_tE44F32C00CA7C333D468B34165EC758CE6AE1B51;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -148,8 +144,6 @@ struct Dictionary_2_t532BF7BF437403679EE1957DC133400BE746E2F2;
 struct Dictionary_2_t0FC81C3305E03C958A68DAB99E1EA530EB8EC672;
 // System.Collections.Generic.Dictionary`2<System.Type,ObjectLeakDitector/ObjRefDesc>
 struct Dictionary_2_tECA4ECFA5CA15C53772BF65A4224EF9738DAF291;
-// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue>
-struct Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3;
 // System.Collections.Generic.Dictionary`2<System.UInt32,System.UInt32>
 struct Dictionary_2_t4184BC33D1053D17BD3CABFE9D63C5B655A8C038;
 // System.Collections.Generic.Dictionary`2<System.UInt32,DungeonDataManager/FrameRandomNum>
@@ -986,8 +980,6 @@ struct WaitCallback_tFB2C7FD58D024BBC2B0333DC7A4CB63B8DEBD5D3;
 struct WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663;
 // behaviac.Workspace
 struct Workspace_tFA23E6F540962A2BC79A86D97E631135084DCB14;
-// behaviac.Agent/CTagObjectDescriptor
-struct CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2;
 // BeEventHandle/Del
 struct Del_t65D688FE34580DAEAD86C149CDF268FC8EF65282;
 // UnityEngine.Camera/CameraCallback
@@ -1609,6 +1601,35 @@ struct TMStack_1_t225022272595B04F1EA2DFE31D4096D5A359DCEA  : public RuntimeObje
 	RouterInfoU5BU5D_tAAC8B3C5FD12557D3DDC8EB1523D23194495D6DB* ____array_0;
 	// System.Int32 TreasureMapGenerator/TMStack`1::_count
 	int32_t ____count_1;
+};
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public RuntimeObject
+{
+	// System.String behaviac.Agent::name
+	String_t* ___name_0;
+	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
+	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_1;
+	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
+	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_2;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_3;
+	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
+	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_4;
+	// System.Int32 behaviac.Agent::m_id
+	int32_t ___m_id_5;
+	// System.Boolean behaviac.Agent::m_bActive
+	bool ___m_bActive_6;
+	// System.Boolean behaviac.Agent::m_referencetree
+	bool ___m_referencetree_7;
+	// System.Int32 behaviac.Agent::m_priority
+	int32_t ___m_priority_8;
+	// System.Int32 behaviac.Agent::m_contextId
+	int32_t ___m_contextId_9;
+	// System.UInt32 behaviac.Agent::m_idFlag
+	uint32_t ___m_idFlag_11;
+	// behaviac.Variables behaviac.Agent::m_variables
+	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_15;
 };
 
 // BeActionManager
@@ -2688,6 +2709,15 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
+};
+
+// LevelAgent
+struct LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
+{
+	// System.Int32 LevelAgent::CommonIntVar
+	int32_t ___CommonIntVar_16;
+	// LevelManager LevelAgent::mLevelMgr
+	LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* ___mLevelMgr_17;
 };
 
 // OperationConfig
@@ -6119,36 +6149,32 @@ struct Workspace_tFA23E6F540962A2BC79A86D97E631135084DCB14  : public RuntimeObje
 	double ___m_doubleValueSinceStartup_6;
 	// System.Int64 behaviac.Workspace::m_intValueSinceStartup
 	int64_t ___m_intValueSinceStartup_7;
-	// System.String behaviac.Workspace::m_workspaceExportPathAbs
-	String_t* ___m_workspaceExportPathAbs_8;
 	// behaviac.Workspace/BehaviorNodeLoader behaviac.Workspace::BehaviorNodeLoaded
-	BehaviorNodeLoader_tD7C17DF2F8F659EB270CAB5C3E38E128E4A246A3* ___BehaviorNodeLoaded_9;
+	BehaviorNodeLoader_tD7C17DF2F8F659EB270CAB5C3E38E128E4A246A3* ___BehaviorNodeLoaded_8;
 	// behaviac.Workspace/DRespondToBreakHandler behaviac.Workspace::RespondToBreakHandler
-	DRespondToBreakHandler_t566AEB8DDA432A51DD04B8599F3E1A76F57A2EB2* ___RespondToBreakHandler_10;
+	DRespondToBreakHandler_t566AEB8DDA432A51DD04B8599F3E1A76F57A2EB2* ___RespondToBreakHandler_9;
 	// System.Boolean behaviac.Workspace::m_bRegistered
-	bool ___m_bRegistered_11;
+	bool ___m_bRegistered_10;
 	// System.Boolean behaviac.Workspace::m_bInited
-	bool ___m_bInited_12;
-	// System.String behaviac.Workspace::m_applogFilter
-	String_t* ___m_applogFilter_13;
+	bool ___m_bInited_11;
 	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.Workspace/BreakpointInfo_t> behaviac.Workspace::m_breakpoints
-	Dictionary_2_tC5CF8DFBE748C2147D9E49AA2AE50BCA5BC049E2* ___m_breakpoints_14;
+	Dictionary_2_tC5CF8DFBE748C2147D9E49AA2AE50BCA5BC049E2* ___m_breakpoints_12;
 	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,System.Int32> behaviac.Workspace::m_actions_count
-	Dictionary_2_t8FC38BC957E55FECB33B3102D7C46EA58F66D8F1* ___m_actions_count_15;
+	Dictionary_2_t8FC38BC957E55FECB33B3102D7C46EA58F66D8F1* ___m_actions_count_13;
 	// System.Int32 behaviac.Workspace::m_frame
-	int32_t ___m_frame_16;
+	int32_t ___m_frame_14;
 	// System.Boolean behaviac.Workspace::m_bExecAgents
-	bool ___m_bExecAgents_17;
+	bool ___m_bExecAgents_15;
 	// System.Collections.Generic.Dictionary`2<System.String,behaviac.BehaviorTree> behaviac.Workspace::m_behaviortrees
-	Dictionary_2_tE44F32C00CA7C333D468B34165EC758CE6AE1B51* ___m_behaviortrees_18;
+	Dictionary_2_tE44F32C00CA7C333D468B34165EC758CE6AE1B51* ___m_behaviortrees_16;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Reflection.MethodInfo> behaviac.Workspace::m_btCreators
-	Dictionary_2_tA6171034F19E116CFB6E9839DA229454DA8469E3* ___m_btCreators_19;
+	Dictionary_2_tA6171034F19E116CFB6E9839DA229454DA8469E3* ___m_btCreators_17;
 	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Workspace/BTItem_t> behaviac.Workspace::m_allBehaviorTreeTasks
-	Dictionary_2_t532BF7BF437403679EE1957DC133400BE746E2F2* ___m_allBehaviorTreeTasks_20;
+	Dictionary_2_t532BF7BF437403679EE1957DC133400BE746E2F2* ___m_allBehaviorTreeTasks_18;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Type> behaviac.Workspace::m_behaviorNodeTypes
-	Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* ___m_behaviorNodeTypes_21;
+	Dictionary_2_t0E98B58821A879161B744DA2602DA878A7E5C58A* ___m_behaviorNodeTypes_19;
 	// System.Reflection.Assembly behaviac.Workspace::m_callingAssembly
-	Assembly_t* ___m_callingAssembly_22;
+	Assembly_t* ___m_callingAssembly_20;
 };
 
 // System.Action`1<Network.MsgDATA>
@@ -7609,43 +7635,6 @@ struct MonoSingleton_1_t59640FCEEEFDE93A5CFC7D212E1ABF9B1B606EB4  : public MonoB
 {
 };
 
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// System.Collections.Generic.List`1<behaviac.BehaviorTreeTask> behaviac.Agent::m_behaviorTreeTasks
-	List_1_t824467E8501397A6779D58E2C32FFE9EE44A1C72* ___m_behaviorTreeTasks_5;
-	// System.Collections.Generic.List`1<behaviac.Agent/BehaviorTreeStackItem_t> behaviac.Agent::m_btStack
-	List_1_t0CE01817014A19CCEBA80EAA7C982AC60A8B8B4A* ___m_btStack_6;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_currentBT
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_currentBT_7;
-	// behaviac.BehaviorTreeTask behaviac.Agent::m_excutingTreeTask
-	BehaviorTreeTask_t405A881AAB6071842499E4933C089EFB680C959F* ___m_excutingTreeTask_8;
-	// System.Int32 behaviac.Agent::m_id
-	int32_t ___m_id_9;
-	// System.Boolean behaviac.Agent::m_bActive
-	bool ___m_bActive_10;
-	// System.Boolean behaviac.Agent::m_referencetree
-	bool ___m_referencetree_11;
-	// System.Int32 behaviac.Agent::m_priority
-	int32_t ___m_priority_12;
-	// System.Int32 behaviac.Agent::m_contextId
-	int32_t ___m_contextId_13;
-	// System.UInt32 behaviac.Agent::m_idFlag
-	uint32_t ___m_idFlag_15;
-	// System.String behaviac.Agent::m_debug_name
-	String_t* ___m_debug_name_16;
-	// behaviac.Agent/CTagObjectDescriptor behaviac.Agent::m_objectDescriptor
-	CTagObjectDescriptor_tA2DB2B03679B6F5B0AE2847527D69A8B01AB30E2* ___m_objectDescriptor_20;
-	// behaviac.Variables behaviac.Agent::m_variables
-	Variables_t2CBAF3ED70D8C738B744C004741C311F909C0B77* ___m_variables_22;
-	// System.Collections.Generic.Dictionary`2<System.UInt32,behaviac.IValue> behaviac.Agent::_members
-	Dictionary_2_t46F46638361AF85ABD1E484A8239524AFD3023B3* ____members_23;
-	// System.Int32 behaviac.Agent::m_debug_in_exec
-	int32_t ___m_debug_in_exec_24;
-	// System.Int32 behaviac.Agent::m_debug_count
-	int32_t ___m_debug_count_25;
-};
-
 // GeCameraControllerScroll
 struct GeCameraControllerScroll_t4FA7FD8861B13EC1BC9A2C10F95A85973A258558  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -7730,15 +7719,6 @@ struct Loom_t921CB762BA4A58E1EF09B9FD60AA0EE46B9CF6B0  : public MonoBehaviour_t5
 	List_1_t4EFB3553DB449CFCC29A2DE3CE4DD75A0F1FCE21* ____currentDelayed_10;
 	// System.Collections.Generic.List`1<Loom/NoDelayedQueueItem> Loom::_currentActions
 	List_1_tE57552FAB5213EF1FDB10090EA60F439BE54D70A* ____currentActions_11;
-};
-
-// LevelAgent
-struct LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A  : public Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B
-{
-	// System.Int32 LevelAgent::CommonIntVar
-	int32_t ___CommonIntVar_26;
-	// LevelManager LevelAgent::mLevelMgr
-	LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* ___mLevelMgr_27;
 };
 
 // Network.NetManager
@@ -7948,6 +7928,21 @@ struct List_1_tCD37D4749E9F3BFB2177BCDEDC945B5E56D163AE_StaticFields
 // TreasureMapGenerator/TMStack`1<TreasureMapGenerator/RouterInfo>
 
 // TreasureMapGenerator/TMStack`1<TreasureMapGenerator/RouterInfo>
+
+// behaviac.Agent
+struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
+{
+	// System.UInt32 behaviac.Agent::ms_idMask
+	uint32_t ___ms_idMask_10;
+	// System.Int32 behaviac.Agent::ms_agent_index
+	int32_t ___ms_agent_index_12;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_13;
+	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
+	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_14;
+};
+
+// behaviac.Agent
 
 // BeActionManager
 
@@ -8370,6 +8365,10 @@ struct IntPtr_t_StaticFields
 };
 
 // System.IntPtr
+
+// LevelAgent
+
+// LevelAgent
 
 // UnityEngine.Quaternion
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
@@ -9119,25 +9118,6 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
 
 // UnityEngine.MonoBehaviour
 
-// behaviac.Agent
-struct Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B_StaticFields
-{
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent> behaviac.Agent::ms_agents
-	Dictionary_2_t46B86A174B224FE54CE7CF36549C7F7449FF217D* ___ms_agents_4;
-	// System.UInt32 behaviac.Agent::ms_idMask
-	uint32_t ___ms_idMask_14;
-	// System.Int32 behaviac.Agent::ms_agent_index
-	int32_t ___ms_agent_index_17;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> behaviac.Agent::ms_agent_type_index
-	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___ms_agent_type_index_18;
-	// System.Collections.Generic.Dictionary`2<System.String,behaviac.Agent/AgentName_t> behaviac.Agent::ms_names
-	Dictionary_2_t47797A3CB62A071FFF9EAD503F6CBB650C58DE2E* ___ms_names_19;
-	// System.Collections.Generic.Dictionary`2<behaviac.CStringID,behaviac.Agent/CTagObjectDescriptor> behaviac.Agent::ms_metas
-	Dictionary_2_t07C24C3F4C84BCFF03CA64775AD55026C3B5B4F2* ___ms_metas_21;
-};
-
-// behaviac.Agent
-
 // GeCameraControllerScroll
 
 // GeCameraControllerScroll
@@ -9156,10 +9136,6 @@ struct Loom_t921CB762BA4A58E1EF09B9FD60AA0EE46B9CF6B0_StaticFields
 };
 
 // Loom
-
-// LevelAgent
-
-// LevelAgent
 
 // Network.NetManager
 struct NetManager_tB2A4BC684A12558E88C4C9F254135A70C35DE1FC_StaticFields
@@ -10560,8 +10536,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_dataPath_m4C8412CBEE4EAAAB6711CC9BEFFA73CEE5BDBEF7 (const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+// System.Void behaviac.Agent::UnLoad()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Agent_UnLoad_mD3A2B9C923CF7D657278B0FCA72EB5BAD3D080AC (Agent_t51FC83003BBFADE35D962CECA881321F2E64AD1B* __this, const RuntimeMethod* method) ;
 // System.Void LevelAgent::Tick()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelAgent_Tick_m819FFCD50552C9489223FFBAC6EF1714AEDAA590 (LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>::ContainsKey(TKey)
@@ -11144,6 +11120,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeEntity_DoHPChange_mC8E097765BDE1FE4DBB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeScene_RemoveToTemp_m6A9390CEB7C3ED5A67ED69C6795FC76ECFAC6807 (BeScene_t4BB8A7FAA5F9B83EDDA22D006321F120A7C1B066* __this, BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___0_actor, const RuntimeMethod* method) ;
 // System.Void BeScene::RestoreFromTemp(BeEntity)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BeScene_RestoreFromTemp_m6234EB8F82E47EEF3C47673275F841B888B34D0B (BeScene_t4BB8A7FAA5F9B83EDDA22D006321F120A7C1B066* __this, BeEntity_t6E89B600499463636B755A1C6403C6FD7A434B5B* ___0_actor, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void Mechanism1012::RestoreButtons()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mechanism1012_RestoreButtons_mBCBEB34C847A623FE3CB037ED5B5A3D17FEC9F87 (Mechanism1012_t9F68D3B1B639FC6CAE0F81D95E6D34226ED28AE0* __this, const RuntimeMethod* method) ;
 // System.Void Mechanism1012::RestoreOwner()
@@ -23992,24 +23970,19 @@ IL_002e:
 // System.Void LevelManager::DeInit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelManager_DeInit_mB9983C01CD93635C51F94B08DA19E1E421BD6CE8 (LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if (mAgent != null)
 		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_0 = __this->___mAgent_0;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_0021;
+			goto IL_0026;
 		}
 	}
 	{
+		// mAgent.UnLoad();
+		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_1 = __this->___mAgent_0;
+		NullCheck(L_1);
+		Agent_UnLoad_mD3A2B9C923CF7D657278B0FCA72EB5BAD3D080AC(L_1, NULL);
 		// mAgent.SetLevelMgr(null);
 		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_2 = __this->___mAgent_0;
 		NullCheck(L_2);
@@ -24019,7 +23992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelManager_DeInit_mB9983C01CD93635C51F
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mAgent_0), (void*)(LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A*)NULL);
 	}
 
-IL_0021:
+IL_0026:
 	{
 		// mIsFight = false;
 		__this->___mIsFight_2 = (bool)0;
@@ -24030,46 +24003,37 @@ IL_0021:
 // System.Void LevelManager::Update(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelManager_Update_m11504BF4C0242138579E76F2C7FB84F5F2EF8C9D (LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* __this, int32_t ___0_deltaTime, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	{
 		// if (mIsFight && mAgent != null)
 		bool L_0 = __this->___mIsFight_2;
 		if (!L_0)
 		{
-			goto IL_003d;
+			goto IL_0037;
 		}
 	}
 	{
 		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_1 = __this->___mAgent_0;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_2;
-		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_003d;
+			goto IL_0037;
 		}
 	}
 	{
 		// mAgent.Tick();
-		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_3 = __this->___mAgent_0;
-		NullCheck(L_3);
-		LevelAgent_Tick_m819FFCD50552C9489223FFBAC6EF1714AEDAA590(L_3, NULL);
+		LevelAgent_t31EACCBB30FE939A4DA8D842BCBA73152FD3CA3A* L_2 = __this->___mAgent_0;
+		NullCheck(L_2);
+		LevelAgent_Tick_m819FFCD50552C9489223FFBAC6EF1714AEDAA590(L_2, NULL);
 		// countTime += deltaTime;
-		int32_t L_4 = __this->___countTime_4;
-		int32_t L_5 = ___0_deltaTime;
-		__this->___countTime_4 = ((int32_t)il2cpp_codegen_add(L_4, L_5));
+		int32_t L_3 = __this->___countTime_4;
+		int32_t L_4 = ___0_deltaTime;
+		__this->___countTime_4 = ((int32_t)il2cpp_codegen_add(L_3, L_4));
 		// roomRunningTime += deltaTime;
-		int32_t L_6 = __this->___roomRunningTime_5;
-		int32_t L_7 = ___0_deltaTime;
-		__this->___roomRunningTime_5 = ((int32_t)il2cpp_codegen_add(L_6, L_7));
+		int32_t L_5 = __this->___roomRunningTime_5;
+		int32_t L_6 = ___0_deltaTime;
+		__this->___roomRunningTime_5 = ((int32_t)il2cpp_codegen_add(L_5, L_6));
 	}
 
-IL_003d:
+IL_0037:
 	{
 		// }
 		return;
@@ -33990,8 +33954,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LevelAgent_SetLevelMgr_mCC67
 	{
 		// mLevelMgr = levelMgr;
 		LevelManager_t8405886BBC5A0ACBB1CC210E25D5DA1C72D16530* L_0 = ___0_levelMgr;
-		__this->___mLevelMgr_27 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___mLevelMgr_27), (void*)L_0);
+		__this->___mLevelMgr_17 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___mLevelMgr_17), (void*)L_0);
 		// }
 		return;
 	}
