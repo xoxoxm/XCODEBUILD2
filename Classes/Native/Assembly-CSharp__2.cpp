@@ -22687,22 +22687,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GlobalSetting_t81D8C874B7DFB288D2FC27433382B6
 		il2cpp_codegen_runtime_class_init_inline(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var);
 		((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85), (void*)L_3);
-		// settings.isDebug = true;
+		// settings.isDebug = false;// ??????true ??app???false
 		GlobalSetting_t81D8C874B7DFB288D2FC27433382B605893361F1* L_4 = ((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85;
 		NullCheck(L_4);
-		L_4->___isDebug_11 = (bool)1;
+		L_4->___isDebug_11 = (bool)0;
 		// settings.isGuide = true;//???????????????????false
 		GlobalSetting_t81D8C874B7DFB288D2FC27433382B605893361F1* L_5 = ((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85;
 		NullCheck(L_5);
 		L_5->___isGuide_60 = (bool)1;
-		// settings.enableHotFix = false;//?????????????????true
+		// settings.enableHotFix = true;//?????????????????true
 		GlobalSetting_t81D8C874B7DFB288D2FC27433382B605893361F1* L_6 = ((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85;
 		NullCheck(L_6);
-		L_6->___enableHotFix_101 = (bool)0;
-		// settings.loadFromPackage = false;//????????true
+		L_6->___enableHotFix_101 = (bool)1;
+		// settings.loadFromPackage = true;//????????true
 		GlobalSetting_t81D8C874B7DFB288D2FC27433382B605893361F1* L_7 = ((Global_tF64A693BAE0831504E24A030A2EB614753D0526D_StaticFields*)il2cpp_codegen_static_fields_for(Global_tF64A693BAE0831504E24A030A2EB614753D0526D_il2cpp_TypeInfo_var))->___settings_85;
 		NullCheck(L_7);
-		L_7->___loadFromPackage_100 = (bool)0;
+		L_7->___loadFromPackage_100 = (bool)1;
 		// _loadSdkFromFile();
 		Global__loadSdkFromFile_mB1D79B49CE4836166D690E9CA0137AE19F813A69(NULL);
 		// if (settings != null)
