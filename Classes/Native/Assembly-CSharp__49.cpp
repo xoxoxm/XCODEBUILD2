@@ -40220,99 +40220,99 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UniWebViewMessage_set_Args_m
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetLoginListen_m3C7297D97C7437F9EC6C0C0BD00E276D36072F09_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_loginListen = listen;
+		// public void SetLoginListen(LoginListen listen) { m_loginListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_loginListen_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_loginListen_1), (void*)L_0);
-		// }
+		// public void SetLoginListen(LoginListen listen) { m_loginListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetMessageListen_m78A22EB29B973E3A6C76F653B8BCE7D078F3E2B8_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_messageListen = listen;
+		// public void SetMessageListen(MessageListen listen) { m_messageListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_messageListen_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_messageListen_2), (void*)L_0);
-		// }
+		// public void SetMessageListen(MessageListen listen) { m_messageListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetDownloadListen_mDDDD5CC994DE32B5FE83AAFE6216D212A5CBCAC3_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_downloadListen = listen;
+		// public void SetDownloadListen(DownloadListen listen) { m_downloadListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_downloadListen_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_downloadListen_4), (void*)L_0);
-		// }
+		// public void SetDownloadListen(DownloadListen listen) { m_downloadListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetChatRoomListen_m9D1CCAC17001FB902914D16F27FDBB155CE44ED3_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_groupListen = listen;
+		// public void SetChatRoomListen(ChatRoomListen listen) { m_groupListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_groupListen_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_groupListen_3), (void*)L_0);
-		// }
+		// public void SetChatRoomListen(ChatRoomListen listen) { m_groupListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetContactListen_m7F33A438610C249E7500BE51D48ECD748CCBA00D_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_contactListen = listen;
+		// public void SetContactListen(ContactListen listen) { m_contactListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_contactListen_5 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_contactListen_5), (void*)L_0);
-		// }
+		// public void SetContactListen(ContactListen listen) { m_contactListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetAudioPlayListen_m1118DAE19149A7135060B31E22C77E3D2844FBE9_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_audioPlayListen = listen;
+		// public void SetAudioPlayListen(AudioPlayListen listen) { m_audioPlayListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_audioPlayListen_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_audioPlayListen_6), (void*)L_0);
-		// }
+		// public void SetAudioPlayListen(AudioPlayListen listen) { m_audioPlayListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetLocationListen_m7EBA4998C9669DD5CEDC8BCEDA1130A105C5D9DA_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_locationListen = listen;
+		// public void SetLocationListen(LocationListen listen) { m_locationListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_locationListen_7 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_locationListen_7), (void*)L_0);
-		// }
+		// public void SetLocationListen(LocationListen listen) { m_locationListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetNoticeListen_m85CA05E356491F537E658125637FD5AF2D386C8E_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_noticeListen = listen;
+		// public void SetNoticeListen(NoticeListen listen) { m_noticeListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_noticeListen_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_noticeListen_8), (void*)L_0);
-		// }
+		// public void SetNoticeListen(NoticeListen listen) { m_noticeListen = listen; }
 		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IMAPI_SetReconnectListen_m61648AF9AE2FF1D218095C35169569792BA1197D_inline (IMAPI_tFA1D43A9EAD88F4D8E2B733015334D0369CD8B32* __this, RuntimeObject* ___0_listen, const RuntimeMethod* method) 
 {
 	{
-		// m_reconnectListen = listen;
+		// public void SetReconnectListen(ReconnectListen listen) { m_reconnectListen = listen; }
 		RuntimeObject* L_0 = ___0_listen;
 		__this->___m_reconnectListen_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_reconnectListen_9), (void*)L_0);
-		// }
+		// public void SetReconnectListen(ReconnectListen listen) { m_reconnectListen = listen; }
 		return;
 	}
 }
