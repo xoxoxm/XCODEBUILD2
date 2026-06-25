@@ -12,7 +12,6 @@
 		<type fullname="DPhaseEffChunk" preserve="nothing" serialized="true"/>
 		<type fullname="DPhaseStageEffectChunk" preserve="nothing" serialized="true"/>
 		<type fullname="DPhaseStageParamChunk" preserve="nothing" serialized="true"/>
-		<type fullname="GlobalSetting/Address" preserve="nothing" serialized="true"/>
 		<type fullname="GlobalSetting/QualityAdjust" preserve="nothing" serialized="true"/>
 		<type fullname="ShockData" preserve="nothing" serialized="true"/>
 		<type fullname="SpriteAssetInfor" preserve="nothing" serialized="true"/>

@@ -14284,20 +14284,20 @@ IL_013f:
 
 IL_015f:
 	{
-		// m_togPetGroup.isOn = true;
+		// m_togPetGroup.isOn = false;
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_28 = __this->___m_togPetGroup_46;
 		NullCheck(L_28);
-		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_28, (bool)1, NULL);
+		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_28, (bool)0, NULL);
 		// break;
 		return;
 	}
 
 IL_016c:
 	{
-		// m_togMedalGroup.isOn = true;
+		// m_togMedalGroup.isOn = false;
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_29 = __this->___m_togMedalGroup_47;
 		NullCheck(L_29);
-		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_29, (bool)1, NULL);
+		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_29, (bool)0, NULL);
 		// }
 		return;
 	}

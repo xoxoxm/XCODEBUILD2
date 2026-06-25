@@ -11884,7 +11884,7 @@ IL_003a:
 		bool L_7 = ___1_isSelected;
 		if (!L_7)
 		{
-			goto IL_0057;
+			goto IL_0063;
 		}
 	}
 	{
@@ -11895,17 +11895,21 @@ IL_003a:
 		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_9)
 		{
-			goto IL_0057;
+			goto IL_0063;
 		}
 	}
 	{
-		// toggle.isOn = true;
+		// toggle.isOn = false;
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_10 = __this->___toggle_8;
 		NullCheck(L_10);
-		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_10, (bool)1, NULL);
+		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_10, (bool)0, NULL);
+		// toggle.isOn = true;
+		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_11 = __this->___toggle_8;
+		NullCheck(L_11);
+		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_11, (bool)1, NULL);
 	}
 
-IL_0057:
+IL_0063:
 	{
 		// }
 		return;
