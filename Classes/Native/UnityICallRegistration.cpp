@@ -2130,10 +2130,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GL_ImmediateColor();
 		Register_UnityEngine_GL_ImmediateColor();
 
-		//System.Void UnityEngine.GL::InvalidateState()
-		void Register_UnityEngine_GL_InvalidateState();
-		Register_UnityEngine_GL_InvalidateState();
-
 		//System.Void UnityEngine.GL::LoadOrtho()
 		void Register_UnityEngine_GL_LoadOrtho();
 		Register_UnityEngine_GL_LoadOrtho();
@@ -6193,10 +6189,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Texture2D::SetPixelsImpl(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_SetPixelsImpl();
 		Register_UnityEngine_Texture2D_SetPixelsImpl();
-
-		//System.Void UnityEngine.Texture2D::UpdateExternalTexture(System.IntPtr)
-		void Register_UnityEngine_Texture2D_UpdateExternalTexture();
-		Register_UnityEngine_Texture2D_UpdateExternalTexture();
 
 		//UnityEngine.Color[] UnityEngine.Texture2D::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_GetPixels();

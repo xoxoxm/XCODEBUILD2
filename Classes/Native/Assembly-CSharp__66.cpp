@@ -2574,49 +2574,6 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 	float ___m_Seconds_0;
 };
 
-// FFmpeg.AutoGen._iobuf
-struct _iobuf_tAC21EA485E0B7E4DB6E96E8CE86B402962A8C8E6 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t _iobuf_tAC21EA485E0B7E4DB6E96E8CE86B402962A8C8E6__padding[1];
-	};
-};
-
-// FFmpeg.AutoGen.pp_context
-struct pp_context_t571209D39C5F26288555084BAC20ACA86513C50F 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t pp_context_t571209D39C5F26288555084BAC20ACA86513C50F__padding[1];
-	};
-};
-
-// FFmpeg.AutoGen.pp_mode
-struct pp_mode_tB8EB2A582426D26731E65F4A696C0442067505D3 
-{
-	union
-	{
-		struct
-		{
-		};
-		uint8_t pp_mode_tB8EB2A582426D26731E65F4A696C0442067505D3__padding[1];
-	};
-};
-
-// FFmpeg.AutoGen.size_t
-struct size_t_tD4EEB5D8DF4329773257E1E2446A0AF2094EF629 
-{
-	// System.UInt32 FFmpeg.AutoGen.size_t::value
-	uint32_t ___value_0;
-};
-
 // TMEngine.Runtime.AssetManager/Asset
 struct Asset_t9BCB3550A6939C03C3598B446E3EBE804004F50A  : public Referable_t2E1532F89C5DD21B195AFC9ADAA37C372548621F
 {
@@ -5265,22 +5222,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 // UnityEngine.WaitForSeconds
 
 // UnityEngine.WaitForSeconds
-
-// FFmpeg.AutoGen._iobuf
-
-// FFmpeg.AutoGen._iobuf
-
-// FFmpeg.AutoGen.pp_context
-
-// FFmpeg.AutoGen.pp_context
-
-// FFmpeg.AutoGen.pp_mode
-
-// FFmpeg.AutoGen.pp_mode
-
-// FFmpeg.AutoGen.size_t
-
-// FFmpeg.AutoGen.size_t
 
 // TMEngine.Runtime.AssetManager/Asset
 
@@ -13590,38 +13531,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TwoFingerGesture__ctor_mDBFD5305F3DB7785
 		return;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

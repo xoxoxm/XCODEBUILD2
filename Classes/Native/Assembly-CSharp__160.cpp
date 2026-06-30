@@ -23799,64 +23799,23 @@ IL_0061:
 // System.Single PathFinder.MathExtra::FastSqrt(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MathExtra_FastSqrt_m662D232E2A3EE7F857F772D3385B9EA8FE450233 (float ___0_x, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
-	float V_1 = 0.0f;
-	float V_2 = 0.0f;
 	{
-		// x2 = x * 0.5F;
+		// return Mathf.Sqrt(x);
 		float L_0 = ___0_x;
-		V_1 = ((float)il2cpp_codegen_multiply(L_0, (0.5f)));
-		// y = x;
-		float L_1 = ___0_x;
-		V_2 = L_1;
-		// i = *(int*)&y;
-		int32_t L_2 = *((int32_t*)((uintptr_t)(&V_2)));
-		V_0 = L_2;
-		// i = 0x5f375a86 - (i >> 1);
-		int32_t L_3 = V_0;
-		V_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)1597463174), ((int32_t)(L_3>>1))));
-		// y = *(float*)&i;
-		float L_4 = *((float*)((uintptr_t)(&V_0)));
-		V_2 = L_4;
-		// y = y * (threehalfs - (x2 * y * y));
-		float L_5 = V_2;
-		float L_6 = V_1;
-		float L_7 = V_2;
-		float L_8 = V_2;
-		V_2 = ((float)il2cpp_codegen_multiply(L_5, ((float)il2cpp_codegen_subtract((1.5f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_6, L_7)), L_8))))));
-		// return x * y;
-		float L_9 = ___0_x;
-		float L_10 = V_2;
-		return ((float)il2cpp_codegen_multiply(L_9, L_10));
+		float L_1;
+		L_1 = sqrtf(L_0);
+		return L_1;
 	}
 }
 // System.Single PathFinder.MathExtra::InverseSqrtFast(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MathExtra_InverseSqrtFast_m5156A7F4B657E8D74F85AB628FDAE36502957916 (float ___0_x, const RuntimeMethod* method) 
 {
-	float V_0 = 0.0f;
-	int32_t V_1 = 0;
 	{
-		// float xhalf = 0.5f * x;
+		// return 1.0f / Mathf.Sqrt(x);
 		float L_0 = ___0_x;
-		V_0 = ((float)il2cpp_codegen_multiply((0.5f), L_0));
-		// int i = *(int*)&x;
-		int32_t L_1 = *((int32_t*)((uintptr_t)(&___0_x)));
-		V_1 = L_1;
-		// i = 0x5f375a86 - (i >> 1);
-		int32_t L_2 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_subtract(((int32_t)1597463174), ((int32_t)(L_2>>1))));
-		// x = *(float*)&i;
-		float L_3 = *((float*)((uintptr_t)(&V_1)));
-		___0_x = L_3;
-		// x = x * (1.5f - xhalf * x * x);
-		float L_4 = ___0_x;
-		float L_5 = V_0;
-		float L_6 = ___0_x;
-		float L_7 = ___0_x;
-		___0_x = ((float)il2cpp_codegen_multiply(L_4, ((float)il2cpp_codegen_subtract((1.5f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_5, L_6)), L_7))))));
-		// return x;
-		float L_8 = ___0_x;
-		return L_8;
+		float L_1;
+		L_1 = sqrtf(L_0);
+		return ((float)((1.0f)/L_1));
 	}
 }
 #ifdef __clang__
