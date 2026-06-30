@@ -1,0 +1,138 @@
+name: 构建并导出 IPA（archive 优化 + 手动签名）
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14          # 稳定起见用 macos-14，如需要可尝试 macos-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 下载大文件
+        run: |
+          mkdir -p Libraries
+          if [ ! -f Libraries/libiPhone-lib.a ] || [ $(stat -f%z Libraries/libiPhone-lib.a) -lt 1000000 ]; then
+            curl -L -o Libraries/libiPhone-lib.a "https://github.com/xoxoxm/XCODEBUILD2/releases/download/v1.0/libiPhone-lib.a"
+          fi
+          if [ ! -f Libraries/libil2cpp.a ] || [ $(stat -f%z Libraries/libil2cpp.a) -lt 1000000 ]; then
+            curl -L -o Libraries/libil2cpp.a "https://github.com/xoxoxm/XCODEBUILD2/releases/download/v1.0/libil2cpp.a"
+          fi
+
+      - name: 解码证书和描述文件
+        env:
+          CERT_BASE64: ${{ secrets.IOS_CERTIFICATE_P12 }}
+          CERT_PASSWORD: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+          MOBILEPROVISION_BASE64: ${{ secrets.IOS_MOBILEPROVISION }}
+        run: |
+          echo "$CERT_BASE64" | base64 -d > certificate.p12
+          echo "$MOBILEPROVISION_BASE64" | base64 -d > profile.mobileprovision
+          if [ ! -s certificate.p12 ] || [ ! -s profile.mobileprovision ]; then
+            echo "❌ 解码失败"
+            exit 1
+          fi
+          ls -la certificate.p12 profile.mobileprovision
+
+      - name: 配置钥匙串并导入证书
+        env:
+          CERT_PASSWORD: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+        run: |
+          # 阻断网络（更全面，避免任何签发验证请求）
+          echo "127.0.0.1 ocsp.apple.com" | sudo tee -a /etc/hosts
+          echo "127.0.0.1 crl.apple.com" | sudo tee -a /etc/hosts
+          echo "127.0.0.1 timestamp.apple.com" | sudo tee -a /etc/hosts
+
+          security create-keychain -p temp temp.keychain
+          security default-keychain -s temp.keychain
+          security unlock-keychain -p temp temp.keychain
+          security import certificate.p12 -k temp.keychain -P "$CERT_PASSWORD" -A
+          security set-key-partition-list -S apple-tool:,apple:,codesign -s -k temp temp.keychain
+
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+          cp profile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
+
+          echo "✅ 证书已导入"
+          security find-identity -v -p codesigning temp.keychain
+
+      - name: 构建 Archive（不签名，仅编译优化）
+        run: |
+          security unlock-keychain -p temp temp.keychain
+
+          # 用 archive 构建，但禁止签名（避免网络超时）
+          xcodebuild archive \
+            -project Unity-iPhone.xcodeproj \
+            -scheme Unity-iPhone \
+            -archivePath build/Unity-iPhone.xcarchive \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+          if [ ! -d build/Unity-iPhone.xcarchive ]; then
+            echo "❌ Archive 失败"
+            exit 1
+          fi
+          echo "✅ Archive 成功"
+
+      - name: 提取 .app 并准备手动签名
+        run: |
+          # 在 xcarchive 中递归查找 .app（通常在 Products/Applications 下）
+          APP_PATH=$(find "build/Unity-iPhone.xcarchive" -name "*.app" -type d | head -1)
+
+          # 调试：列出 archive 内所有目录，方便排查
+          echo "Archive 内容结构："
+          find build/Unity-iPhone.xcarchive -maxdepth 3 -type d
+
+          if [ -z "$APP_PATH" ] || [ ! -d "$APP_PATH" ]; then
+            echo "❌ 未找到 .app"
+            exit 1
+          fi
+
+          echo "✅ .app 路径: $APP_PATH"
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/
+
+      - name: 手动签名并嵌入描述文件
+        run: |
+          security unlock-keychain -p temp temp.keychain
+
+          CERT_NAME=$(security find-identity -v -p codesigning temp.keychain | grep -o '".*"' | head -1 | tr -d '"')
+          echo "签名证书: $CERT_NAME"
+
+          KEYCHAIN="--keychain temp.keychain"
+          FLAGS="--no-strict --timestamp=none"
+
+          # 签名所有 framework（先于主 App）
+          find ./Payload -name "*.framework" -type d | while read fw; do
+            echo "签名 Framework: $fw"
+            /usr/bin/codesign --force --sign "$CERT_NAME" $KEYCHAIN $FLAGS "$fw"
+          done
+
+          # 提取 entitlements
+          /usr/bin/security cms -D -i profile.mobileprovision > profile.plist
+          /usr/libexec/PlistBuddy -x -c "Print Entitlements" profile.plist > entitlements.plist
+
+          # 嵌入描述文件并签名主 App
+          APP=$(find ./Payload -name "*.app" -type d | head -1)
+          cp profile.mobileprovision "$APP/embedded.mobileprovision"
+          echo "签名 App: $APP"
+          /usr/bin/codesign --force --sign "$CERT_NAME" $KEYCHAIN $FLAGS --entitlements entitlements.plist "$APP"
+
+          # 验证签名
+          /usr/bin/codesign --verify --deep --strict --verbose=2 "$APP"
+          echo "✅ 签名验证通过"
+
+      - name: 打包 IPA
+        run: |
+          mkdir -p build
+          /usr/bin/zip -9 -r build/MyApp.ipa Payload   # -9 最大压缩，进一步减小体积
+
+      - name: 上传 IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: MyApp.ipa
+          path: build/*.ipa
+          retention-days: 1

@@ -6194,6 +6194,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Texture2D_SetPixelsImpl();
 		Register_UnityEngine_Texture2D_SetPixelsImpl();
 
+		//System.Void UnityEngine.Texture2D::UpdateExternalTexture(System.IntPtr)
+		void Register_UnityEngine_Texture2D_UpdateExternalTexture();
+		Register_UnityEngine_Texture2D_UpdateExternalTexture();
+
 		//UnityEngine.Color[] UnityEngine.Texture2D::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_GetPixels();
 		Register_UnityEngine_Texture2D_GetPixels();

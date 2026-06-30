@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
     <key>CADisableMinimumFrameDuration</key>
@@ -35,6 +34,8 @@
     </dict>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipad</key>
+    <string>LaunchScreen-iPad</string>
     <key>UILaunchStoryboardName~iphone</key>
     <string>LaunchScreen-iPhone</string>
     <key>UILaunchStoryboardName~ipod</key>
@@ -67,5 +68,9 @@
     <string />
     <key>UnityCrashSubmissionURL</key>
     <string />
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>保存截图需要使用相册权限</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>语音聊天需要访问麦克风</string>
   </dict>
 </plist>

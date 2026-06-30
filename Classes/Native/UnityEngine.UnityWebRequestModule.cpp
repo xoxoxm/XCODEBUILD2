@@ -2147,6 +2147,12 @@ inline bool Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438 (Enume
 {
 	return ((  bool (*) (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562*, const RuntimeMethod*))Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared)(__this, method);
 }
+// System.String UnityEngine.Networking.UnityWebRequest::EscapeURL(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_EscapeURL_mA76C33EF0C48CDE8CA317256CFAD9D21A125BCDA (String_t* ___0_s, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___1_e, const RuntimeMethod* method) ;
+// System.Byte[] UnityEngine.WWWTranscoder::URLEncode(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* WWWTranscoder_URLEncode_mC3A0A499F4A42BED4509092095F505E9BCA8DAC0 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_toEncode, const RuntimeMethod* method) ;
+// System.String UnityEngine.Networking.UnityWebRequest::UnEscapeURL(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_UnEscapeURL_m7164BC27C48FD57AB777128DD271E56B9EF25DC4 (String_t* ___0_s, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___1_e, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOf(System.Char)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mE21E78F35EF4A7768E385A72814C88D22B689966 (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.CertificateHandler::Release()
@@ -4392,6 +4398,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WWWTranscoder_Byte2Hex_m42C360DFB6FF4C88
 		uint8_t L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
 		*((int8_t*)L_5) = (int8_t)L_9;
 		return;
+	}
+}
+// System.Byte[] UnityEngine.WWWTranscoder::URLEncode(System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* WWWTranscoder_URLEncode_mC3A0A499F4A42BED4509092095F505E9BCA8DAC0 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_toEncode, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_toEncode;
+		il2cpp_codegen_runtime_class_init_inline(WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var);
+		uint8_t L_1 = ((WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_StaticFields*)il2cpp_codegen_static_fields_for(WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var))->___urlEscapeChar_2;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ((WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_StaticFields*)il2cpp_codegen_static_fields_for(WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var))->___urlSpace_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ((WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_StaticFields*)il2cpp_codegen_static_fields_for(WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var))->___urlForbidden_5;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
+		L_4 = WWWTranscoder_Encode_m86AA40F3F2DC0DADF1CBEB275121F4D81C91D4E4(L_0, L_1, L_2, L_3, (bool)0, NULL);
+		V_0 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = V_0;
+		return L_5;
 	}
 }
 // System.Byte[] UnityEngine.WWWTranscoder::DataEncode(System.Byte[])
@@ -7166,6 +7200,136 @@ IL_0072_1:
 IL_008c:
 	{
 		return;
+	}
+}
+// System.String UnityEngine.Networking.UnityWebRequest::EscapeURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_EscapeURL_m1B819655E6FFE468B9DE9D101A17398F3E1A4F27 (String_t* ___0_s, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = ___0_s;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
+		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		String_t* L_2;
+		L_2 = UnityWebRequest_EscapeURL_mA76C33EF0C48CDE8CA317256CFAD9D21A125BCDA(L_0, L_1, NULL);
+		V_0 = L_2;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+}
+// System.String UnityEngine.Networking.UnityWebRequest::EscapeURL(System.String,System.Text.Encoding)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_EscapeURL_mA76C33EF0C48CDE8CA317256CFAD9D21A125BCDA (String_t* ___0_s, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___1_e, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
+	bool V_2 = false;
+	String_t* V_3 = NULL;
+	bool V_4 = false;
+	bool V_5 = false;
+	{
+		String_t* L_0 = ___0_s;
+		V_2 = (bool)((((RuntimeObject*)(String_t*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_1 = V_2;
+		if (!L_1)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		V_3 = (String_t*)NULL;
+		goto IL_004d;
+	}
+
+IL_000d:
+	{
+		String_t* L_2 = ___0_s;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
+		V_4 = L_3;
+		bool L_4 = V_4;
+		if (!L_4)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		V_3 = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		goto IL_004d;
+	}
+
+IL_0026:
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_5 = ___1_e;
+		V_5 = (bool)((((RuntimeObject*)(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_6 = V_5;
+		if (!L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		V_3 = (String_t*)NULL;
+		goto IL_004d;
+	}
+
+IL_0034:
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7 = ___1_e;
+		String_t* L_8 = ___0_s;
+		NullCheck(L_7);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9;
+		L_9 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(19 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_7, L_8);
+		V_0 = L_9;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(WWWTranscoder_t551AAF7200BB7381823C52321E9A60A9EE63641B_il2cpp_TypeInfo_var);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
+		L_11 = WWWTranscoder_URLEncode_mC3A0A499F4A42BED4509092095F505E9BCA8DAC0(L_10, NULL);
+		V_1 = L_11;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_12 = ___1_e;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_1;
+		NullCheck(L_12);
+		String_t* L_14;
+		L_14 = VirtualFuncInvoker1< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(36 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_12, L_13);
+		V_3 = L_14;
+		goto IL_004d;
+	}
+
+IL_004d:
+	{
+		String_t* L_15 = V_3;
+		return L_15;
+	}
+}
+// System.String UnityEngine.Networking.UnityWebRequest::UnEscapeURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_UnEscapeURL_mF32D6DA1A428A932B9A57A48FE5FA86D4B1446BB (String_t* ___0_s, const RuntimeMethod* method) 
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = ___0_s;
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
+		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		String_t* L_2;
+		L_2 = UnityWebRequest_UnEscapeURL_m7164BC27C48FD57AB777128DD271E56B9EF25DC4(L_0, L_1, NULL);
+		V_0 = L_2;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		String_t* L_3 = V_0;
+		return L_3;
 	}
 }
 // System.String UnityEngine.Networking.UnityWebRequest::UnEscapeURL(System.String,System.Text.Encoding)

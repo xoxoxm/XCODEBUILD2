@@ -70,70 +70,88 @@ extern void BuglyAgent_AddExtraDataWithException_m5C8C9AB7BE45BB5AE3BB2A50278E0D
 extern void BuglyAgent_LogRecord_m36FFD56A0C1CE12C9EFB4F0962781C4D19129F73 (void);
 // 0x0000001D System.Int32 BuglyAgent::LogSeverityToInt(LogSeverity)
 extern void BuglyAgent_LogSeverityToInt_m3241B100E299E3F0DA56347CD95F2459DACCEB8A (void);
-// 0x0000001E System.Void BuglyAgent::add__LogCallbackEventHandler(BuglyAgent/LogCallbackDelegate)
+// 0x0000001E System.Void BuglyAgent::_BuglyInit(System.String,System.Boolean,System.Int32)
+extern void BuglyAgent__BuglyInit_m8219FD28A9B4F40FA400A0E0E0DB9D95C0B02628 (void);
+// 0x0000001F System.Void BuglyAgent::_BuglySetUserId(System.String)
+extern void BuglyAgent__BuglySetUserId_m8EA0D1D22CC007A183C81526554875F8C0263677 (void);
+// 0x00000020 System.Void BuglyAgent::_BuglySetTag(System.Int32)
+extern void BuglyAgent__BuglySetTag_mDF52230DB341C9A50DBD1673A3642222499FD5EE (void);
+// 0x00000021 System.Void BuglyAgent::_BuglySetKeyValue(System.String,System.String)
+extern void BuglyAgent__BuglySetKeyValue_mD0E6ADC0CEA23D143EB57A08F2CB76DAA59361EA (void);
+// 0x00000022 System.Void BuglyAgent::_BuglyReportException(System.Int32,System.String,System.String,System.String,System.String,System.Boolean)
+extern void BuglyAgent__BuglyReportException_mDB32AD2E1C0529DFD8BDA211F83343B4819D830A (void);
+// 0x00000023 System.Void BuglyAgent::_BuglyDefaultConfig(System.String,System.String,System.String,System.String)
+extern void BuglyAgent__BuglyDefaultConfig_m507B53FF72D54F84EED7D86EAAD7F3B86A30111A (void);
+// 0x00000024 System.Void BuglyAgent::_BuglyLogMessage(System.Int32,System.String,System.String)
+extern void BuglyAgent__BuglyLogMessage_m95E3B8122A9745636094B0AB9F799C87196FF8E1 (void);
+// 0x00000025 System.Void BuglyAgent::_BuglyConfigCrashReporterType(System.Int32)
+extern void BuglyAgent__BuglyConfigCrashReporterType_mAAAED414BC4738D69537FFE7D2C21CAEBB484E4C (void);
+// 0x00000026 System.Void BuglyAgent::_BuglySetExtraConfig(System.String,System.String)
+extern void BuglyAgent__BuglySetExtraConfig_mFF5A3755773908673C9662E5556AE9962FE6BB0A (void);
+// 0x00000027 System.Void BuglyAgent::add__LogCallbackEventHandler(BuglyAgent/LogCallbackDelegate)
 extern void BuglyAgent_add__LogCallbackEventHandler_m0C2F1806E048C8449054F7F8A9323DB6D3550CE3 (void);
-// 0x0000001F System.Void BuglyAgent::remove__LogCallbackEventHandler(BuglyAgent/LogCallbackDelegate)
+// 0x00000028 System.Void BuglyAgent::remove__LogCallbackEventHandler(BuglyAgent/LogCallbackDelegate)
 extern void BuglyAgent_remove__LogCallbackEventHandler_m2E6AFEEAD6DF0178BFE9D3CA1C704D02CDF00183 (void);
-// 0x00000020 System.String BuglyAgent::get_PluginVersion()
+// 0x00000029 System.String BuglyAgent::get_PluginVersion()
 extern void BuglyAgent_get_PluginVersion_m33B07E1707E97317B6DDEC2ACC734221D1E41D3B (void);
-// 0x00000021 System.Boolean BuglyAgent::get_IsInitialized()
+// 0x0000002A System.Boolean BuglyAgent::get_IsInitialized()
 extern void BuglyAgent_get_IsInitialized_mEB33E9C8761CF9D5A834692E4968276682E2CCE3 (void);
-// 0x00000022 System.Boolean BuglyAgent::get_AutoQuitApplicationAfterReport()
+// 0x0000002B System.Boolean BuglyAgent::get_AutoQuitApplicationAfterReport()
 extern void BuglyAgent_get_AutoQuitApplicationAfterReport_m3CBFC46CA8F105155E58AF4717D104E038536235 (void);
-// 0x00000023 System.Void BuglyAgent::_SetCrashReporterType(System.Int32)
+// 0x0000002C System.Void BuglyAgent::_SetCrashReporterType(System.Int32)
 extern void BuglyAgent__SetCrashReporterType_m6060C86A7AF6A200941AD64A322CACE1C22EE7B5 (void);
-// 0x00000024 System.Void BuglyAgent::_SetCrashReporterLogLevel(System.Int32)
+// 0x0000002D System.Void BuglyAgent::_SetCrashReporterLogLevel(System.Int32)
 extern void BuglyAgent__SetCrashReporterLogLevel_m088C5F79FAC9AE9C112D2B0E160B9A5AB9874265 (void);
-// 0x00000025 System.Void BuglyAgent::_RegisterExceptionHandler()
+// 0x0000002E System.Void BuglyAgent::_RegisterExceptionHandler()
 extern void BuglyAgent__RegisterExceptionHandler_m40A812DA439E04146D65FFBB5E6B79917CCA7B57 (void);
-// 0x00000026 System.Void BuglyAgent::_UnregisterExceptionHandler()
+// 0x0000002F System.Void BuglyAgent::_UnregisterExceptionHandler()
 extern void BuglyAgent__UnregisterExceptionHandler_m309940503D55173748F0E7C005A1B63253C8E42A (void);
-// 0x00000027 System.Void BuglyAgent::_OnLogCallbackHandler(System.String,System.String,UnityEngine.LogType)
+// 0x00000030 System.Void BuglyAgent::_OnLogCallbackHandler(System.String,System.String,UnityEngine.LogType)
 extern void BuglyAgent__OnLogCallbackHandler_m00534FE27A0A20B287895C1044F6AB6C3D45FB00 (void);
-// 0x00000028 System.Void BuglyAgent::_OnUncaughtExceptionHandler(System.Object,System.UnhandledExceptionEventArgs)
+// 0x00000031 System.Void BuglyAgent::_OnUncaughtExceptionHandler(System.Object,System.UnhandledExceptionEventArgs)
 extern void BuglyAgent__OnUncaughtExceptionHandler_m6B9B17C1E8095170D67BD1D3C2671691EFDAD119 (void);
-// 0x00000029 System.Void BuglyAgent::_HandleException(System.Exception,System.String,System.Boolean)
+// 0x00000032 System.Void BuglyAgent::_HandleException(System.Exception,System.String,System.Boolean)
 extern void BuglyAgent__HandleException_m71E86BAAD18ACC8F2DA4D27D79E19A5C8DC25328 (void);
-// 0x0000002A System.Void BuglyAgent::_reportException(System.Boolean,System.String,System.String,System.String)
+// 0x00000033 System.Void BuglyAgent::_reportException(System.Boolean,System.String,System.String,System.String)
 extern void BuglyAgent__reportException_m31F7835A102154C7F210174EABD3E3CEA0896512 (void);
-// 0x0000002B System.Void BuglyAgent::_HandleException(LogSeverity,System.String,System.String,System.String,System.Boolean)
+// 0x00000034 System.Void BuglyAgent::_HandleException(LogSeverity,System.String,System.String,System.String,System.Boolean)
 extern void BuglyAgent__HandleException_m695BDBFF74CE595A3CCFE040ACC8F0457B4CDFC0 (void);
-// 0x0000002C System.Void BuglyAgent::.ctor()
+// 0x00000035 System.Void BuglyAgent::.ctor()
 extern void BuglyAgent__ctor_mEBB83AEC047110A4213448A08270868F6CBF62E6 (void);
-// 0x0000002D System.Void BuglyAgent::.cctor()
+// 0x00000036 System.Void BuglyAgent::.cctor()
 extern void BuglyAgent__cctor_mC311A0ECB63594323AF440FF6BAE54BA13CD2E18 (void);
-// 0x0000002E System.Void BuglyAgent/LogCallbackDelegate::.ctor(System.Object,System.IntPtr)
+// 0x00000037 System.Void BuglyAgent/LogCallbackDelegate::.ctor(System.Object,System.IntPtr)
 extern void LogCallbackDelegate__ctor_m51F292F9E56D27D304005776BB89586C979D22EA (void);
-// 0x0000002F System.Void BuglyAgent/LogCallbackDelegate::Invoke(System.String,System.String,UnityEngine.LogType)
+// 0x00000038 System.Void BuglyAgent/LogCallbackDelegate::Invoke(System.String,System.String,UnityEngine.LogType)
 extern void LogCallbackDelegate_Invoke_mEB5AAF91D7C2110D65DE39A86C0CE5FD360C96C8 (void);
-// 0x00000030 System.IAsyncResult BuglyAgent/LogCallbackDelegate::BeginInvoke(System.String,System.String,UnityEngine.LogType,System.AsyncCallback,System.Object)
+// 0x00000039 System.IAsyncResult BuglyAgent/LogCallbackDelegate::BeginInvoke(System.String,System.String,UnityEngine.LogType,System.AsyncCallback,System.Object)
 extern void LogCallbackDelegate_BeginInvoke_mEA600AAE20E9856EEEFCE99EB4D601E289D19CDB (void);
-// 0x00000031 System.Void BuglyAgent/LogCallbackDelegate::EndInvoke(System.IAsyncResult)
+// 0x0000003A System.Void BuglyAgent/LogCallbackDelegate::EndInvoke(System.IAsyncResult)
 extern void LogCallbackDelegate_EndInvoke_m5D8A8D441F01F37D0BCD3EE79CABFC0418163A50 (void);
-// 0x00000032 System.Void BuglyCallback::OnApplicationLogCallbackHandler(System.String,System.String,UnityEngine.LogType)
-// 0x00000033 System.Void BuglyCallback::.ctor()
+// 0x0000003B System.Void BuglyCallback::OnApplicationLogCallbackHandler(System.String,System.String,UnityEngine.LogType)
+// 0x0000003C System.Void BuglyCallback::.ctor()
 extern void BuglyCallback__ctor_mA84B2B66C58D610AA030720780B5321BE39172AE (void);
-// 0x00000034 System.Void BuglyInit::Awake()
+// 0x0000003D System.Void BuglyInit::Awake()
 extern void BuglyInit_Awake_m98ACACBDC3FCE70BAF50F8CC467D12C92CB100E9 (void);
-// 0x00000035 System.Collections.Generic.Dictionary`2<System.String,System.String> BuglyInit::MyLogCallbackExtrasHandler()
+// 0x0000003E System.Collections.Generic.Dictionary`2<System.String,System.String> BuglyInit::MyLogCallbackExtrasHandler()
 extern void BuglyInit_MyLogCallbackExtrasHandler_mCE34F460A9DDC8700C78568070B04D2D40ED925F (void);
-// 0x00000036 System.Void BuglyInit::.ctor()
+// 0x0000003F System.Void BuglyInit::.ctor()
 extern void BuglyInit__ctor_mFFA66ABA98F3808A022BC0B5A55B8A61100A1157 (void);
-// 0x00000037 System.Void iOSConfigureLibGC::bfutils_SetLibGCFreeSpaceDivisor(System.Int32)
+// 0x00000040 System.Void iOSConfigureLibGC::bfutils_SetLibGCFreeSpaceDivisor(System.Int32)
 extern void iOSConfigureLibGC_bfutils_SetLibGCFreeSpaceDivisor_m2040EDC586BFE4B4FF772CD5FCA8232740EEC8A0 (void);
-// 0x00000038 System.Void iOSConfigureLibGC::ConfigureLibGC(System.Int32)
+// 0x00000041 System.Void iOSConfigureLibGC::ConfigureLibGC(System.Int32)
 extern void iOSConfigureLibGC_ConfigureLibGC_mC4E661C5EEC35C137E1AF73170E58C66C625EB47 (void);
-// 0x00000039 System.Void iOSConfigureLibGC::.ctor()
+// 0x00000042 System.Void iOSConfigureLibGC::.ctor()
 extern void iOSConfigureLibGC__ctor_m5DE308C26CA77375AB7778B2767DEBCCB24995D5 (void);
-// 0x0000003A System.UInt64 iOSUtility.MemoryReport::ios_report_memory()
+// 0x00000043 System.UInt64 iOSUtility.MemoryReport::ios_report_memory()
 extern void MemoryReport_ios_report_memory_mA03BD712F6DECE0EDF9FE82A8CCB9C3E571DA3D8 (void);
-// 0x0000003B System.Int32 iOSUtility.MemoryReport::GetMaxMemoryUsedInMB()
+// 0x00000044 System.Int32 iOSUtility.MemoryReport::GetMaxMemoryUsedInMB()
 extern void MemoryReport_GetMaxMemoryUsedInMB_mACE82ED775842B16A4E326FFCD51B94DF0C230A8 (void);
-// 0x0000003C System.Int32 iOSUtility.MemoryReport::GetMemoryUsedInMB()
+// 0x00000045 System.Int32 iOSUtility.MemoryReport::GetMemoryUsedInMB()
 extern void MemoryReport_GetMemoryUsedInMB_m61DD8722E240571773CCF8B8F536364D069418C0 (void);
-// 0x0000003D System.Void iOSUtility.MemoryReport::.ctor()
+// 0x00000046 System.Void iOSUtility.MemoryReport::.ctor()
 extern void MemoryReport__ctor_m658278577135BD50AC5CA5ACF1F628989FAB1818 (void);
-static Il2CppMethodPointer s_methodPointers[61] = 
+static Il2CppMethodPointer s_methodPointers[70] = 
 {
 	BuglyAgent_ConfigCrashReporter_m269278B4CF35114D0F2E710FC5B1563E28EFF5D6,
 	BuglyAgent_InitWithAppId_m25E072BDE19958A3DBBD04744F5CCDF1586144A6,
@@ -164,6 +182,15 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	BuglyAgent_AddExtraDataWithException_m5C8C9AB7BE45BB5AE3BB2A50278E0D4643FC03B7,
 	BuglyAgent_LogRecord_m36FFD56A0C1CE12C9EFB4F0962781C4D19129F73,
 	BuglyAgent_LogSeverityToInt_m3241B100E299E3F0DA56347CD95F2459DACCEB8A,
+	BuglyAgent__BuglyInit_m8219FD28A9B4F40FA400A0E0E0DB9D95C0B02628,
+	BuglyAgent__BuglySetUserId_m8EA0D1D22CC007A183C81526554875F8C0263677,
+	BuglyAgent__BuglySetTag_mDF52230DB341C9A50DBD1673A3642222499FD5EE,
+	BuglyAgent__BuglySetKeyValue_mD0E6ADC0CEA23D143EB57A08F2CB76DAA59361EA,
+	BuglyAgent__BuglyReportException_mDB32AD2E1C0529DFD8BDA211F83343B4819D830A,
+	BuglyAgent__BuglyDefaultConfig_m507B53FF72D54F84EED7D86EAAD7F3B86A30111A,
+	BuglyAgent__BuglyLogMessage_m95E3B8122A9745636094B0AB9F799C87196FF8E1,
+	BuglyAgent__BuglyConfigCrashReporterType_mAAAED414BC4738D69537FFE7D2C21CAEBB484E4C,
+	BuglyAgent__BuglySetExtraConfig_mFF5A3755773908673C9662E5556AE9962FE6BB0A,
 	BuglyAgent_add__LogCallbackEventHandler_m0C2F1806E048C8449054F7F8A9323DB6D3550CE3,
 	BuglyAgent_remove__LogCallbackEventHandler_m2E6AFEEAD6DF0178BFE9D3CA1C704D02CDF00183,
 	BuglyAgent_get_PluginVersion_m33B07E1707E97317B6DDEC2ACC734221D1E41D3B,
@@ -197,75 +224,84 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	MemoryReport_GetMemoryUsedInMB_m61DD8722E240571773CCF8B8F536364D069418C0,
 	MemoryReport__ctor_m658278577135BD50AC5CA5ACF1F628989FAB1818,
 };
-static const int32_t s_InvokerIndices[61] = 
+static const int32_t s_InvokerIndices[70] = 
 {
-	11500,
-	12979,
-	13111,
-	12979,
-	12979,
-	11983,
-	10871,
-	12979,
-	12979,
-	12974,
-	11983,
-	12971,
-	12971,
-	12974,
-	10243,
-	10871,
-	10823,
-	13111,
-	10243,
-	12971,
-	12979,
-	13111,
-	12979,
-	9564,
-	12974,
-	11983,
-	11983,
-	11502,
-	12693,
-	12979,
-	12979,
-	13081,
-	13059,
-	13059,
-	12974,
-	12974,
-	13111,
-	13111,
+	11525,
+	13004,
+	13136,
+	13004,
+	13004,
+	12008,
+	10890,
+	13004,
+	13004,
+	12999,
+	12008,
+	12996,
+	12996,
+	12999,
+	10260,
+	10890,
+	10841,
+	13136,
+	10260,
+	12996,
+	13004,
+	13136,
+	13004,
+	9576,
+	12999,
+	12008,
+	12008,
+	11527,
+	12718,
 	10869,
-	11983,
-	10867,
-	10193,
-	9564,
-	8331,
-	13111,
-	4392,
-	2453,
-	741,
-	6873,
-	0,
-	8331,
-	8331,
-	13081,
-	8331,
-	12974,
-	12974,
-	8331,
+	13004,
+	12999,
+	12008,
+	9097,
+	10261,
+	10841,
+	12999,
+	12008,
+	13004,
+	13004,
 	13106,
-	13073,
-	13073,
-	8331,
+	13084,
+	13084,
+	12999,
+	12999,
+	13136,
+	13136,
+	10888,
+	12008,
+	10886,
+	10209,
+	9576,
+	8336,
+	13136,
+	4396,
+	2457,
+	743,
+	6878,
+	0,
+	8336,
+	8336,
+	13106,
+	8336,
+	12999,
+	12999,
+	8336,
+	13131,
+	13098,
+	13098,
+	8336,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
 {
 	"Assembly-CSharp-firstpass.dll",
-	61,
+	70,
 	s_methodPointers,
 	0,
 	NULL,
