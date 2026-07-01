@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 下载大文件
         run: |
@@ -60,7 +60,7 @@ jobs:
           echo "✅ 未签名优化 IPA 已生成: build/Unsigned.ipa"
 
       - name: 上传 IPA
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Unsigned-Optimized-IPA
           path: build/Unsigned.ipa
